@@ -20,11 +20,19 @@
 
 
         <div class="examples_image">
-            <img src="../assets/img-2.png" alt="img" ref="image">
+            <img src="../assets/img-2.png" alt="img" id="1" ref="i1">
+            <img src="../assets/img-2-2.png" alt="img" id="2" ref="i2">
+            <img src="../assets/img-2-3.png" alt="img" id="3" ref="i3">
+            <img src="../assets/img-2-4.png" alt="img" id="4" ref="i4">
+            <img src="../assets/img-2-5.png" alt="img" id="5" ref="i5">
         </div>
 
         <div class="examples_image_phone">
-            <img src="../assets/img-2 mobile.png" alt="img" ref="image_phone">
+            <img src="../assets/img-2 mobile.png" alt="img" id="6">
+            <img src="../assets/img-2-2 mobile.png" alt="img" id="7">
+            <img src="../assets/img-2-3 mobile.png" alt="img" id="8">
+            <img src="../assets/img-2-4 mobile.png" alt="img" id="9">
+            <img src="../assets/img-2-5 mobile.png" alt="img" id="10">
         </div>
 
         <div class="examples_background_images">
@@ -60,75 +68,149 @@ export default {
             fourthPhone: false,
             fifthPhone: false,
             i: 1,
+            iMobile: 6,
         }
     },
     methods:{
         clickOnImage(event){
             if(event.target.innerHTML == 'Виджеты обратной связи'){
                 this.i = 1
-                this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2.png');this.$refs.image.style.opacity = 1}, 300)
+                let a = document.querySelectorAll(".examples_image img")
+                for (let x of a){
+                    if (x.id != this.i){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
                 this.first = true,this.second = false, this.third = false, this.fourth = false, this.fifth = false
+
             }
             else if (event.target.innerHTML == 'QR-коды'){
                 this.i = 2
-                this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-2.png');this.$refs.image.style.opacity = 1}, 300)
-                this.second = true,this.first = false, this.third = false, this.fourth = false, this.fifth = false
+                let a = document.querySelectorAll(".examples_image img")
+                for (let x of a){
+                    if (x.id != this.i){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
+                this.first = false,this.second = true, this.third = false, this.fourth = false, this.fifth = false
             }
             else if (event.target.innerHTML == 'Формы для регистраций'){  
                 this.i = 3
-                this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-3.png');this.$refs.image.style.opacity = 1}, 300)
-                this.third = true,this.first = false, this.second = false, this.fourth = false, this.fifth = false
+                let a = document.querySelectorAll(".examples_image img")
+                for (let x of a){
+                    if (x.id != this.i){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
+                this.first = false,this.second = false, this.third = true, this.fourth = false, this.fifth = false
             }     
             else if (event.target.innerHTML == 'Автоуведомления из CRM'){
                 this.i = 4
-                this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-4.png');this.$refs.image.style.opacity = 1}, 300)
-                this.fourth = true,this.first = false, this.second = false, this.third = false, this.fifth = false
+                let a = document.querySelectorAll(".examples_image img")
+                for (let x of a){
+                    if (x.id != this.i){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
+                this.first = false,this.second = false, this.third = false, this.fourth = true, this.fifth = false
             }
             else if (event.target.innerHTML == 'Прямые ссылки на мессенджер'){
-                this.i = 0
-                this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-5.png');this.$refs.image.style.opacity = 1}, 300)
-                this.fifth = true,this.first = false, this.second = false, this.third = false, this.fourth = false
+                this.i = 5
+                let a = document.querySelectorAll(".examples_image img")
+                for (let x of a){
+                    if (x.id != this.i){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
+                this.first = false,this.second = false, this.third = false, this.fourth = false, this.fifth = true
             }
         },
         clickOnImagePhone(event){
             if(event.target.innerHTML == 'Виджеты обратной связи'){
-                this.i = 1
-                this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2 mobile.png');this.$refs.image_phone.style.opacity = 1}, 300)
+                this.iMobile = 6
+                let a = document.querySelectorAll(".examples_image_phone img")
+                for (let x of a){
+                    if (x.id != this.iMobile){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
                 this.firstPhone = true,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
+
             }
             else if (event.target.innerHTML == 'QR-коды'){
-                this.i = 2
-                this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-2 mobile.png');this.$refs.image_phone.style.opacity = 1}, 300)
+                this.iMobile = 7
+                let a = document.querySelectorAll(".examples_image_phone img")
+                for (let x of a){
+                    if (x.id != this.iMobile){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
                 this.secondPhone = true,this.firstPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
             }
             else if (event.target.innerHTML == 'Формы для регистраций'){  
-                this.i = 3
-                this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-3 mobile.png');this.$refs.image_phone.style.opacity = 1}, 300)
+                this.iMobile = 8
+                let a = document.querySelectorAll(".examples_image_phone img")
+                for (let x of a){
+                    if (x.id != this.iMobile){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
                 this.thirdPhone = true,this.firstPhone = false, this.secondPhone = false, this.fourthPhone = false, this.fifthPhone = false
             }     
             else if (event.target.innerHTML == 'Автоуведомления из CRM'){
-                this.i = 4
-                this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-4 mobile.png');this.$refs.image_phone.style.opacity = 1}, 300)
+                this.iMobile = 9
+                let a = document.querySelectorAll(".examples_image_phone img")
+                for (let x of a){
+                    if (x.id != this.iMobile){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
                 this.fourthPhone = true,this.firstPhone = false, this.secondPhone = false, this.thirdPhone = false, this.fifthPhone = false
             }
             else if (event.target.innerHTML == 'Прямые ссылки на мессенджер'){
-                this.i = 0
-                this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-5 mobile.png');this.$refs.image_phone.style.opacity = 1}, 300)
+                this.iMobile = 10
+                let a = document.querySelectorAll(".examples_image_phone img")
+                for (let x of a){
+                    if (x.id != this.iMobile){
+                        x.style.opacity = 0
+                    }
+                    else{
+                        x.style.opacity = 1
+                    }
+                }
                 this.fifthPhone = true,this.firstPhone = false, this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false
             }
         },
         intervalMethod(){
             if(window.innerWidth > 456){
+                /*
             if(this.i == 0){
                 this.$refs.image.style.opacity = 0
                 setTimeout(()=> {this.$refs.image.src = require('@/assets/img-2.png');this.$refs.image.style.opacity = 1}, 500)
@@ -158,6 +240,36 @@ export default {
             if(this.i == 5){
                 this.i = 0
             }
+            */
+                let a = document.querySelectorAll(".examples_image img")
+                if(this.i == 1){
+                    this.first = true,this.second = false, this.third = false, this.fourth = false, this.fifth = false
+                }
+                else if (this.i == 2){
+                    this.first = false,this.second = true, this.third = false, this.fourth = false, this.fifth = false
+                }
+                else if (this.i == 3){
+                    this.first = false,this.second = false, this.third = true, this.fourth = false, this.fifth = false
+                }
+                else if (this.i == 4){
+                    this.first = false,this.second = false, this.third = false, this.fourth = true, this.fifth = false
+                }
+                else if (this.i == 5){
+                    this.first = false,this.second = false, this.third = false, this.fourth = false, this.fifth = true
+                }
+
+                for(let x of a){
+                    if(x.id == this.i){
+                        x.style.opacity = 1 
+                    }
+                    else{
+                        x.style.opacity = 0
+                    }
+                }
+                this.i++
+                if(this.i == 6){
+                    this.i = 1
+                }
             }
 
 
@@ -165,6 +277,7 @@ export default {
 
 
             else{
+                /*
                if(this.i == 0){
                 this.$refs.image_phone.style.opacity = 0
                 setTimeout(()=> {this.$refs.image_phone.src = require('@/assets/img-2 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
@@ -194,6 +307,36 @@ export default {
             if(this.i == 5){
                 this.i = 0
             } 
+            */
+                let b = document.querySelectorAll(".examples_image_phone img")
+                if(this.iMobile == 6){
+                    this.firstPhone = true,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
+                }
+                else if (this.iMobile == 7){
+                    this.firstPhone = false,this.secondPhone = true, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
+                }
+                else if (this.iMobile == 8){
+                    this.firstPhone = false,this.secondPhone = false, this.thirdPhone = true, this.fourthPhone = false, this.fifthPhone = false
+                }
+                else if (this.iMobile == 9){
+                    this.firstPhone = false,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = true, this.fifthPhone = false
+                }
+                else if (this.iMobile == 10){
+                    this.firstPhone = false,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = true
+                }
+
+                for(let x of b){
+                    if(x.id == this.iMobile){
+                        x.style.opacity = 1 
+                    }
+                    else{
+                        x.style.opacity = 0
+                    }
+                }
+                this.iMobile++
+                if(this.iMobile == 11){
+                    this.iMobile = 6
+                }
             }
         }
     },
@@ -246,8 +389,9 @@ export default {
             top: -95px
             img 
                 transition: 0.5s all ease
-                position: relative
+                position: absolute
                 z-index: 2
+                opacity: 0
         .examples_image_phone
             display: none
         .examples_background_images
@@ -388,7 +532,8 @@ export default {
             height: 500px
             img 
                 transition: 0.5s all ease
-                position: relative
+                position: absolute
+                opacity: 0
                 width: 100%
                 z-index: 2
         .examples_image

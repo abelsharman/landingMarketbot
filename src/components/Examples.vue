@@ -136,22 +136,22 @@ export default {
             }
             else if(this.i == 1){
                 this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-2.png');this.$refs.image.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image.src = require('@/assets/img-2-2.png');this.$refs.image.style.opacity = 1}, 500)
                 this.first = false,this.second = true, this.third = false, this.fourth = false, this.fifth = false
             }
             else if(this.i == 2){
                 this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-3.png');this.$refs.image.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image.src = require('@/assets/img-2-3.png');this.$refs.image.style.opacity = 1}, 500)
                 this.first = false,this.second = false, this.third = true, this.fourth = false, this.fifth = false
             }
             else if(this.i == 3){
                 this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-4.png');this.$refs.image.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image.src = require('@/assets/img-2-4.png');this.$refs.image.style.opacity = 1}, 500)
                 this.first = false,this.second = false, this.third = false, this.fourth = true, this.fifth = false
             }
             else if(this.i == 4){
                 this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2-5.png');this.$refs.image.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image.src = require('@/assets/img-2-5.png');this.$refs.image.style.opacity = 1}, 500)
                 this.first = false,this.second = false, this.third = false, this.fourth = false, this.fifth = true
             }
             this.i++
@@ -167,27 +167,27 @@ export default {
             else{
                if(this.i == 0){
                 this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image_phone.src = require('@/assets/img-2 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
                 this.firstPhone = true,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
             }
             else if(this.i == 1){
                 this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-2 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image_phone.src = require('@/assets/img-2-2 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
                 this.firstPhone = false,this.secondPhone = true, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
             }
             else if(this.i == 2){
                 this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-3 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image_phone.src = require('@/assets/img-2-3 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
                 this.firstPhone = false,this.secondPhone = false, this.thirdPhone = true, this.fourthPhone = false, this.fifthPhone = false
             }
             else if(this.i == 3){
                 this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-4 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image_phone.src = require('@/assets/img-2-4 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
                 this.firstPhone = false,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = true, this.fifthPhone = false
             }
             else if(this.i == 4){
                 this.$refs.image_phone.style.opacity = 0
-                setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-5 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image_phone.src = require('@/assets/img-2-5 mobile.png');this.$refs.image_phone.style.opacity = 1}, 500)
                 this.firstPhone = false,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = true
             }
             this.i++

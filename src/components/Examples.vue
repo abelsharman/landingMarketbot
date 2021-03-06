@@ -126,14 +126,12 @@ export default {
                 setTimeout(()=> {this.$refs.image_phone.src = require('../assets/img-2-5 mobile.png');this.$refs.image_phone.style.opacity = 1}, 300)
                 this.fifthPhone = true,this.firstPhone = false, this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false
             }
-        }
-    },
-    mounted(){
-        setInterval(() => {
+        },
+        intervalMethod(){
             if(window.innerWidth > 456){
             if(this.i == 0){
                 this.$refs.image.style.opacity = 0
-                setTimeout(()=> {this.$refs.image.src = require('../assets/img-2.png');this.$refs.image.style.opacity = 1}, 500)
+                setTimeout(()=> {this.$refs.image.src = require('@/assets/img-2.png');this.$refs.image.style.opacity = 1}, 500)
                 this.first = true,this.second = false, this.third = false, this.fourth = false, this.fifth = false
             }
             else if(this.i == 1){
@@ -197,7 +195,10 @@ export default {
                 this.i = 0
             } 
             }
-        }, 3000)
+        }
+    },
+    mounted(){
+        setInterval(this.intervalMethod, 3000)
     }
 
 }

@@ -24,6 +24,7 @@ export default {
 
 
 <style lang="sass">
+@import ../style/fonts.sass
 @media screen and (min-width:1200px)
   $padddingForSite: calc((100vw - 1200px) / 2)
   .page
@@ -31,6 +32,7 @@ export default {
   
 
 
+  
 *
   font-family: 'Cera Pro'
 .page

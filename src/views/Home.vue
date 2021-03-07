@@ -67,41 +67,41 @@ export default {
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-Medium.ttf'
+    src: '../assets/CeraPro-Medium.ttf'
     font-weight: 500
     font-style: normal
 
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-Bold.ttf'
+    src: '../assets/CeraPro-Bold.ttf'
     font-weight: bold
     font-style: normal
 
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-Thin.ttf'
+    src: '../assets/CeraPro-Thin.ttf'
     font-weight: 100
     font-style: normal
     
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-MediumItalic.ttf'
+    src: '../assets/CeraPro-MediumItalic.ttf'
     font-weight: 500
     font-style: italic
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-LightItalic.ttf'
+    src: '../assets/CeraPro-LightItalic.ttf'
     font-weight: 300
     font-style: italic
 
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-ThinItalic.ttf'
+    src: '../assets/CeraPro-ThinItalic.ttf'
     font-weight: 100
     font-style: italic
 @media screen and (min-width:1200px)

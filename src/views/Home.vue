@@ -114,6 +114,8 @@ export default {
   
 *
   font-family: 'Cera Pro'
+  font-weight: 100
+  font-style: normal
 .page
   background-color: #f9f9f9
 

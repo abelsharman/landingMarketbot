@@ -87,41 +87,41 @@
         
         <div class="examples_nav opportunities_nav">
             <h1>Какие возможности у мессенджеров при общении с клиентами</h1>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : first1 }">Отправка файлов и каталогов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : second1 }">Регистрация на мероприятия</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : third1 }">Расчет параметров</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourth1 }">Активация промокодов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifth1 }">Генерация паролей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : sixth1 }">Подтверждение бронирования</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : seventh1 }">Сбор отзывов и обратной связи</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eigthth1 }">Проведение опросов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : nineth1 }">Проведение обучения</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : ten1 }">Прием заказов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eleven1 }">Прием платежей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : twelve1 }">Информирование и отправка уведомлений</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : thirteen1 }">Анкетирование</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourteen1 }">Ответы на частые вопросы</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifteen1 }">Напоминания о записи</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.first1 }">Отправка файлов и каталогов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.second1 }">Регистрация на мероприятия</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.third1 }">Расчет параметров</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fourth1 }">Активация промокодов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fifth1 }">Генерация паролей</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.sixth1 }">Подтверждение бронирования</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.seventh1 }">Сбор отзывов и обратной связи</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.eigthth1 }">Проведение опросов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.nineth1 }">Проведение обучения</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.ten1 }">Прием заказов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.eleven1 }">Прием платежей</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.twelve1 }">Информирование и отправка уведомлений</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.thirteen1 }">Анкетирование</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fourteen1 }">Ответы на частые вопросы</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fifteen1 }">Напоминания о записи</p>
 
         </div>
 
         <div class="examples_nav_phone opportunities_nav_phone">
             <h1>Какие возможности у мессенджеров при общении с клиентами</h1>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : first1 }">Отправка файлов и каталогов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : second1 }">Регистрация на мероприятия</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : third1 }">Расчет параметров</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourth1 }">Активация промокодов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifth1 }">Генерация паролей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : sixth1 }">Подтверждение бронирования</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : seventh1 }">Сбор отзывов и обратной связи</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eigthth1 }">Проведение опросов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : nineth1 }">Проведение обучения</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : ten1 }">Прием заказов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eleven1 }">Прием платежей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : twelve1 }">Информирование и отправка уведомлений</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : thirteen1 }">Анкетирование</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourteen1 }">Ответы на частые вопросы</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifteen1 }">Напоминания о записи</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.first1 }">Отправка файлов и каталогов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.second1 }">Регистрация на мероприятия</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.third1 }">Расчет параметров</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fourth1 }">Активация промокодов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fifth1 }">Генерация паролей</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.sixth1 }">Подтверждение бронирования</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.seventh1 }">Сбор отзывов и обратной связи</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.eigthth1 }">Проведение опросов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.nineth1 }">Проведение обучения</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.ten1 }">Прием заказов</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.eleven1 }">Прием платежей</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.twelve1 }">Информирование и отправка уведомлений</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.thirteen1 }">Анкетирование</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fourteen1 }">Ответы на частые вопросы</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP.fifteen1 }">Напоминания о записи</p>
         </div>
 
 
@@ -148,24 +148,26 @@ export default {
             thirdPhone: false,
             fourthPhone: false,
             fifthPhone: false,
-
-            first1: true,
-            second1: false,
-            third1: false,
-            fourth1: false,
-            fifth1: false,
-            sixth1: false,
-            seventh1: false,
-            eigthth1: false,
-            nineth1: false,
-            ten1: false,
-            eleven1: false,
-            twelve1: false,
-            thirteen1: false,
-            fourteen1: false,
-            fifteen1: false,
+            coloredP:{
+                first12: true,
+                second13: false,
+                third14: false,
+                fourth15: false,
+                fifth16: false,
+                sixth17: false,
+                seventh18: false,
+                eigthth19: false,
+                nineth20: false,
+                ten21: false,
+                eleven22: false,
+                twelve23: false,
+                thirteen24: false,
+                fourteen25: false,
+                fifteen26: false,
+            },
 
             i: 1,
+            p: 12,
             iMobile: 6,
 
         }
@@ -372,6 +374,88 @@ export default {
                 if(this.i == 6){
                     this.i = 1
                 }
+
+
+                let c = document.querySelectorAll(".opportunities_image img")
+                if(this.p == 12){
+                    for(let item in this.coloredP){
+                        console.log(this.p, Number.parseInt(item.substring(item.length - 2, item.length)))
+                        if( Number.parseInt(this.p) == Number.parseInt(item.substring(item.length - 2, item.length))) {
+                            
+                            this.coloredP[item] = true
+                        }
+                        else{
+                            item = false
+                        }
+                    }
+                }
+                else if (this.p == 13){
+                    for(let item in this.coloredP){
+                        if(Number.parseInt(this.p) == Number.parseInt(item.substring(item.length - 2, item.length))){
+                            item = true
+                        }
+                        else{
+                            item = false
+                        }
+                    }
+                }
+                else if (this.p == 14){
+                    this.first1 = false,this.second1 = false, this.third1 = true, this.fourth1 = false, this.fifth1 = false
+                }
+                else if (this.p == 15){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = true, this.fifth1 = false
+                }
+                else if (this.p == 16){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = false, this.fifth1 = true
+                }
+                else if (this.p == 17){
+                    this.first1 = false,this.second1 = true, this.third1 = false, this.fourth1 = false, this.fifth1 = false
+                }
+                else if (this.p == 18){
+                    this.first1 = false,this.second1 = false, this.third1 = true, this.fourth1 = false, this.fifth1 = false
+                }
+                else if (this.p == 19){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = true, this.fifth1 = false
+                }
+                else if (this.p == 20){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = false, this.fifth1 = true
+                }
+                else if (this.p == 21){
+                    this.first1 = false,this.second1 = true, this.third1 = false, this.fourth1 = false, this.fifth1 = false
+                }
+                else if (this.p == 22){
+                    this.first1 = false,this.second1 = false, this.third1 = true, this.fourth1 = false, this.fifth1 = false
+                }
+                else if (this.p == 23){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = true, this.fifth1 = false
+                }
+                else if (this.p == 24){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = false, this.fifth1 = true
+                }
+                else if (this.p == 25){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = true, this.fifth1 = false
+                }
+                else if (this.p == 26){
+                    this.first1 = false,this.second1 = false, this.third1 = false, this.fourth1 = false, this.fifth1 = true
+                }
+
+                for(let z of c){
+                    if(z.id == this.p){
+                        z.style.opacity = 1 
+                    }
+                    else{
+                        z.style.opacity = 0
+                    }
+                }
+                this.p++
+                if(this.p == 27){
+                    this.p = 12
+                }
+
+
+
+
+
             }
 
 
@@ -563,8 +647,9 @@ export default {
             top: -95px
             img 
                 transition: 0.5s all ease
-                position: relative
+                position: absolute
                 z-index: 2
+                opacity: 0
         .examples_background_images
             img
                 position: relative

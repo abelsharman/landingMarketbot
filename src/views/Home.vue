@@ -27,7 +27,7 @@ export default {
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro-Regular.ttf'
+    src: url('../assets/CeraPro-Regular.woff')
     font-weight: normal
     font-style: normal
 

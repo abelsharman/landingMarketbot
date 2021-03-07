@@ -26,40 +26,40 @@ export default {
 <style lang="sass">
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-Italic.ttf'
+    src: '../assets/CeraPro-Italic.ttf'
     font-weight: normal
     font-style: italic
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-BlackItalic.ttf'
+    src: '../assets/CeraPro-BlackItalic.ttf'
     font-weight: 900
     font-style: italic
 
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-Regular.ttf'
+    src: '../assets/CeraPro-Regular.ttf'
     font-weight: normal
     font-style: normal
 
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-Light.ttf'
+    src: '../assets/CeraPro-Light.ttf'
     font-weight: 300
     font-style: normal
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-BoldItalic.ttf'
+    src: '../assets/CeraPro-BoldItalic.ttf'
     font-weight: bold
     font-style: italic
 
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '../assets/CeraPro/CeraPro-Black.ttf'
+    src: '../assets/CeraPro-Black.ttf'
     font-weight: 900
     font-style: normal
 

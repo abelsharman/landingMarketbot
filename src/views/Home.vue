@@ -32,7 +32,7 @@ export default {
 
 @font-face 
     font-family: 'Cera Pro'
-    src: '@/assets/CeraPro.CeraPro-BlackItalic.ttf'
+    src: '@/assets/CeraPro/CeraPro-BlackItalic.ttf'
     font-weight: 900
     font-style: italic
 

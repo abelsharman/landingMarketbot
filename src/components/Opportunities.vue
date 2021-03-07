@@ -1,25 +1,6 @@
 <template>
-    <div class="examples">
-        <div class="examples_nav">
-            <h1>Примеры внедрения мессенджеров в бизнес</h1>
-            <p @click="clickOnImage" v-bind:class="{ clicked : first }">Виджеты обратной связи</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : second }">QR-коды</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : third }">Формы для регистраций</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : fourth }">Автоуведомления из CRM</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Прямые ссылки на мессенджер</p>
-        </div>
-
-        <div class="examples_nav_phone">
-            <h1>Примеры внедрения мессенджеров в бизнес</h1>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : firstPhone }">Виджеты обратной связи</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : secondPhone }">QR-коды</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : thirdPhone }">Формы для регистраций</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : fourthPhone }">Автоуведомления из CRM</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : fifthPhone }">Прямые ссылки на мессенджер</p>
-        </div>
-
-
-        <div class="examples_image">
+    <div class="examples opportunities">
+        <div class="examples_image opportunities_image">
             <img src="../assets/img-2.png" alt="img" id="1" ref="i1">
             <img src="../assets/img-2-2.png" alt="img" id="2" ref="i2">
             <img src="../assets/img-2-3.png" alt="img" id="3" ref="i3">
@@ -27,105 +8,57 @@
             <img src="../assets/img-2-5.png" alt="img" id="5" ref="i5">
         </div>
 
-        <div class="examples_image_phone">
+        <div class="examples_image_phone opportunities_image_phone">
             <img src="../assets/img-2 mobile.png" alt="img" id="6">
             <img src="../assets/img-2-2 mobile.png" alt="img" id="7">
             <img src="../assets/img-2-3 mobile.png" alt="img" id="8">
             <img src="../assets/img-2-4 mobile.png" alt="img" id="9">
             <img src="../assets/img-2-5 mobile.png" alt="img" id="10">
         </div>
-
-        <div class="examples_background_images">
-            <img class="examples_background_images_1" src="../assets/back/whatsapp_back_2.png" alt="whatsapp_back_2">
-            <img class="examples_background_images_2" src="../assets/back/viber_back_2.png" alt="viber_back_2">
-
-            <img class="examples_background_images_3" src="../assets/back/purplesn.png" alt="purplesn">
-            <img class="examples_background_images_4" src="../assets/back/greymy.png" alt="greymy">
-            <img class="examples_background_images_5" src="../assets/back/lightbluemy.png" alt="lightbluemy">
-            <img class="examples_background_images_6" src="../assets/back/purpleby.png" alt="purpleby">
-            <img class="examples_background_images_7" src="../assets/back/bluemn.png" alt="bluemn">
-        </div>
-
-
-
-        <div class="examples opportunities">
-        <div class="examples_image opportunities_image">
-            <img src="../assets/img-3.png" alt="img" id="12">
-            <img src="../assets/img-3-2.png" alt="img" id="13">
-            <img src="../assets/img-3-3.png" alt="img" id="14">
-            <img src="../assets/img-3-4.png" alt="img" id="15">
-            <img src="../assets/img-3-5.png" alt="img" id="16">
-            <img src="../assets/img-3-6.png" alt="img" id="17">
-            <img src="../assets/img-3-7.png" alt="img" id="18">
-            <img src="../assets/img-3-8.png" alt="img" id="19">
-            <img src="../assets/img-3-9.png" alt="img" id="20">
-            <img src="../assets/img-3-10.png" alt="img" id="21">
-            <img src="../assets/img-3-11.png" alt="img" id="22">
-            <img src="../assets/img-3-12.png" alt="img" id="23">
-            <img src="../assets/img-3-13.png" alt="img" id="24">
-            <img src="../assets/img-3-14.png" alt="img" id="25">
-            <img src="../assets/img-3-15.png" alt="img" id="26">
-        </div>
-
-        <div class="examples_image_phone opportunities_image_phone">
-            <img src="../assets/img-3 mobile.png" alt="img" id="12">
-            <img src="../assets/img-3-2 mobile.png" alt="img" id="13">
-            <img src="../assets/img-3-3 mobile.png" alt="img" id="14">
-            <img src="../assets/img-3-4 mobile.png" alt="img" id="15">
-            <img src="../assets/img-3-5.png" alt="img" id="16">
-            <img src="../assets/img-3-6 mobile.png" alt="img" id="17">
-            <img src="../assets/img-3-7 mobile.png" alt="img" id="18">
-            <img src="../assets/img-3-8 mobile.png" alt="img" id="19">
-            <img src="../assets/img-3-9 mobile.png" alt="img" id="20">
-            <img src="../assets/img-3-10 mobile.png" alt="img" id="21">
-            <img src="../assets/img-3-11.png" alt="img" id="22">
-            <img src="../assets/img-3-12.png" alt="img" id="23">
-            <img src="../assets/img-3-13.png" alt="img" id="24">
-            <img src="../assets/img-3-14.png" alt="img" id="25">
-            <img src="../assets/img-3-15.png" alt="img" id="26">
-        </div>
         
         <div class="examples_nav opportunities_nav">
             <h1>Какие возможности у мессенджеров при общении с клиентами</h1>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : first1 }">Отправка файлов и каталогов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : second1 }">Регистрация на мероприятия</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : third1 }">Расчет параметров</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourth1 }">Активация промокодов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifth1 }">Генерация паролей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : sixth1 }">Подтверждение бронирования</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : seventh1 }">Сбор отзывов и обратной связи</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eigthth1 }">Проведение опросов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : nineth1 }">Проведение обучения</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : ten1 }">Прием заказов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eleven1 }">Прием платежей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : twelve1 }">Информирование и отправка уведомлений</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : thirteen1 }">Анкетирование</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourteen1 }">Ответы на частые вопросы</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifteen1 }">Напоминания о записи</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : first }">Отправка файлов и каталогов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : second }">Регистрация на мероприятия</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : third }">Расчет параметров</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fourth }">Активация промокодов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Генерация паролей</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Подтверждение бронирования</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Сбор отзывов и обратной связи</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Проведение опросов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Проведение обучения</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Прием заказов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Прием платежей</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Информирование и отправка уведомлений</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Анкетирование</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Ответы на частые вопросы</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Напоминания о записи</p>
 
         </div>
 
         <div class="examples_nav_phone opportunities_nav_phone">
             <h1>Какие возможности у мессенджеров при общении с клиентами</h1>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : first1 }">Отправка файлов и каталогов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : second1 }">Регистрация на мероприятия</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : third1 }">Расчет параметров</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourth1 }">Активация промокодов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifth1 }">Генерация паролей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : sixth1 }">Подтверждение бронирования</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : seventh1 }">Сбор отзывов и обратной связи</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eigthth1 }">Проведение опросов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : nineth1 }">Проведение обучения</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : ten1 }">Прием заказов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : eleven1 }">Прием платежей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : twelve1 }">Информирование и отправка уведомлений</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : thirteen1 }">Анкетирование</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fourteen1 }">Ответы на частые вопросы</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : fifteen1 }">Напоминания о записи</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : first }">Отправка файлов и каталогов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : second }">Регистрация на мероприятия</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : third }">Расчет параметров</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fourth }">Активация промокодов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Генерация паролей</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Подтверждение бронирования</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Сбор отзывов и обратной связи</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Проведение опросов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Проведение обучения</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Прием заказов</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Прием платежей</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Информирование и отправка уведомлений</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Анкетирование</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Ответы на частые вопросы</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Напоминания о записи</p>
         </div>
 
 
-        </div>
+        
+
+        
 
         
         
@@ -133,9 +66,10 @@
 </template>
 
 
+
 <script>
 export default {
-    name: 'Examples',
+    name: 'Opportunities',
     data(){
         return{
             first: true,
@@ -148,26 +82,8 @@ export default {
             thirdPhone: false,
             fourthPhone: false,
             fifthPhone: false,
-
-            first1: true,
-            second1: false,
-            third1: false,
-            fourth1: false,
-            fifth1: false,
-            sixth1: false,
-            seventh1: false,
-            eigthth1: false,
-            nineth1: false,
-            ten1: false,
-            eleven1: false,
-            twelve1: false,
-            thirteen1: false,
-            fourteen1: false,
-            fifteen1: false,
-
             i: 1,
             iMobile: 6,
-
         }
     },
     methods:{
@@ -306,9 +222,6 @@ export default {
                 }
                 this.fifthPhone = true,this.firstPhone = false, this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false
             }
-        },
-        clickOnImageOpport(){
-            console.log(1)
         },
         intervalMethod(){
             if(window.innerWidth > 456){
@@ -770,7 +683,3 @@ export default {
                 right: 17vw
                 top: 116vh
 </style>
-
-
-
-

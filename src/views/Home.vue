@@ -24,7 +24,7 @@ export default {
 
 
 <style lang="sass">
-@import ../style/fonts.sass
+@import @/style/fonts.sass
 @media screen and (min-width:1200px)
   $padddingForSite: calc((100vw - 1200px) / 2)
   .page
@@ -39,3 +39,4 @@ export default {
   background-color: #f9f9f9
 
 </style>
+

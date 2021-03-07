@@ -24,18 +24,6 @@ export default {
 
 
 <style lang="sass">
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-Italic.ttf'
-    font-weight: normal
-    font-style: italic
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-BlackItalic.ttf'
-    font-weight: 900
-    font-style: italic
-
 
 @font-face 
     font-family: 'Cera Pro'
@@ -44,66 +32,7 @@ export default {
     font-style: normal
 
 
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-Light.ttf'
-    font-weight: 300
-    font-style: normal
 
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-BoldItalic.ttf'
-    font-weight: bold
-    font-style: italic
-
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-Black.ttf'
-    font-weight: 900
-    font-style: normal
-
-
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-Medium.ttf'
-    font-weight: 500
-    font-style: normal
-
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-Bold.ttf'
-    font-weight: bold
-    font-style: normal
-
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-Thin.ttf'
-    font-weight: 100
-    font-style: normal
-    
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-MediumItalic.ttf'
-    font-weight: 500
-    font-style: italic
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-LightItalic.ttf'
-    font-weight: 300
-    font-style: italic
-
-
-@font-face 
-    font-family: 'Cera Pro'
-    src: '../assets/CeraPro-ThinItalic.ttf'
-    font-weight: 100
-    font-style: italic
 @media screen and (min-width:1200px)
   $padddingForSite: calc((100vw - 1200px) / 2)
   .page
@@ -114,7 +43,7 @@ export default {
   
 *
   font-family: 'Cera Pro'
-  font-weight: 100
+  font-weight: normal
   font-style: normal
 .page
   background-color: #f9f9f9

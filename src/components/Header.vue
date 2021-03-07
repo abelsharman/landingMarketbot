@@ -69,7 +69,7 @@ export default {
                 top: -4px
                 margin-left: 110px
                 a
-                    margin-right: 49px
+                    margin-right: 46px
                     font-weight: 400
                     color: $h_color
                     text-decoration: none

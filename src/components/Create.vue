@@ -64,7 +64,7 @@ export default {
         left: calc((100vw - 1200px) / -2)
         padding: 0 calc((100vw - 1200px) / 2)
         top: -00px
-        height: 900px
+        height: 860px
         z-index: 1
         .create_nav
             display: inline-block
@@ -167,7 +167,6 @@ export default {
         width: 100%
         position: relative
         top: 00px
-        height: 900px
         z-index: 1
         .create_nav
             display: block
@@ -238,6 +237,7 @@ export default {
         .create_image_phone
             display: block
             width: 100%
+            height: 800px
             position: relative
             top: 130px
             z-index: 2
@@ -252,7 +252,7 @@ export default {
                 display: none
             .create_background_images_1
                 display: block
-                top: 80px
+                top: -85px
                 left: 70vw
             .create_background_images_2
                 display: block
@@ -273,5 +273,119 @@ export default {
                 position: absolute
                 right: 0%
                 top: -850px
+
+@media screen and (max-width: 360px)   
+     .create
+        background-color: white
+        width: 100%
+        position: relative
+        top: 00px
+        z-index: 1
+        .create_nav
+            display: block
+            width: 93%
+            padding-left: 7%
+            vertical-align: top
+            position: relative
+            top: 100px
+            h1
+                font-size: 30px
+                width: 95%
+                line-height: 42px
+                font-weight: 700
+                color: #370954
+                padding-bottom: 0px
+                margin-bottom: 15px
+
+           
+            
+            img
+                display: inline-block
+                margin-right: 10px
+                vertical-align: top
+                padding-top: 30px
+                margin-left: 0px
+
+
+            h2
+                margin-top: 0px
+                font-size: 20px
+                color: #370954
+                font-weight: 500
+                margin: 0
+                margin-bottom: 40px
+                display: inline-block
+                width: 100%
+            strong
+                display: block
+                margin-left: 25px
+                font-size: 16px
+                font-weight: 400
+                color: #999
+                  
+            p
+                font-weight: 400
+                font-size: 18px
+                color: #222
+                display: inline-block
+                font-weight: regular
+                width: 90%
+                margin: 0
+                margin-right: 0px
+                margin-top: 27px
+                padding-bottom: 2px
+                transition: 0.3s all ease
+        .create_image
+            height: 700px
+            display: none
+            width: 52%
+            vertical-align: top
+            position: relative
+            top: -30px
+            img 
+                transition: 0.5s all ease
+                position: absolute
+                z-index: 2
+                opacity: 1
+        .create_image_phone
+            display: block
+            width: 100%
+            height: 660px
+            position: relative
+            top: 130px
+            z-index: 2
+            img
+                width: 100%
+        .create_background_images
+            position: absolute
+            width: 100%
+            height: 0px
+            img
+                position: relative
+                display: none
+            .create_background_images_1
+                display: block
+                top: -85px
+                left: 70vw
+            .create_background_images_2
+                display: block
+                left: 90vw
+                top: -950px
+                z-index: -1
+            .create_background_images_3
+                top: -260px
+                left: -165px
+            .create_background_images_4
+                left: 230px
+                top: -270px
+            .create_background_images_5
+                top: -905px
+                left: -290px
+            .create_background_images_6
+                display: block
+                position: absolute
+                right: 0%
+                top: -850px
+            
             
 </style>

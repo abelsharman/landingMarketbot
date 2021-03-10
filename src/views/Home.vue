@@ -5,6 +5,7 @@
     <Examples />
     <Associate />
     <Create />
+    <Execute />
   </div>
 </template>
 
@@ -15,6 +16,7 @@ import Platform from '@/components/Platform.vue'
 import Examples from '@/components/Examples.vue'
 import Associate from '@/components/Associate.vue'
 import Create from '@/components/Create.vue'
+import Execute from '@/components/Execute.vue'
 
 export default {
   name: 'Home',
@@ -24,6 +26,7 @@ export default {
     Examples,
     Associate,
     Create,
+    Execute,
   }
 }
 </script>

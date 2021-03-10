@@ -34,6 +34,15 @@
             <img src="../assets/img-5 mobile.png" alt="img">
         </div>
 
+        <div class="create_background_images">
+            <img class="create_background_images_1" src="../assets/back/lightbluemy.png" alt="lightbluemy">
+            <img class="create_background_images_2" src="../assets/back/purplesn.png" alt="purplesn">
+            <img class="create_background_images_3" src="../assets/back/lightpurpleby.png" alt="lightpurpleby">
+            <img class="create_background_images_4" src="../assets/back/yellowbyfull.png" alt="yellowby">
+            <img class="create_background_images_5" src="../assets/back/greenmn.png" alt="greenmn">
+            <img class="create_background_images_6" src="../assets/back/greenmnhalf.png" alt="greenmn">
+        </div>
+
        
     </div>
 </template>
@@ -131,43 +140,22 @@ export default {
             img
                 position: relative
             .create_background_images_1
-                top: -60px
-                left: 500px
+                top: -260px
+                left: 110px
                 z-index: 2
             .create_background_images_2
-                left: 730px
-                top: -830px
-                z-index: 2
+                left: 400px
+                top: -850px
             .create_background_images_3
-                top: -980px
-                left: -200px
-                z-index: 3
+                top: -260px
+                left: -165px
             .create_background_images_4
-                left: 630px
+                left: 230px
                 top: -270px
             .create_background_images_5
-                top: -515px
-                left: -210px
+                top: -905px
+                left: -290px
             .create_background_images_6
-                top: -465px
-                left: 0px
-                z-index: 1
-            .create_background_images_7
-                left: 40px
-                top: -200px
-            .create_background_images_8
-                left: 250px
-                top: -800px
-            .create_background_images_9
-                left: 00px
-                top: -1010px
-            .create_background_images_10
-                left: 100px
-                top: -540px
-            .create_background_images_11
-                left: -390px
-                top: -1000px
-            .create_background_images_12
                 display: none
             
 
@@ -263,53 +251,27 @@ export default {
                 position: relative
                 display: none
             .create_background_images_1
-                position: absolute
                 display: block
-                top: -720px
-                right: 10vw
-                z-index: 2
+                top: 80px
+                left: 70vw
             .create_background_images_2
-                position: absolute
                 display: block
-                right: 15vw
-                top: -1520px
-                z-index: 2
+                left: 90vw
+                top: -950px
+                z-index: -1
             .create_background_images_3
-                top: -980px
-                left: -200px
-                z-index: 3
+                top: -260px
+                left: -165px
             .create_background_images_4
-                left: 630px
+                left: 230px
                 top: -270px
             .create_background_images_5
-                display: block
-                top: -15px
-                left: 34vw
+                top: -905px
+                left: -290px
             .create_background_images_6
                 display: block
-                top: -155px
-                left: 36vw
-                z-index: 1
-            .create_background_images_7
-                left: 40px
-                top: -200px
-            .create_background_images_8
-                left: 250px
-                top: -800px
-            .create_background_images_9
-                left: 00px
-                top: -1010px
-            .create_background_images_10
-                left: 100px
-                top: -540px
-            .create_background_images_11
-                display: block
-                left: 82vw
-                top: -1100px
-            .create_background_images_12
-                display: block
                 position: absolute
-                right: 0
-                top: -1070px
+                right: 0%
+                top: -850px
             
 </style>

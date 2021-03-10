@@ -4,6 +4,7 @@
     <Platform />
     <Examples />
     <Associate />
+    <Create />
   </div>
 </template>
 
@@ -13,6 +14,7 @@ import Header from '@/components/Header.vue'
 import Platform from '@/components/Platform.vue'
 import Examples from '@/components/Examples.vue'
 import Associate from '@/components/Associate.vue'
+import Create from '@/components/Create.vue'
 
 export default {
   name: 'Home',
@@ -20,7 +22,8 @@ export default {
     Header,
     Platform,
     Examples,
-    Associate
+    Associate,
+    Create,
   }
 }
 </script>

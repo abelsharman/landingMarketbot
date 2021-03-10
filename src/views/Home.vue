@@ -3,6 +3,7 @@
     <Header />
     <Platform />
     <Examples />
+    <Associate />
   </div>
 </template>
 
@@ -11,13 +12,15 @@
 import Header from '@/components/Header.vue'
 import Platform from '@/components/Platform.vue'
 import Examples from '@/components/Examples.vue'
+import Associate from '@/components/Associate.vue'
 
 export default {
   name: 'Home',
   components: {
     Header,
     Platform,
-    Examples
+    Examples,
+    Associate
   }
 }
 </script>

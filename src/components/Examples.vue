@@ -1743,8 +1743,9 @@ export default {
                 top: -220vh
             .examples_background_images_13
                 display: block
-                left: 73vw
+                left: 70vw
                 top: -121vh
+                z-index: -1
             .examples_background_images_14
                 display: block
                 left: 77vw

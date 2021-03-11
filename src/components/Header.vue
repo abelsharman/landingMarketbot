@@ -6,15 +6,18 @@
             <a href="#">Продукты &or;</a>
             <a href="#">Команда</a>
             <a href="#">Цены</a>
-            <a href="#">Блог</a>
+            <a href="https://blog.marketbot.biz/">Блог</a>
         </div>
 
         <a class="header_lang" href="#">RU</a>
 
-        <div class="header_button">
-            <span>Личный кабинет</span>
-            <img src="../assets/key.png" alt="key">
-        </div>
+        <a href="https://marketbot.biz/user/home">
+            <div class="header_button">
+                <span>Личный кабинет</span>
+                <img src="../assets/key.png" alt="key">
+            </div>
+        </a>
+
 
         <div class="header_burger" v-bind:class="{ header_burger_clicked: checkBurger }" @click="showBurger">
             <img src="../assets/burder_1.png" alt="burder_1">
@@ -85,6 +88,8 @@ export default {
                 background-color: #e8e8e8
                 padding: 5px 3px
                 border-radius: 45px
+            a
+                text-decoration: none
             .header_button
                 position: relative
                 top: -4px
@@ -95,11 +100,13 @@ export default {
                 cursor: pointer
                 margin-left: 25px
                 border-radius: 5px
+                text-decoration: none
                 img
                     margin-left: 10px
                 span
                     font-size: 15px
                     color: #c34688
+                    text-decoration: none
             .header_burger
                 display: none
     @media screen and (max-width: 456px)
@@ -131,6 +138,8 @@ export default {
                     font-weight: 400
                     color: white
                     text-decoration: none
+            a
+                text-decoration: none
             .header_lang
                 position: relative
                 top: -4px
@@ -192,6 +201,8 @@ export default {
                 margin-top: 37px
                 width: 44%
                 margin-left: 7%
+            a
+                text-decoration: none
             .header_nav 
                 position: fixed
                 left: 100vw

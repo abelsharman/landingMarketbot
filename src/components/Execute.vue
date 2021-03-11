@@ -106,6 +106,7 @@ export default {
             .execute_background_images_1
                 top: -70px
                 left: 1030px
+                z-index: 2
             .execute_background_images_2
                 left: 0px
                 top: -330px
@@ -210,6 +211,7 @@ export default {
                 position: absolute
                 top: -70px
                 right: 0
+                z-index: 2
             .execute_background_images_2
                 display: block
                 position: absolute
@@ -320,6 +322,7 @@ export default {
                 position: absolute
                 top: -70px
                 right: 0
+                z-index: 2
             .execute_background_images_2
                 display: block
                 position: absolute
@@ -427,6 +430,7 @@ export default {
                 position: absolute
                 top: -70px
                 right: 0
+                z-index: 2
             .execute_background_images_2
                 display: block
                 position: absolute

@@ -129,7 +129,6 @@ export default {
             img 
                 transition: 0.5s all ease
                 position: absolute
-                width: 100%
                 z-index: 2
                 opacity: 1
         .create_image_phone
@@ -350,7 +349,7 @@ export default {
         .create_image_phone
             display: block
             width: 100%
-            height: 660px
+            height: 760px
             position: relative
             top: 130px
             z-index: 2

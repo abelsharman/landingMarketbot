@@ -16,6 +16,19 @@
         </div>
 
 
+        <div class="execute_background_images">
+            <img class="execute_background_images_1" src="../assets/back/telegram_back.png" alt="telegram_back">
+            <img class="execute_background_images_2" src="../assets/back/viber_back_2.png" alt="viber_back">
+            <img class="execute_background_images_3" src="../assets/back/whatsapp_back.png" alt="whatsapp_back">
+            <img class="execute_background_images_4" src="../assets/back/purplesn.png" alt="purplesn">
+            <img class="execute_background_images_5" src="../assets/back/greymy.png" alt="greymy">
+            <img class="execute_background_images_6" src="../assets/back/lightbluemy.png" alt="lightbluemy">
+            <img class="execute_background_images_7" src="../assets/back/purpleby.png" alt="purpleby">
+            <img class="execute_background_images_8" src="../assets/back/bluemn.png" alt="bluemn">
+            <img class="execute_background_images_9" src="../assets/back/greysn.png" alt="greysn">
+        </div>
+
+
         
     </div>
 </template>
@@ -91,44 +104,36 @@ export default {
             img
                 position: relative
             .execute_background_images_1
-                top: -60px
-                left: 500px
-                z-index: 2
+                top: -70px
+                left: 1030px
             .execute_background_images_2
-                left: 730px
-                top: -830px
-                z-index: 2
-            .execute_background_images_3
-                top: -980px
-                left: -200px
-                z-index: 3
-            .execute_background_images_4
-                left: 630px
-                top: -270px
-            .execute_background_images_5
-                top: -515px
-                left: -210px
-            .execute_background_images_6
-                top: -465px
                 left: 0px
-                z-index: 1
+                top: -330px
+            .execute_background_images_3
+                top: -680px
+                left: -50px
+                z-index: 2
+            .execute_background_images_4
+                top: -820px
+                left: -125px
+            .execute_background_images_5
+                top: -820px
+                left: -30px
+            .execute_background_images_6
+                top: -320px
+                left: 300px
+                z-index: 2
             .execute_background_images_7
-                left: 40px
-                top: -200px
+                left: 275px
+                top: -260px
             .execute_background_images_8
-                left: 250px
-                top: -800px
+                left: -430px
+                top: -300px
             .execute_background_images_9
-                left: 00px
-                top: -1010px
-            .execute_background_images_10
-                left: 100px
-                top: -540px
-            .execute_background_images_11
-                left: -390px
-                top: -1000px
-            .execute_background_images_12
-                display: none
+                left: 190px
+                top: -865px
+
+
 @media screen and (max-width: 456px)   
     .execute
         margin-top: 0px
@@ -189,6 +194,7 @@ export default {
             width: 100%
             position: relative
             top: 100px
+            height: 750px
             z-index: 2
             img
                 width: 100%
@@ -200,52 +206,255 @@ export default {
                 position: relative
                 display: none
             .execute_background_images_1
-                position: absolute
                 display: block
-                top: -720px
-                right: 10vw
-                z-index: 2
+                position: absolute
+                top: -70px
+                right: 0
             .execute_background_images_2
-                position: absolute
-                display: block
-                right: 15vw
-                top: -1520px
-                z-index: 2
-            .execute_background_images_3
-                top: -980px
-                left: -200px
-                z-index: 3
-            .execute_background_images_4
-                left: 630px
-                top: -270px
-            .execute_background_images_5
-                display: block
-                top: -15px
-                left: 34vw
-            .execute_background_images_6
-                display: block
-                top: -155px
-                left: 36vw
-                z-index: 1
-            .execute_background_images_7
-                left: 40px
-                top: -200px
-            .execute_background_images_8
-                left: 250px
-                top: -800px
-            .execute_background_images_9
-                left: 00px
-                top: -1010px
-            .execute_background_images_10
-                left: 100px
-                top: -540px
-            .execute_background_images_11
-                display: block
-                left: 82vw
-                top: -1100px
-            .execute_background_images_12
                 display: block
                 position: absolute
                 right: 0
-                top: -1070px
+                top: -1050px
+            .execute_background_images_3
+                display: block
+                position: absolute
+                top: -1120px
+                left: -30px
+                z-index: 2
+            .execute_background_images_4
+                display: block
+                top: 20px
+                left: 15vw
+            .execute_background_images_5
+                display: block
+                position: absolute
+                top: -90px
+                left: -30px
+            .execute_background_images_6
+                top: 1320px
+                left: 300px
+                z-index: 2
+            .execute_background_images_7
+                left: 275px
+                top: -260px
+            .execute_background_images_8
+                left: -430px
+                top: -300px
+
+
+
+
+@media screen and (max-width: 375px)   
+    .execute
+        margin-top: 0px
+        .execute_nav
+            display: block
+            width: 93%
+            padding-left: 7%
+            vertical-align: top
+            position: relative
+            top: 70px
+            h1
+                font-size: 30px
+                width: 95%
+                line-height: 42px
+                font-weight: 700
+                color: #370954
+                margin: 0
+
+           
+        
+
+
+            h2
+                font-size: 20px
+                color: #370954
+                font-weight: 500
+                display: inline-block
+                width: 100%
+                margin: 0
+                margin-top: 10px
+                  
+            p
+                font-weight: 400
+                font-size: 18px
+                color: #222
+                display: inline-block
+                font-weight: regular
+                width: 90%
+                margin: 0
+                margin-right: 0px
+                margin-top: 27px
+                padding-bottom: 2px
+                transition: 0.3s all ease
+        .execute_image
+            height: 700px
+            display: none
+            width: 52%
+            vertical-align: top
+            position: relative
+            top: 30px
+            img 
+                transition: 0.5s all ease
+                position: absolute
+                z-index: 2
+                opacity: 1
+        .execute_image_phone
+            display: block
+            width: 100%
+            position: relative
+            top: 100px
+            height: 670px
+            z-index: 2
+            img
+                width: 100%
+        .execute_background_images
+            position: absolute
+            width: 100%
+            height: 0px
+            img
+                position: relative
+                display: none
+            .execute_background_images_1
+                display: block
+                position: absolute
+                top: -70px
+                right: 0
+            .execute_background_images_2
+                display: block
+                position: absolute
+                right: 0
+                top: -1050px
+            .execute_background_images_3
+                display: block
+                position: absolute
+                top: -1120px
+                left: -30px
+                z-index: 2
+            .execute_background_images_4
+                display: block
+                top: 20px
+                left: 15vw
+            .execute_background_images_5
+                display: block
+                position: absolute
+                top: -90px
+                left: -30px
+            .execute_background_images_6
+                top: 1320px
+                left: 300px
+                z-index: 2
+            .execute_background_images_7
+                left: 275px
+                top: -260px
+            .execute_background_images_8
+                left: -430px
+                top: -300px
+    
+@media screen and (max-width: 320px)   
+    .execute
+        margin-top: 0px
+        .execute_nav
+            display: block
+            width: 93%
+            padding-left: 7%
+            vertical-align: top
+            position: relative
+            top: 70px
+            h1
+                font-size: 30px
+                width: 95%
+                line-height: 42px
+                font-weight: 700
+                color: #370954
+                margin: 0
+
+           
+        
+
+
+            h2
+                font-size: 20px
+                color: #370954
+                font-weight: 500
+                display: inline-block
+                width: 100%
+                margin: 0
+                margin-top: 10px
+                  
+            p
+                font-weight: 400
+                font-size: 18px
+                color: #222
+                display: inline-block
+                font-weight: regular
+                width: 90%
+                margin: 0
+                margin-right: 0px
+                margin-top: 27px
+                padding-bottom: 2px
+                transition: 0.3s all ease
+        .execute_image
+            height: 700px
+            display: none
+            width: 52%
+            vertical-align: top
+            position: relative
+            top: 30px
+            img 
+                transition: 0.5s all ease
+                position: absolute
+                z-index: 2
+                opacity: 1
+        .execute_image_phone
+            display: block
+            width: 100%
+            position: relative
+            top: 100px
+            height: 600px
+            z-index: 2
+            img
+                width: 100%
+        .execute_background_images
+            position: absolute
+            width: 100%
+            height: 0px
+            img
+                position: relative
+                display: none
+            .execute_background_images_1
+                display: block
+                position: absolute
+                top: -70px
+                right: 0
+            .execute_background_images_2
+                display: block
+                position: absolute
+                right: 0
+                top: -1050px
+            .execute_background_images_3
+                display: block
+                position: absolute
+                top: -1120px
+                left: -30px
+                z-index: 2
+            .execute_background_images_4
+                display: block
+                top: 20px
+                left: 15vw
+            .execute_background_images_5
+                display: block
+                position: absolute
+                top: -90px
+                left: -30px
+            .execute_background_images_6
+                top: 1320px
+                left: 300px
+                z-index: 2
+            .execute_background_images_7
+                left: 275px
+                top: -260px
+            .execute_background_images_8
+                left: -430px
+                top: -300px
 </style>

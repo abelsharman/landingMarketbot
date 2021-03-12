@@ -764,10 +764,10 @@ export default {
                 left: 3150px
                 h1
                     left: -346px
-                    top: 24px
+                    top: 20px
                 img
                     left: -346px
-                    top: 24px
+                    top: 20px
                 p
                     top: -470px
                     left: 32px
@@ -788,12 +788,12 @@ export default {
                 left: 5040px
                 h1
                     left: -346px
-                    top: 24px
+                    top: 16px
                 img
                     left: -346px
-                    top: 24px
+                    top: 16px
                 p
-                    top: -470px
+                    top: -484px
                     left: 32px
             .company_slider_10 // М.Видео
                 left: 5670px
@@ -820,10 +820,10 @@ export default {
             .company_slider_12 // Nestle
                 left: 6930px
                 h1
-                    left: -248px
+                    left: -244px
                     top: 30px
                 img
-                    left: -248px
+                    left: -244px
                     top: 30px
                 p
                     top: -460px
@@ -842,7 +842,7 @@ export default {
                     top: 10px
                 p
                     top: -480px
-                    left: 25px
+                    left: 32px
 
                 .company_slider_span
                     left: 250px

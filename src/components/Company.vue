@@ -105,6 +105,13 @@
             <img v-if="this.i == 1" src="../assets/left_arrow_passive.png" alt="">
             <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
         </div>
+
+        <div class="company_background_images">
+            <img class="company_background_images_1" src="../assets/back/lightbluemy.png" alt="lightbluemy">
+            <img class="company_background_images_2" src="../assets/back/purpleby.png" alt="purpleby">
+            <img class="company_background_images_3" src="../assets/back/bluemn.png" alt="bluemn">
+            <img class="company_background_images_4" src="../assets/back/purplesn.png" alt="purplesn">
+        </div>
     </div>
 </template>
 
@@ -642,6 +649,28 @@ export default {
                 outline: none
             .company_slider_arrows_2
                 margin-left: 10%
+        .company_background_images
+            position: absolute
+            height: 0px
+            img
+                position: relative
+            .company_background_images_1
+                position: absolute
+                left: 1160px
+                top: -140px
+                z-index: 3
+            .company_background_images_2
+                position: absolute
+                left: 1190px
+                top: -130px
+            .company_background_images_3
+                top: -240px
+                left: 605px
+                z-index: 4
+            .company_background_images_4
+                left: 950px
+                top: -730px
+    
     
     
     
@@ -857,6 +886,32 @@ export default {
             .company_slider_arrows_2
                 margin-left: 25%
 
+        .company_background_images
+            position: absolute
+            width: 100%
+            height: 0px
+            img
+                position: relative
+                display: none
+            .company_background_images_1
+                display: block
+                position: absolute
+                top: -305px
+                right: 3vw
+            .company_background_images_2
+                left: -125px
+                z-index: 3
+                top: -240px
+            .company_background_images_3
+                display: block
+                position: relative
+                top: 0px
+                left: 10vw
+            .company_background_images_4
+                display: block
+                position: absolute
+                right: 15vw
+                top: -345px
             
 
 </style>

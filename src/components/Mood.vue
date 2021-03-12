@@ -121,6 +121,7 @@ export default {
                 position: absolute
                 z-index: 2
                 opacity: 1
+                left: -35px
         .mood_image_phone
             display: none
         .mood_background_images
@@ -155,7 +156,7 @@ export default {
         background-color: white
         width: 100%
         position: relative
-        top: 00px
+        height: 830px
         z-index: 1
         .mood_nav
             display: block

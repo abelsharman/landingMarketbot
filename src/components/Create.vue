@@ -131,6 +131,8 @@ export default {
                 position: absolute
                 z-index: 2
                 opacity: 1
+                left: -35px
+
         .create_image_phone
             display: none
         .create_background_images

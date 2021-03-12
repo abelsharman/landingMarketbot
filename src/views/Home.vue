@@ -7,6 +7,7 @@
     <Create />
     <Execute />
     <Mood />
+    <Company />
   </div>
 </template>
 
@@ -19,6 +20,8 @@ import Associate from '@/components/Associate.vue'
 import Create from '@/components/Create.vue'
 import Execute from '@/components/Execute.vue'
 import Mood from '@/components/Mood.vue'
+import Company from '@/components/Company.vue'
+
 
 export default {
   name: 'Home',
@@ -30,6 +33,7 @@ export default {
     Create,
     Execute,
     Mood,
+    Company,
   }
 }
 </script>

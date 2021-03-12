@@ -1430,7 +1430,7 @@ export default {
         }
     },
     mounted(){
-        setInterval(this.intervalMethod, 3000)
+        setInterval(this.intervalMethod, 4000)
     }
 
 }

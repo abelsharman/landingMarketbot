@@ -117,6 +117,18 @@
                 <p>HR специалист</p>
             </div>
         </div>
+
+
+
+        <div class="team_background_images">
+            <img class="team_background_images_1" src="../assets/back/whatsapp_back.png" alt="whatsapp_back">
+            <img class="team_background_images_2" src="../assets/back/vk_back.png" alt="vk_back">
+            <img class="team_background_images_3" src="../assets/back/purplesn.png" alt="1">
+            <img class="team_background_images_4" src="../assets/back/greymy.png" alt="2">
+            <img class="team_background_images_5" src="../assets/back/greysn.png" alt="3">
+
+
+       </div>
     </div>
 </template>
 
@@ -133,7 +145,7 @@ export default {
     .team
         height: 800px
         .team_intro
-            width: 480px
+            width: 480px    
             margin-top: 150px
             display: inline-block
             h1
@@ -154,6 +166,7 @@ export default {
             display: inline-block
             position: relative
             top: -290px
+
             .team_member
                 vertical-align: top
                 text-align: center
@@ -177,6 +190,30 @@ export default {
                     margin: 0
         .team_members_phone
             display: none
+        .team_background_images
+            position: relative
+            height: 0px
+            img
+                position: relative
+            .team_background_images_1
+                top: -1025px
+                left: 70px
+                z-index: 3
+            .team_background_images_2
+                position: absolute
+                top: -420px
+                right: -100px
+            .team_background_images_3
+                top: -1110px
+                left: 140px
+            .team_background_images_4
+                top: -1130px
+                left: 210px
+                z-index: 3
+            .team_background_images_5
+                top: -1135px
+                left: 620px
+                z-index: 1
 
 
 

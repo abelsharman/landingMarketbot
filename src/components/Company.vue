@@ -682,7 +682,7 @@ export default {
         position: relative
         top: 0px
         padding-top: 50px
-        height: 670px
+        height: 920px
         z-index: 1
         .company_padding
             padding-left: 7%

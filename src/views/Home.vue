@@ -8,6 +8,7 @@
     <Execute />
     <Mood />
     <Company />
+    <Team />
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import Create from '@/components/Create.vue'
 import Execute from '@/components/Execute.vue'
 import Mood from '@/components/Mood.vue'
 import Company from '@/components/Company.vue'
+import Team from '@/components/Team.vue'
 
 
 export default {
@@ -34,6 +36,7 @@ export default {
     Execute,
     Mood,
     Company,
+    Team,
   }
 }
 </script>

@@ -143,6 +143,7 @@ export default {
 <style lang="sass">
 @media screen and (min-width: 456px)
     .team
+        width: 1200px
         height: 800px
         .team_intro
             width: 480px    

@@ -222,7 +222,7 @@ export default {
 
 @media screen and (max-width: 456px)
     .team
-        height: 800px
+        height: 1500px
         .team_intro
             width: 93%
             padding-left: 7%
@@ -272,5 +272,35 @@ export default {
                     width: 90%
                     padding: 0 5%
                     margin: 0
+        .team_background_images
+            position: relative
+            height: 0px
+            width: 100%
+            img
+                position: relative
+                display: none
+            .team_background_images_1
+                display: block
+                position: absolute
+                top: -1445px
+                right: 0px
+                z-index: 3
+            .team_background_images_2
+                position: absolute
+                top: -420px
+                right: -100px
+            .team_background_images_3
+                display: block
+                top: -90px
+                left: 46vw
+            .team_background_images_4
+                top: -1130px
+                left: 210px
+                z-index: 3
+            .team_background_images_5
+                display: block
+                top: -1035px
+                left: 55vw
+                z-index: 1
 
 </style>

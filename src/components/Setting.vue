@@ -84,8 +84,10 @@
                     </div>
 
                     <div class="setting_quiz_icons_7">
-                        <span>{{ info.program_cost.VB }}₽</span>
-                        <img @click="clickViber" v-if="!checkViber" src="../assets/quiz/viber3.png" alt="Viber">
+                        <!--<span>{{ info.program_cost.VB }}₽</span>-->
+                        <strong class="setting_quiz_minus" @click="clickOperatorMinus">-</strong>
+                        <strong class="setting_quiz_operator"><strong>{{ operators }}</strong></strong>
+                        <strong class="setting_quiz_plus" @click="clickOperatorPlus">+</strong>
                         <p>Операторы</p>
                     </div>
                 </div>
@@ -286,6 +288,7 @@ export default {
             checkBitrix: false,
             checkCrm: false,
             checkMail: true,
+            operators: 0,
 
         }
     },
@@ -377,6 +380,16 @@ export default {
         clickMailing(){
             this.checkMail = true
             this.sum += this.info.mailing
+        },
+        clickOperatorMinus(){
+            if(this.operators > 0){
+                this.operators--
+                this.sum -= this.info.op_cost
+            }
+        },
+        clickOperatorPlus(){
+            this.operators++
+            this.sum += this.info.op_cost
         },
 
 
@@ -484,7 +497,8 @@ export default {
                         border-radius: 2px   
                         transition: 0.5s all ease 
 
-
+                
+                    
 
                 .setting_quiz_icons
                     width: 440px
@@ -515,6 +529,51 @@ export default {
                         z-index: 10
                         top: 335px
                         display: none
+
+
+
+
+
+                    .setting_quiz_operator
+                        width: 50px
+                        border: 1px solid #a13c7f
+                        font-size: 20px
+                        border-radius: 50px
+                        background-color: #f6f6f6
+                        height: 50px
+                        color: #a13c7f
+                        text-align: center
+                        margin: 10px 0 16px 8px
+                        display: inline-block
+                        strong
+                            position: relative
+                            top: 14px
+                    .setting_quiz_minus
+                        position: relative
+                        top: 13px
+                        left: 20px
+                        font-weight: 200
+                        border: 1px solid white
+                        color: white
+                        background-color: #a13c7f
+                        padding: 0 6px
+                        border-radius: 10px
+                        cursor: pointer
+                        user-select: none
+                    .setting_quiz_plus
+                        position: relative
+                        top: 13px
+                        left: -10px
+                        font-weight: 200
+                        border: 1px solid white
+                        color: white
+                        background-color: #a13c7f
+                        padding: 0 4px
+                        cursor: pointer
+                        border-radius: 30px
+                        outline: none
+                        user-select: none
+                
             
                     
                     .setting_quiz_icons_1:hover
@@ -564,15 +623,18 @@ export default {
                     cursor: pointer
                     float: left 
                     margin-top: 120px
+                    user-select: none
                     span
                         font-style: italic
                         font-weight: 300
                         font-size: 16px
                         color: #bbb
                         padding-left: 21px
+                        user-select: none
 
                 .setting_quiz_after
                     float: right
+                    user-select: none
                     margin-top: 98px
                     button
                         width: 220px
@@ -596,6 +658,7 @@ export default {
                         text-align: center
                         font-weight: 400
                         //margin-bottom: 60px
+                
 
 
                         

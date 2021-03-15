@@ -914,7 +914,7 @@ export default {
                     .setting_quiz_plus
                         position: relative
                         top: 13px
-                        left: 12px
+                        left: 0px
                         font-weight: 200
                         border: 1px solid white
                         color: white

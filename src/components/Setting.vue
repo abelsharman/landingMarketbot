@@ -913,8 +913,8 @@ export default {
                         user-select: none
                     .setting_quiz_plus
                         position: relative
-                        top: -36px
-                        left: 60px
+                        top: 13px
+                        left: 12px
                         font-weight: 200
                         border: 1px solid white
                         color: white

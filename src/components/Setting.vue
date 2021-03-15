@@ -913,8 +913,325 @@ export default {
                         user-select: none
                     .setting_quiz_plus
                         position: relative
-                        left: 61px
-                        top: -34px
+                        top: 13px
+                        left: 12px
+                        //left: 61px !important
+                        //top: -34px !important
+                        font-weight: 200
+                        border: 1px solid white
+                        color: white
+                        background-color: #a13c7f
+                        padding: 0 4px
+                        cursor: pointer
+                        border-radius: 30px
+                        outline: none
+                        user-select: none
+                .setting_quiz_icons_11
+                    margin-top: 12px
+                .setting_quiz_icons_12
+                    margin-top: 32px
+                    
+                    
+                .setting_quiz_back
+                    cursor: pointer
+                    float: left 
+                    margin-top: 80px
+                    user-select: none
+                    span
+                        font-style: italic
+                        font-weight: 300
+                        font-size: 3.50vw
+                        color: #bbb
+                        padding-left: 21px
+                        user-select: none
+
+                .setting_quiz_after
+                    float: right
+                    user-select: none
+                    margin-top: 58px
+                    button
+                        width: 37vw
+                        color: white
+                        border-radius: 31px
+                        border: 0px
+                        font-size: 3.947vw
+                        font-weight: 400
+                        padding: 20px 0
+                        cursor: pointer
+                        outline: none
+                        transition: 0.2s all ease
+                        background: url('../assets/after.png') no-repeat 80% 50% #c34688
+                    p
+                        display: none
+                        margin: 0
+                        margin-top: 10px
+                        font-size: 3.50vw
+                        line-height: 16px
+                        color: #999
+                        width: 100%
+                        text-align: center
+                        font-weight: 400
+                        //margin-bottom: 60px
+                .setting_quiz_after_1
+                    margin-top: 82px
+                .setting_quiz_back_1
+                    margin-top: 104px
+                
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+            .setting_quiz_result
+                display: inline-block
+                //background: #f9f9f9f9
+                background-color: white
+                vertical-align: top
+                h1
+                    font-size: 3.947vw
+                    padding-left: 16vw
+                    padding-top: 0px
+                    line-height: 48px
+                    font-weight: 400
+                    color: #222
+                    span
+                        padding-left: 4px
+                        font-size: 4.38vw
+                        color: #bdbdbd
+                        text-decoration: line-through
+                        text-decoration-color: #d6496f
+                    strong
+                        font-size: 5.7vw
+                        color: #d6496f
+                        font-weight: 400
+                        span
+                            color: #d6496f
+                            text-decoration: none
+                            font-size: 46px
+                            font-weight: 700
+
+                img
+                    padding-left: 25vw
+                    width: 50vw
+                .setting_quiz_result_info
+                    margin-top: 0px
+                    width: calc(100vw - 40px)
+                    margin-left: 0px
+                    padding: 26px 0px 10px 40px
+                    background-color: white
+                    border-radius: 5px
+                    h2
+                        margin: 0
+                        font-size: 4.38vw
+                        line-height: 24px
+                        font-weight: 700
+                        color: #370954
+                        span
+                            color: #c34688
+                    p
+                        font-size: 3.947vw
+                        line-height: 24px
+                        font-weight: 400
+                        color: #222
+                        width: 90%
+                button
+                    width: 80vw
+                    margin-left: 10vw
+                    color: white
+                    border-radius: 31px
+                    border: 0px
+                    background-color: #dbe0e4
+                    margin-top: 24px
+                    margin-bottom: 20px
+                    font-size: 4.38vw
+                    font-weight: 400
+                    padding: 20px 0
+                    cursor: not-allowed
+                    outline: none
+                    transition: 0.2s all ease
+                .setting_quiz_result_dop_info
+                    font-size: 3.947vw
+                    line-height: 16px
+                    font-weight: 400
+                    color: #999
+                    margin: 0
+                    margin-bottom: 50px
+                    
+                    width: 100vw
+                    text-align: center
+                .button_clicked
+                    background-color: #c34688
+                    cursor: pointer
+
+
+
+
+@media screen and (max-width: 375px)
+    .setting
+        position: relative
+        top: 00px
+        height: 800px
+        width: 100vw
+        .setting_header
+            width: 100%
+            text-align: center
+            font-size: 30px
+            line-height: 42px
+            color: #370954
+            font-weight: 700
+            margin-bottom: 50px
+
+
+
+        .setting_quiz
+            width: 100vw
+            box-shadow: 0px 0px 10px 3px rgb(240,240,240)
+            border-radius: 10px
+            margin: 0
+
+            .setting_quiz_part
+                display: block
+                background: white
+                border-top-left-radius: 10px
+                border-bottom-left-radius: 10px
+                width: calc(100vw - 60px)
+                padding: 0 30px
+                height: 520px
+                margin: 0
+                h1
+                    font-size: 6.57vw
+                    padding-top: 20px
+                    line-height: 42px
+                    font-weight: 700
+                    color: #c34688
+                    text-align: left
+                    width: 100%
+                    strong
+                        padding-left: 46vw
+                        font-size: 3.50vw
+                        line-height: 26px
+                        font-weight: 400
+                        color: #999
+                    .setting_quiz_part_strong
+                        padding-left: 44vw
+                    .setting_quiz_part_strong_2
+                        padding-left: 38vw
+                    span
+                        font-size: 3.50vw
+                        text-align: right
+                        line-height: 26px
+                        font-weight: 400
+                        color: #c34688
+                h2
+                    font-size: 4.38vw
+                    line-height: 28px
+                    font-weight: 700
+                    color: #370954
+                    text-align: left
+                    width: 100%
+                    margin: 20px 0 0 0 
+                h3
+                    margin: 0
+                    margin-top: 14px
+                    font-size: 3.508vw
+                    line-height:16px
+                    font-weight: 400
+                    color: #999
+                .setting_quiz_progress
+                    position: relative
+                    top: -7px
+                    .setting_quiz_progress_grey
+                        width: 100%
+                        height: 4px
+                        background: #eee
+                        border-radius: 2px
+                    .setting_quiz_progress_pink
+                        position: relative
+                        min-width: 2%
+                        width: 0%
+                        top: -4px
+                        height: 4px
+                        background: #c34688
+                        border-radius: 2px   
+                        transition: 0.5s all ease 
+
+                
+                    
+
+                .setting_quiz_icons
+                    width: 100%
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: center
+                    margin-top: 50px
+                    margin-left: 0px
+                    p
+                        font-size: 2.85vw
+                        font-weight: 400
+                        color: #777
+                        margin: 0
+                        width: 100%
+                        text-align: center
+                    div
+                        width: 25%
+                        img
+                           padding-left: 10%
+                    span
+                        font-size: 0.6vw
+                        font-weight: 600
+                        color: white
+                        background-color: #d6496f
+                        padding: 1px 3px   
+                        border-radius: 10px
+                        position: absolute
+                        z-index: 10
+                        top: 335px
+                        display: none
+
+
+
+
+
+                    .setting_quiz_operator
+                        width: 50px
+                        border: 1px solid #a13c7f
+                        font-size: 20px
+                        border-radius: 50px
+                        background-color: #f6f6f6
+                        height: 50px
+                        color: #a13c7f
+                        text-align: center
+                        margin: 10px 0 0px 0px
+                        display: inline-block
+                        strong
+                            position: relative
+                            top: 14px
+                    .setting_quiz_minus
+                        position: relative
+                        top: 13px
+                        left: 12px
+                        font-weight: 200
+                        border: 1px solid white
+                        color: white
+                        background-color: #a13c7f
+                        padding: 0 6px
+                        border-radius: 10px
+                        cursor: pointer
+                        user-select: none
+                    .setting_quiz_plus
+                        position: relative
+                        //top: 13px
+                        //left: 12px
+                        left: 61px 
+                        top: -34px 
                         font-weight: 200
                         border: 1px solid white
                         color: white

@@ -249,6 +249,18 @@
             </div>
 
         </div>
+
+        <div class="setting_background_images">
+            <img class="setting_background_images_1" src="../assets/back/telegram_back.png" alt="telegram_back">
+            <img class="setting_background_images_2" src="../assets/back/greenmn.png" alt="greenmn">
+            <img class="setting_background_images_3" src="../assets/back/lightbluemy.png" alt="lightbluemy">
+            <img class="setting_background_images_4" src="../assets/back/purplesn.png" alt="purplesn">
+            <img class="setting_background_images_5" src="../assets/back/lightpurpleby2.png" alt="lightpurpleby">
+            <img class="setting_background_images_6" src="../assets/back/bluemy.png" alt="greenby">
+            <img class="setting_background_images_7" src="../assets/back/yellowbyfull.png" alt="yellowbyfull">
+            <img class="setting_background_images_8" src="../assets/back/purpleby.png" alt="purpleby">
+
+       </div>
     </div>
 </template>
 
@@ -454,7 +466,7 @@ export default {
     .setting
         position: relative
         top: 00px
-        height: 800px
+        height: 780px
         width: 100%
         .setting_header
             width: 100%
@@ -477,6 +489,9 @@ export default {
 
         .setting_quiz
             width: 1140px
+            position: relative
+            background-color: #f9f9f9
+            z-index: 3
             box-shadow: 0px 0px 10px 3px rgb(240,240,240)
             border-radius: 10px
             margin: 0 29px
@@ -737,6 +752,8 @@ export default {
                 display: inline-block
                 background: #f9f9f9f9
                 vertical-align: top
+                position: relative
+                z-index: 3
                 h1
                     font-size: 18px
                     padding-left: 90px
@@ -808,13 +825,43 @@ export default {
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
+        .setting_background_images
+            position: absolute
+            height: 0px
+            img
+                position: relative
+            .setting_background_images_1
+                top: -90px
+                left: 280px
+            .setting_background_images_2
+                left: 675px
+                top: -145px
+            .setting_background_images_3
+                top: -530px
+                left: -325px
+                z-index: 2
+            .setting_background_images_4
+                left: -350px
+                top: -620px
+            .setting_background_images_5
+                top: -330px
+                left: -400px
+            .setting_background_images_6
+                top: -195px
+                left: 330px
+            .setting_background_images_7
+                top: -700px
+                left: -950px   
+            .setting_background_images_8
+                top: -790px
+                left: 260px   
 
 
 @media screen and (max-width: 456px)
     .setting
         position: relative
         top: 00px
-        height: 800px
+        height: 1250px
         width: 100vw
         .setting_header
             width: 90%
@@ -838,6 +885,8 @@ export default {
 
 
         .setting_quiz
+            position: relative
+            z-index: 3
             width: 100vw
             box-shadow: 0px 0px 10px 3px rgb(240,240,240)
             border-radius: 10px
@@ -1135,6 +1184,45 @@ export default {
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
+        .setting_background_images
+            position: absolute
+            width: 100vw
+            height: 0px
+            img
+                position: relative
+                display: none
+            .setting_background_images_1
+                position: absolute
+                top: -10px
+                right: 0
+                display: inline
+            .setting_background_images_2
+                position: absolute
+                display: inline
+                left: -20px
+                top: 55px
+            .setting_background_images_3
+                position: absolute
+                display: inline
+                top: -1130px
+                right: 5vw
+            .setting_background_images_4
+                position: absolute
+                display: inline
+                top: 10px
+                left: 10vw
+            .setting_background_images_5
+                top: -330px
+                left: -400px
+            .setting_background_images_6
+                top: -195px
+                left: 330px
+            .setting_background_images_7
+                top: -700px
+                left: -950px   
+            .setting_background_images_8
+                top: -790px
+                left: 260px
 
 
 
@@ -1143,7 +1231,7 @@ export default {
     .setting
         position: relative
         top: 00px
-        height: 800px
+        height: 1250px
         width: 100vw
         .setting_header
             width: 90%

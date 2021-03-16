@@ -10,6 +10,7 @@
     <Company />
     <Team />
     <Setting />
+    <Footer />
   </div>
 </template>
 
@@ -25,6 +26,7 @@ import Mood from '@/components/Mood.vue'
 import Company from '@/components/Company.vue'
 import Team from '@/components/Team.vue'
 import Setting from '@/components/Setting.vue'
+import Footer from '@/components/Footer.vue'
 
 
 export default {
@@ -40,6 +42,7 @@ export default {
     Company,
     Team,
     Setting,
+    Footer
   }
 }
 </script>

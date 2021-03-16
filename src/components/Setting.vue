@@ -833,9 +833,11 @@ export default {
             .setting_background_images_1
                 top: -90px
                 left: 280px
+                z-index: 3
             .setting_background_images_2
                 left: 675px
                 top: -145px
+                z-index: 3
             .setting_background_images_3
                 top: -530px
                 left: -325px
@@ -1195,12 +1197,15 @@ export default {
                 position: absolute
                 top: -10px
                 right: 0
+                z-index: 3
                 display: inline
             .setting_background_images_2
                 position: absolute
                 display: inline
                 left: -20px
                 top: 55px
+                z-index: 3
+
             .setting_background_images_3
                 position: absolute
                 display: inline
@@ -1211,6 +1216,7 @@ export default {
                 display: inline
                 top: 10px
                 left: 10vw
+                z-index: 3
             .setting_background_images_5
                 top: -330px
                 left: -400px

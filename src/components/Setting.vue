@@ -1,8 +1,9 @@
 <template>
     <div class="setting">
         <h1 class="setting_header">Настройте тариф под свои задачи</h1>
+        <h1 class="setting_header_2">и получите бесплатный доступ на 30 дней</h1>
 
-        <div class="setting_quiz">
+        <div class="setting_quiz" ref="header">
             <div class="setting_quiz_part" id="1" ref="1" v-if="this.i == 1">
                 <h1>Шаг {{ this.i }}<strong> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
 
@@ -18,28 +19,28 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_12">
                     <div class="setting_quiz_icons_1">
-                        <span>{{ info.program_cost.GS }}₽</span>
+                        <span>от {{ Math.round(info.program_cost.GS * info.yearly_discount) }}₽</span>
                         <img @click="closeWhatsApp" v-if="checkWhatsApp" src="../assets/quiz/whatsapp.png" alt="whatsapp">
                         <img @click="clickWhatsApp" v-if="!checkWhatsApp" src="../assets/quiz/whatsapp3.png" alt="whatsapp">
                         <p>WhatsApp</p>
                     </div>
 
                     <div class="setting_quiz_icons_2">
-                        <span>{{ info.program_cost.TL }}₽</span>
+                        <span>от {{ Math.round(info.program_cost.TL * info.yearly_discount) }}₽</span>
                         <img @click="closeTelegram" v-if="checkTelegram" src="../assets/quiz/telegram.png" alt="Telegram">
                         <img @click="clickTelegram" v-if="!checkTelegram" src="../assets/quiz/telegram3.png" alt="Telegram">
                         <p>Telegram</p>
                     </div>
 
                     <div class="setting_quiz_icons_3">
-                        <span>{{ info.program_cost.VB }}₽</span>
+                        <span>от {{ Math.round(info.program_cost.VB * info.yearly_discount) }}₽</span>
                         <img @click="closeViber" v-if="checkViber" src="../assets/quiz/viber.png" alt="Viber">
                         <img @click="clickViber" v-if="!checkViber" src="../assets/quiz/viber3.png" alt="Viber">
                         <p>Viber</p>
                     </div>
 
                     <div class="setting_quiz_icons_4">
-                        <span>{{ info.program_cost.VK }}₽</span>
+                        <span>от {{ Math.round(info.program_cost.VK * info.yearly_discount) }}₽</span>
                         <img @click="closeVk" v-if="checkVk" src="../assets/quiz/vk.png" alt="Vkontakte">
                         <img @click="clickVk" v-if="!checkVk" src="../assets/quiz/vk3.png" alt="Vkontakte">
                         <p>Vkontakte</p>
@@ -52,7 +53,7 @@
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button>Далее</button>
+                    <button ref="after">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -70,21 +71,21 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_12">
                     <div class="setting_quiz_icons_5">
-                        <span>{{ info.chat_cost }}₽</span>
+                        <span>от {{ Math.round(info.chat_cost * info.yearly_discount) }}₽</span>
                         <img @click="closeChat" v-if="checkChat" src="../assets/quiz/chat.png" alt="chat">
                         <img @click="clickChat" v-if="!checkChat" src="../assets/quiz/chat3.png" alt="chat">
                         <p>Чат</p>
                     </div>
 
                     <div class="setting_quiz_icons_6">
-                        <span>{{ info.write_first_cost }}₽</span>
+                        <span>от {{  Math.round(info.write_first_cost * info.yearly_discount) }}₽</span>
                         <img @click="closeWrite" v-if="checkWrite" src="../assets/quiz/question.png" alt="question">
                         <img @click="clickWrite" v-if="!checkWrite" src="../assets/quiz/question3.png" alt="question">
                         <p>Написать первым</p>
                     </div>
 
                     <div class="setting_quiz_icons_7">
-                        <span>{{ info.op_cost }}₽</span>
+                        <span>от {{ Math.round(info.op_cost * info.yearly_discount) }}₽</span>
                         <strong class="setting_quiz_minus" @click="clickOperatorMinus">-</strong>
                         <strong class="setting_quiz_operator"><strong>{{ operators }}</strong></strong>
                         <strong class="setting_quiz_plus" @click="clickOperatorPlus">+</strong>
@@ -98,7 +99,7 @@
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button>Далее</button>
+                    <button ref="after">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -116,14 +117,14 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_11">
                     <div class="setting_quiz_icons_8">
-                        <span>{{ info.deferred_exec }}₽</span>
+                        <span>от {{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
                         <img @click="closeEditor" v-if="checkEditor" src="../assets/quiz/editor.png" alt="editor">
                         <img @click="clickEditor" v-if="!checkEditor" src="../assets/quiz/editor3.png" alt="editor">
                         <p>Редактор сценария</p>
                     </div>
 
                     <div class="setting_quiz_icons_9">
-                        <span>{{ info.deferred_exec }}₽</span>
+                        <span>от {{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
                         <img @click="closeFunnel" v-if="checkFunnel" src="../assets/quiz/funnel.png" alt="funnel">
                         <img @click="clickFunnel" v-if="!checkFunnel" src="../assets/quiz/funnel3.png" alt="funnel">
                         <p>Автоворонки</p>
@@ -136,7 +137,7 @@
                 </div>
 
                 <div class="setting_quiz_after setting_quiz_after_1" @click="i++">
-                    <button>Далее</button>
+                    <button ref="after">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -154,14 +155,14 @@
 
                 <div class="setting_quiz_icons">
                     <div class="setting_quiz_icons_8">
-                        <span>{{ info.crm }}₽</span>
+                        <span>от {{ Math.round(info.crm * info.yearly_discount) }}₽</span>
                         <img @click="closeBitrix" v-if="checkBitrix" src="../assets/quiz/bitrix.png" alt="bitrix">
                         <img @click="clickBitrix" v-if="!checkBitrix" src="../assets/quiz/bitrix3.png" alt="bitrix">
                         <p>Bitrix24</p>
                     </div>
 
                     <div class="setting_quiz_icons_9">
-                        <span>{{ info.crm }}₽</span>
+                        <span>от {{ Math.round(info.crm * info.yearly_discount) }}₽</span>
                         <img @click="closeCrm" v-if="checkCrm" src="../assets/quiz/amo.png" alt="amo">
                         <img @click="clickCrm" v-if="!checkCrm" src="../assets/quiz/amo3.png" alt="amo">
                         <p>amoCRM</p>
@@ -174,7 +175,7 @@
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button>Далее</button>
+                    <button ref="after">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -192,7 +193,7 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_11 setting_quiz_icons_12">
                     <div class="setting_quiz_icons_10">
-                        <span>{{ info.mailing }}₽</span>
+                        <span>от {{ Math.round(info.mailing * info.yearly_discount) }}₽</span>
                         <img @click="closeMailing" v-if="checkMail" src="../assets/quiz/mail.png" alt="mail">
                         <img @click="clickMailing" v-if="!checkMail" src="../assets/quiz/mail3.png" alt="mail">
                         <p>Массовая рассылка</p>
@@ -205,7 +206,7 @@
                 </div>
 
                 <div class="setting_quiz_after setting_quiz_after_1" @click="i++">
-                    <button>Далее</button>
+                    <button ref="after">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -242,8 +243,8 @@
                     <h2>Бесплатно 30 дней на <span>МАКСИМУМ</span></h2>
                     <p>В конце периода вы узнаете все возможности сервиса, и сможете настроить тариф точно под себя, чтобы не платить за лишнее.</p>
                 </div>
-
-                <button v-bind:class="{ button_clicked : i == 6 }">Активировать</button>
+                <button class="button_clicked" v-if="i == 6">Получить доступ</button>
+                <button @click="clickMotion" v-if="i < 6">Получить доступ</button>
                 <p class="setting_quiz_result_dop_info">Для активации настройте тариф</p>
             </div>
 
@@ -293,6 +294,15 @@ export default {
         }
     },
     methods:{
+        clickMotion(){
+            if(window.innerWidth > 456){
+                this.$refs.after.style.animation = "clickMotionButton 0.9s"
+                setTimeout(()=> this.$refs.after.style.animation = "none", 900)
+            }
+            else{
+                window.scrollTo({top: window.pageYOffset + this.$refs.header.getBoundingClientRect().top, behavior: 'smooth'})
+            }
+        },
         closeWhatsApp(){
             this.checkWhatsApp = false
             this.sum -= this.info.program_cost.GS
@@ -412,6 +422,18 @@ export default {
 </script>
 
 <style lang="sass">
+@keyframes clickMotionButton
+    0%
+        transform: rotate(15deg)
+    25%
+        transform: rotate(-15deg)
+    50%
+        transform: rotate(7deg)
+    75%
+        transform: rotate(-7deg)
+    100%
+        transform: rotate(0deg)
+
 @media screen and (min-width: 456px)
     .setting
         position: relative
@@ -423,6 +445,14 @@ export default {
             text-align: center
             font-size: 30px
             line-height: 42px
+            color: #370954
+            font-weight: 700
+            margin-bottom: 0px
+        .setting_header_2
+            width: 100%
+            text-align: center
+            font-size: 23px
+            line-height: 12px
             color: #370954
             font-weight: 700
             margin-bottom: 50px
@@ -512,6 +542,7 @@ export default {
                     justify-content: center
                     margin-top: 50px
                     margin-left: 40px
+                
                     p
                         font-size: 13px
                         font-weight: 400
@@ -523,6 +554,7 @@ export default {
                         width: 25%
                         img
                            padding-left: 18%
+                           cursor: pointer
                     span
                         font-size: 0.6vw
                         font-weight: 600
@@ -532,7 +564,7 @@ export default {
                         border-radius: 10px
                         position: absolute
                         z-index: 10
-                        top: 335px
+                        top: 365px
                         display: none
                 
 
@@ -630,6 +662,7 @@ export default {
                     cursor: pointer
                     float: left 
                     margin-top: 120px
+                    outline: none
                     user-select: none
                     span
                         font-style: italic
@@ -638,11 +671,13 @@ export default {
                         color: #bbb
                         padding-left: 21px
                         user-select: none
+                        outline: none
 
                 .setting_quiz_after
                     float: right
                     user-select: none
                     margin-top: 98px
+                    outline: none
                     button
                         width: 220px
                         color: white
@@ -766,10 +801,20 @@ export default {
         height: 800px
         width: 100vw
         .setting_header
-            width: 100%
+            width: 90%
+            margin-left: 5%
             text-align: center
-            font-size: 30px
-            line-height: 42px
+            font-size: 6.14vw
+            line-height: 4vh
+            color: #370954
+            font-weight: 700
+            margin-bottom: 0px
+        .setting_header_2
+            width: 90%
+            margin-left: 5%
+            text-align: center
+            font-size: 4.82vw
+            line-height: 3.3vh
             color: #370954
             font-weight: 700
             margin-bottom: 50px
@@ -869,6 +914,7 @@ export default {
                         width: 25%
                         img
                            padding-left: 10%
+                           cursor: pointer
                     span
                         font-size: 0.6vw
                         font-weight: 600
@@ -936,6 +982,7 @@ export default {
                     cursor: pointer
                     float: left 
                     margin-top: 80px
+                    outline: none
                     user-select: none
                     span
                         font-style: italic
@@ -943,12 +990,14 @@ export default {
                         font-size: 3.50vw
                         color: #bbb
                         padding-left: 21px
-                        user-select: none
+                        outline: none
+                        user-select: none 
 
                 .setting_quiz_after
                     float: right
                     user-select: none
                     margin-top: 58px
+                    outline: none
                     button
                         width: 37vw
                         color: white
@@ -1081,10 +1130,20 @@ export default {
         height: 800px
         width: 100vw
         .setting_header
-            width: 100%
+            width: 90%
+            margin-left: 5%
             text-align: center
-            font-size: 30px
-            line-height: 42px
+            font-size: 6.14vw
+            line-height: 4vh
+            color: #370954
+            font-weight: 700
+            margin-bottom: 0px
+        .setting_header_2
+            width: 90%
+            margin-left: 5%
+            text-align: center
+            font-size: 4.82vw
+            line-height: 3.3vh
             color: #370954
             font-weight: 700
             margin-bottom: 50px
@@ -1184,6 +1243,7 @@ export default {
                         width: 25%
                         img
                            padding-left: 10%
+                           cursor: pointer
                     span
                         font-size: 0.6vw
                         font-weight: 600
@@ -1250,6 +1310,7 @@ export default {
                 .setting_quiz_back
                     cursor: pointer
                     float: left 
+                    outline: none 
                     margin-top: 80px
                     user-select: none
                     span
@@ -1258,12 +1319,14 @@ export default {
                         font-size: 3.50vw
                         color: #bbb
                         padding-left: 21px
+                        outline: none
                         user-select: none
 
                 .setting_quiz_after
                     float: right
                     user-select: none
                     margin-top: 58px
+                    outline: none
                     button
                         width: 37vw
                         color: white

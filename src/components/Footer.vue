@@ -51,7 +51,7 @@ export default {
             line-height: 40px
             font-weight: 400
             color: #999
-            margin: 0 0 0 200px
+            margin: 0 0 0 205px
 
 
 @media screen and (max-width: 456px)

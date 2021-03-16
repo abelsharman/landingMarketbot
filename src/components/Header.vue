@@ -25,7 +25,14 @@
             <img src="../assets/burder_1.png" alt="burder_3">
         </div>
 
-
+        <div class="page_grey_lines">
+            <img class="page_grey_line_1" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_2" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_3" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_4" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_5" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_6" src="../assets/grey_line.png" alt="grey_line">
+        </div>
    
     </div>
 </template>
@@ -60,6 +67,29 @@ export default {
 <style lang="sass" scoped>
     $h_color: #370954
     @media screen and (min-width: 456px)
+        .page_grey_lines
+            position: relative
+            img
+                position: fixed
+                height: 100vh
+                top: -20px
+                z-index: 99
+            .page_grey_line_1
+                left: calc((100vw - 1200px) / 2)
+            .page_grey_line_2
+                left: calc((100vw - 720px) / 2)
+            .page_grey_line_3
+                left: calc((100vw - 240px) / 2)
+            .page_grey_line_4
+                display: inline
+                left: calc((100vw + 240px) / 2)
+            .page_grey_line_5
+                display: inline
+                left: calc((100vw + 720px) / 2)
+            .page_grey_line_6
+                display: inline
+                left: calc((100vw + 1200px) / 2)
+            
         .header
             padding-bottom: 10px
             *
@@ -70,16 +100,16 @@ export default {
             .header_nav 
                 position: relative
                 top: -4px
-                margin-left: 110px
+                margin-left: 100px
                 a
-                    margin-right: 46px
+                    margin-right: 48px
                     font-weight: 400
                     color: $h_color
                     text-decoration: none
             .header_lang
                 position: relative
                 top: -4px
-                margin-left: 10px
+                margin-left: 14px
                 color: #999999
                 text-decoration: none
                 font-size: 13px
@@ -98,7 +128,7 @@ export default {
                 padding: 7px 15px
                 background-color: white
                 cursor: pointer
-                margin-left: 25px
+                margin-left: 41px
                 border-radius: 5px
                 text-decoration: none
                 img
@@ -110,6 +140,26 @@ export default {
             .header_burger
                 display: none
     @media screen and (max-width: 456px)
+        .page_grey_lines
+            position: relative
+            img
+                position: fixed
+                height: 100vh
+                top: 0px
+                z-index: 99
+            .page_grey_line_1
+                left: calc((100vw - 1200px) / 2)
+            .page_grey_line_2
+                left: calc((100vw - 720px) / 2)
+            .page_grey_line_3
+                left: calc((100vw - 240px) / 2)
+            .page_grey_line_4
+                left: calc((100vw + 240px) / 2)
+            .page_grey_line_5
+                left: calc((100vw + 720px) / 2)
+            .page_grey_line_6
+                left: calc((100vw + 1200px) / 2)
+            
         .header
             padding-bottom: 10px
             *

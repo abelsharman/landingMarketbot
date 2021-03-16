@@ -55,7 +55,7 @@ $p_color: #370954
         .platform_text
             padding-top: 150px
             vertical-align: top
-            width: 47.3%
+            width: 47.7%
             display: inline-block
             h1
                 width: 90%
@@ -110,9 +110,9 @@ $p_color: #370954
         
         .platform_image
             vertical-align: top
-            width: 52.7%
+            width: 52.3%
             display: inline-block
-            z-index: 2
+            z-index: 100
             position: relative
             padding-top: 70px
         .platform_image_phone

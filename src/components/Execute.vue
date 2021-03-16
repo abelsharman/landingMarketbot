@@ -49,7 +49,7 @@ export default {
         margin-top: 100px
         .execute_nav
             display: inline-block
-            width: 38%
+            width: 37.7%
             vertical-align: top
             padding-top: 200px
             h1

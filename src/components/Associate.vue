@@ -51,10 +51,12 @@ export default {
 <style lang="sass">
 @media screen and (min-width: 456px)
     .associate
+        z-index: 100
+        position: relative
         margin-top: 100px
         .associate_nav
             display: inline-block
-            width: 47.3%
+            width: 46.7%
             vertical-align: top
             h1
                 font-size: 30px
@@ -101,7 +103,7 @@ export default {
         .associate_image
             height: 700px
             display: inline-block
-            width: 52%
+            width: 51%
             vertical-align: top
             position: relative
             top: -30px

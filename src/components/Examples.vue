@@ -1551,7 +1551,7 @@ export default {
             .opportunities_image
                 height: 560px
                 display: inline-block
-                width: 48%
+                width: 48.5%
                 vertical-align: top
                 position: relative
                 top: 95px
@@ -1562,13 +1562,13 @@ export default {
                     opacity: 0
             .opportunities_nav
                 display: inline-block
-                width: 52%
+                width: 51.5%
                 vertical-align: middle
                 margin-top: 200px
                 h1
-                    width: 90%
+                    width: 100%
                 p                  
-                    margin-right: 30px
+                    margin-right: 27px
                 
                    
                

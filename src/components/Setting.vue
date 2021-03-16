@@ -294,13 +294,29 @@ export default {
         }
     },
     methods:{
+        extensionForSafari(e, time, where){
+            var eTop = e.getBoundingClientRect().top;
+            var eAmt = eTop / 100;
+            var curTime = 0;
+            while (curTime <= time) {
+                window.setTimeout(this.SVS_B, curTime, eAmt, where);
+                curTime += time / 100;
+            }
+        },
+        SVS_B(eAmt, where) {
+            if(where == "center" || where == "")
+                window.scrollBy(0, eAmt / 2);
+            if (where == "top")
+                window.scrollBy(0, eAmt);
+        },
         clickMotion(){
             if(window.innerWidth > 456){
                 this.$refs.after.style.animation = "clickMotionButton 0.9s"
                 setTimeout(()=> this.$refs.after.style.animation = "none", 900)
             }
             else{
-                window.scrollTo({top: window.pageYOffset + this.$refs.header.getBoundingClientRect().top, behavior: 'smooth'})
+                this.extensionForSafari(this.$refs.header, 200, "top")
+                //window.scrollTo({top: window.pageYOffset + this.$refs.header.getBoundingClientRect().top, behavior: 'smooth'})
             }
         },
         closeWhatsApp(){

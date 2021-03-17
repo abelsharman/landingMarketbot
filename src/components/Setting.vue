@@ -19,28 +19,28 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_12">
                     <div class="setting_quiz_icons_1">
-                        <span>от {{ Math.round(info.program_cost.GS * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.program_cost.GS * info.yearly_discount) }}₽</span>
                         <img @click="closeWhatsApp" v-if="checkWhatsApp" src="../assets/quiz/whatsapp.png" alt="whatsapp">
                         <img @click="clickWhatsApp" v-if="!checkWhatsApp" src="../assets/quiz/whatsapp3.png" alt="whatsapp">
                         <p>WhatsApp</p>
                     </div>
 
                     <div class="setting_quiz_icons_2">
-                        <span>от {{ Math.round(info.program_cost.TL * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.program_cost.TL * info.yearly_discount) }}₽</span>
                         <img @click="closeTelegram" v-if="checkTelegram" src="../assets/quiz/telegram.png" alt="Telegram">
                         <img @click="clickTelegram" v-if="!checkTelegram" src="../assets/quiz/telegram3.png" alt="Telegram">
                         <p>Telegram</p>
                     </div>
 
                     <div class="setting_quiz_icons_3">
-                        <span>от {{ Math.round(info.program_cost.VB * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.program_cost.VB * info.yearly_discount) }}₽</span>
                         <img @click="closeViber" v-if="checkViber" src="../assets/quiz/viber.png" alt="Viber">
                         <img @click="clickViber" v-if="!checkViber" src="../assets/quiz/viber3.png" alt="Viber">
                         <p>Viber</p>
                     </div>
 
                     <div class="setting_quiz_icons_4">
-                        <span>от {{ Math.round(info.program_cost.VK * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.program_cost.VK * info.yearly_discount) }}₽</span>
                         <img @click="closeVk" v-if="checkVk" src="../assets/quiz/vk.png" alt="Vkontakte">
                         <img @click="clickVk" v-if="!checkVk" src="../assets/quiz/vk3.png" alt="Vkontakte">
                         <p>Vkontakte</p>
@@ -71,21 +71,21 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_12">
                     <div class="setting_quiz_icons_5">
-                        <span>от {{ Math.round(info.chat_cost * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.chat_cost * info.yearly_discount) }}₽</span>
                         <img @click="closeChat" v-if="checkChat" src="../assets/quiz/chat.png" alt="chat">
                         <img @click="clickChat" v-if="!checkChat" src="../assets/quiz/chat3.png" alt="chat">
                         <p>Чат</p>
                     </div>
 
                     <div class="setting_quiz_icons_6">
-                        <span>от {{  Math.round(info.write_first_cost * info.yearly_discount) }}₽</span>
+                        <span>{{  Math.round(info.write_first_cost * info.yearly_discount) }}₽</span>
                         <img @click="closeWrite" v-if="checkWrite" src="../assets/quiz/question.png" alt="question">
                         <img @click="clickWrite" v-if="!checkWrite" src="../assets/quiz/question3.png" alt="question">
                         <p>Написать первым</p>
                     </div>
 
                     <div class="setting_quiz_icons_7">
-                        <span>от {{ Math.round(info.op_cost * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.op_cost * info.yearly_discount) }}₽</span>
                         <strong class="setting_quiz_minus" @click="clickOperatorMinus">-</strong>
                         <strong class="setting_quiz_operator"><strong>{{ operators }}</strong></strong>
                         <strong class="setting_quiz_plus" @click="clickOperatorPlus">+</strong>
@@ -117,14 +117,14 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_11">
                     <div class="setting_quiz_icons_8">
-                        <span>от {{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
                         <img @click="closeEditor" v-if="checkEditor" src="../assets/quiz/editor.png" alt="editor">
                         <img @click="clickEditor" v-if="!checkEditor" src="../assets/quiz/editor3.png" alt="editor">
                         <p>Редактор сценария</p>
                     </div>
 
                     <div class="setting_quiz_icons_9">
-                        <span>от {{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
                         <img @click="closeFunnel" v-if="checkFunnel" src="../assets/quiz/funnel.png" alt="funnel">
                         <img @click="clickFunnel" v-if="!checkFunnel" src="../assets/quiz/funnel3.png" alt="funnel">
                         <p>Автоворонки</p>
@@ -155,14 +155,14 @@
 
                 <div class="setting_quiz_icons">
                     <div class="setting_quiz_icons_8">
-                        <span>от {{ Math.round(info.crm * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.crm * info.yearly_discount) }}₽</span>
                         <img @click="closeBitrix" v-if="checkBitrix" src="../assets/quiz/bitrix.png" alt="bitrix">
                         <img @click="clickBitrix" v-if="!checkBitrix" src="../assets/quiz/bitrix3.png" alt="bitrix">
                         <p>Bitrix24</p>
                     </div>
 
                     <div class="setting_quiz_icons_9">
-                        <span>от {{ Math.round(info.crm * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.crm * info.yearly_discount) }}₽</span>
                         <img @click="closeCrm" v-if="checkCrm" src="../assets/quiz/amo.png" alt="amo">
                         <img @click="clickCrm" v-if="!checkCrm" src="../assets/quiz/amo3.png" alt="amo">
                         <p>amoCRM</p>
@@ -193,7 +193,7 @@
 
                 <div class="setting_quiz_icons setting_quiz_icons_11 setting_quiz_icons_12">
                     <div class="setting_quiz_icons_10">
-                        <span>от {{ Math.round(info.mailing * info.yearly_discount) }}₽</span>
+                        <span>{{ Math.round(info.mailing * info.yearly_discount) }}₽</span>
                         <img @click="closeMailing" v-if="checkMail" src="../assets/quiz/mail.png" alt="mail">
                         <img @click="clickMailing" v-if="!checkMail" src="../assets/quiz/mail3.png" alt="mail">
                         <p>Массовая рассылка</p>
@@ -595,7 +595,7 @@ export default {
                         border-radius: 10px
                         position: absolute
                         z-index: 10
-                        top: 365px
+                        top: 245px
                         display: none
                 
 
@@ -647,44 +647,44 @@ export default {
                     .setting_quiz_icons_1:hover
                         span
                             display: inline
-                            left: 180px
+                            left: 150px
 
                     .setting_quiz_icons_2:hover
                         span
                             display: inline
-                            left: 290px
+                            left: 260px
                     .setting_quiz_icons_3:hover
                         span
                             display: inline
-                            left: 400px
+                            left: 370px
                     .setting_quiz_icons_4:hover
                         span
                             display: inline
-                            left: 510px
+                            left: 480px
                     .setting_quiz_icons_5:hover
                         span
                             display: inline
-                            left: 235px
+                            left: 205px
                     .setting_quiz_icons_6:hover
                         span
                             display: inline
-                            left: 345px
+                            left: 315px
                     .setting_quiz_icons_7:hover
                         span
                             display: inline
-                            left: 455px
+                            left: 425px
                     .setting_quiz_icons_8:hover
                         span
                             display: inline
-                            left: 295px
+                            left: 265px
                     .setting_quiz_icons_9:hover
                         span
                             display: inline
-                            left: 405px
+                            left: 375px
                     .setting_quiz_icons_10:hover
                         span
                             display: inline
-                            left: 345px
+                            left: 315px
                 .setting_quiz_icons_11
                     margin-top: 22px
 

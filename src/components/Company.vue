@@ -506,7 +506,6 @@ export default {
         top: 0px
         padding-top: 17px
         height: 670px
-        z-index: 1
         h1
             font-size: 30px
             width: 100%
@@ -542,7 +541,8 @@ export default {
                     position: relative
                     left: -15px
                     top: 0px
-                    z-index: 99
+                    z-index: 98
+                
                 
                 h1
                     font-size: 20px
@@ -683,7 +683,6 @@ export default {
         top: 0px
         padding-top: 50px
         height: 920px
-        z-index: 1
         .company_padding
             padding-left: 7%
         h1
@@ -721,7 +720,7 @@ export default {
                     position: relative
                     left: -15px
                     top: 110px
-                    z-index: 99
+                    z-index: 98
                 
                 h1
                     font-size: 20px

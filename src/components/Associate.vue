@@ -291,5 +291,136 @@ export default {
                 position: absolute
                 right: 0
                 top: -1070px
+
+
+
+@media screen and (max-width: 370px)   
+     .associate
+        .associate_nav
+            display: block
+            width: 93%
+            padding-left: 7%
+            vertical-align: top
+            position: relative
+            top: 200px
+            h1
+                font-size: 30px
+                width: 95%
+                line-height: 42px
+                font-weight: 700
+                color: #370954
+                padding-bottom: 20px
+
+           
+            
+            img
+                display: inline-block
+                margin-right: 10px
+                vertical-align: top
+                padding-top: 30px
+                margin-left: 0px
+
+
+            h2
+                margin-top: 40px
+                font-size: 20px
+                color: #370954
+                font-weight: 500
+                display: inline-block
+                width: 100%
+                img
+                    position: relative
+                    top: -4px
+                    vertical-align: bottom
+                    display: inline-block
+                  
+            p
+                font-weight: 400
+                font-size: 18px
+                color: #222
+                display: inline-block
+                font-weight: regular
+                width: 90%
+                margin: 0
+                margin-right: 0px
+                margin-top: 27px
+                padding-bottom: 2px
+                transition: 0.3s all ease
+        .associate_image
+            height: 700px
+            display: none
+            width: 52%
+            vertical-align: top
+            position: relative
+            top: -30px
+            img 
+                transition: 0.5s all ease
+                position: absolute
+                z-index: 2
+                opacity: 1
+        .associate_image_phone
+            display: block
+            width: 100%
+            position: relative
+            top: -20px
+            z-index: 2
+            img
+                width: 100%
+        .associate_background_images
+            position: absolute
+            width: 100%
+            height: 0px
+            img
+                position: relative
+                display: none
+            .associate_background_images_1
+                position: absolute
+                display: block
+                top: -720px
+                right: 10vw
+                z-index: 2
+            .associate_background_images_2
+                position: absolute
+                display: block
+                right: 15vw
+                top: -1520px
+                z-index: 2
+            .associate_background_images_3
+                top: -980px
+                left: -200px
+                z-index: 3
+            .associate_background_images_4
+                left: 630px
+                top: -270px
+            .associate_background_images_5
+                display: block
+                top: -15px
+                left: 34vw
+            .associate_background_images_6
+                display: block
+                top: -155px
+                left: 36vw
+                z-index: 1
+            .associate_background_images_7
+                left: 40px
+                top: -200px
+            .associate_background_images_8
+                left: 250px
+                top: -800px
+            .associate_background_images_9
+                left: 00px
+                top: -1010px
+            .associate_background_images_10
+                left: 100px
+                top: -540px
+            .associate_background_images_11
+                display: block
+                left: 82vw
+                top: -1100px
+            .associate_background_images_12
+                display: block
+                position: absolute
+                right: 0
+                top: -1070px
             
 </style>

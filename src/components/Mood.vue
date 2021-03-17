@@ -23,6 +23,15 @@
             <img class="mood_background_images_5" src="../assets/back/yellowbyfull.png" alt="yellowby">
             <img class="mood_background_images_6" src="../assets/back/greysn.png" alt="greysn">
         </div>
+
+        <div class="page_grey_lines_11">
+            <img class="page_grey_line_1" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_2" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_3" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_4" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_5" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_6" src="../assets/grey_line.png" alt="grey_line">
+        </div>
     </div>
 </template>
 
@@ -35,6 +44,25 @@ export default {
 
 <style lang="sass">
 @media screen and (min-width: 456px)
+    .page_grey_lines_11
+        img
+            position: absolute
+            height: 1447px
+            width: 1px
+            top: 0px
+            z-index: 99
+        .page_grey_line_1
+            left: calc((100vw - 1200px) / 2)
+        .page_grey_line_2
+            left: calc((100vw - 720px) / 2)
+        .page_grey_line_3
+            left: calc((100vw - 240px) / 2)
+        .page_grey_line_4
+            left: calc((100vw + 240px) / 2)
+        .page_grey_line_5
+            left: calc((100vw + 720px) / 2)
+        .page_grey_line_6
+            left: calc((100vw + 1200px) / 2)
     .mood
         background-color: white
         width: 100%
@@ -116,10 +144,11 @@ export default {
             vertical-align: top
             position: relative
             top: 115px
+            z-image: 100
             img 
                 transition: 0.5s all ease
                 position: absolute
-                z-index: 2
+                z-index: 100
                 opacity: 1
                 left: -35px
         .mood_image_phone
@@ -151,8 +180,35 @@ export default {
 
 
 
-@media screen and (max-width: 456px)   
-     .mood
+@media screen and (max-width: 456px) 
+    .page_grey_lines_11
+        display: block
+        img
+            position: absolute
+            height: 1800px
+            width: 1px
+            top: 0px
+            z-index: 99
+            display: none
+        .page_grey_line_1
+            margin: 0
+            display: block
+            width: 1px
+            left: 23.5%
+        .page_grey_line_2
+            margin: 0
+            display: block
+            width: 1px
+            left: 76.5%
+            .page_grey_line_3
+                left: calc((100vw - 240px) / 2)
+            .page_grey_line_4
+                left: calc((100vw + 240px) / 2)
+            .page_grey_line_5
+                left: calc((100vw + 720px) / 2)
+            .page_grey_line_6
+                left: calc((100vw + 1200px) / 2)  
+    .mood
         background-color: white
         width: 100%
         position: relative
@@ -243,7 +299,7 @@ export default {
             height: 400px
             position: relative
             top: 130px
-            z-index: 2
+            z-index: 100
             img
                 width: 100%
         .mood_background_images

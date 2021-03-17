@@ -231,7 +231,7 @@ $p_color: #370954
         .platform_image_phone
             display: block
             width: 100%
-            z-index: 2
+            z-index: 100
             position: relative
             padding-top: 46px
             img

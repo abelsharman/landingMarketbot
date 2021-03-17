@@ -1477,6 +1477,7 @@ export default {
             vertical-align: top
             position: relative
             top: -95px
+            z-index: 100
             img 
                 transition: 0.5s all ease
                 position: absolute
@@ -1547,7 +1548,6 @@ export default {
             padding: 0 calc((100vw - 1200px) / 2)
             top: -100px
             height: 900px
-            z-index: 1
             .opportunities_image
                 height: 560px
                 display: inline-block
@@ -1555,6 +1555,7 @@ export default {
                 vertical-align: top
                 position: relative
                 top: 95px
+                z-index: 100
                 img 
                     transition: 0.5s all ease
                     position: absolute
@@ -1610,6 +1611,7 @@ export default {
             vertical-align: top
             position: relative
             top: -95px
+            z-index: 100
             img 
                 transition: 0.5s all ease
                 position: absolute
@@ -1688,8 +1690,7 @@ export default {
                 position: absolute
                 opacity: 0
                 width: 100%
-                
-                z-index: 2
+                z-index: 100
         .examples_image
             display: none
         
@@ -1773,7 +1774,7 @@ export default {
             .opportunities_image, .opportunities_nav
                 display: none
             .opportunities_image_phone
-                min-height: 900px            
+                height: 900px            
                 display: block
                 width: 100%
                 vertical-align: top
@@ -1783,8 +1784,9 @@ export default {
                     width: 100%
                     transition: 0.5s all ease
                     position: absolute
-                    z-index: 2
                     opacity: 0
+                    z-index: 100
+                    
             .opportunities_nav_phone
                 padding-top: 50px
                 padding-left: 7%
@@ -1854,7 +1856,7 @@ export default {
             display: none
         .examples_background_images
             position: relative
-            height: 470px
+            height: 0px
             img
                 position: relative
                 display: none
@@ -1920,7 +1922,7 @@ export default {
             left: 0
             padding: 0
             width: 100%
-            top: -150px
+            top: 180px
             height: max-content
             z-index: 1
             .opportunities_image, .opportunities_nav
@@ -1928,10 +1930,11 @@ export default {
             .opportunities_image_phone
                 display: block
                 width: 100%
-                height: 930px
+                height: 1030px
                 vertical-align: top
                 position: relative
                 top: 0px
+                z-index: 100
                 img 
                     width: 100%
                     transition: 0.5s all ease

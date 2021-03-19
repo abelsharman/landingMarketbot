@@ -23,7 +23,7 @@
             <img src="../assets/img-2.png" alt="img" id="1" ref="i1" width="656" height="545">
             <img src="../assets/img-2-2.png" alt="img" id="2" ref="i2" width="670" height="612">
             <img src="../assets/img-2-3.png" alt="img" id="3" ref="i3" width="663" height="477">
-            <img src="../assets/img-2-4.png" alt="img" id="4" ref="i4">
+            <img src="../assets/img-2-4.png" alt="img" id="4" ref="i4" >
             <img src="../assets/img-2-5.png" alt="img" id="5" ref="i5">
         </div>
 

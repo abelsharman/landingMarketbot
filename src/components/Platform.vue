@@ -10,7 +10,7 @@
 
 
        <div class="platform_image">
-           <img src="../assets/img-1.png" alt="img-1" width="664" height="664">
+           <img src="../assets/img-1.png" alt="img-1"><!--width="664" height="664"-->
        </div>
 
 

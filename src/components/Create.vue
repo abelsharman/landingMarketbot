@@ -196,7 +196,7 @@ export default {
         display: block
         img
             position: absolute
-            height: 1563px
+            height: 100%
             width: 1px
             top: 0px
             z-index: 99
@@ -223,7 +223,7 @@ export default {
         background-color: white
         width: 100%
         position: relative
-        top: 00px
+        top: -20px
         z-index: 1
         .create_nav
             display: block
@@ -294,7 +294,7 @@ export default {
         .create_image_phone
             display: block
             width: 100%
-            height: 800px
+            height: calc(200vw)
             position: relative
             top: 130px
             z-index: 100
@@ -336,7 +336,7 @@ export default {
         display: block
         img
             position: absolute
-            height: 1583px
+            height: 100%
             width: 1px
             top: 0px
             z-index: 99
@@ -363,7 +363,7 @@ export default {
         background-color: white
         width: 100%
         position: relative
-        top: 00px
+        top: 0px
         z-index: 1
         .create_nav
             display: block
@@ -434,7 +434,7 @@ export default {
         .create_image_phone
             display: block
             width: 100%
-            height: 760px
+            height: calc(200vw)
             position: relative
             top: 130px
             z-index: 2

@@ -165,20 +165,26 @@ export default {
 
 @media screen and (max-width: 456px)   
      .associate
+        position: relative
+        z-index: 1000
+        background-color: #f9f9f9
+        top: 0
         .associate_nav
             display: block
             width: 93%
             padding-left: 7%
             vertical-align: top
             position: relative
-            top: -70px
+            top: -150px
+            background-color: #f9f9f9
+            padding-top: 40px
             h1
                 font-size: 30px
                 width: 95%
                 line-height: 42px
                 font-weight: 700
                 color: #370954
-                padding-bottom: 20px
+                padding-bottom: 0px
 
            
             
@@ -216,12 +222,11 @@ export default {
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .associate_image
-            height: 700px
             display: none
             width: 52%
             vertical-align: top
             position: relative
-            top: -30px
+            top: 30px
             img 
                 transition: 0.5s all ease
                 position: absolute
@@ -231,8 +236,10 @@ export default {
             display: block
             width: 100%
             position: relative
-            top: -20px
+            top: -120px
             z-index: 2
+            height: 134vw
+            background-color: #f9f9f9
             img
                 width: 100%
         .associate_background_images
@@ -302,14 +309,17 @@ export default {
             padding-left: 7%
             vertical-align: top
             position: relative
-            top: 200px
+            top: 00px
+            background-color: #f9f9f9
+            padding-top: 30px
+            margin-top: 180px
             h1
                 font-size: 30px
                 width: 95%
                 line-height: 42px
                 font-weight: 700
                 color: #370954
-                padding-bottom: 20px
+                padding-bottom: 0px
 
            
             
@@ -364,7 +374,14 @@ export default {
             position: relative
             top: -20px
             z-index: 2
+            height: 150vw
+            background-color: #f9f9f9
+
+            
+        
             img
+                z-index: 5
+                position: relative
                 width: 100%
         .associate_background_images
             position: absolute
@@ -400,7 +417,7 @@ export default {
                 display: block
                 top: -155px
                 left: 36vw
-                z-index: 1
+                z-index: 2
             .associate_background_images_7
                 left: 40px
                 top: -200px

@@ -172,19 +172,19 @@ $p_color: #370954
                 width: 90%
                 color: $h_color
                 line-height: 54px
-                font-size: 46px
+                font-size: 10.08vw
                 font-weight: 700
                 margin: 0
             h3
                 color: $h_color
-                font-size: 26px
+                font-size: 5.7vw
                 line-height: 38px
                 font-weight: 700
                 margin: 0
                 margin-top: 10px
             h2
                 color: #c34688
-                font-size: 26px
+                font-size: 5.7vw
                 font-weight: 700
                 margin: 0
                 line-height: 38px
@@ -193,7 +193,7 @@ $p_color: #370954
                     padding-bottom: 3px
                     border-bottom: 1px dotted #c34688
             p
-                font-size: 18px
+                font-size: 3.94vw
                 margin: 0
                 margin-top: 30px
                 line-height: 30px
@@ -202,7 +202,7 @@ $p_color: #370954
             button
                 border-radius: 31px
                 margin-top: 45px
-                font-size: 18px
+                font-size: 3.94vw
                 color: white
                 font-weight: 400
                 border: 0px

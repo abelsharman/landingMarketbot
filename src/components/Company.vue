@@ -723,7 +723,7 @@ export default {
                     z-index: 98
                 
                 h1
-                    font-size: 20px
+                    font-size: 4.38vw
                     line-height: 24px
                     color: #370954
                     font-weight: 700
@@ -738,7 +738,7 @@ export default {
                     left: -346px
                     top: 4px
                 p
-                    font-size: 16px
+                    font-size: 3.5vw
                     line-height: 24px
                     color: #222
                     font-weight: 400
@@ -749,13 +749,13 @@ export default {
                     left: 32px
 
                 .company_slider_span
-                    font-size: 14px
-                    line-height: 24px
+                    font-size: 3.2vw
+                    line-height: 5vw
                     color: #999
                     font-weight: 400
                     vertical-align: top
-                    width: 33vw
-                    left: 250px
+                    width: 30vw
+                    left: 235px
                     
            
             .company_slider_1 // Спортмастер
@@ -858,8 +858,8 @@ export default {
                     left: 35px
 
                 .company_slider_span
-                    left: 250px
-                    width: 35vw
+                    left: 230px
+                    width: 30vw
             .company_slider_13 // AliExpress
                 left: 7560px
                 h1
@@ -873,12 +873,14 @@ export default {
                     left: 32px
 
                 .company_slider_span
-                    left: 250px
-                    width: 40vw
+                    left: 230px
+                    width: 30vw
         .company_slider_arrows
             padding-left: 37.5%
             margin-top: 75px
             padding-bottom: 65px
+            z-index: 100
+            position: relative
             img
                 cursor: pointer
                 outline: none

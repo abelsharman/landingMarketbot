@@ -141,7 +141,7 @@ export default {
             display: none
             img
                 position: absolute
-                height: 4050px
+                height: max-content
                 width: 1px
                 top: -40px
                 z-index: 99
@@ -366,7 +366,7 @@ export default {
             display: none
             img
                 position: absolute
-                height: 3700px
+                height: 3720px
                 width: 1px
                 top: -20px
                 z-index: 99

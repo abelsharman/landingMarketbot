@@ -981,6 +981,7 @@ export default {
                         width: 25%
                         img
                            padding-left: 10%
+                           width: 80%
                            cursor: pointer
                     span
                         font-size: 0.6vw
@@ -1284,15 +1285,15 @@ export default {
                     text-align: left
                     width: 100%
                     strong
-                        padding-left: 46vw
+                        padding-left: 44vw
                         font-size: 3.50vw
                         line-height: 26px
                         font-weight: 400
                         color: #999
                     .setting_quiz_part_strong
-                        padding-left: 44vw
+                        padding-left: 41vw
                     .setting_quiz_part_strong_2
-                        padding-left: 38vw
+                        padding-left: 35vw
                     span
                         font-size: 3.50vw
                         text-align: right

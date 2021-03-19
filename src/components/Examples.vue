@@ -1656,7 +1656,7 @@ export default {
             h1
                 z-index: 3
                 position: relative
-                font-size: 30px
+                font-size: 6.57vw
                 width: 100%
                 line-height: 42px
                 font-weight: 700
@@ -1664,7 +1664,7 @@ export default {
                 padding-bottom: 20px
             p
                 font-weight: 400
-                font-size: 20px
+                font-size: 4.3vw
                 color: #c2c2c2
                 display: inline-block
                
@@ -1774,7 +1774,7 @@ export default {
             .opportunities_image, .opportunities_nav
                 display: none
             .opportunities_image_phone
-                height: 900px            
+                height: calc(225vw)       
                 display: block
                 width: 100%
                 vertical-align: top
@@ -1797,7 +1797,7 @@ export default {
                 h1
                     width: 100%
                 p          
-                    font-size: 20px        
+                    font-size: 4.3vw
                     margin-right: 30px
                 
 
@@ -1930,7 +1930,6 @@ export default {
             .opportunities_image_phone
                 display: block
                 width: 100%
-                height: 1030px
                 vertical-align: top
                 position: relative
                 top: 0px

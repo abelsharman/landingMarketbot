@@ -80,7 +80,8 @@
                     <div class="setting_quiz_icons_6">
                         <span>{{  Math.round(info.write_first_cost * info.yearly_discount) }}₽</span>
                         <img @click="closeWrite" v-if="checkWrite" src="../assets/quiz/question.png" alt="question">
-                        <img @click="clickWrite" v-if="!checkWrite" src="../assets/quiz/question3.png" alt="question">
+                        <img @click="clickWrite" v-if="!checkWrite && checkWhatsApp" src="../assets/quiz/question3.png" alt="question">
+                        <img v-if="!checkWrite && !checkWhatsApp" src="../assets/quiz/question3.png" alt="question">
                         <p>Написать первым</p>
                     </div>
 

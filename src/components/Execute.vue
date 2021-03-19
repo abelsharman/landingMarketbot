@@ -137,7 +137,11 @@ export default {
 
 @media screen and (max-width: 456px)   
     .execute
+        position: relative
+        z-index: 110
+        background-color: #f9f9f9
         margin-top: 0px
+        top: -20px
         .execute_nav
             display: block
             width: 93%
@@ -188,16 +192,20 @@ export default {
             img 
                 transition: 0.5s all ease
                 position: absolute
-                z-index: 2
+                z-index: 4
                 opacity: 1
         .execute_image_phone
             display: block
             width: 100%
             position: relative
             top: 100px
-            height: 750px
-            z-index: 2
+            height: 160vw
+            margin-bottom: 50px
+            background-color: #f9f9f9
+            z-index: 1
             img
+                position: relative
+                z-index: 4
                 width: 100%
         .execute_background_images
             position: absolute
@@ -211,27 +219,29 @@ export default {
                 position: absolute
                 top: -70px
                 right: 0
-                z-index: 2
+                z-index: 5
             .execute_background_images_2
                 display: block
                 position: absolute
                 right: 0
                 top: -1050px
+                z-index: 5
             .execute_background_images_3
                 display: block
                 position: absolute
                 top: -1120px
                 left: -30px
-                z-index: 2
+                z-index: 3
             .execute_background_images_4
                 display: block
                 top: 20px
                 left: 15vw
+                z-index: 3
             .execute_background_images_5
                 display: block
-                position: absolute
                 top: -90px
                 left: -30px
+                z-index: 3
             .execute_background_images_6
                 top: 1320px
                 left: 300px
@@ -306,9 +316,13 @@ export default {
             width: 100%
             position: relative
             top: 100px
-            height: 670px
-            z-index: 2
+            height: 160vw
+            margin-bottom: 50px
+            background-color: #f9f9f9
+            z-index: 1
             img
+                position: relative
+                z-index: 4
                 width: 100%
         .execute_background_images
             position: absolute
@@ -354,111 +368,5 @@ export default {
                 left: -430px
                 top: -300px
     
-@media screen and (max-width: 320px)   
-    .execute
-        margin-top: 0px
-        .execute_nav
-            display: block
-            width: 93%
-            padding-left: 7%
-            vertical-align: top
-            position: relative
-            top: 70px
-            h1
-                font-size: 30px
-                width: 95%
-                line-height: 42px
-                font-weight: 700
-                color: #370954
-                margin: 0
 
-           
-        
-
-
-            h2
-                font-size: 20px
-                color: #370954
-                font-weight: 500
-                display: inline-block
-                width: 100%
-                margin: 0
-                margin-top: 10px
-                  
-            p
-                font-weight: 400
-                font-size: 18px
-                color: #222
-                display: inline-block
-                font-weight: regular
-                width: 90%
-                margin: 0
-                margin-right: 0px
-                margin-top: 27px
-                padding-bottom: 2px
-                transition: 0.3s all ease
-        .execute_image
-            height: 700px
-            display: none
-            width: 52%
-            vertical-align: top
-            position: relative
-            top: 30px
-            img 
-                transition: 0.5s all ease
-                position: absolute
-                z-index: 2
-                opacity: 1
-        .execute_image_phone
-            display: block
-            width: 100%
-            position: relative
-            top: 100px
-            height: 600px
-            z-index: 2
-            img
-                width: 100%
-        .execute_background_images
-            position: absolute
-            width: 100%
-            height: 0px
-            img
-                position: relative
-                display: none
-            .execute_background_images_1
-                display: block
-                position: absolute
-                top: -70px
-                right: 0
-                z-index: 2
-            .execute_background_images_2
-                display: block
-                position: absolute
-                right: 0
-                top: -1050px
-            .execute_background_images_3
-                display: block
-                position: absolute
-                top: -1120px
-                left: -30px
-                z-index: 2
-            .execute_background_images_4
-                display: block
-                top: 20px
-                left: 15vw
-            .execute_background_images_5
-                display: block
-                position: absolute
-                top: -90px
-                left: -30px
-            .execute_background_images_6
-                top: 1320px
-                left: 300px
-                z-index: 2
-            .execute_background_images_7
-                left: 275px
-                top: -260px
-            .execute_background_images_8
-                left: -430px
-                top: -300px
 </style>

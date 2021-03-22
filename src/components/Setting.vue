@@ -966,7 +966,7 @@ export default {
                     
 
                 .setting_quiz_icons
-                    width: 100vw
+                    width: 100%
                     display: flex
                     flex-wrap: wrap
                     justify-content: center

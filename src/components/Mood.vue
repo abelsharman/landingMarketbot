@@ -212,7 +212,7 @@ export default {
         background-color: white
         width: 100%
         position: relative
-        height: 830px
+        height: 760px
         z-index: 1
         .mood_nav
             display: block
@@ -222,9 +222,9 @@ export default {
             position: relative
             top: 70px
             h1
-                font-size: 30px
+                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                line-height: 38px
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -242,11 +242,11 @@ export default {
 
             h2
                 margin-top: 0px
-                font-size: 20px
+                font-size: 4.38vw
                 color: #370954
                 font-weight: 500
                 margin: 0
-                margin-bottom: 40px
+                margin-bottom: 30px
                 display: inline-block
                 width: 100%
             strong
@@ -271,7 +271,7 @@ export default {
             button
                 border-radius: 31px
                 margin-top: 0px
-                font-size: 18px
+                font-size: 4vw
                 color: white
                 font-weight: 400
                 border: 0px
@@ -298,10 +298,10 @@ export default {
             width: 100%
             height: 400px
             position: relative
-            top: 130px
+            top: 100px
             z-index: 100
             img
-                width: 100%
+                width: 100vw
         .mood_background_images
             position: absolute
             width: 100%
@@ -337,6 +337,7 @@ export default {
         width: 100%
         position: relative
         top: 00px
+        height: 700px
         z-index: 1
         .mood_nav
             display: block
@@ -346,9 +347,9 @@ export default {
             position: relative
             top: 70px
             h1
-                font-size: 30px
+                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                line-height: 38px
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -359,11 +360,11 @@ export default {
 
             h2
                 margin-top: 0px
-                font-size: 20px
+                font-size: 4.38vw
                 color: #370954
                 font-weight: 500
                 margin: 0
-                margin-bottom: 40px
+                margin-bottom: 30px
                 display: inline-block
                 width: 100%
             strong
@@ -375,7 +376,7 @@ export default {
                   
             p
                 font-weight: 400
-                font-size: 18px
+                font-size: 4vw
                 color: #222
                 display: inline-block
                 font-weight: regular
@@ -388,7 +389,7 @@ export default {
             button
                 border-radius: 31px
                 margin-top: 0px
-                font-size: 18px
+                font-size: 4vw
                 color: white
                 font-weight: 400
                 border: 0px
@@ -413,9 +414,9 @@ export default {
         .mood_image_phone
             display: block
             width: 100%
-            height: 360px
+            height: 340px
             position: relative
-            top: 130px
+            top: 100px
             z-index: 2
          
         .mood_background_images
@@ -461,9 +462,9 @@ export default {
             position: relative
             top: 70px
             h1
-                font-size: 30px
+                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                line-height: 38px
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -474,11 +475,11 @@ export default {
 
             h2
                 margin-top: 0px
-                font-size: 20px
+                font-size: 4.38vw
                 color: #370954
                 font-weight: 500
                 margin: 0
-                margin-bottom: 40px
+                margin-bottom: 20px
                 display: inline-block
                 width: 100%
             strong
@@ -490,7 +491,7 @@ export default {
                   
             p
                 font-weight: 400
-                font-size: 18px
+                font-size: 4vw
                 color: #222
                 display: inline-block
                 font-weight: regular
@@ -503,7 +504,7 @@ export default {
             button
                 border-radius: 31px
                 margin-top: 0px
-                font-size: 18px
+                font-size: 4vw
                 color: white
                 font-weight: 400
                 border: 0px
@@ -530,7 +531,7 @@ export default {
             width: 100%
             height: 320px
             position: relative
-            top: 130px
+            top: 100px
             z-index: 2
          
         .mood_background_images

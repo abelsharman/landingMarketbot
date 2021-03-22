@@ -233,9 +233,9 @@ export default {
             position: relative
             top: 100px
             h1
-                font-size: 30px
+                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                line-height: 38px
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -247,7 +247,7 @@ export default {
                 display: inline-block
                 margin-right: 10px
                 vertical-align: top
-                padding-top: 30px
+                padding-top: 25px
                 margin-left: 0px
 
 
@@ -257,13 +257,14 @@ export default {
                 color: #370954
                 font-weight: 500
                 margin: 0
-                margin-bottom: 40px
+                margin-bottom: 20px
                 display: inline-block
                 width: 100%
             strong
                 display: block
                 margin-left: 25px
                 font-size: 16px
+                width: 80vw
                 font-weight: 400
                 color: #999
                   
@@ -276,7 +277,7 @@ export default {
                 width: 90%
                 margin: 0
                 margin-right: 0px
-                margin-top: 27px
+                margin-top: 20px
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .create_image

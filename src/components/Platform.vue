@@ -10,7 +10,7 @@
 
 
        <div class="platform_image">
-           <img src="../assets/img-1.png" alt="img-1" width="664" height="664">
+           <img src="../assets/img-1.png" alt="img-1" >
        </div>
 
 
@@ -165,20 +165,20 @@ $p_color: #370954
         width: 100%
         .platform_text
             padding-left: 7%
-            padding-top: 70px
+            padding-top: 50px
             width: 90%
             display: block
             h1
                 width: 90%
                 color: $h_color
-                line-height: 54px
+                line-height: 47px
                 font-size: 10.08vw
                 font-weight: 700
                 margin: 0
             h3
                 color: $h_color
                 font-size: 5.7vw
-                line-height: 38px
+                line-height: 35px
                 font-weight: 700
                 margin: 0
                 margin-top: 10px
@@ -187,7 +187,7 @@ $p_color: #370954
                 font-size: 5.7vw
                 font-weight: 700
                 margin: 0
-                line-height: 38px
+                line-height: 35px
                 width: max-content 
                 span
                     padding-bottom: 3px
@@ -196,12 +196,12 @@ $p_color: #370954
                 font-size: 3.94vw
                 margin: 0
                 margin-top: 30px
-                line-height: 30px
+                line-height: 26px
                 color: #222222
                 font-size: 400
             button
                 border-radius: 31px
-                margin-top: 45px
+                margin-top: 25px
                 font-size: 3.94vw
                 color: white
                 font-weight: 400
@@ -235,7 +235,8 @@ $p_color: #370954
             position: relative
             padding-top: 46px
             img
-                width: 100%
+                padding-left: 7%
+                width: 86%
 
                 
 
@@ -297,7 +298,7 @@ $p_color: #370954
         width: 100%
         .platform_text
             padding-left: 7%
-            padding-top: 70px
+            padding-top: 30px
             width: 90%
             display: block
             h1
@@ -333,7 +334,7 @@ $p_color: #370954
                 font-size: 400
             button
                 border-radius: 31px
-                margin-top: 45px
+                margin-top: 15px
                 font-size: 16px
                 color: white
                 font-weight: 400

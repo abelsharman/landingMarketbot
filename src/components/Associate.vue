@@ -181,7 +181,7 @@ export default {
             h1
                 font-size: 30px
                 width: 95%
-                line-height: 42px
+                line-height: 38px
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -192,7 +192,7 @@ export default {
                 display: inline-block
                 margin-right: 10px
                 vertical-align: top
-                padding-top: 30px
+                padding-top: 22px
                 margin-left: 0px
 
 
@@ -218,7 +218,7 @@ export default {
                 width: 90%
                 margin: 0
                 margin-right: 0px
-                margin-top: 27px
+                margin-top: 18px
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .associate_image
@@ -253,13 +253,14 @@ export default {
                 position: absolute
                 display: block
                 top: -720px
-                right: 10vw
+                right: 0vw
+                width: 30vw
                 z-index: 2
             .associate_background_images_2
                 position: absolute
                 display: block
                 right: 15vw
-                top: -1520px
+                top: -1480px
                 z-index: 2
             .associate_background_images_3
                 top: -980px
@@ -297,7 +298,8 @@ export default {
                 display: block
                 position: absolute
                 right: 0
-                top: -1070px
+                top: -970px
+                width: 10vw
 
 
 

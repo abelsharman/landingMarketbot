@@ -682,24 +682,22 @@ export default {
         position: relative
         top: 0px
         padding-top: 50px
-        height: 920px
+        height: 860px
         .company_padding
             padding-left: 7%
         h1
-            font-size: 30px
-            width: 100%
-            line-height: 42px
+            font-size: 7vw
+            line-height: 38px
             font-weight: 700
             color: #370954
             padding-bottom: 0px
-            margin-bottom: 15px
+            margin-bottom: 5px
             display: inline
         h2
-            font-size: 20px
+            font-size: 4.58vw
             color: #370954
             font-weight: 500
             display: inline
-            width: 100%
             margin: 0
             margin-bottom: 30px
         .company_slider
@@ -707,7 +705,7 @@ export default {
             width: 100%
             position: relative
             left: 0px
-            top: 70px
+            top: 20px
             overflow-x: hidden
             overflow-y: hidden
 
@@ -877,7 +875,7 @@ export default {
                     width: 30vw
         .company_slider_arrows
             padding-left: 37.5%
-            margin-top: 75px
+            margin-top: 35px
             padding-bottom: 65px
             z-index: 100
             position: relative
@@ -906,7 +904,7 @@ export default {
             .company_background_images_3
                 display: block
                 position: relative
-                top: 0px
+                top: -40px
                 left: 10vw
             .company_background_images_4
                 display: block

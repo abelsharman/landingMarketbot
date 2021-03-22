@@ -223,7 +223,7 @@
                 <h2>Отлично! Активируйте личный кабинет и начните внедрять мессенджеры в ваш бизнес.</h2>
        
 
-                <div class="setting_quiz_back" v-if="i > 1" @click="i--" style="margin-top:266px">
+                <div class="setting_quiz_back setting_quiz_back_2" v-if="i > 1" @click="i--">
                     <img src="../assets/back.png" alt="back"><span>Предыдущий шаг</span>
                 </div>
             </div>
@@ -567,7 +567,6 @@ export default {
                     
 
                 .setting_quiz_icons
-
                     width: 440px
                     display: flex
                     flex-wrap: wrap
@@ -736,6 +735,8 @@ export default {
                     margin-top: 82px
                 .setting_quiz_back_1
                     margin-top: 104px
+                .setting_quiz_back_2
+                    margin-top: 266px
 
 
                         
@@ -864,7 +865,7 @@ export default {
     .setting
         position: relative
         top: 00px
-        height: 1250px
+        height: 1050px
         width: 100vw
         .setting_header
             width: 90%
@@ -902,7 +903,7 @@ export default {
                 border-bottom-left-radius: 10px
                 width: calc(100vw - 60px)
                 padding: 0 30px
-                height: 520px
+                height: 420px
                 margin: 0
                 h1
                     font-size: 6.57vw
@@ -935,10 +936,10 @@ export default {
                     color: #370954
                     text-align: left
                     width: 100%
-                    margin: 20px 0 0 0 
+                    margin: 10px 0 0 0 
                 h3
                     margin: 0
-                    margin-top: 14px
+                    margin-top: 10px
                     font-size: 3.508vw
                     line-height:16px
                     font-weight: 400
@@ -965,11 +966,11 @@ export default {
                     
 
                 .setting_quiz_icons
-                    width: 100%
+                    width: 100vw
                     display: flex
                     flex-wrap: wrap
                     justify-content: center
-                    margin-top: 50px
+                    margin-top: 30px
                     margin-left: 0px
                     p
                         font-size: 2.85vw
@@ -1050,7 +1051,7 @@ export default {
                 .setting_quiz_back
                     cursor: pointer
                     float: left 
-                    margin-top: 80px
+                    margin-top: 40px
                     outline: none
                     user-select: none
                     span
@@ -1065,7 +1066,7 @@ export default {
                 .setting_quiz_after
                     float: right
                     user-select: none
-                    margin-top: 58px
+                    margin-top: 28px
                     outline: none
                     button
                         width: 37vw
@@ -1091,9 +1092,11 @@ export default {
                         font-weight: 400
                         //margin-bottom: 60px
                 .setting_quiz_after_1
-                    margin-top: 82px
+                    margin-top: 28px
                 .setting_quiz_back_1
-                    margin-top: 104px
+                    margin-top: 44px
+                .setting_quiz_back_2
+                    margin-top: 146px
                 
 
 
@@ -1133,7 +1136,7 @@ export default {
                         span
                             color: #d6496f
                             text-decoration: none
-                            font-size: 46px
+                            font-size: 10.0vw
                             font-weight: 700
 
                 img
@@ -1143,7 +1146,7 @@ export default {
                     margin-top: 0px
                     width: calc(100vw - 40px)
                     margin-left: 0px
-                    padding: 26px 0px 10px 40px
+                    padding: 16px 0px 0px 40px
                     background-color: white
                     border-radius: 5px
                     h2
@@ -1156,7 +1159,7 @@ export default {
                             color: #c34688
                     p
                         font-size: 3.947vw
-                        line-height: 24px
+                        line-height: 22px
                         font-weight: 400
                         color: #222
                         width: 90%
@@ -1167,7 +1170,7 @@ export default {
                     border-radius: 31px
                     border: 0px
                     background-color: #dbe0e4
-                    margin-top: 24px
+                    margin-top: 4px
                     margin-bottom: 20px
                     font-size: 4.38vw
                     font-weight: 400
@@ -1181,7 +1184,7 @@ export default {
                     font-weight: 400
                     color: #999
                     margin: 0
-                    margin-bottom: 50px
+                    margin-bottom: 30px
                     
                     width: 100vw
                     text-align: center
@@ -1239,7 +1242,7 @@ export default {
     .setting
         position: relative
         top: 00px
-        height: 1250px
+        height: 1040px
         width: 100vw
         .setting_header
             width: 90%
@@ -1263,6 +1266,8 @@ export default {
 
 
         .setting_quiz
+            position: relative
+            z-index: 3
             width: 100vw
             box-shadow: 0px 0px 10px 3px rgb(240,240,240)
             border-radius: 10px
@@ -1275,7 +1280,7 @@ export default {
                 border-bottom-left-radius: 10px
                 width: calc(100vw - 60px)
                 padding: 0 30px
-                height: 520px
+                height: 420px
                 margin: 0
                 h1
                     font-size: 6.57vw
@@ -1286,15 +1291,15 @@ export default {
                     text-align: left
                     width: 100%
                     strong
-                        padding-left: 44vw
+                        padding-left: 46vw
                         font-size: 3.50vw
                         line-height: 26px
                         font-weight: 400
                         color: #999
                     .setting_quiz_part_strong
-                        padding-left: 41vw
+                        padding-left: 44vw
                     .setting_quiz_part_strong_2
-                        padding-left: 35vw
+                        padding-left: 38vw
                     span
                         font-size: 3.50vw
                         text-align: right
@@ -1308,10 +1313,10 @@ export default {
                     color: #370954
                     text-align: left
                     width: 100%
-                    margin: 20px 0 0 0 
+                    margin: 10px 0 0 0 
                 h3
                     margin: 0
-                    margin-top: 14px
+                    margin-top: 10px
                     font-size: 3.508vw
                     line-height:16px
                     font-weight: 400
@@ -1342,7 +1347,7 @@ export default {
                     display: flex
                     flex-wrap: wrap
                     justify-content: center
-                    margin-top: 50px
+                    margin-top: 30px
                     margin-left: 0px
                     p
                         font-size: 2.85vw
@@ -1355,6 +1360,7 @@ export default {
                         width: 25%
                         img
                            padding-left: 10%
+                           width: 80%
                            cursor: pointer
                     span
                         font-size: 0.6vw
@@ -1400,10 +1406,10 @@ export default {
                         user-select: none
                     .setting_quiz_plus
                         position: relative
-                        //top: 13px
-                        //left: 12px
-                        left: 61px 
-                        top: -34px 
+                        top: 13px
+                        left: -12px
+                        //left: 61px !important
+                        //top: -34px !important
                         font-weight: 200
                         border: 1px solid white
                         color: white
@@ -1422,8 +1428,8 @@ export default {
                 .setting_quiz_back
                     cursor: pointer
                     float: left 
-                    outline: none 
-                    margin-top: 80px
+                    margin-top: 40px
+                    outline: none
                     user-select: none
                     span
                         font-style: italic
@@ -1432,12 +1438,12 @@ export default {
                         color: #bbb
                         padding-left: 21px
                         outline: none
-                        user-select: none
+                        user-select: none 
 
                 .setting_quiz_after
                     float: right
                     user-select: none
-                    margin-top: 58px
+                    margin-top: 28px
                     outline: none
                     button
                         width: 37vw
@@ -1463,9 +1469,11 @@ export default {
                         font-weight: 400
                         //margin-bottom: 60px
                 .setting_quiz_after_1
-                    margin-top: 82px
+                    margin-top: 28px
                 .setting_quiz_back_1
-                    margin-top: 104px
+                    margin-top: 44px
+                .setting_quiz_back_2
+                    margin-top: 146px
                 
 
 
@@ -1505,7 +1513,7 @@ export default {
                         span
                             color: #d6496f
                             text-decoration: none
-                            font-size: 46px
+                            font-size: 10.0vw
                             font-weight: 700
 
                 img
@@ -1515,7 +1523,7 @@ export default {
                     margin-top: 0px
                     width: calc(100vw - 40px)
                     margin-left: 0px
-                    padding: 26px 0px 10px 40px
+                    padding: 16px 0px 0px 40px
                     background-color: white
                     border-radius: 5px
                     h2
@@ -1528,7 +1536,7 @@ export default {
                             color: #c34688
                     p
                         font-size: 3.947vw
-                        line-height: 24px
+                        line-height: 22px
                         font-weight: 400
                         color: #222
                         width: 90%
@@ -1539,7 +1547,7 @@ export default {
                     border-radius: 31px
                     border: 0px
                     background-color: #dbe0e4
-                    margin-top: 24px
+                    margin-top: 4px
                     margin-bottom: 20px
                     font-size: 4.38vw
                     font-weight: 400
@@ -1553,12 +1561,58 @@ export default {
                     font-weight: 400
                     color: #999
                     margin: 0
-                    margin-bottom: 50px
+                    margin-bottom: 30px
                     
                     width: 100vw
                     text-align: center
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
+        .setting_background_images
+            position: absolute
+            width: 100vw
+            height: 0px
+            img
+                position: relative
+                display: none
+            .setting_background_images_1
+                position: absolute
+                top: -10px
+                right: 0
+                width: 25vw
+                z-index: 3
+                display: inline
+            .setting_background_images_2
+                position: absolute
+                display: inline
+                left: -20px
+                top: 55px
+                z-index: 3
+
+            .setting_background_images_3
+                position: absolute
+                display: inline
+                top: -1130px
+                right: 5vw
+            .setting_background_images_4
+                position: absolute
+                display: inline
+                
+                top: 10px
+                left: 10vw
+                z-index: 3
+            .setting_background_images_5
+                top: -330px
+                left: -400px
+            .setting_background_images_6
+                top: -195px
+                left: 330px
+            .setting_background_images_7
+                top: -700px
+                left: -950px   
+            .setting_background_images_8
+                top: -790px
+                left: 260px
+
 
 </style>

@@ -116,7 +116,7 @@ export default {
         position: relative
         left: 0
         padding-top: 5vh
-        top: 10vh
+        top: 6vh
         height: auto
         z-index: 1
         .footer_logo

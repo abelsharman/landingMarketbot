@@ -150,9 +150,9 @@ export default {
             position: relative
             top: 70px
             h1
-                font-size: 30px
+                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                line-height: 38px
                 font-weight: 700
                 color: #370954
                 margin: 0
@@ -162,7 +162,7 @@ export default {
 
 
             h2
-                font-size: 20px
+                font-size: 4.38vw
                 color: #370954
                 font-weight: 500
                 display: inline-block
@@ -172,14 +172,14 @@ export default {
                   
             p
                 font-weight: 400
-                font-size: 18px
+                font-size: 4vw
                 color: #222
                 display: inline-block
                 font-weight: regular
                 width: 90%
                 margin: 0
                 margin-right: 0px
-                margin-top: 27px
+                margin-top: 17px
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .execute_image
@@ -198,7 +198,7 @@ export default {
             display: block
             width: 100%
             position: relative
-            top: 100px
+            top: 80px
             height: 160vw
             margin-bottom: 50px
             background-color: #f9f9f9
@@ -267,9 +267,9 @@ export default {
             position: relative
             top: 70px
             h1
-                font-size: 30px
+                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                line-height: 38px
                 font-weight: 700
                 color: #370954
                 margin: 0
@@ -279,7 +279,7 @@ export default {
 
 
             h2
-                font-size: 20px
+                font-size: 4.38vw
                 color: #370954
                 font-weight: 500
                 display: inline-block
@@ -289,7 +289,7 @@ export default {
                   
             p
                 font-weight: 400
-                font-size: 18px
+                font-size: 4vw
                 color: #222
                 display: inline-block
                 font-weight: regular
@@ -315,7 +315,7 @@ export default {
             display: block
             width: 100%
             position: relative
-            top: 100px
+            top: 90px
             height: 160vw
             margin-bottom: 50px
             background-color: #f9f9f9

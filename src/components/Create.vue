@@ -117,6 +117,7 @@ export default {
                 vertical-align: top
                 padding-top: 30px
                 margin-left: 30px
+                user-select: none
 
 
             h2
@@ -155,6 +156,7 @@ export default {
             position: relative
             top: 125px
             z-index: 100
+            user-select: none
             img 
                 transition: 0.5s all ease
                 position: absolute
@@ -167,6 +169,7 @@ export default {
         .create_background_images
             position: absolute
             height: 0px
+            user-select: none
             img
                 position: relative
             .create_background_images_1

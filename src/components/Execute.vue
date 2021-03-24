@@ -88,6 +88,7 @@ export default {
             display: inline-block
             width: 52%
             vertical-align: top
+            user-select: none
             position: relative
             top: -30px
             margin-bottom: 50px
@@ -99,6 +100,7 @@ export default {
         .execute_image_phone
             display: none
         .execute_background_images
+            user-select: none
             position: absolute
             height: 0px
             img

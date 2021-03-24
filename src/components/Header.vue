@@ -93,6 +93,7 @@ export default {
                 font-family: 'Cera Pro'
                 display: inline
             img
+                user-select: none
                 margin-top: 15px
             .header_nav 
                 position: relative
@@ -104,6 +105,7 @@ export default {
                     color: $h_color
                     text-decoration: none
             .header_lang
+                user-select: none
                 position: relative
                 top: -4px
                 margin-left: 14px

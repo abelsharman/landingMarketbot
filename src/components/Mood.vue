@@ -124,6 +124,7 @@ export default {
                 font-weight: 400
                 color: #999
             button
+                user-select: none
                 border-radius: 31px
                 margin-top: 50px
                 font-size: 18px
@@ -145,6 +146,7 @@ export default {
             position: relative
             top: 115px
             z-image: 100
+            user-select: none
             img 
                 transition: 0.5s all ease
                 position: absolute
@@ -156,6 +158,7 @@ export default {
         .mood_background_images
             position: absolute
             height: 0px
+            user-select: none
             img
                 position: relative
             .mood_background_images_1

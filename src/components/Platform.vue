@@ -88,6 +88,7 @@ $p_color: #370954
                 color: #222222
                 font-size: 400
             button
+                user-select: none
                 border-radius: 31px
                 margin-top: 50px
                 font-size: 18px
@@ -114,10 +115,12 @@ $p_color: #370954
             display: inline-block
             z-index: 100
             position: relative
+            user-select: none
             padding-top: 70px
         .platform_image_phone
             display: none
         .platform_background_images
+            user-select: none
             img
                 position: relative
             .platform_background_images_1

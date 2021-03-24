@@ -66,9 +66,11 @@ export default {
         height: 80px
         z-index: 1
         .footer_logo
+            user-select: none
             width: 480px
             display: inline-block
         .footer_logos
+            user-select: none
             display: inline-block
             width: 240px
             .footer_logos_flex

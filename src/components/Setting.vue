@@ -585,8 +585,10 @@ export default {
                         width: 25%
                         img
                            padding-left: 18%
+                           user-select: none
                            cursor: pointer
                     span
+                        user-select: none
                         font-size: 0.6vw
                         font-weight: 600
                         color: white
@@ -614,6 +616,7 @@ export default {
                         margin: 10px 0 16px 8px
                         display: inline-block
                         strong
+                            user-select: none
                             position: relative
                             top: 14px
                     .setting_quiz_minus
@@ -781,6 +784,7 @@ export default {
 
                 img
                     padding-left: 160px
+                    user-select: none
                 .setting_quiz_result_info
                     margin-top: 0px
                     width: 380px
@@ -802,6 +806,7 @@ export default {
                         font-weight: 400
                         color: #222
                 button
+                    user-select: none
                     width: 360px
                     margin-left: 80px
                     color: white
@@ -828,6 +833,7 @@ export default {
                     background-color: #c34688
                     cursor: pointer
         .setting_background_images
+            user-select: none
             position: absolute
             height: 0px
             img

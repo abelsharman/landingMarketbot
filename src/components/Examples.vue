@@ -1471,6 +1471,7 @@ export default {
         .examples_nav_phone
             display: none
         .examples_image
+            user-select: none
             height: 560px
             display: inline-block
             width: 52%
@@ -1486,6 +1487,7 @@ export default {
         .examples_image_phone
             display: none
         .examples_background_images
+            user-select: none
             img
                 position: relative
             .examples_background_images_1
@@ -1549,6 +1551,7 @@ export default {
             top: -100px
             height: 900px
             .opportunities_image
+                user-select: none
                 height: 560px
                 display: inline-block
                 width: 48.5%

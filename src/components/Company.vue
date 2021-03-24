@@ -559,6 +559,7 @@ export default {
                     position: relative
                     left: -108px
                     top: 54px
+                    user-select: none
                 p
                     font-size: 16px
                     line-height: 24px
@@ -643,6 +644,7 @@ export default {
         .company_slider_arrows
             padding-left: 45%
             margin-top: 25px
+            user-select: none
             img
                 cursor: pointer
                 //width: 13px
@@ -650,6 +652,7 @@ export default {
             .company_slider_arrows_2
                 margin-left: 10%
         .company_background_images
+            user-select: none
             position: absolute
             height: 0px
             img

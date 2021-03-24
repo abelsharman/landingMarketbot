@@ -69,6 +69,7 @@ export default {
            
             
             img
+                user-select: none
                 display: inline-block
                 margin-right: 17px
                 vertical-align: top
@@ -86,6 +87,7 @@ export default {
                     position: relative
                     top: -4px
                     vertical-align: bottom
+                    user-select: none
                     display: inline-block
                   
             p
@@ -101,6 +103,7 @@ export default {
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .associate_image
+            user-select: none
             height: 700px
             display: inline-block
             width: 51%
@@ -116,6 +119,7 @@ export default {
         .associate_image_phone
             display: none
         .associate_background_images
+            user-select: none
             position: absolute
             height: 0px
             img

@@ -189,11 +189,14 @@ export default {
                     width: 90%
                     padding: 0 5%
                     margin: 0
+                img 
+                    user-select: none
         .team_members_phone
             display: none
         .team_background_images
             position: relative
             height: 0px
+            user-select: none
             img
                 position: relative
             .team_background_images_1

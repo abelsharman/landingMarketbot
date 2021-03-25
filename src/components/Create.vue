@@ -31,7 +31,7 @@
 
 
         <div class="create_image_phone">
-            <img src="../assets/img-5 mobile.png" alt="img">
+            <img src="../assets/img-5 mobile.webp" alt="img">
         </div>
 
         <div class="create_background_images">

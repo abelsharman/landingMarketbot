@@ -14,12 +14,12 @@
         </div>
 
         <div class="associate_image">
-            <img src="../assets/img-4.png" alt="img">
+            <img src="../assets/img-4.webp" alt="img">
         </div>
 
 
         <div class="associate_image_phone">
-            <img src="../assets/img-4 mobile.png" alt="img">
+            <img src="../assets/img-4 mobile.webp" alt="img">
         </div>
 
 

@@ -1,7 +1,7 @@
 <template>
     <div class="mood">
         <div class="mood_image">
-            <img src="../assets/img-7.png" alt="img">
+            <img src="../assets/img-7.webp" alt="img">
         </div>
 
         <div class="mood_nav">
@@ -12,7 +12,7 @@
 
 
         <div class="mood_image_phone">
-            <img src="../assets/img-7 mobile.png" alt="img">
+            <img src="../assets/img-7 mobile.webp" alt="img">
         </div>
 
         <div class="mood_background_images">

@@ -1,7 +1,7 @@
 <template>
     <div class="create">
         <div class="create_image">
-            <img src="../assets/img-5.png" alt="img">
+            <img src="../assets/img-5.webp" alt="img">
         </div>
 
         <div class="create_nav">

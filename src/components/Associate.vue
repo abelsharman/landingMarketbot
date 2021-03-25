@@ -10,7 +10,7 @@
             <img src="../assets/ulli.png" alt="ulli"><p>Поддержка любого количества операторов и возможность общаться с клиентами с одного номера телефона или аккаунта</p>
 
 
-            <h2>Возможна интеграция с: <img src="../assets/crm-png.png" alt=""><img src="" alt=""></h2>
+            <h2>Возможна интеграция с: <img src="../assets/crm-png.png" loading="lazy" alt=""><img src="" alt=""></h2>
         </div>
 
         <div class="associate_image">

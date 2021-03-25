@@ -29,7 +29,7 @@
             </div>
 
             <div class="company_slider_item company_slider_4" id="4" ref="i4">
-                <img class="company_slider_big_img"  src="../assets/client-4.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-4.png" alt="client" loading="lazy">
                 <h1>Университет Синергия</h1><img src="../assets/check.png" alt="check">
                 <p>Негосударственное высшее учебное заведение.</p>
                 <p class="company_slider_span">Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.</p>
@@ -37,63 +37,63 @@
 
 
             <div class="company_slider_item company_slider_5" id="5" ref="i5">
-                <img class="company_slider_big_img"  src="../assets/client-5.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-5.png" alt="client" loading="lazy">
                 <h1>amoCRM</h1><img src="../assets/check.png" alt="check">
                 <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_6" id="6" ref="i6">
-                <img class="company_slider_big_img"  src="../assets/client-6.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-6.png" alt="client" loading="lazy">
                 <h1>Yota</h1><img src="../assets/check.png" alt="check">
                 <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_7" id="7" ref="i7">
-                <img class="company_slider_big_img"  src="../assets/client-7.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-7.png" alt="client" loading="lazy">
                 <h1>БКС Банк</h1><img src="../assets/check.png" alt="check">
                 <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_8" id="8" ref="i8">
-                <img class="company_slider_big_img"  src="../assets/client-8.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-8.png" alt="client" loading="lazy">
                 <h1>Деловые Линии</h1><img src="../assets/check.png" alt="check">
                 <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_9" id="9" ref="i9">
-                <img class="company_slider_big_img"  src="../assets/client-9.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-9.png" alt="client" loading="lazy">
                 <h1>TalkBank</h1><img src="../assets/check.png" alt="check">
                 <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
                 <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
             </div>
 
             <div class="company_slider_item company_slider_10" id="10" ref="i10">
-                <img class="company_slider_big_img"  src="../assets/client-10.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-10.png" alt="client" loading="lazy">
                 <h1>М.Видео</h1><img src="../assets/check.png" alt="check">
                 <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_11" id="11" ref="i11">
-                <img class="company_slider_big_img"  src="../assets/client-11.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-11.png" alt="client" loading="lazy">
                 <h1>Эльдорадо</h1><img src="../assets/check.png" alt="check">
                 <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_12" id="12" ref="i12">
-                <img class="company_slider_big_img"  src="../assets/client-12.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-12.png" alt="client" loading="lazy">
                 <h1>Nestle</h1><img src="../assets/check.png" alt="check">
                 <p>Один из крупнейших в мире производитель продуктов питания.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_13" id="13" ref="i13">
-                <img class="company_slider_big_img"  src="../assets/client-13.png" alt="client">
+                <img class="company_slider_big_img"  src="../assets/client-13.png" alt="client" loading="lazy">
                 <h1>AliExpress</h1><img src="../assets/check.png" alt="check">
                 <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>

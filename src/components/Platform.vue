@@ -10,12 +10,12 @@
 
 
        <div class="platform_image">
-           <img src="../assets/img-1.png" alt="img-1" >
+           <img src="../assets/img-1.png" loading="lazy" alt="img-1" >
        </div>
 
 
        <div class="platform_image_phone">
-           <img src="../assets/img-1 mobile.png" alt="img-1">
+           <img src="../assets/img-1 mobile.png" loading="lazy" alt="img-1">
        </div>
 
        <div class="platform_background_images">

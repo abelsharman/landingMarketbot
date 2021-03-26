@@ -238,7 +238,7 @@ export default {
             h1
                 font-size: 7vw
                 width: 95%
-                line-height: 38px
+                line-height: 34px
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -250,37 +250,37 @@ export default {
                 display: inline-block
                 margin-right: 10px
                 vertical-align: top
-                padding-top: 25px
+                padding-top: 18px
                 margin-left: 0px
 
 
             h2
                 margin-top: 0px
-                font-size: 20px
+                font-size: 4.38vw
                 color: #370954
                 font-weight: 500
                 margin: 0
-                margin-bottom: 20px
+                margin-bottom: 10px
                 display: inline-block
                 width: 100%
             strong
                 display: block
                 margin-left: 25px
-                font-size: 16px
+                font-size: 3.5vw
                 width: 80vw
                 font-weight: 400
                 color: #999
                   
             p
                 font-weight: 400
-                font-size: 18px
+                font-size: 3.94vw
                 color: #222
                 display: inline-block
                 font-weight: regular
                 width: 90%
                 margin: 0
                 margin-right: 0px
-                margin-top: 20px
+                margin-top: 15px
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .create_image
@@ -298,7 +298,7 @@ export default {
         .create_image_phone
             display: block
             width: 100%
-            height: calc(200vw)
+            height: calc(155vw)
             position: relative
             top: 130px
             z-index: 100
@@ -377,9 +377,9 @@ export default {
             position: relative
             top: 100px
             h1
-                font-size: 30px
+                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                line-height: 34px
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -391,36 +391,37 @@ export default {
                 display: inline-block
                 margin-right: 10px
                 vertical-align: top
-                padding-top: 30px
+                padding-top: 18px
                 margin-left: 0px
 
 
             h2
                 margin-top: 0px
-                font-size: 20px
+                font-size: 4.38vw
                 color: #370954
                 font-weight: 500
                 margin: 0
-                margin-bottom: 40px
+                margin-bottom: 10px
                 display: inline-block
                 width: 100%
             strong
                 display: block
                 margin-left: 25px
-                font-size: 16px
+                font-size: 3.5vw
+                width: 80vw
                 font-weight: 400
                 color: #999
                   
             p
                 font-weight: 400
-                font-size: 18px
+                font-size: 3.94vw
                 color: #222
                 display: inline-block
                 font-weight: regular
                 width: 90%
                 margin: 0
                 margin-right: 0px
-                margin-top: 27px
+                margin-top: 15px
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .create_image
@@ -438,7 +439,7 @@ export default {
         .create_image_phone
             display: block
             width: 100%
-            height: calc(200vw)
+            height: calc(170vw)
             position: relative
             top: 130px
             z-index: 2

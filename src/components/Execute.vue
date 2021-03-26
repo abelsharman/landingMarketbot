@@ -226,13 +226,15 @@ export default {
                 display: block
                 position: absolute
                 right: 0
-                top: -1050px
+                width: 25vw
+                top: -930px
                 z-index: 5
             .execute_background_images_3
                 display: block
                 position: absolute
-                top: -1120px
+                top: -1000px
                 left: -30px
+                width: 35vw
                 z-index: 3
             .execute_background_images_4
                 display: block
@@ -343,11 +345,11 @@ export default {
                 display: block
                 position: absolute
                 right: 0
-                top: -1050px
+                top: -860px
             .execute_background_images_3
                 display: block
                 position: absolute
-                top: -1120px
+                top: -950px
                 left: -30px
                 z-index: 2
             .execute_background_images_4

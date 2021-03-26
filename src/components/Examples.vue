@@ -49,6 +49,7 @@
 
 
         <div class="examples opportunities">
+        <h1 class="opportunities_heading">Какие возможности у мессенджеров при общении с клиентами</h1>
         <div class="examples_image opportunities_image">
             <img src="../assets/img-3.webp" alt="img" id="12">
             <img src="../assets/img-3-2.webp" alt="img" id="13">
@@ -125,6 +126,105 @@
             <img src="../assets/img-3-14.webp" alt="img" id="40">
             <img src="../assets/img-3-15.webp" alt="img" id="41">
         </div>
+
+        <div class="opportunities_slider">
+            <div class="company_slider_item company_slider_1" id="1" ref="i1">
+                <img class="company_slider_big_img" src="../assets/img-3 mobile.webp" alt="client">
+                <div class="company_slider_text">
+                    <h1>Отправка файлов и каталогов</h1>
+                    <p>Отправляйте своим клиентам любые файлы. Часто клиенты просят отправить счет или каталог в мессенджер. И это действительно удобно.</p>
+                </div>
+            </div>
+
+            <div class="company_slider_item company_slider_2" id="2" ref="i2">
+                <img class="company_slider_big_img"  src="../assets/img-3-2 mobile.webp" alt="client">
+                <h1>Регистрация на мероприятия</h1>
+                <p>Один из самых активных и привлекательных участников российского рынка экспресс-доставки.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_3" id="3" ref="i3">
+                <img class="company_slider_big_img"  src="../assets/img-3-3 mobile.webp" alt="client">
+                <h1>Расчет параметров</h1>
+                <p>Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_4" id="4" ref="i4">
+                <img class="company_slider_big_img"  src="../assets/img-3-4 mobile.webp" alt="client" loading="lazy">
+                <h1>Активация промокодов</h1>
+                <p>Негосударственное высшее учебное заведение.</p>
+            </div>
+
+
+            <div class="company_slider_item company_slider_5" id="5" ref="i5">
+                <img class="company_slider_big_img"  src="../assets/img-3-5.webp" alt="client" loading="lazy">
+                <h1>Генерация паролей</h1>
+                <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_6" id="6" ref="i6">
+                <img class="company_slider_big_img"  src="../assets/img-3-6 mobile.webp" alt="client" loading="lazy">
+                <h1>Подтверждение бронирования</h1>
+                <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_7" id="7" ref="i7">
+                <img class="company_slider_big_img"  src="../assets/img-3-7 mobile.webp" alt="client" loading="lazy">
+                <h1>Сбор отзывов и обратной связи</h1>
+                <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_8" id="8" ref="i8">
+                <img class="company_slider_big_img"  src="../assets/img-3-8 mobile.webp" alt="client" loading="lazy">
+                <h1>Проведение опросов</h1>
+                <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_9" id="9" ref="i9">
+                <img class="company_slider_big_img"  src="../assets/img-3-9 mobile.webp" alt="client" loading="lazy">
+                <h1>Проведение обучения</h1>
+                <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_10" id="10" ref="i10">
+                <img class="company_slider_big_img"  src="../assets/img-3-10 mobile.webp" alt="client" loading="lazy">
+                <h1>Прием заказов</h1>
+                <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_11" id="11" ref="i11">
+                <img class="company_slider_big_img"  src="../assets/img-3-11.webp" alt="client" loading="lazy">
+                <h1>Прием платежей</h1>
+                <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_12" id="12" ref="i12">
+                <img class="company_slider_big_img"  src="../assets/img-3-12.webp" alt="client" loading="lazy">
+                <h1>Информирование и отправка уведомлений</h1>
+                <p>Один из крупнейших в мире производитель продуктов питания.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_13" id="13" ref="i13">
+                <img class="company_slider_big_img"  src="../assets/img-3-13.webp" alt="client" loading="lazy">
+                <h1>Анкетирование</h1>
+                <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_14" id="14" ref="i14">
+                <img class="company_slider_big_img"  src="../assets/img-3-14.webp" alt="client" loading="lazy">
+                <h1>Ответы на частые вопросы</h1>
+                <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
+            </div>
+
+            <div class="company_slider_item company_slider_15" id="15" ref="i15">
+                <img class="company_slider_big_img"  src="../assets/img-3-15.webp" alt="client" loading="lazy">
+                <div class="company_slider_text">
+                    <h1>Напоминания о записи</h1>
+                    <p>Отправляйте своим клиентам любые файлы. Часто клиенты просят отправить счет или каталог в мессенджер. И это действительно удобно.</p>
+                </div>
+            </div>
+        </div>
+
+        
         <div class="examples_background_images opportunities_background_images">
             <img class="examples_background_images_10" src="../assets/back/lightbluemy.png" alt="lightbluemy">
             <img class="examples_background_images_11" src="../assets/back/purplesn.png" alt="purplesn">
@@ -1550,6 +1650,10 @@ export default {
             padding: 0 calc((100vw - 1200px) / 2)
             top: -100px
             height: 900px
+            .opportunities_heading
+                display: none
+            .opportunities_slider
+                display: none
             .opportunities_image
                 user-select: none
                 height: 560px
@@ -1564,6 +1668,8 @@ export default {
                     position: absolute
                     z-index: 2
                     opacity: 0
+            .opportunities_image_phone
+                display: none
             .opportunities_nav
                 display: inline-block
                 width: 51.5%
@@ -1746,7 +1852,6 @@ export default {
                 right: -20px
                 top: -220vh
             .examples_background_images_13
-                display: block
                 left: 70vw
                 top: -121vh
                 z-index: -1
@@ -1766,19 +1871,30 @@ export default {
             position: relative
 
         .opportunities
+            h1
+                z-index: 3
+                position: relative
+                font-size: 6.57vw
+                width: 93%
+                padding-left: 7%
+                line-height: 40px
+                font-weight: 700
+                color: #370954
+                padding-bottom: 10px
+                padding-top: 30px
             background-color: white
             position: relative
             left: 0
             padding: 0
             width: 100%
-            top: -150px
+            top: 60px
             height: max-content
             z-index: 1
             .opportunities_image, .opportunities_nav
                 display: none
             .opportunities_image_phone
-                height: calc(225vw)       
-                display: block
+                display: none
+                height: calc(225vw)        
                 width: 100%
                 vertical-align: top
                 position: relative
@@ -1793,7 +1909,7 @@ export default {
             .opportunities_nav_phone
                 padding-top: 50px
                 padding-left: 7%
-                display: block
+                display: none
                 width: 93%
                 vertical-align: middle
                 margin-top: 200px
@@ -1802,7 +1918,220 @@ export default {
                 p          
                     font-size: 4.3vw
                     margin-right: 30px
-                
+
+
+        .opportunities_slider
+            height: 165vw
+            width: 100%
+            position: relative
+            left: 0px
+            top: 00px
+            overflow-x: hidden
+            overflow-y: hidden
+            .company_slider_item
+                position: absolute
+                width: 650px
+                transition: 0.5s all ease
+                .company_slider_big_img
+                    position: relative
+                    left: -15px
+                    top: 0px
+                    z-index: 98
+                    display: inline-block
+                    padding-left: 7vw
+                    width: 50vw
+                .company_slider_text
+                    display: inline-block
+                    width: 43vw
+                    vertical-align: top
+                h1
+                    font-size: 4.38vw
+                    line-height: 24px
+                    color: #c34688
+                    font-weight: 700
+                    position: relative
+                    margin: 0
+                    padding: 0
+                p
+                    font-size: 3.28vw
+                    line-height: 20px
+                    color: #888
+                    font-weight: 300
+                    width: 95%
+                    vertical-align: top
+                    position: relative
+
+                .company_slider_span
+                    font-size: 3.2vw
+                    line-height: 5vw
+                    color: #999
+                    font-weight: 400
+                    vertical-align: top
+                    width: 30vw
+                    left: 235px
+                    
+           
+            .company_slider_1 // Спортмастер
+                left: 0px
+            .company_slider_2 // СДЭК
+                left: 630px
+            .company_slider_3 // Альфа
+                left: 1260px
+                h1
+                    left: -350px
+            .company_slider_4 // Университет Синергия
+                left: 1890px
+                h1
+                    left: -346px
+                    top: 24px
+                img
+                    left: -346px
+                    top: 24px
+                p
+                    top: -490px
+                    left: 32px
+            .company_slider_5 // amoCRM
+                left: 2520px
+                h1
+                    left: -346px
+                    top: 24px
+                img
+                    left: -346px
+                    top: 24px
+                p
+                    top: -490px
+                    left: 32px
+            .company_slider_6 // yota
+                left: 3150px
+                h1
+                    left: -346px
+                    top: 20px
+                img
+                    left: -346px
+                    top: 20px
+                p
+                    top: -470px
+                    left: 32px
+            .company_slider_7 // БКС Банк
+                left: 3780px
+            .company_slider_8 // Деловые Линии
+                left: 4410px
+                h1
+                    left: -346px
+                    top: 14px
+                img
+                    left: -346px
+                    top: 14px
+                p
+                    top: -470px
+                    left: 32px
+            .company_slider_9 // TalkBank
+                left: 5040px
+                h1
+                    left: -346px
+                    top: 16px
+                img
+                    left: -346px
+                    top: 16px
+                p
+                    top: -484px
+                    left: 32px
+            .company_slider_10 // М.Видео
+                left: 5670px
+                h1
+                    left: -346px
+                    top: 24px
+                img
+                    left: -346px
+                    top: 24px
+                p
+                    top: -470px
+                    left: 32px
+            .company_slider_11 // Эльдорадо
+                left: 6300px
+                h1
+                    left: -346px
+                    top: 24px
+                img
+                    left: -346px
+                    top: 24px
+                p
+                    top: -470px
+                    left: 32pxs
+            .company_slider_12 // Nestle
+                left: 6930px
+                h1
+                    left: -244px
+                    top: 30px
+                img
+                    left: -244px
+                    top: 30px
+                p
+                    top: -460px
+                    left: 35px
+
+                .company_slider_span
+                    left: 230px
+                    width: 30vw
+            .company_slider_13 // AliExpress
+                left: 7560px
+                h1
+                    left: -248px
+                    top: 10px
+                img
+                    left: -248px
+                    top: 10px
+                p
+                    top: -480px
+                    left: 32px
+
+                .company_slider_span
+                    left: 230px
+                    width: 30vw
+
+            .company_slider_14 // AliExpress
+                left: 8190px
+                h1
+                    left: -248px
+                    top: 10px
+                img
+                    left: -248px
+                    top: 10px
+                p
+                    top: -480px
+                    left: 32px
+
+                .company_slider_span
+                    left: 230px
+                    width: 30vw
+
+
+            .company_slider_15 // AliExpress
+                left: 8820px
+                h1
+                    left: -248px
+                    top: 10px
+                img
+                    left: -248px
+                    top: 10px
+                p
+                    top: -480px
+                    left: 32px
+
+                .company_slider_span
+                    left: 230px
+                    width: 30vw
+        .company_slider_arrows
+            padding-left: 37.5%
+            margin-top: 35px
+            padding-bottom: 65px
+            z-index: 100
+            position: relative
+            img
+                cursor: pointer
+                outline: none
+            .company_slider_arrows_2
+                margin-left: 25%
 
 
 

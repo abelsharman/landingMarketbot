@@ -238,8 +238,8 @@ $p_color: #370954
             position: relative
             padding-top: 46px
             img
-                padding-left: 7%
-                width: 86%
+                padding-left: 7vw
+                width: 86vw
 
                 
 
@@ -301,49 +301,49 @@ $p_color: #370954
         width: 100%
         .platform_text
             padding-left: 7%
-            padding-top: 30px
+            padding-top: 20px
             width: 90%
             display: block
             h1
                 width: 90%
                 color: $h_color
-                line-height: 54px
-                font-size: 40px
+                line-height: 40px
+                font-size: 10.08vw
                 font-weight: 700
                 margin: 0
             h3
                 color: $h_color
-                font-size: 20px
-                line-height: 38px
+                font-size: 5.7vw
+                line-height: 30px
                 font-weight: 700
                 margin: 0
                 margin-top: 10px
             h2
                 color: #c34688
-                font-size: 20px
+                font-size: 5.7vw
                 font-weight: 700
                 margin: 0
-                line-height: 38px
+                line-height: 35px
                 width: max-content 
                 span
                     padding-bottom: 3px
                     border-bottom: 1px dotted #c34688
             p
-                font-size: 15px
+                font-size: 3.94vw
                 margin: 0
-                margin-top: 30px
-                line-height: 30px
+                margin-top: 20px
+                line-height: 26px
                 color: #222222
                 font-size: 400
             button
                 border-radius: 31px
                 margin-top: 15px
-                font-size: 16px
+                font-size: 3.94vw
                 color: white
                 font-weight: 400
                 border: 0px
                 background-color: #c34688
-                height: 62px
+                height: 52px
                 width: 95%
                 outline: none
                 cursor: pointer
@@ -371,7 +371,8 @@ $p_color: #370954
             position: relative
             padding-top: 46px
             img
-                width: 100%
+                width: 86vw
+                padding-left: 7vw
 
                 
 

@@ -131,95 +131,166 @@
             <div class="company_slider_item company_slider_1" id="1" ref="i1">
                 <img class="company_slider_big_img" src="../assets/img-3 mobile.webp" alt="client">
                 <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Отправка файлов и каталогов</h1>
                     <p>Отправляйте своим клиентам любые файлы. Часто клиенты просят отправить счет или каталог в мессенджер. И это действительно удобно.</p>
                 </div>
             </div>
 
             <div class="company_slider_item company_slider_2" id="2" ref="i2">
-                <img class="company_slider_big_img"  src="../assets/img-3-2 mobile.webp" alt="client">
-                <h1>Регистрация на мероприятия</h1>
-                <p>Один из самых активных и привлекательных участников российского рынка экспресс-доставки.</p>
+                <img class="company_slider_big_img" src="../assets/img-3-2 mobile.webp" alt="client">
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Регистрация на мероприятия</h1>
+                    <p>Регистрировать на мероприятия можно через мессенджеры. Например, на вебинар или мастер-класс. Вам достаточно дать возможность клиенту выбрать удобный для него мессенджер.</p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_3" id="3" ref="i3">
                 <img class="company_slider_big_img"  src="../assets/img-3-3 mobile.webp" alt="client">
-                <h1>Расчет параметров</h1>
-                <p>Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Расчет параметров</h1>
+                    <p>Вы моежет вести клиентов на чат-бот в мессенджеры. Например, для расчета конкретных параметров. Чат-бот проведет опрос и выдаст нужный ответ.</p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_4" id="4" ref="i4">
                 <img class="company_slider_big_img"  src="../assets/img-3-4 mobile.webp" alt="client" loading="lazy">
-                <h1>Активация промокодов</h1>
-                <p>Негосударственное высшее учебное заведение.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Активация промокодов</h1>
+                    <p>Теперь вы сможете раздавать промокод эффективнее. Каждый, кто захочет его активировать, попадет к вам в мессенджер, отсканировав QR-код или перейдя по ссылке.</p>
+                </div>
             </div>
 
 
             <div class="company_slider_item company_slider_5" id="5" ref="i5">
                 <img class="company_slider_big_img"  src="../assets/img-3-5.webp" alt="client" loading="lazy">
-                <h1>Генерация паролей</h1>
-                <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Генерация паролей</h1>
+                    <p></p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_6" id="6" ref="i6">
                 <img class="company_slider_big_img"  src="../assets/img-3-6 mobile.webp" alt="client" loading="lazy">
-                <h1>Подтверждение бронирования</h1>
-                <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Подтверждение бронирования</h1>
+                    <p>Уточняйте у ваших клиентов актуальность брони в автоматическом режиме.</p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_7" id="7" ref="i7">
                 <img class="company_slider_big_img"  src="../assets/img-3-7 mobile.webp" alt="client" loading="lazy">
-                <h1>Сбор отзывов и обратной связи</h1>
-                <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Сбор отзывов и обратной связи</h1>
+                    <p>Собирайте отзывы автоматически. В нужный момент и в удобном формате. Например, сразу после покупки.</p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_8" id="8" ref="i8">
                 <img class="company_slider_big_img"  src="../assets/img-3-8 mobile.webp" alt="client" loading="lazy">
-                <h1>Проведение опросов</h1>
-                <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Проведение опросов</h1>
+                    <p>Опрос клиента при помощи чат-бота - это очень удобно! 24/7 чат-бот будет квалифицировать ваших клиентов.</p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_9" id="9" ref="i9">
                 <img class="company_slider_big_img"  src="../assets/img-3-9 mobile.webp" alt="client" loading="lazy">
-                <h1>Проведение обучения</h1>
-                <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Проведение обучения</h1>
+                    <p>Создайте заранее весь сценарий обучения. Клиенту останется только поэтапно проходить обучение, а настроенный чат-бот поможет ему в этом.</p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_10" id="10" ref="i10">
                 <img class="company_slider_big_img"  src="../assets/img-3-10 mobile.webp" alt="client" loading="lazy">
-                <h1>Прием заказов</h1>
-                <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Прием заказов</h1>
+                    <p>Автоматизируйте процессы бронирования и оплаты билетов. Клиент получит билеты прямо в мессенджер.</p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_11" id="11" ref="i11">
                 <img class="company_slider_big_img"  src="../assets/img-3-11.webp" alt="client" loading="lazy">
-                <h1>Прием платежей</h1>
-                <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Прием платежей</h1>
+                    <p></p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_12" id="12" ref="i12">
                 <img class="company_slider_big_img"  src="../assets/img-3-12.webp" alt="client" loading="lazy">
-                <h1>Информирование и отправка уведомлений</h1>
-                <p>Один из крупнейших в мире производитель продуктов питания.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Информирование и отправка уведомлений</h1>
+                    <p></p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_13" id="13" ref="i13">
                 <img class="company_slider_big_img"  src="../assets/img-3-13.webp" alt="client" loading="lazy">
-                <h1>Анкетирование</h1>
-                <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Анкетирование</h1>
+                    <p></p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_14" id="14" ref="i14">
                 <img class="company_slider_big_img"  src="../assets/img-3-14.webp" alt="client" loading="lazy">
-                <h1>Ответы на частые вопросы</h1>
-                <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
+                <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
+                    <h1>Ответы на частые вопросы</h1>
+                    <p></p>
+                </div>
             </div>
 
             <div class="company_slider_item company_slider_15" id="15" ref="i15">
                 <img class="company_slider_big_img"  src="../assets/img-3-15.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
+                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Напоминания о записи</h1>
-                    <p>Отправляйте своим клиентам любые файлы. Часто клиенты просят отправить счет или каталог в мессенджер. И это действительно удобно.</p>
+                    <p></p>
                 </div>
             </div>
         </div>
@@ -294,6 +365,8 @@ export default {
             p: 12,
             pPhone: 27,
             iMobile: 6,
+
+            iSlider: 1,
 
         }
     },
@@ -1058,6 +1131,367 @@ export default {
                     }
                 }
             }
+        },
+        clickOnSliderPlus(){
+            this.sliderAuto()
+        },
+        clickOnSliderMinus(){
+            this.iSlider--
+            if(this.iSlider == 1){
+                this.$refs.i1.style.left = "0px"
+                this.$refs.i2.style.left = "630px"
+                this.$refs.i3.style.left = "1260px"
+                this.$refs.i4.style.left = "1890px"
+                this.$refs.i5.style.left = "1890px"
+                this.$refs.i6.style.left = "2520px"
+                this.$refs.i7.style.left = "3150px"
+                this.$refs.i8.style.left = "3780px"
+                this.$refs.i9.style.left = "4410px"
+                this.$refs.i10.style.left = "5040px"
+                this.$refs.i11.style.left = "5670px"
+                this.$refs.i12.style.left = "6300px"
+                this.$refs.i13.style.left = "5670px"
+                this.$refs.i14.style.left = "6300px"
+                this.$refs.i15.style.left = "6930px"
+            }
+            else if(this.iSlider == 2){
+                this.$refs.i1.style.left = "-630px"
+                this.$refs.i2.style.left = "0"
+                this.$refs.i3.style.left = "630px"
+                this.$refs.i4.style.left = "1260px"
+                this.$refs.i5.style.left = "1890px"
+                this.$refs.i6.style.left = "1890px"
+                this.$refs.i6.style.left = "2520px"
+                this.$refs.i7.style.left = "3150px"
+                this.$refs.i8.style.left = "3780px"
+                this.$refs.i9.style.left = "4410px"
+                this.$refs.i10.style.left = "5040px"
+                this.$refs.i11.style.left = "5670px"
+                this.$refs.i12.style.left = "6300px"
+                this.$refs.i13.style.left = "6930px"
+            }
+            else if(this.iSlider== 3){
+                this.$refs.i2.style.left = "-630px"
+                this.$refs.i3.style.left = "0px"
+                this.$refs.i4.style.left = "630px"
+                this.$refs.i5.style.left = "1260px"
+                this.$refs.i6.style.left = "1890px"
+                this.$refs.i7.style.left = "2520px"
+                this.$refs.i8.style.left = "3150px"
+                this.$refs.i9.style.left = "3780px"
+                this.$refs.i10.style.left = "4410px"
+                this.$refs.i11.style.left = "5040px"
+                this.$refs.i12.style.left = "5670px"
+                this.$refs.i13.style.left = "6300px"
+            }
+            else if(this.iSlider == 4){
+                this.$refs.i3.style.left = "-630px"
+                this.$refs.i4.style.left = "0px"
+                this.$refs.i5.style.left = "630px"
+                this.$refs.i6.style.left = "1260px"
+                this.$refs.i7.style.left = "1890px"
+                this.$refs.i8.style.left = "2520px"
+                this.$refs.i9.style.left = "3150px"
+                this.$refs.i10.style.left = "3780px"
+                this.$refs.i11.style.left = "4410px"
+                this.$refs.i12.style.left = "5040px"
+                this.$refs.i13.style.left = "5670px"
+            }
+            else if(this.iSlider == 5){
+                this.$refs.i4.style.left = "-630px"
+                this.$refs.i5.style.left = "0px"
+                this.$refs.i6.style.left = "630px"
+                this.$refs.i7.style.left = "1260px"
+                this.$refs.i8.style.left = "1890px"
+                this.$refs.i9.style.left = "2520px"
+                this.$refs.i10.style.left = "3150px"
+                this.$refs.i11.style.left = "3780px"
+                this.$refs.i12.style.left = "4410px"
+                this.$refs.i13.style.left = "5040px"
+            }
+            else if(this.iSlider == 6){
+                this.$refs.i5.style.left = "-630px"
+                this.$refs.i6.style.left = "0px"
+                this.$refs.i7.style.left = "630px"
+                this.$refs.i8.style.left = "1260px"
+                this.$refs.i9.style.left = "1890px"
+                this.$refs.i10.style.left = "2520px"
+                this.$refs.i11.style.left = "3150px"
+                this.$refs.i12.style.left = "3780px"
+                this.$refs.i13.style.left = "4410px"
+            }
+            else if(this.iSlider == 7){
+                this.$refs.i6.style.left = "-630px"
+                this.$refs.i7.style.left = "0px"
+                this.$refs.i8.style.left = "630px"
+                this.$refs.i9.style.left = "1260px"
+                this.$refs.i10.style.left = "1890px"
+                this.$refs.i11.style.left = "2520px"
+                this.$refs.i12.style.left = "3150px"
+                this.$refs.i13.style.left = "3780px"
+            }
+            else if(this.iSlider == 8){
+                this.$refs.i7.style.left = "-630px"
+                this.$refs.i8.style.left = "0px"
+                this.$refs.i9.style.left = "630px"
+                this.$refs.i10.style.left = "1260px"
+                this.$refs.i11.style.left = "1890px"
+                this.$refs.i12.style.left = "2520px"
+                this.$refs.i13.style.left = "3150px"
+            }
+            else if(this.iSlider == 9){
+                this.$refs.i8.style.left = "-630px"
+                this.$refs.i9.style.left = "0px"
+                this.$refs.i10.style.left = "630px"
+                this.$refs.i11.style.left = "1260px"
+                this.$refs.i12.style.left = "1890px"
+                this.$refs.i13.style.left = "2520px"
+            }
+            else if(this.iSlider == 10){
+                this.$refs.i9.style.left = "-630px"
+                this.$refs.i10.style.left = "0px"
+                this.$refs.i11.style.left = "630px"
+                this.$refs.i12.style.left = "1260px"
+                this.$refs.i13.style.left = "1890px"
+            }
+            else if(this.iSlider == 11){
+                this.$refs.i10.style.left = "-630px"
+                this.$refs.i11.style.left = "0px"
+                this.$refs.i12.style.left = "630px"
+                this.$refs.i13.style.left = "1260px"
+            }
+            else if(this.iSlider == 12){
+                this.$refs.i11.style.left = "-630px"
+                this.$refs.i12.style.left = "0px"
+                this.$refs.i13.style.left = "630px"
+                this.$refs.i14.style.left = "1260px"
+                this.$refs.i15.style.left = "1260px"
+            }
+            else if(this.iSlider == 13){
+                this.$refs.i12.style.left = "-630px"
+                this.$refs.i13.style.left = "0px"
+                this.$refs.i14.style.left = "630px"
+                this.$refs.i15.style.left = "1260px"
+            }
+
+            else if(this.iSlider == 14){
+                this.$refs.i13.style.left = "-630px"
+                this.$refs.i14.style.left = "0px"
+                this.$refs.i15.style.left = "630px"
+                this.$refs.i1.style.left = "1260px"
+            }
+            else if(this.iSlider == 15){
+                this.$refs.i14.style.left = "-630px"
+                this.$refs.i15.style.left = "0px"
+                this.$refs.i1.style.left = "630px"
+
+
+
+                this.$refs.i2.style.left = "1260px"
+                this.$refs.i3.style.left = "1890px"
+                this.$refs.i4.style.left = "2520px"
+                this.$refs.i5.style.left = "3150px"
+                this.$refs.i6.style.left = "3780px"
+                this.$refs.i7.style.left = "4410px"
+                this.$refs.i8.style.left = "5040px"
+                this.$refs.i9.style.left = "5670px"
+                this.$refs.i10.style.left = "6300px"
+                this.$refs.i11.style.left = "6930px"
+                this.$refs.i12.style.left = "7560px"
+                this.$refs.i13.style.left = "6930px"
+                this.$refs.i14.style.left = "7560px"
+                 
+            }
+            else if(this.iSlider == 16){
+                this.$refs.i15.style.left = "-630px"
+                this.$refs.i1.style.left = "0px"
+                this.$refs.i2.style.left = "630px"
+
+
+                this.$refs.i15.style.left = "7560px"
+            }
+            
+        },
+        sliderAuto(){
+            this.iSlider++
+            if(this.iSlider == 2){
+                this.$refs.i1.style.left = "-630px"
+                this.$refs.i2.style.left = "0px"
+                this.$refs.i3.style.left = "630px"
+                this.$refs.i4.style.left = "1260px"
+                this.$refs.i5.style.left = "1890px"
+                this.$refs.i6.style.left = "2520px"
+                this.$refs.i7.style.left = "3150px"
+                this.$refs.i8.style.left = "3780px"
+                this.$refs.i9.style.left = "4410px"
+                this.$refs.i10.style.left = "5040px"
+                this.$refs.i11.style.left = "5670px"
+                this.$refs.i12.style.left = "6300px"
+                this.$refs.i13.style.left = "6930px"
+                this.$refs.i14.style.left = "7560px"
+                this.$refs.i15.style.left = "8190px"
+            }
+            else if(this.iSlider == 3){
+                this.$refs.i2.style.left = "-630px"
+                this.$refs.i3.style.left = "0px"
+                this.$refs.i4.style.left = "630px"
+                this.$refs.i5.style.left = "1260px"
+                this.$refs.i6.style.left = "1890px"
+                this.$refs.i7.style.left = "2520px"
+                this.$refs.i8.style.left = "3150px"
+                this.$refs.i9.style.left = "3780px"
+                this.$refs.i10.style.left = "4410px"
+                this.$refs.i11.style.left = "5040px"
+                this.$refs.i12.style.left = "5670px"
+                this.$refs.i13.style.left = "6300px"
+                this.$refs.i14.style.left = "6930px"
+                this.$refs.i15.style.left = "7560px"
+            }
+            else if(this.iSlider == 4){
+                this.$refs.i3.style.left = "-630px"
+                this.$refs.i4.style.left = "0px"
+                this.$refs.i5.style.left = "630px"
+                this.$refs.i6.style.left = "1260px"
+                this.$refs.i7.style.left = "1890px"
+                this.$refs.i8.style.left = "2520px"
+                this.$refs.i9.style.left = "3150px"
+                this.$refs.i10.style.left = "3780px"
+                this.$refs.i11.style.left = "4410px"
+                this.$refs.i12.style.left = "5040px"
+                this.$refs.i13.style.left = "5670px"
+                this.$refs.i14.style.left = "6300px"
+                this.$refs.i15.style.left = "6930px"
+            }
+            else if(this.iSlider == 5){
+                this.$refs.i4.style.left = "-630px"
+                this.$refs.i5.style.left = "0px"
+                this.$refs.i6.style.left = "630px"
+                this.$refs.i7.style.left = "1260px"
+                this.$refs.i8.style.left = "1890px"
+                this.$refs.i9.style.left = "2520px"
+                this.$refs.i10.style.left = "3150px"
+                this.$refs.i11.style.left = "3780px"
+                this.$refs.i12.style.left = "4410px"
+                this.$refs.i13.style.left = "5040px"
+                this.$refs.i14.style.left = "5670px"
+                this.$refs.i15.style.left = "6300px"
+            }
+            else if(this.iSlider == 6){
+                this.$refs.i5.style.left = "-630px"
+                this.$refs.i6.style.left = "0px"
+                this.$refs.i7.style.left = "630px"
+                this.$refs.i8.style.left = "1260px"
+                this.$refs.i9.style.left = "1890px"
+                this.$refs.i10.style.left = "2520px"
+                this.$refs.i11.style.left = "3150px"
+                this.$refs.i12.style.left = "3780px"
+                this.$refs.i13.style.left = "4410px"
+                this.$refs.i14.style.left = "5040px"
+                this.$refs.i15.style.left = "5670px"
+            }
+            else if(this.iSlider == 7){
+                this.$refs.i6.style.left = "-630px"
+                this.$refs.i7.style.left = "0px"
+                this.$refs.i8.style.left = "630px"
+                this.$refs.i9.style.left = "1260px"
+                this.$refs.i10.style.left = "1890px"
+                this.$refs.i11.style.left = "2520px"
+                this.$refs.i12.style.left = "3150px"
+                this.$refs.i13.style.left = "3780px"
+                this.$refs.i14.style.left = "4410px"
+                this.$refs.i15.style.left = "5040px"
+            }
+            else if(this.iSlider == 8){
+                this.$refs.i7.style.left = "-630px"
+                this.$refs.i8.style.left = "0px"
+                this.$refs.i9.style.left = "630px"
+                this.$refs.i10.style.left = "1260px"
+                this.$refs.i11.style.left = "1890px"
+                this.$refs.i12.style.left = "2520px"
+                this.$refs.i13.style.left = "3150px"
+                this.$refs.i14.style.left = "3780px"
+                this.$refs.i15.style.left = "4410px"
+            }
+            else if(this.iSlider == 9){
+                this.$refs.i8.style.left = "-630px"
+                this.$refs.i9.style.left = "0px"
+                this.$refs.i10.style.left = "630px"
+                this.$refs.i11.style.left = "1260px"
+                this.$refs.i12.style.left = "1890px"
+                this.$refs.i13.style.left = "2520px"
+                this.$refs.i14.style.left = "3150px"
+                this.$refs.i15.style.left = "3780px"
+            }
+            else if(this.iSlider == 10){
+                this.$refs.i9.style.left = "-630px"
+                this.$refs.i10.style.left = "0px"
+                this.$refs.i11.style.left = "630px"
+                this.$refs.i12.style.left = "1260px"
+                this.$refs.i13.style.left = "1890px"
+                this.$refs.i14.style.left = "2520px"
+                this.$refs.i15.style.left = "3150px"
+            }
+            else if(this.iSlider == 11){
+                this.$refs.i10.style.left = "-630px"
+                this.$refs.i11.style.left = "0px"
+                this.$refs.i12.style.left = "630px"
+                this.$refs.i13.style.left = "1260px"
+                this.$refs.i14.style.left = "1890px"
+                this.$refs.i15.style.left = "2520px"
+            }
+            else if(this.iSlider == 12){
+                this.$refs.i11.style.left = "-630px"
+                this.$refs.i12.style.left = "0px"
+                this.$refs.i13.style.left = "630px"
+                this.$refs.i14.style.left = "1260px"
+                this.$refs.i15.style.left = "1890px"
+            }
+            else if(this.iSlider == 13){
+                this.$refs.i12.style.left = "-630px"
+                this.$refs.i13.style.left = "0px"
+                this.$refs.i14.style.left = "630px"
+                this.$refs.i15.style.left = "1260px"
+            }
+            else if(this.iSlider == 14){
+                this.$refs.i13.style.left = "-630px"
+                this.$refs.i14.style.left = "0px"
+                this.$refs.i15.style.left = "630px"
+                this.$refs.i1.style.left = "1260px"
+            }
+            else if(this.iSlider == 15){
+                this.$refs.i14.style.left = "-630px"
+                this.$refs.i15.style.left = "0px"
+                this.$refs.i1.style.left = "630px"
+
+
+
+                this.$refs.i2.style.left = "1260px"
+                this.$refs.i3.style.left = "1890px"
+                this.$refs.i4.style.left = "2520px"
+                this.$refs.i5.style.left = "3150px"
+                this.$refs.i6.style.left = "3780px"
+                this.$refs.i7.style.left = "4410px"
+                this.$refs.i8.style.left = "5040px"
+                this.$refs.i9.style.left = "5670px"
+                this.$refs.i10.style.left = "6300px"
+                this.$refs.i11.style.left = "6930px"
+                this.$refs.i12.style.left = "7560px"
+                this.$refs.i13.style.left = "8190px"
+                this.$refs.i14.style.left = "8820px"
+
+
+            }
+            else if(this.iSlider == 16){
+                this.$refs.i15.style.left = "-630px"
+                this.$refs.i1.style.left = "0px"
+                this.$refs.i2.style.left = "630px"
+
+                this.$refs.i15.style.left = "7560px"
+            }
+            if(this.iSlider == 16){
+                this.iSlider = 1
+            }
+            
         },
         intervalMethod(){
             if(window.innerWidth > 456){
@@ -1941,6 +2375,7 @@ export default {
                     padding-left: 7vw
                     width: 50vw
                 .company_slider_text
+                    padding-top: 15vw
                     display: inline-block
                     width: 43vw
                     vertical-align: top
@@ -1952,6 +2387,7 @@ export default {
                     position: relative
                     margin: 0
                     padding: 0
+                    padding-top: 7vw
                 p
                     font-size: 3.28vw
                     line-height: 20px
@@ -1977,150 +2413,30 @@ export default {
                 left: 630px
             .company_slider_3 // Альфа
                 left: 1260px
-                h1
-                    left: -350px
             .company_slider_4 // Университет Синергия
                 left: 1890px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -490px
-                    left: 32px
             .company_slider_5 // amoCRM
                 left: 2520px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -490px
-                    left: 32px
             .company_slider_6 // yota
                 left: 3150px
-                h1
-                    left: -346px
-                    top: 20px
-                img
-                    left: -346px
-                    top: 20px
-                p
-                    top: -470px
-                    left: 32px
             .company_slider_7 // БКС Банк
                 left: 3780px
             .company_slider_8 // Деловые Линии
                 left: 4410px
-                h1
-                    left: -346px
-                    top: 14px
-                img
-                    left: -346px
-                    top: 14px
-                p
-                    top: -470px
-                    left: 32px
             .company_slider_9 // TalkBank
                 left: 5040px
-                h1
-                    left: -346px
-                    top: 16px
-                img
-                    left: -346px
-                    top: 16px
-                p
-                    top: -484px
-                    left: 32px
             .company_slider_10 // М.Видео
                 left: 5670px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -470px
-                    left: 32px
             .company_slider_11 // Эльдорадо
                 left: 6300px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -470px
-                    left: 32pxs
             .company_slider_12 // Nestle
                 left: 6930px
-                h1
-                    left: -244px
-                    top: 30px
-                img
-                    left: -244px
-                    top: 30px
-                p
-                    top: -460px
-                    left: 35px
-
-                .company_slider_span
-                    left: 230px
-                    width: 30vw
             .company_slider_13 // AliExpress
                 left: 7560px
-                h1
-                    left: -248px
-                    top: 10px
-                img
-                    left: -248px
-                    top: 10px
-                p
-                    top: -480px
-                    left: 32px
-
-                .company_slider_span
-                    left: 230px
-                    width: 30vw
-
             .company_slider_14 // AliExpress
                 left: 8190px
-                h1
-                    left: -248px
-                    top: 10px
-                img
-                    left: -248px
-                    top: 10px
-                p
-                    top: -480px
-                    left: 32px
-
-                .company_slider_span
-                    left: 230px
-                    width: 30vw
-
-
             .company_slider_15 // AliExpress
                 left: 8820px
-                h1
-                    left: -248px
-                    top: 10px
-                img
-                    left: -248px
-                    top: 10px
-                p
-                    top: -480px
-                    left: 32px
-
-                .company_slider_span
-                    left: 230px
-                    width: 30vw
         .company_slider_arrows
             padding-left: 37.5%
             margin-top: 35px

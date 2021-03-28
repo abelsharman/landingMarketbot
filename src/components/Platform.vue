@@ -33,6 +33,15 @@
             <img class="platform_background_images_11" src="../assets/back/greenmn.png" alt="8">
 
        </div>
+
+       <div class="page_grey_lines_15">
+            <img class="page_grey_line_1" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_2" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_3" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_4" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_5" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_6" src="../assets/grey_line.png" alt="grey_line">
+        </div>
     </div>
 </template>
 
@@ -50,6 +59,34 @@ $h_color: #370954
 $p_color: #370954
 
 @media screen and (min-width: 456px)
+    .page_grey_lines_15
+        display: none
+        img
+                position: absolute
+                display: inline
+                height: 150px
+                width: 1px
+                top: -40px
+        .page_grey_line_1
+                margin: 0
+                width: 1px
+                left: 23.5%
+        .page_grey_line_2
+                margin: 0
+                width: 1px
+                left: 76.5%
+        .page_grey_line_3
+                display: none
+                left: calc((100vw - 240px) / 2)
+        .page_grey_line_4
+                display: none
+                left: calc((100vw + 240px) / 2)
+        .page_grey_line_5
+                display: none
+                left: calc((100vw + 720px) / 2)
+        .page_grey_line_6
+                display: none
+                left: calc((100vw + 1200px) / 2)
     .platform 
         width: 100%
         .platform_text
@@ -164,7 +201,35 @@ $p_color: #370954
 
 
 @media screen and (max-width: 456px)
+    .page_grey_lines_15
+            img
+                position: absolute
+                display: inline
+                height: calc(100% + 70px)
+                width: 1px
+                top: 0px
+            .page_grey_line_1
+                margin: 0
+                width: 1px
+                left: 23.5%
+            .page_grey_line_2
+                margin: 0
+                width: 1px
+                left: 76.5%
+            .page_grey_line_3
+                display: none
+                left: calc((100vw - 240px) / 2)
+            .page_grey_line_4
+                display: none
+                left: calc((100vw + 240px) / 2)
+            .page_grey_line_5
+                display: none
+                left: calc((100vw + 720px) / 2)
+            .page_grey_line_6
+                display: none
+                left: calc((100vw + 1200px) / 2)
     .platform 
+        position: relative
         width: 100%
         .platform_text
             padding-left: 7%

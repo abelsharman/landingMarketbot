@@ -46,6 +46,15 @@
             <img class="examples_background_images_7" src="../assets/back/bluemn.png" alt="bluemn">
         </div>
 
+        <div class="page_grey_lines_16">
+            <img class="page_grey_line_1" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_2" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_3" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_4" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_5" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_6" src="../assets/grey_line.png" alt="grey_line">
+        </div>
+
 
 
         <div class="examples opportunities">
@@ -128,12 +137,12 @@
         </div>
 
         <div class="opportunities_slider">
+            <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
+            <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
+            <img class="opportunities_slider_arrow" style="left: 70vw;" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
             <div class="company_slider_item company_slider_1" id="1" ref="i1">
                 <img class="company_slider_big_img" src="../assets/img-3 mobile.webp" alt="client">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Отправка файлов и каталогов</h1>
                     <p>Отправляйте своим клиентам любые файлы. Часто клиенты просят отправить счет или каталог в мессенджер. И это действительно удобно.</p>
                 </div>
@@ -142,9 +151,6 @@
             <div class="company_slider_item company_slider_2" id="2" ref="i2">
                 <img class="company_slider_big_img" src="../assets/img-3-2 mobile.webp" alt="client">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Регистрация на мероприятия</h1>
                     <p>Регистрировать на мероприятия можно через мессенджеры. Например, на вебинар или мастер-класс. Вам достаточно дать возможность клиенту выбрать удобный для него мессенджер.</p>
                 </div>
@@ -153,9 +159,6 @@
             <div class="company_slider_item company_slider_3" id="3" ref="i3">
                 <img class="company_slider_big_img"  src="../assets/img-3-3 mobile.webp" alt="client">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Расчет параметров</h1>
                     <p>Вы моежет вести клиентов на чат-бот в мессенджеры. Например, для расчета конкретных параметров. Чат-бот проведет опрос и выдаст нужный ответ.</p>
                 </div>
@@ -164,9 +167,6 @@
             <div class="company_slider_item company_slider_4" id="4" ref="i4">
                 <img class="company_slider_big_img"  src="../assets/img-3-4 mobile.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Активация промокодов</h1>
                     <p>Теперь вы сможете раздавать промокод эффективнее. Каждый, кто захочет его активировать, попадет к вам в мессенджер, отсканировав QR-код или перейдя по ссылке.</p>
                 </div>
@@ -176,9 +176,6 @@
             <div class="company_slider_item company_slider_5" id="5" ref="i5">
                 <img class="company_slider_big_img"  src="../assets/img-3-5.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Генерация паролей</h1>
                     <p></p>
                 </div>
@@ -187,9 +184,6 @@
             <div class="company_slider_item company_slider_6" id="6" ref="i6">
                 <img class="company_slider_big_img"  src="../assets/img-3-6 mobile.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Подтверждение бронирования</h1>
                     <p>Уточняйте у ваших клиентов актуальность брони в автоматическом режиме.</p>
                 </div>
@@ -198,9 +192,6 @@
             <div class="company_slider_item company_slider_7" id="7" ref="i7">
                 <img class="company_slider_big_img"  src="../assets/img-3-7 mobile.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Сбор отзывов и обратной связи</h1>
                     <p>Собирайте отзывы автоматически. В нужный момент и в удобном формате. Например, сразу после покупки.</p>
                 </div>
@@ -209,9 +200,6 @@
             <div class="company_slider_item company_slider_8" id="8" ref="i8">
                 <img class="company_slider_big_img"  src="../assets/img-3-8 mobile.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Проведение опросов</h1>
                     <p>Опрос клиента при помощи чат-бота - это очень удобно! 24/7 чат-бот будет квалифицировать ваших клиентов.</p>
                 </div>
@@ -220,9 +208,6 @@
             <div class="company_slider_item company_slider_9" id="9" ref="i9">
                 <img class="company_slider_big_img"  src="../assets/img-3-9 mobile.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Проведение обучения</h1>
                     <p>Создайте заранее весь сценарий обучения. Клиенту останется только поэтапно проходить обучение, а настроенный чат-бот поможет ему в этом.</p>
                 </div>
@@ -231,9 +216,6 @@
             <div class="company_slider_item company_slider_10" id="10" ref="i10">
                 <img class="company_slider_big_img"  src="../assets/img-3-10 mobile.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Прием заказов</h1>
                     <p>Автоматизируйте процессы бронирования и оплаты билетов. Клиент получит билеты прямо в мессенджер.</p>
                 </div>
@@ -242,9 +224,6 @@
             <div class="company_slider_item company_slider_11" id="11" ref="i11">
                 <img class="company_slider_big_img"  src="../assets/img-3-11.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Прием платежей</h1>
                     <p></p>
                 </div>
@@ -253,9 +232,6 @@
             <div class="company_slider_item company_slider_12" id="12" ref="i12">
                 <img class="company_slider_big_img"  src="../assets/img-3-12.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Информирование и отправка уведомлений</h1>
                     <p></p>
                 </div>
@@ -264,9 +240,6 @@
             <div class="company_slider_item company_slider_13" id="13" ref="i13">
                 <img class="company_slider_big_img"  src="../assets/img-3-13.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Анкетирование</h1>
                     <p></p>
                 </div>
@@ -275,9 +248,6 @@
             <div class="company_slider_item company_slider_14" id="14" ref="i14">
                 <img class="company_slider_big_img"  src="../assets/img-3-14.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Ответы на частые вопросы</h1>
                     <p></p>
                 </div>
@@ -286,9 +256,6 @@
             <div class="company_slider_item company_slider_15" id="15" ref="i15">
                 <img class="company_slider_big_img"  src="../assets/img-3-15.webp" alt="client" loading="lazy">
                 <div class="company_slider_text">
-                    <img v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-                    <img v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-                    <img style="margin-left: 20vw" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
                     <h1>Напоминания о записи</h1>
                     <p></p>
                 </div>
@@ -304,6 +271,15 @@
             <img class="examples_background_images_14" src="../assets/back/greenmn.png" alt="greenmn">
             <img class="examples_background_images_15" src="../assets/back/bluemyhalf.png" alt="bluemyhalf">
 
+        </div>
+
+        <div class="page_grey_lines_17">
+            <img class="page_grey_line_1" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_2" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_3" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_4" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_5" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_6" src="../assets/grey_line.png" alt="grey_line">
         </div>
         </div>
 
@@ -1811,6 +1787,10 @@ export default {
 <style lang="sass">
 
 @media screen and (min-width: 456px)
+    .page_grey_lines_16
+        display: none
+    .page_grey_lines_17
+        display: none
     .examples
         width: 100%
         .examples_nav
@@ -2026,7 +2006,61 @@ export default {
                 right: 17vw
                 top: 116vh
 @media screen and (max-width: 456px)
+    .page_grey_lines_16
+        img
+            position: absolute
+            height: 100%
+            width: 1px
+            top: 0px
+        .page_grey_line_1
+                margin: 0
+                width: 1px
+                left: 23.5%
+        .page_grey_line_2
+                margin: 0
+                width: 1px
+                left: 76.5%
+        .page_grey_line_3
+                display: none
+                left: calc((100vw - 240px) / 2)
+        .page_grey_line_4
+                display: none
+                left: calc((100vw + 240px) / 2)
+        .page_grey_line_5
+                display: none
+                left: calc((100vw + 720px) / 2)
+        .page_grey_line_6
+                display: none
+                left: calc((100vw + 1200px) / 2)
+    .page_grey_lines_17
+        img
+                position: absolute
+                display: inline
+                height: 100%
+                width: 1px
+                top: -40px
+        .page_grey_line_1
+                margin: 0
+                width: 1px
+                left: 23.5%
+        .page_grey_line_2
+                margin: 0
+                width: 1px
+                left: 76.5%
+        .page_grey_line_3
+                display: none
+                left: calc((100vw - 240px) / 2)
+        .page_grey_line_4
+                display: none
+                left: calc((100vw + 240px) / 2)
+        .page_grey_line_5
+                display: none
+                left: calc((100vw + 720px) / 2)
+        .page_grey_line_6
+                display: none
+                left: calc((100vw + 1200px) / 2)
     .examples
+        position: relative
         width: 100%
         .examples_nav_phone
             display: block
@@ -2192,13 +2226,287 @@ export default {
 
 
         .opportunities_slider
-            height: 165vw
+            height: 170vw
             width: 100%
             position: relative
             left: 0px
             top: 00px
             overflow-x: hidden
             overflow-y: hidden
+            .opportunities_slider_arrow
+                padding-left: 7vw
+                top: 15vw
+                position: relative
+            .company_slider_item
+                position: absolute
+                width: 650px
+                transition: 0.5s all ease
+                img
+                    z-index: 100
+                .company_slider_big_img
+                    position: relative
+                    left: -15px
+                    top: 0px
+                    display: inline-block
+                    padding-left: 7vw
+                    width: 50vw
+                .company_slider_text
+                    padding-top: 15vw
+                    display: inline-block
+                    width: 43vw
+                    vertical-align: top
+    
+
+                h1
+                    font-size: 4.38vw
+                    line-height: 24px
+                    color: #c34688
+                    font-weight: 700
+                    position: relative
+                    margin: 0
+                    padding: 0
+                    padding-top: 7vw
+                p
+                    font-size: 3.28vw
+                    line-height: 20px
+                    color: #888
+                    font-weight: 300
+                    width: 95%
+                    vertical-align: top
+                    position: relative
+
+                .company_slider_span
+                    font-size: 3.2vw
+                    line-height: 5vw
+                    color: #999
+                    font-weight: 400
+                    vertical-align: top
+                    width: 30vw
+                    left: 235px
+                    
+           
+            .company_slider_1 // Спортмастер
+                left: 0px
+            .company_slider_2 // СДЭК
+                left: 630px
+            .company_slider_3 // Альфа
+                left: 1260px
+            .company_slider_4 // Университет Синергия
+                left: 1890px
+            .company_slider_5 // amoCRM
+                left: 2520px
+            .company_slider_6 // yota
+                left: 3150px
+            .company_slider_7 // БКС Банк
+                left: 3780px
+            .company_slider_8 // Деловые Линии
+                left: 4410px
+            .company_slider_9 // TalkBank
+                left: 5040px
+            .company_slider_10 // М.Видео
+                left: 5670px
+            .company_slider_11 // Эльдорадо
+                left: 6300px
+            .company_slider_12 // Nestle
+                left: 6930px
+            .company_slider_13 // AliExpress
+                left: 7560px
+            .company_slider_14 // AliExpress
+                left: 8190px
+            .company_slider_15 // AliExpress
+                left: 8820px
+        .company_slider_arrows
+            padding-left: 37.5%
+            margin-top: 35px
+            padding-bottom: 65px
+            z-index: 100
+            position: relative
+            img
+                cursor: pointer
+                outline: none
+            .company_slider_arrows_2
+                margin-left: 25%
+
+
+@media screen and (max-width: 360px)
+    .examples
+        width: 100%
+        .examples_nav_phone
+            display: block
+            width: 93%
+            padding-left: 7%
+            vertical-align: top
+            h1
+                z-index: 3
+                position: relative
+                font-size: 6.57vw
+                width: 100%
+                line-height: 40px
+                font-weight: 700
+                color: #370954
+                padding-bottom: 10px
+            p
+                font-weight: 400
+                font-size: 4.3vw
+                color: #c2c2c2
+                display: inline-block
+               
+                margin: 0
+                margin-right: 40px
+                margin-top: 10px
+                cursor: pointer
+                padding-bottom: 2px
+                transition: 0.3s all ease
+            .clicked
+                color: #c34688
+                border-bottom: 1px dotted #c34688
+        .examples_nav
+            display: none
+        .examples_image_phone
+            display: block
+            width: 100%
+            vertical-align: top
+            position: relative
+            top: 15px
+            img 
+                transition: 0.5s all ease
+                position: absolute
+                opacity: 0
+                width: 100%
+                z-index: 100
+        .examples_image
+            display: none
+        
+        .examples_background_images
+            position: relative
+            height: 470px
+            img
+                position: relative
+                display: none
+            .examples_background_images_1
+                position: absolute
+                display: block
+                top: -57vh
+                right: 0
+            .examples_background_images_2
+                display: block  
+                left: 10vw
+                top: 58vh
+                z-index: 2
+            .examples_background_images_3
+                top: -400px
+                left: 154px
+            .examples_background_images_4
+                top: -270px
+                z-index: 1 
+                left: 220px
+            .examples_background_images_5
+                position: absolute
+                top: 160vh
+                left: 87vw
+            .examples_background_images_6
+                top: -695px
+                left: 115px
+                z-index: 1
+            .examples_background_images_7
+                position: absolute
+                right: 17vw
+                top: 116vh
+            .examples_background_images_10
+                position: absolute
+                left: calc((100vw - 1400px) / 2)
+                top: 50vh
+            .examples_background_images_11
+                display: block
+                position: relative
+                left: 2vw
+                top: -65vh
+            .examples_background_images_12
+                position: absolute
+                right: -20px
+                top: -220vh
+            .examples_background_images_13
+                left: 70vw
+                top: -121vh
+                z-index: -1
+            .examples_background_images_14
+                display: block
+                left: 77vw
+                //top: -108vh
+                top: -248vh
+            .examples_background_images_15
+                position: absolute
+                display: block
+                right: 0px
+                top: -220vh
+
+        .opportunities_background_images
+            height: 0px
+            position: relative
+
+        .opportunities
+            h1
+                z-index: 3
+                position: relative
+                font-size: 6.57vw
+                width: 93%
+                padding-left: 7%
+                line-height: 40px
+                font-weight: 700
+                color: #370954
+                padding-bottom: 10px
+                padding-top: 30px
+            background-color: white
+            position: relative
+            left: 0
+            padding: 0
+            width: 100%
+            top: 60px
+            height: max-content
+            z-index: 1
+            .opportunities_image, .opportunities_nav
+                display: none
+            .opportunities_image_phone
+                display: none
+                height: calc(205vw)        
+                width: 100%
+                vertical-align: top
+                position: relative
+                top: 0px
+                img 
+                    width: 100%
+                    transition: 0.5s all ease
+                    position: absolute
+                    opacity: 0
+                    z-index: 100
+                    
+            .opportunities_nav_phone
+                padding-top: 50px
+                padding-left: 7%
+                display: none
+                width: 93%
+                vertical-align: middle
+                margin-top: 200px
+                h1
+                    width: 100%
+                p          
+                    font-size: 4.3vw
+                    margin-right: 30px
+
+
+        .opportunities_slider
+            height: 120vw
+            width: 100%
+            position: relative
+            left: 0px
+            top: 00px
+            overflow-x: hidden
+            overflow-y: hidden
+            .opportunities_slider_arrow
+                padding-left: 7vw
+                top: 15vw
+                z-index: 99
+                position: relative
             .company_slider_item
                 position: absolute
                 width: 650px
@@ -2216,6 +2524,8 @@ export default {
                     display: inline-block
                     width: 43vw
                     vertical-align: top
+    
+
                 h1
                     font-size: 4.38vw
                     line-height: 24px
@@ -2290,153 +2600,6 @@ export default {
 
 
 
-
-@media screen and (max-width: 370px)
-    .examples
-        width: 100%
-        .examples_nav_phone
-            display: block
-            width: 93%
-            padding-left: 7%
-            vertical-align: top
-            h1
-                z-index: 3
-                position: relative
-                font-size: 26px
-                width: 100%
-                line-height: 42px
-                font-weight: 700
-                color: #370954
-                padding-bottom: 20px
-            p
-                font-weight: 400
-                font-size: 17px
-                color: #c2c2c2
-                display: inline-block
-                margin: 0
-                margin-right: 40px
-                margin-top: 10px
-                cursor: pointer
-                padding-bottom: 2px
-                transition: 0.3s all ease
-            .clicked
-                color: #c34688
-                border-bottom: 1px dotted #c34688
-        .examples_nav
-            display: none
-        .examples_image_phone
-            display: block
-            width: 100%
-            vertical-align: top
-            position: relative
-            top: 15px
-            img 
-                transition: 0.5s all ease
-                position: absolute
-                opacity: 0
-                width: 100%
-                
-                z-index: 2
-        .examples_image
-            display: none
-        .examples_background_images
-            position: relative
-            height: 0px
-            img
-                position: relative
-                display: none
-            .examples_background_images_1
-                position: absolute
-                display: block
-                top: -57vh
-                right: 0
-            .examples_background_images_2
-                display: block  
-                left: 10vw
-                top: 58vh
-                z-index: 2
-            .examples_background_images_3
-                top: -400px
-                left: 154px
-            .examples_background_images_4
-                top: -270px
-                z-index: 1 
-                left: 220px
-            .examples_background_images_5
-                position: absolute
-                top: 160vh
-                left: 87vw
-            .examples_background_images_6
-                top: -695px
-                left: 115px
-                z-index: 1
-            .examples_background_images_7
-                position: absolute
-                right: 17vw
-                top: 116vh
-            .examples_background_images_10
-                position: absolute
-                left: calc((100vw - 1400px) / 2)
-                top: 50vh
-            .examples_background_images_11
-                display: block
-                position: relative
-                left: 2vw
-                top: -65vh
-            .examples_background_images_12
-                position: absolute
-                right: -20px
-                top: -220vh
-            .examples_background_images_13
-                display: block
-                left: 63vw
-                top: -121vh
-            .examples_background_images_14
-                display: block
-                left: 67vw
-                //top: -108vh
-                top: -248vh
-            .examples_background_images_15
-                position: absolute
-                display: block
-                right: 0px
-                top: -220vh
-        .opportunities
-            background-color: white
-            position: relative
-            left: 0
-            padding: 0
-            width: 100%
-            top: 180px
-            height: max-content
-            z-index: 1
-            .opportunities_image, .opportunities_nav
-                display: none
-            .opportunities_image_phone
-                display: block
-                width: 100%
-                vertical-align: top
-                position: relative
-                top: 0px
-                z-index: 100
-                img 
-                    width: 100%
-                    transition: 0.5s all ease
-                    position: absolute
-                    z-index: 2
-                    opacity: 0
-            .opportunities_nav_phone
-                padding-top: 50px
-                padding-left: 7%
-                display: block
-                width: 93%
-                vertical-align: middle
-                margin-top: 200px
-                h1
-                    width: 100%
-                p         
-                    font-size: 20px        
-                    margin-right: 30px
 </style>
 
 

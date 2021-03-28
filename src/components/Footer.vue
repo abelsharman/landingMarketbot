@@ -93,24 +93,25 @@ export default {
             width: 1px
             top: 0px
             z-index: 99
-            display: none
         .page_grey_line_1
             margin: 0
-            display: block
             width: 1px
             left: 23.5%
         .page_grey_line_2
             margin: 0
-            display: block
             width: 1px
             left: 76.5%
         .page_grey_line_3
+            display: none
             left: calc((100vw - 240px) / 2)
         .page_grey_line_4
+            display: none
             left: calc((100vw + 240px) / 2)
         .page_grey_line_5
+            display: none
             left: calc((100vw + 720px) / 2)
         .page_grey_line_6
+            display: none
             left: calc((100vw + 1200px) / 2)
     .footer
         background-color: white

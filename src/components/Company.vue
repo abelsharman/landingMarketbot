@@ -112,6 +112,15 @@
             <img class="company_background_images_3" src="../assets/back/bluemn.png" alt="bluemn">
             <img class="company_background_images_4" src="../assets/back/purplesn.png" alt="purplesn">
         </div>
+
+        <div class="page_grey_lines_14">
+            <img class="page_grey_line_1" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_2" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_3" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_4" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_5" src="../assets/grey_line.png" alt="grey_line">
+            <img class="page_grey_line_6" src="../assets/grey_line.png" alt="grey_line">
+        </div>
     </div>
 </template>
 
@@ -497,6 +506,34 @@ export default {
 
 <style lang="sass">
 @media screen and (min-width: 456px)
+    .page_grey_lines_14
+        display: none
+        img
+            position: absolute
+            height: 100%
+            width: 1px
+            top: 0px
+            z-index: 99
+        .page_grey_line_1
+            margin: 0
+            width: 1px
+            left: 23.5%
+        .page_grey_line_2
+            margin: 0
+            width: 1px
+            left: 76.5%
+            .page_grey_line_3
+                display: none
+                left: calc((100vw - 240px) / 2)
+            .page_grey_line_4
+                display: none
+                left: calc((100vw + 240px) / 2)
+            .page_grey_line_5
+                display: none
+                left: calc((100vw + 720px) / 2)
+            .page_grey_line_6
+                display: none
+                left: calc((100vw + 1200px) / 2)  
     .company
         background-color: white
         width: 100%
@@ -679,6 +716,34 @@ export default {
     
     
 @media screen and (max-width: 456px)
+    .page_grey_lines_14
+        display: block
+        img
+            position: absolute
+            height: 100%
+            width: 1px
+            top: 0px
+            z-index: 99
+        .page_grey_line_1
+            margin: 0
+            width: 1px
+            left: 23.5%
+        .page_grey_line_2
+            margin: 0
+            width: 1px
+            left: 76.5%
+            .page_grey_line_3
+                display: none
+                left: calc((100vw - 240px) / 2)
+            .page_grey_line_4
+                display: none
+                left: calc((100vw + 240px) / 2)
+            .page_grey_line_5
+                display: none
+                left: calc((100vw + 720px) / 2)
+            .page_grey_line_6
+                display: none
+                left: calc((100vw + 1200px) / 2)  
     .company
         background-color: white
         width: 100%

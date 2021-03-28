@@ -188,28 +188,29 @@ export default {
         display: block
         img
             position: absolute
-            height: 1800px
+            height: 100%
             width: 1px
             top: 0px
             z-index: 99
-            display: none
         .page_grey_line_1
             margin: 0
-            display: block
             width: 1px
             left: 23.5%
         .page_grey_line_2
             margin: 0
-            display: block
             width: 1px
             left: 76.5%
             .page_grey_line_3
+                display: none
                 left: calc((100vw - 240px) / 2)
             .page_grey_line_4
+                display: none
                 left: calc((100vw + 240px) / 2)
             .page_grey_line_5
+                display: none
                 left: calc((100vw + 720px) / 2)
             .page_grey_line_6
+                display: none
                 left: calc((100vw + 1200px) / 2)  
     .mood
         background-color: white
@@ -302,9 +303,11 @@ export default {
             height: 400px
             position: relative
             top: 100px
-            z-index: 100
+            z-index: 110
             img
                 width: 100vw
+                z-index: 110
+                position: absolute
         .mood_background_images
             position: absolute
             width: 100%

@@ -850,7 +850,7 @@ export default {
         },
     },
     mounted(){
-        //setInterval(this.sliderAuto, 5000)
+        setInterval(this.sliderAuto, 5000)
     }
 }
 </script>

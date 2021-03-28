@@ -236,13 +236,13 @@ export default {
             position: relative
             top: 70px
             h1
-                font-size: 7vw
-                width: 95%
-                line-height: 34px
+                width: 100%
+                font-size: 6.578vw
+                line-height: 9.6vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
-                margin-bottom: 15px
+                margin-bottom: 10px
 
            
             
@@ -259,6 +259,7 @@ export default {
                 font-size: 4.38vw
                 color: #370954
                 font-weight: 500
+                line-height: 6.1vw
                 margin: 0
                 margin-bottom: 10px
                 display: inline-block
@@ -274,6 +275,7 @@ export default {
             p
                 font-weight: 400
                 font-size: 3.94vw
+                line-height: 5vw
                 color: #222
                 display: inline-block
                 font-weight: regular
@@ -303,7 +305,8 @@ export default {
             top: 100px
             z-index: 100
             img
-                width: 100%
+                width: 86%
+                padding-left: 7%
                 position: relative
                 z-index: 100
                                 
@@ -321,7 +324,7 @@ export default {
             .create_background_images_2
                 display: block
                 left: 90vw
-                top: -950px
+                top: -800px
                 z-index: -1
             .create_background_images_3
                 top: -260px
@@ -336,7 +339,7 @@ export default {
                 display: block
                 position: absolute
                 right: 0%
-                top: -850px
+                top: -700px
 
 
             

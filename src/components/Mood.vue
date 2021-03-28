@@ -226,9 +226,9 @@ export default {
             position: relative
             top: 70px
             h1
-                font-size: 7vw
                 width: 95%
-                line-height: 38px
+                font-size: 6.57vw
+                line-height: 9.21vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -305,7 +305,8 @@ export default {
             top: 100px
             z-index: 110
             img
-                width: 100vw
+                width: 86%
+                padding-left: 7%
                 z-index: 110
                 position: absolute
         .mood_background_images

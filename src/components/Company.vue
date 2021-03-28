@@ -1096,14 +1096,14 @@ export default {
         width: 100%
         position: relative
         top: 0px
-        padding-top: 50px
-        height: 860px
+        padding-top: 20px
+        height: 110vh
         .company_padding
             margin-left: 7vw
         h1
-            font-size: 6.2vw
             width: 95vw
-            line-height: 38px
+            font-size: 7vw
+            line-height: 9.6vw
             font-weight: 700
             color: #370954
             padding-bottom: 0px
@@ -1111,6 +1111,7 @@ export default {
             display: inline
         h2
             font-size: 4.58vw
+            line-height: 7.6vw
             color: #370954
             font-weight: 500
             display: inline
@@ -1119,11 +1120,11 @@ export default {
         .company_slider, .company_slider_arrows
             display: none
         .company_slider_phone
-            height: 670px
+            height: 650px
             width: 100%
             position: relative
             left: 0px
-            top: 20px
+            top: -10px
             overflow-x: hidden
             overflow-y: hidden
 
@@ -1142,7 +1143,7 @@ export default {
                 
                 h1
                     font-size: 4.38vw
-                    line-height: 24px
+                    line-height: 5.26vw
                     color: #370954
                     font-weight: 700
                     position: absolute
@@ -1153,8 +1154,8 @@ export default {
                     position: relative
                     top: 4px
                 p
-                    font-size: 3.8vw
-                    line-height: 24px
+                    font-size: 3.5vw
+                    line-height: 5.26vw
                     color: #222
                     font-weight: 400
                     vertical-align: top
@@ -1165,7 +1166,7 @@ export default {
 
                 .company_slider_span
                     font-size: 3.5vw
-                    line-height: 5vw
+                    line-height: 5.26vw
                     color: #999
                     font-weight: 400
                     width: 39vw
@@ -1209,10 +1210,11 @@ export default {
                 
         .company_slider_arrows_phone
             padding-left: 37.5%
-            margin-top: 5px
-            padding-bottom: 65px
+            margin-top: 0px
+            padding-bottom: 45px
             z-index: 100
             position: relative
+            top: -0px
             img
                 cursor: pointer
                 outline: none
@@ -1245,6 +1247,13 @@ export default {
                 position: absolute
                 right: 15vw
                 top: -315px
+@media screen and (max-width: 375px)
+    .company
+        height: 100vh            
+        .company_slider_arrows_phone
+            top: -40px
+
+      
             
 
 </style>

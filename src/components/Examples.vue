@@ -2070,9 +2070,9 @@ export default {
             h1
                 z-index: 3
                 position: relative
-                font-size: 6.57vw
                 width: 100%
-                line-height: 40px
+                font-size: 7vw
+                line-height: 9.6vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 10px
@@ -2103,7 +2103,8 @@ export default {
                 transition: 0.5s all ease
                 position: absolute
                 opacity: 0
-                width: 100%
+                width: 86%
+                padding-left: 7%
                 z-index: 100
         .examples_image
             display: none
@@ -2123,7 +2124,7 @@ export default {
             .examples_background_images_2
                 display: block  
                 left: 10vw
-                top: 58vh
+                top: 48vh
                 z-index: 2
             .examples_background_images_3
                 top: -400px
@@ -2166,12 +2167,12 @@ export default {
                 left: 82vw
                 width: 12vw
                 //top: -108vh
-                top: -132vh
+                top: -115vh
             .examples_background_images_15
                 position: absolute
                 display: block
                 right: 0px
-                top: -120vh
+                top: -100vh
 
         .opportunities_background_images
             height: 0px
@@ -2181,10 +2182,10 @@ export default {
             h1
                 z-index: 3
                 position: relative
-                font-size: 6.57vw
                 width: 93%
                 padding-left: 7%
-                line-height: 40px
+                font-size: 7vw
+                line-height: 9.6vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 10px
@@ -2228,7 +2229,7 @@ export default {
 
 
         .opportunities_slider
-            height: 170vw
+            height: 175vw
             width: 100%
             position: relative
             left: 0px
@@ -2342,9 +2343,9 @@ export default {
             h1
                 z-index: 3
                 position: relative
-                font-size: 6.57vw
                 width: 100%
-                line-height: 40px
+                font-size: 7vw
+                line-height: 9.6vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 10px
@@ -2375,7 +2376,8 @@ export default {
                 transition: 0.5s all ease
                 position: absolute
                 opacity: 0
-                width: 100%
+                width: 86%
+                padding-left: 7%
                 z-index: 100
         .examples_image
             display: none
@@ -2451,10 +2453,10 @@ export default {
             h1
                 z-index: 3
                 position: relative
-                font-size: 6.57vw
                 width: 93%
                 padding-left: 7%
-                line-height: 40px
+                font-size: 7vw
+                line-height: 9.6vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 10px
@@ -2498,7 +2500,7 @@ export default {
 
 
         .opportunities_slider
-            height: 125vw
+            height: 175vw
             width: 100%
             position: relative
             left: 0px
@@ -2523,7 +2525,7 @@ export default {
                     padding-left: 7vw
                     width: 50vw
                 .company_slider_text
-                    margin-top: 15vw
+                    margin-top: 13vw
                     display: inline-block
                     width: 43vw
                     vertical-align: top
@@ -2537,7 +2539,7 @@ export default {
                     position: relative
                     margin: 0
                     padding: 0
-                    padding-top: 7vw
+                    padding-top: 0vw
                 p
                     font-size: 3.28vw
                     line-height: 20px

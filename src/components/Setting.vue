@@ -912,9 +912,9 @@ export default {
                 height: 420px
                 margin: 0
                 h1
-                    font-size: 6.57vw
                     padding-top: 20px
-                    line-height: 42px
+                    font-size: 7vw
+                    line-height: 9.6vw
                     font-weight: 700
                     color: #c34688
                     text-align: left
@@ -937,7 +937,7 @@ export default {
                         color: #c34688
                 h2
                     font-size: 4.38vw
-                    line-height: 28px
+                    line-height: 6.14vw
                     font-weight: 700
                     color: #370954
                     text-align: left
@@ -945,9 +945,9 @@ export default {
                     margin: 10px 0 0 0 
                 h3
                     margin: 0
-                    margin-top: 10px
+                    margin-top: 4px
                     font-size: 3.508vw
-                    line-height:16px
+                    line-height: 5.7vw
                     font-weight: 400
                     color: #999
                 .setting_quiz_progress
@@ -976,7 +976,7 @@ export default {
                     display: flex
                     flex-wrap: wrap
                     justify-content: center
-                    margin-top: 30px
+                    margin-top: 0px
                     margin-left: 0px
                     p
                         font-size: 2.85vw
@@ -1050,9 +1050,9 @@ export default {
                         outline: none
                         user-select: none
                 .setting_quiz_icons_11
-                    margin-top: 12px
+                    margin-top: 2px
                 .setting_quiz_icons_12
-                    margin-top: 32px
+                    margin-top: 12px
                     
                     
                 .setting_quiz_back
@@ -1064,7 +1064,7 @@ export default {
                     span
                         font-style: italic
                         font-weight: 300
-                        font-size: 3.50vw
+                        font-size: 3.5vw
                         color: #bbb
                         padding-left: 21px
                         outline: none
@@ -1073,14 +1073,14 @@ export default {
                 .setting_quiz_after
                     float: right
                     user-select: none
-                    margin-top: 28px
+                    margin-top: 18px
                     outline: none
                     button
                         width: 37vw
                         color: white
                         border-radius: 31px
                         border: 0px
-                        font-size: 3.947vw
+                        font-size: 4.38vw
                         font-weight: 400
                         padding: 20px 0
                         cursor: pointer
@@ -1099,11 +1099,11 @@ export default {
                         font-weight: 400
                         //margin-bottom: 60px
                 .setting_quiz_after_1
-                    margin-top: 28px
+                    margin-top: 8px
                 .setting_quiz_back_1
-                    margin-top: 44px
+                    margin-top: 24px
                 .setting_quiz_back_2
-                    margin-top: 146px
+                    margin-top: 46px
                 
 
 
@@ -1119,15 +1119,17 @@ export default {
 
 
             .setting_quiz_result
+                top: -40px
+                position: relative
                 display: inline-block
                 //background: #f9f9f9f9
                 background-color: white
                 vertical-align: top
                 h1
-                    font-size: 3.947vw
+                    font-size: 3.94vw
                     padding-left: 16vw
                     padding-top: 0px
-                    line-height: 48px
+                    line-height: 10.52vw
                     font-weight: 400
                     color: #222
                     span
@@ -1143,7 +1145,7 @@ export default {
                         span
                             color: #d6496f
                             text-decoration: none
-                            font-size: 10.0vw
+                            font-size: 10.1vw
                             font-weight: 700
 
                 img
@@ -1158,15 +1160,15 @@ export default {
                     border-radius: 5px
                     h2
                         margin: 0
-                        font-size: 4.38vw
-                        line-height: 24px
+                        font-size: 3.9473vw
+                        line-height: 5.263vw
                         font-weight: 700
                         color: #370954
                         span
                             color: #c34688
                     p
-                        font-size: 3.947vw
-                        line-height: 22px
+                        font-size: 3.5vw
+                        line-height: 5.263vw
                         font-weight: 400
                         color: #222
                         width: 90%
@@ -1221,7 +1223,7 @@ export default {
             .setting_background_images_3
                 position: absolute
                 display: inline
-                top: -1130px
+                top: -960px
                 right: 5vw
             .setting_background_images_4
                 position: absolute
@@ -1247,39 +1249,7 @@ export default {
 
 @media screen and (max-width: 375px)
     .setting
-        position: relative
-        top: 00px
-        height: 1040px
-        width: 100vw
-        .setting_header
-            width: 90%
-            margin-left: 5%
-            text-align: center
-            font-size: 6.14vw
-            line-height: 4vh
-            color: #370954
-            font-weight: 700
-            margin-bottom: 0px
-        .setting_header_2
-            width: 90%
-            margin-left: 5%
-            text-align: center
-            font-size: 4.82vw
-            line-height: 3.3vh
-            color: #370954
-            font-weight: 700
-            margin-bottom: 50px
-
-
-
         .setting_quiz
-            position: relative
-            z-index: 3
-            width: 100vw
-            box-shadow: 0px 0px 10px 3px rgb(240,240,240)
-            border-radius: 10px
-            margin: 0
-
             .setting_quiz_part
                 display: block
                 background: white
@@ -1315,7 +1285,7 @@ export default {
                         color: #c34688
                 h2
                     font-size: 4.38vw
-                    line-height: 28px
+                    line-height: 6.14vw
                     font-weight: 700
                     color: #370954
                     text-align: left
@@ -1323,9 +1293,9 @@ export default {
                     margin: 10px 0 0 0 
                 h3
                     margin: 0
-                    margin-top: 10px
+                    margin-top: 4px
                     font-size: 3.508vw
-                    line-height:16px
+                    line-height: 5.7vw
                     font-weight: 400
                     color: #999
                 .setting_quiz_progress
@@ -1354,7 +1324,7 @@ export default {
                     display: flex
                     flex-wrap: wrap
                     justify-content: center
-                    margin-top: 30px
+                    margin-top: 10px
                     margin-left: 0px
                     p
                         font-size: 2.85vw
@@ -1430,9 +1400,9 @@ export default {
                         outline: none
                         user-select: none
                 .setting_quiz_icons_11
-                    margin-top: 12px
+                    margin-top: 10px
                 .setting_quiz_icons_12
-                    margin-top: 32px
+                    margin-top: 10px
                     
                     
                 .setting_quiz_back
@@ -1479,11 +1449,11 @@ export default {
                         font-weight: 400
                         //margin-bottom: 60px
                 .setting_quiz_after_1
-                    margin-top: 28px
+                    margin-top: 8px
                 .setting_quiz_back_1
-                    margin-top: 44px
+                    margin-top: 30px
                 .setting_quiz_back_2
-                    margin-top: 146px
+                    margin-top: 76px
                 
 
 
@@ -1499,15 +1469,17 @@ export default {
 
 
             .setting_quiz_result
+                top: -50px
+                position: relative
                 display: inline-block
                 //background: #f9f9f9f9
                 background-color: white
                 vertical-align: top
                 h1
-                    font-size: 3.947vw
+                    font-size: 3.94vw
                     padding-left: 16vw
                     padding-top: 0px
-                    line-height: 48px
+                    line-height: 10.52vw
                     font-weight: 400
                     color: #222
                     span
@@ -1523,7 +1495,7 @@ export default {
                         span
                             color: #d6496f
                             text-decoration: none
-                            font-size: 10.0vw
+                            font-size: 10.1vw
                             font-weight: 700
 
                 img
@@ -1538,15 +1510,15 @@ export default {
                     border-radius: 5px
                     h2
                         margin: 0
-                        font-size: 4.38vw
-                        line-height: 24px
+                        font-size: 3.9473vw
+                        line-height: 5.263vw
                         font-weight: 700
                         color: #370954
                         span
                             color: #c34688
                     p
-                        font-size: 3.947vw
-                        line-height: 22px
+                        font-size: 3.5vw
+                        line-height: 5.263vw
                         font-weight: 400
                         color: #222
                         width: 90%
@@ -1578,51 +1550,7 @@ export default {
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
-        .setting_background_images
-            position: absolute
-            width: 100vw
-            height: 0px
-            img
-                position: relative
-                display: none
-            .setting_background_images_1
-                position: absolute
-                top: -10px
-                right: 0
-                width: 25vw
-                z-index: 3
-                display: inline
-            .setting_background_images_2
-                position: absolute
-                display: inline
-                left: -20px
-                top: 55px
-                z-index: 3
-
-            .setting_background_images_3
-                position: absolute
-                display: inline
-                top: -1130px
-                right: 5vw
-            .setting_background_images_4
-                position: absolute
-                display: inline
-                
-                top: 10px
-                left: 10vw
-                z-index: 3
-            .setting_background_images_5
-                top: -330px
-                left: -400px
-            .setting_background_images_6
-                top: -195px
-                left: 330px
-            .setting_background_images_7
-                top: -700px
-                left: -950px   
-            .setting_background_images_8
-                top: -790px
-                left: 260px
+    
 
 
 </style>

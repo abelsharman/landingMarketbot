@@ -239,7 +239,7 @@ $p_color: #370954
             h1
                 width: 90%
                 color: $h_color
-                line-height: 47px
+                line-height: 11.842vw
                 font-size: 10.08vw
                 width: 77%
                 font-weight: 700
@@ -247,7 +247,7 @@ $p_color: #370954
             h3
                 color: $h_color
                 font-size: 5.7vw
-                line-height: 33px
+                line-height: 8.33vw
                 font-weight: 700
                 margin: 0
                 margin-top: 10px
@@ -256,7 +256,7 @@ $p_color: #370954
                 font-size: 5.7vw
                 font-weight: 700
                 margin: 0
-                line-height: 35px
+                line-height: 8.33vw
                 width: max-content 
                 span
                     padding-bottom: 3px
@@ -265,7 +265,7 @@ $p_color: #370954
                 font-size: 3.94vw
                 margin: 0
                 margin-top: 30px
-                line-height: 26px
+                line-height: 6.57vw
                 color: #222222
                 font-size: 400
             button
@@ -374,14 +374,15 @@ $p_color: #370954
             h1
                 width: 90%
                 color: $h_color
-                line-height: 40px
+                line-height: 11.842vw
                 font-size: 10.08vw
+                width: 77%
                 font-weight: 700
                 margin: 0
             h3
                 color: $h_color
                 font-size: 5.7vw
-                line-height: 30px
+                line-height: 8.33vw
                 font-weight: 700
                 margin: 0
                 margin-top: 10px
@@ -390,7 +391,7 @@ $p_color: #370954
                 font-size: 5.7vw
                 font-weight: 700
                 margin: 0
-                line-height: 35px
+                line-height: 8.33vw
                 width: max-content 
                 span
                     padding-bottom: 3px
@@ -398,19 +399,19 @@ $p_color: #370954
             p
                 font-size: 3.94vw
                 margin: 0
-                margin-top: 20px
-                line-height: 26px
+                margin-top: 30px
+                line-height: 6.57vw
                 color: #222222
                 font-size: 400
             button
                 border-radius: 31px
-                margin-top: 15px
+                margin-top: 25px
                 font-size: 3.94vw
                 color: white
                 font-weight: 400
                 border: 0px
                 background-color: #c34688
-                height: 52px
+                height: 62px
                 width: 95%
                 outline: none
                 cursor: pointer

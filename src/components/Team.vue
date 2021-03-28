@@ -226,25 +226,26 @@ export default {
 
 @media screen and (max-width: 456px)
     .team
-        height: 1400px
+        height: 340vw
+        //height: 1400px
         .team_intro
             width: 93%
             padding-left: 7%
             margin-top: 80px
             display: inline-block
             h1
-                font-size: 7vw
                 width: 95%
-                line-height: 42px
+                font-size: 6.5vw
+                line-height: 9.21vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
                 margin: 0
             p
                 font-weight: 400
-                font-size: 4vw
+                font-size: 3.94vw
                 color: #222
-                line-height: 26px
+                line-height: 6.57vw
                 width: 95%
         .team_members
             display: none
@@ -264,12 +265,12 @@ export default {
                 h2
                     font-weight: 500
                     font-size: 4.38vw
-                    line-height: 22px
+                    line-height: 4.82vw
                     color: #370954
                     margin: 1vh 0
                 p
                     font-size: 3.947vw
-                    line-height: 22px
+                    line-height: 5.7vw
                     font-weight: 400
                     color: #222
                     text-align: center
@@ -304,7 +305,8 @@ export default {
                 z-index: 3
             .team_background_images_5
                 display: block
-                top: -1035px
+                //top: -975px
+                top: -260vw
                 left: 55vw
                 z-index: 1
 

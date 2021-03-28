@@ -186,9 +186,9 @@ export default {
             background-color: #f9f9f9
             padding-top: 40px
             h1
-                font-size: 6.5vw
                 width: 95%
-                line-height: 34px
+                font-size: 7vw
+                line-height: 9.6vw
                 font-weight: 700
                 color: #370954
                 padding-bottom: 0px
@@ -218,7 +218,7 @@ export default {
                   
             p
                 font-weight: 400
-                font-size: 3.54vw
+                font-size: 3.94vw
                 color: #222
                 display: inline-block
                 font-weight: regular
@@ -226,6 +226,7 @@ export default {
                 margin: 0
                 margin-right: 0px
                 margin-top: 14px
+                line-height: 6.57vw
                 padding-bottom: 2px
                 transition: 0.3s all ease
         .associate_image
@@ -245,10 +246,11 @@ export default {
             position: relative
             top: -140px
             z-index: 2
-            height: 100vw
+            height: 70vw
             background-color: #f9f9f9
             img
-                width: 100%
+                width: 86%
+                padding-left: 7%
         .associate_background_images
             position: absolute
             width: 100%
@@ -259,7 +261,7 @@ export default {
             .associate_background_images_1
                 position: absolute
                 display: block
-                top: -580px
+                top: -420px
                 right: 0vw
                 width: 30vw
                 z-index: 2
@@ -268,7 +270,7 @@ export default {
                 display: block
                 right: 5vw
                 width: 35vw
-                top: -1130px
+                top: -1030px
                 z-index: 2
             .associate_background_images_3
                 top: -980px
@@ -299,13 +301,13 @@ export default {
             .associate_background_images_11
                 display: block
                 left: 88vw
-                top: -870px
+                top: -610px
                 width: 5vw
             .associate_background_images_12
                 display: block
                 position: absolute
                 right: 0
-                top: -830px
+                top: -700px
                 width: 10vw
             .associate_background_images_13
                 display: block

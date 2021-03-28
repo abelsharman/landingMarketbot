@@ -7,12 +7,12 @@
         </div>
 
         <div class="execute_image">
-            <img src="../assets/img-6.webp" alt="img">
+            <img src="../assets/img-6.png" alt="img">
         </div>
 
 
         <div class="execute_image_phone">
-            <img src="../assets/img-6 mobile.webp" alt="img">
+            <img src="../assets/img-6 mobile.png" alt="img">
         </div>
 
 

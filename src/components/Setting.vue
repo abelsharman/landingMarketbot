@@ -164,7 +164,7 @@
 
                     <div class="setting_quiz_icons_9">
                         <span>{{ Math.round(info.crm * info.yearly_discount) }}₽</span>
-                        <img @click="closeCrm" v-if="checkCrm" src="../assets/quiz/amo.webp" alt="amo">
+                        <img @click="closeCrm" v-if="checkCrm" src="../assets/quiz/amo.png" alt="amo">
                         <img @click="clickCrm" v-if="!checkCrm" src="../assets/quiz/amo3.png" alt="amo">
                         <p>amoCRM</p>
                     </div>
@@ -238,7 +238,7 @@
             <div class="setting_quiz_result">
                 <h1>Итого: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ за 30 дней</strong></h1>
 
-                <img src="../assets/img-10-tarif.webp" alt="img">
+                <img src="../assets/img-10-tarif.png" alt="img">
 
                 <div class="setting_quiz_result_info">
                     <h2>Бесплатно 30 дней на <span>МАКСИМУМ</span></h2>

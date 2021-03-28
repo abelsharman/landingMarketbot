@@ -1,7 +1,7 @@
 <template>
     <div class="create">
         <div class="create_image">
-            <img src="../assets/img-5.webp" alt="img">
+            <img src="../assets/img-5.png" alt="img">
         </div>
 
         <div class="create_nav">
@@ -31,7 +31,7 @@
 
 
         <div class="create_image_phone">
-            <img src="../assets/img-5 mobile.webp" alt="img">
+            <img src="../assets/img-5 mobile.png" alt="img">
         </div>
 
         <div class="create_background_images">

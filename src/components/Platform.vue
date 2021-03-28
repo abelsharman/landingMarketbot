@@ -10,12 +10,12 @@
 
 
        <div class="platform_image">
-           <img src="../assets/img-1.webp" loading="lazy" alt="img-1" >
+           <img src="../assets/img-1.png" loading="lazy" alt="img-1" >
        </div>
 
 
        <div class="platform_image_phone">
-           <img src="../assets/img-1 mobile.webp" loading="lazy" alt="img-1">
+           <img src="../assets/img-1 mobile.png" loading="lazy" alt="img-1">
        </div>
 
        <div class="platform_background_images">
@@ -233,7 +233,7 @@ $p_color: #370954
         width: 100%
         .platform_text
             padding-left: 7%
-            padding-top: 50px
+            padding-top: 30px
             width: 90%
             display: block
             h1
@@ -241,12 +241,13 @@ $p_color: #370954
                 color: $h_color
                 line-height: 47px
                 font-size: 10.08vw
+                width: 77%
                 font-weight: 700
                 margin: 0
             h3
                 color: $h_color
                 font-size: 5.7vw
-                line-height: 35px
+                line-height: 33px
                 font-weight: 700
                 margin: 0
                 margin-top: 10px
@@ -346,12 +347,13 @@ $p_color: #370954
                 display: block
                 position: absolute
                 right: 12%
-                top: 170px
+                top: 50px
+                width: 5vw
             .platform_background_images_10
                 display: block
                 position: absolute
                 right: 0px
-                top: 190px
+                top: 70px
             .platform_background_images_11
                 display: block
                 position: relative

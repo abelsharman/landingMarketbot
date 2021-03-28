@@ -234,7 +234,7 @@ export default {
             padding-left: 7%
             vertical-align: top
             position: relative
-            top: 100px
+            top: 70px
             h1
                 font-size: 7vw
                 width: 95%
@@ -298,9 +298,9 @@ export default {
         .create_image_phone
             display: block
             width: 100%
-            height: calc(155vw)
+            height: calc(145vw)
             position: relative
-            top: 130px
+            top: 100px
             z-index: 100
             img
                 width: 100%
@@ -338,147 +338,6 @@ export default {
                 right: 0%
                 top: -850px
 
-@media screen and (max-width: 360px) 
-    .page_grey_lines_12
-        display: block
-        img
-            position: absolute
-            height: 100%
-            width: 1px
-            top: 0px
-            z-index: 99
-        .page_grey_line_1
-            margin: 0
-            width: 1px
-            left: 23.5%
-        .page_grey_line_2
-            margin: 0
-            width: 1px
-            left: 76.5%
-            .page_grey_line_3
-                display: none
-                left: calc((100vw - 240px) / 2)
-            .page_grey_line_4
-                display: none
-                left: calc((100vw + 240px) / 2)
-            .page_grey_line_5
-                display: none
-                left: calc((100vw + 720px) / 2)
-            .page_grey_line_6
-                display: none
-                left: calc((100vw + 1200px) / 2)  
-    .create
-        background-color: white
-        width: 100%
-        position: relative
-        top: 0px
-        z-index: 1
-        .create_nav
-            display: block
-            width: 93%
-            padding-left: 7%
-            vertical-align: top
-            position: relative
-            top: 100px
-            h1
-                font-size: 7vw
-                width: 95%
-                line-height: 34px
-                font-weight: 700
-                color: #370954
-                padding-bottom: 0px
-                margin-bottom: 15px
 
-           
-            
-            img
-                display: inline-block
-                margin-right: 10px
-                vertical-align: top
-                padding-top: 18px
-                margin-left: 0px
-
-
-            h2
-                margin-top: 0px
-                font-size: 4.38vw
-                color: #370954
-                font-weight: 500
-                margin: 0
-                margin-bottom: 10px
-                display: inline-block
-                width: 100%
-            strong
-                display: block
-                margin-left: 25px
-                font-size: 3.5vw
-                width: 80vw
-                font-weight: 400
-                color: #999
-                  
-            p
-                font-weight: 400
-                font-size: 3.94vw
-                color: #222
-                display: inline-block
-                font-weight: regular
-                width: 90%
-                margin: 0
-                margin-right: 0px
-                margin-top: 15px
-                padding-bottom: 2px
-                transition: 0.3s all ease
-        .create_image
-            height: 700px
-            display: none
-            width: 52%
-            vertical-align: top
-            position: relative
-            top: -30px
-            img 
-                transition: 0.5s all ease
-                position: absolute
-                z-index: 2
-                opacity: 1
-        .create_image_phone
-            display: block
-            width: 100%
-            height: calc(170vw)
-            position: relative
-            top: 130px
-            z-index: 2
-            img
-                width: 100%
-        .create_background_images
-            position: absolute
-            width: 100%
-            height: 0px
-            img
-                position: relative
-                display: none
-            .create_background_images_1
-                display: block
-                top: -85px
-                left: 70vw
-            .create_background_images_2
-                display: block
-                left: 90vw
-                top: -950px
-                z-index: -1
-            .create_background_images_3
-                top: -260px
-                left: -165px
-            .create_background_images_4
-                left: 230px
-                top: -270px
-            .create_background_images_5
-                top: -905px
-                left: -290px
-            .create_background_images_6
-                display: block
-                position: absolute
-                right: 0%
-                top: -850px
-            
             
 </style>

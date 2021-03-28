@@ -36,6 +36,7 @@
             <img class="associate_background_images_10" src="../assets/back/bluemn.png" alt="bluemn">
             <img class="associate_background_images_11" src="../assets/back/greysn.png" alt="greysn">
             <img class="associate_background_images_12" src="../assets/back/purplebyhalf.png" alt="greysn">
+            <img class="associate_background_images_13" src="../assets/back/brownmyhalf.png" alt="greysn">
         </div>
 
 
@@ -163,6 +164,8 @@ export default {
                 top: -1000px
             .associate_background_images_12
                 display: none
+            .associate_background_images_13
+                display: none
             
 
 
@@ -215,7 +218,7 @@ export default {
                   
             p
                 font-weight: 400
-                font-size: 3.94vw
+                font-size: 3.54vw
                 color: #222
                 display: inline-block
                 font-weight: regular
@@ -240,7 +243,7 @@ export default {
             display: block
             width: 100%
             position: relative
-            top: -120px
+            top: -140px
             z-index: 2
             height: 100vw
             background-color: #f9f9f9
@@ -256,7 +259,7 @@ export default {
             .associate_background_images_1
                 position: absolute
                 display: block
-                top: -620px
+                top: -580px
                 right: 0vw
                 width: 30vw
                 z-index: 2
@@ -275,11 +278,9 @@ export default {
                 left: 630px
                 top: -270px
             .associate_background_images_5
-                display: block
                 top: -15px
                 left: 34vw
             .associate_background_images_6
-                display: block
                 top: -155px
                 left: 36vw
                 z-index: 1
@@ -297,154 +298,22 @@ export default {
                 top: -540px
             .associate_background_images_11
                 display: block
-                left: 82vw
-                top: -1070px
+                left: 88vw
+                top: -870px
+                width: 5vw
             .associate_background_images_12
                 display: block
                 position: absolute
                 right: 0
-                top: -930px
+                top: -830px
                 width: 10vw
-
-
-
-@media screen and (max-width: 370px)   
-     .associate
-        .associate_nav
-            display: block
-            width: 93%
-            padding-left: 7%
-            vertical-align: top
-            position: relative
-            top: 00px
-            background-color: #f9f9f9
-            padding-top: 30px
-            margin-top: 180px
-            h1
-                font-size: 30px
-                width: 95%
-                line-height: 38px
-                font-weight: 700
-                color: #370954
-                padding-bottom: 0px
-
-           
-            
-            img
-                display: inline-block
-                margin-right: 10px
-                vertical-align: top
-                padding-top: 22px
-                margin-left: 0px
-
-
-            h2
-                margin-top: 40px
-                font-size: 20px
-                color: #370954
-                font-weight: 500
-                display: inline-block
-                width: 100%
-                img
-                    position: relative
-                    top: -4px
-                    vertical-align: bottom
-                    display: inline-block
-                  
-            p
-                font-weight: 400
-                font-size: 18px
-                color: #222
-                display: inline-block
-                font-weight: regular
-                width: 90%
-                margin: 0
-                margin-right: 0px
-                margin-top: 18px
-                padding-bottom: 2px
-                transition: 0.3s all ease
-        .associate_image
-            height: 700px
-            display: none
-            width: 52%
-            vertical-align: top
-            position: relative
-            top: -30px
-            img 
-                transition: 0.5s all ease
-                position: absolute
-                z-index: 2
-                opacity: 1
-        .associate_image_phone
-            display: block
-            width: 100%
-            position: relative
-            top: -20px
-            z-index: 2
-            height: 150vw
-            background-color: #f9f9f9
-
-            
-        
-            img
-                z-index: 5
-                position: relative
-                width: 100%
-        .associate_background_images
-            position: absolute
-            width: 100%
-            height: 0px
-            img
-                position: relative
-                display: none
-            .associate_background_images_1
-                position: absolute
-                display: block
-                top: -720px
-                right: 10vw
-                z-index: 2
-            .associate_background_images_2
-                position: absolute
-                display: block
-                right: 15vw
-                top: -1520px
-                z-index: 2
-            .associate_background_images_3
-                top: -980px
-                left: -200px
-                z-index: 3
-            .associate_background_images_4
-                left: 630px
-                top: -270px
-            .associate_background_images_5
-                display: block
-                top: -15px
-                left: 34vw
-            .associate_background_images_6
-                display: block
-                top: -155px
-                left: 36vw
-                z-index: 2
-            .associate_background_images_7
-                left: 40px
-                top: -200px
-            .associate_background_images_8
-                left: 250px
-                top: -800px
-            .associate_background_images_9
-                left: 00px
-                top: -1010px
-            .associate_background_images_10
-                left: 100px
-                top: -540px
-            .associate_background_images_11
-                display: block
-                left: 82vw
-                top: -1100px
-            .associate_background_images_12
+            .associate_background_images_13
                 display: block
                 position: absolute
                 right: 0
-                top: -1070px
-            
+                top: -50px
+                width: 15vw
+
+
+
 </style>

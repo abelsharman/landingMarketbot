@@ -2117,7 +2117,8 @@ export default {
             .examples_background_images_1
                 position: absolute
                 display: block
-                top: -57vh
+                top: -47vh
+                width: 35vw
                 right: 0
             .examples_background_images_2
                 display: block  
@@ -2148,7 +2149,7 @@ export default {
                 left: calc((100vw - 1400px) / 2)
                 top: 50vh
             .examples_background_images_11
-                display: block
+                display: none
                 position: relative
                 left: 2vw
                 top: -65vh
@@ -2162,14 +2163,15 @@ export default {
                 z-index: -1
             .examples_background_images_14
                 display: block
-                left: 77vw
+                left: 82vw
+                width: 12vw
                 //top: -108vh
-                top: -248vh
+                top: -132vh
             .examples_background_images_15
                 position: absolute
                 display: block
                 right: 0px
-                top: -220vh
+                top: -120vh
 
         .opportunities_background_images
             height: 0px
@@ -2237,6 +2239,7 @@ export default {
                 padding-left: 7vw
                 top: 15vw
                 position: relative
+                z-index: 1110
             .company_slider_item
                 position: absolute
                 width: 650px
@@ -2417,7 +2420,7 @@ export default {
                 left: calc((100vw - 1400px) / 2)
                 top: 50vh
             .examples_background_images_11
-                display: block
+                display: none
                 position: relative
                 left: 2vw
                 top: -65vh
@@ -2495,7 +2498,7 @@ export default {
 
 
         .opportunities_slider
-            height: 120vw
+            height: 125vw
             width: 100%
             position: relative
             left: 0px
@@ -2505,7 +2508,7 @@ export default {
             .opportunities_slider_arrow
                 padding-left: 7vw
                 top: 15vw
-                z-index: 99
+                z-index: 1110
                 position: relative
             .company_slider_item
                 position: absolute
@@ -2520,7 +2523,7 @@ export default {
                     padding-left: 7vw
                     width: 50vw
                 .company_slider_text
-                    padding-top: 15vw
+                    margin-top: 15vw
                     display: inline-block
                     width: 43vw
                     vertical-align: top

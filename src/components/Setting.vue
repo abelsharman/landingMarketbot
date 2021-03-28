@@ -1008,15 +1008,16 @@ export default {
 
 
                     .setting_quiz_operator
-                        width: 50px
+                        width: 11.5vw
                         border: 1px solid #a13c7f
                         font-size: 20px
                         border-radius: 50px
                         background-color: #f6f6f6
-                        height: 50px
+                        height: 11.5vw
                         color: #a13c7f
                         text-align: center
                         margin: 10px 0 0px 0px
+                        margin-bottom: 15px
                         display: inline-block
                         strong
                             position: relative
@@ -1385,42 +1386,45 @@ export default {
 
 
                     .setting_quiz_operator
-                        width: 50px
+                        width: 10vw
                         border: 1px solid #a13c7f
-                        font-size: 20px
+                        font-size: 4.38vw
                         border-radius: 50px
                         background-color: #f6f6f6
-                        height: 50px
+                        height: 10vw
                         color: #a13c7f
                         text-align: center
                         margin: 10px 0 0px 0px
+                        margin-bottom: 15px
                         display: inline-block
                         strong
                             position: relative
-                            top: 14px
+                            top: 8px
                     .setting_quiz_minus
                         position: relative
-                        top: 13px
-                        left: 12px
+                        top: 8px
+                        left: 9px
                         font-weight: 200
                         border: 1px solid white
                         color: white
+                        font-size: 3.3vw
                         background-color: #a13c7f
-                        padding: 0 6px
+                        padding: 0 4px
                         border-radius: 10px
                         cursor: pointer
                         user-select: none
                     .setting_quiz_plus
                         position: relative
-                        top: 13px
-                        left: -12px
+                        top: 8px
+                        left: -9px
                         //left: 61px !important
                         //top: -34px !important
                         font-weight: 200
                         border: 1px solid white
                         color: white
+                        font-size: 3.3vw
                         background-color: #a13c7f
-                        padding: 0 4px
+                        padding: 0 3px
                         cursor: pointer
                         border-radius: 30px
                         outline: none

@@ -9,28 +9,28 @@
         <div class="company_slider">
             <div class="company_slider_item company_slider_1" id="1" ref="i1">
                 <img class="company_slider_big_img" src="../assets/client-1.png" alt="client">
-                <h1>Спортмастер</h1><img src="../assets/check.png" alt="check">
+                <h1>Спортмастер<img src="../assets/check.png" alt="check"></h1>
                 <p>Российская компания розничной торговли спорттоварами. Продает спорттовары в большом количестве, используя при этом различные чат-боты.</p>
                 <p class="company_slider_span">WhatsApp является основным каналом взаимодействия службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_2" id="2" ref="i2">
                 <img class="company_slider_big_img"  src="../assets/client-2.png" alt="client">
-                <h1>СДЭК</h1><img src="../assets/check.png" alt="check">
+                <h1>СДЭК<img src="../assets/check.png" alt="check"></h1>
                 <p>Один из самых активных и привлекательных участников российского рынка экспресс-доставки.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_3" id="3" ref="i3">
                 <img class="company_slider_big_img"  src="../assets/client-3.png" alt="client">
-                <h1>Альфа-банк</h1><img src="../assets/check.png" alt="check">
+                <h1>Альфа-банк<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.</p>
                 <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
             </div>
 
             <div class="company_slider_item company_slider_4" id="4" ref="i4">
                 <img class="company_slider_big_img"  src="../assets/client-4.png" alt="client" loading="lazy">
-                <h1>Университет Синергия</h1><img src="../assets/check.png" alt="check">
+                <h1>Университет Синергия<img src="../assets/check.png" alt="check"></h1>
                 <p>Негосударственное высшее учебное заведение.</p>
                 <p class="company_slider_span">Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.</p>
             </div>
@@ -38,63 +38,63 @@
 
             <div class="company_slider_item company_slider_5" id="5" ref="i5">
                 <img class="company_slider_big_img"  src="../assets/client-5.png" alt="client" loading="lazy">
-                <h1>amoCRM</h1><img src="../assets/check.png" alt="check">
+                <h1>amoCRM<img src="../assets/check.png" alt="check"></h1>
                 <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_6" id="6" ref="i6">
                 <img class="company_slider_big_img"  src="../assets/client-6.png" alt="client" loading="lazy">
-                <h1>Yota</h1><img src="../assets/check.png" alt="check">
+                <h1>Yota<img src="../assets/check.png" alt="check"></h1>
                 <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_7" id="7" ref="i7">
                 <img class="company_slider_big_img"  src="../assets/client-7.png" alt="client" loading="lazy">
-                <h1>БКС Банк</h1><img src="../assets/check.png" alt="check">
+                <h1>БКС Банк<img src="../assets/check.png" alt="check"></h1>
                 <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_8" id="8" ref="i8">
                 <img class="company_slider_big_img"  src="../assets/client-8.png" alt="client" loading="lazy">
-                <h1>Деловые Линии</h1><img src="../assets/check.png" alt="check">
+                <h1>Деловые Линии<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_9" id="9" ref="i9">
                 <img class="company_slider_big_img"  src="../assets/client-9.png" alt="client" loading="lazy">
-                <h1>TalkBank</h1><img src="../assets/check.png" alt="check">
+                <h1>TalkBank<img src="../assets/check.png" alt="check"></h1>
                 <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
                 <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
             </div>
 
             <div class="company_slider_item company_slider_10" id="10" ref="i10">
                 <img class="company_slider_big_img"  src="../assets/client-10.png" alt="client" loading="lazy">
-                <h1>М.Видео</h1><img src="../assets/check.png" alt="check">
+                <h1>М.Видео<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_11" id="11" ref="i11">
                 <img class="company_slider_big_img"  src="../assets/client-11.png" alt="client" loading="lazy">
-                <h1>Эльдорадо</h1><img src="../assets/check.png" alt="check">
+                <h1>Эльдорадо<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_12" id="12" ref="i12">
                 <img class="company_slider_big_img"  src="../assets/client-12.png" alt="client" loading="lazy">
-                <h1>Nestle</h1><img src="../assets/check.png" alt="check">
+                <h1>Nestle<img src="../assets/check.png" alt="check"></h1>
                 <p>Один из крупнейших в мире производитель продуктов питания.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
             </div>
 
             <div class="company_slider_item company_slider_13" id="13" ref="i13">
                 <img class="company_slider_big_img"  src="../assets/client-13.png" alt="client" loading="lazy">
-                <h1>AliExpress</h1><img src="../assets/check.png" alt="check">
+                <h1>AliExpress<img src="../assets/check.png" alt="check"></h1>
                 <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
             </div>
@@ -106,6 +106,109 @@
             <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
         </div>
 
+
+
+        <div class="company_slider_phone">
+            <div class="company_slider_item company_slider_1" id="1" ref="i14">
+                <h1>Спортмастер<img src="../assets/check.png" alt="check"></h1>
+                <p>Российская компания розничной торговли спорттоварами. Продает спорттовары в большом количестве, используя при этом различные чат-боты.</p>
+                <p class="company_slider_span">WhatsApp является основным каналом взаимодействия службы поддержки с клиентами.</p>
+                <img class="company_slider_big_img" src="../assets/client-1.png" alt="client">
+            </div>
+
+            <div class="company_slider_item company_slider_2" id="2" ref="i15">
+                <h1>СДЭК<img src="../assets/check.png" alt="check"></h1>
+                <p>Один из самых активных и привлекательных участников российского рынка экспресс-доставки.</p>
+                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-2.png" alt="client">
+            </div>
+
+            <div class="company_slider_item company_slider_3" id="3" ref="i16">
+                <h1>Альфа-банк<img src="../assets/check.png" alt="check"></h1>
+                <p>Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.</p>
+                <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
+                <img class="company_slider_big_img"  src="../assets/client-3.png" alt="client">
+            </div>
+
+            <div class="company_slider_item company_slider_4" id="4" ref="i17">
+                <h1>Университет Синергия<img src="../assets/check.png" alt="check"></h1>
+                <p>Негосударственное высшее учебное заведение.</p>
+                <p class="company_slider_span">Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.</p>
+                <img class="company_slider_big_img"  src="../assets/client-4.png" alt="client" loading="lazy">
+            </div>
+
+
+            <div class="company_slider_item company_slider_5" id="5" ref="i18">
+                <h1>amoCRM<img src="../assets/check.png" alt="check"></h1>
+                <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
+                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-5.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_6" id="6" ref="i19">
+                <h1>Yota<img src="../assets/check.png" alt="check"></h1>
+                <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
+                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-6.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_7" id="7" ref="i20">
+                <h1>БКС Банк<img src="../assets/check.png" alt="check"></h1>
+                <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
+                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-7.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_8" id="8" ref="i21">
+                <h1>Деловые Линии<img src="../assets/check.png" alt="check"></h1>
+                <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
+                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-8.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_9" id="9" ref="i22">
+                <h1>TalkBank<img src="../assets/check.png" alt="check"></h1>
+                <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
+                <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
+                <img class="company_slider_big_img"  src="../assets/client-9.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_10" id="10" ref="i23">
+                <h1>М.Видео<img src="../assets/check.png" alt="check"></h1>
+                <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
+                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-10.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_11" id="11" ref="i24">
+                <h1>Эльдорадо<img src="../assets/check.png" alt="check"></h1>
+                <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
+                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-11.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_12" id="12" ref="i25">
+                <h1>Nestle<img src="../assets/check.png" alt="check"></h1>
+                <p>Один из крупнейших в мире производитель продуктов питания.</p>
+                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-12.png" alt="client" loading="lazy">
+            </div>
+
+            <div class="company_slider_item company_slider_13" id="13" ref="i26">
+                <h1>AliExpress<img src="../assets/check.png" alt="check"></h1>
+                <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
+                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <img class="company_slider_big_img"  src="../assets/client-13.png" alt="client" loading="lazy">
+            </div>
+        </div>
+
+        <div class="company_slider_arrows_phone">
+            <img v-if="this.i != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="">
+            <img v-if="this.i == 1" src="../assets/left_arrow_passive.png" alt="">
+            <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
+        </div>
+
+        
         <div class="company_background_images">
             <img class="company_background_images_1" src="../assets/back/lightbluemy.png" alt="lightbluemy">
             <img class="company_background_images_2" src="../assets/back/purpleby.png" alt="purpleby">
@@ -136,6 +239,7 @@ export default {
     },
     methods:{
         sliderAuto(){
+            if(window.innerWidth > 456){
             this.i++
             if(this.i == 2){
                 this.$refs.i1.style.left = "-630px"
@@ -150,7 +254,6 @@ export default {
                 this.$refs.i10.style.left = "5040px"
                 this.$refs.i11.style.left = "5670px"
                 this.$refs.i12.style.left = "6300px"
-                this.$refs.i13.style.opacity = "1"
                 this.$refs.i13.style.left = "6930px"
             }
             else if(this.i == 3){
@@ -247,27 +350,13 @@ export default {
                 this.$refs.i11.style.left = "-630px"
                 this.$refs.i12.style.left = "0px"
                 this.$refs.i13.style.left = "630px"
-                this.$refs.i1.style.opacity = "0"
                 this.$refs.i1.style.left = "1260px"
             }
             else if(this.i == 13){
                 this.$refs.i12.style.left = "-630px"
                 this.$refs.i13.style.left = "0px"
-                this.$refs.i1.style.opacity = "1"
                 this.$refs.i1.style.left = "630px"
 
-
-                this.$refs.i2.style.opacity = "0"
-                this.$refs.i3.style.opacity = "0"
-                this.$refs.i4.style.opacity = "0"
-                this.$refs.i5.style.opacity = "0"
-                this.$refs.i6.style.opacity = "0"
-                this.$refs.i7.style.opacity = "0"
-                this.$refs.i8.style.opacity = "0"
-                this.$refs.i9.style.opacity = "0"
-                this.$refs.i10.style.opacity = "0"
-                this.$refs.i11.style.opacity = "0"
-                this.$refs.i12.style.opacity = "0"
 
 
                 this.$refs.i2.style.left = "1260px"
@@ -285,25 +374,160 @@ export default {
             else if(this.i == 14){
                 this.$refs.i13.style.left = "-630px"
                 this.$refs.i1.style.left = "0px"
-                this.$refs.i2.style.opacity = "1"
                 this.$refs.i2.style.left = "630px"
 
-                this.$refs.i3.style.opacity = "1"
-                this.$refs.i4.style.opacity = "1"
-                this.$refs.i5.style.opacity = "1"
-                this.$refs.i6.style.opacity = "1"
-                this.$refs.i7.style.opacity = "1"
-                this.$refs.i8.style.opacity = "1"
-                this.$refs.i9.style.opacity = "1"
-                this.$refs.i10.style.opacity = "1"
-                this.$refs.i11.style.opacity = "1"
-                this.$refs.i12.style.opacity = "1"
-
-                this.$refs.i13.style.opacity = "0"
                 this.$refs.i13.style.left = "7560px"
             }
             if(this.i == 14){
                 this.i = 1
+            }
+            }
+
+
+
+
+            else{
+                this.i++
+            if(this.i == 2){
+                this.$refs.i14.style.left = "-630px"
+                this.$refs.i15.style.left = "0px"
+                this.$refs.i16.style.left = "630px"
+                this.$refs.i17.style.left = "1260px"
+                this.$refs.i18.style.left = "1890px"
+                this.$refs.i19.style.left = "2520px"
+                this.$refs.i20.style.left = "3150px"
+                this.$refs.i21.style.left = "3780px"
+                this.$refs.i22.style.left = "4410px"
+                this.$refs.i23.style.left = "5040px"
+                this.$refs.i24.style.left = "5670px"
+                this.$refs.i25.style.left = "6300px"
+                this.$refs.i26.style.left = "6930px"
+            }
+            else if(this.i == 3){
+                this.$refs.i15.style.left = "-630px"
+                this.$refs.i16.style.left = "0px"
+                this.$refs.i17.style.left = "630px"
+                this.$refs.i18.style.left = "1260px"
+                this.$refs.i19.style.left = "1890px"
+                this.$refs.i20.style.left = "2520px"
+                this.$refs.i21.style.left = "3150px"
+                this.$refs.i22.style.left = "3780px"
+                this.$refs.i23.style.left = "4410px"
+                this.$refs.i24.style.left = "5040px"
+                this.$refs.i25.style.left = "5670px"
+                this.$refs.i26.style.left = "6300px"
+            }
+            else if(this.i == 4){
+                this.$refs.i16.style.left = "-630px"
+                this.$refs.i17.style.left = "0px"
+                this.$refs.i18.style.left = "630px"
+                this.$refs.i19.style.left = "1260px"
+                this.$refs.i20.style.left = "1890px"
+                this.$refs.i21.style.left = "2520px"
+                this.$refs.i22.style.left = "3150px"
+                this.$refs.i23.style.left = "3780px"
+                this.$refs.i24.style.left = "4410px"
+                this.$refs.i25.style.left = "5040px"
+                this.$refs.i26.style.left = "5670px"
+            }
+            else if(this.i == 5){
+                this.$refs.i17.style.left = "-630px"
+                this.$refs.i18.style.left = "0px"
+                this.$refs.i19.style.left = "630px"
+                this.$refs.i20.style.left = "1260px"
+                this.$refs.i21.style.left = "1890px"
+                this.$refs.i22.style.left = "2520px"
+                this.$refs.i23.style.left = "3150px"
+                this.$refs.i24.style.left = "3780px"
+                this.$refs.i25.style.left = "4410px"
+                this.$refs.i26.style.left = "5040px"
+            }
+            else if(this.i == 6){
+                this.$refs.i18.style.left = "-630px"
+                this.$refs.i19.style.left = "0px"
+                this.$refs.i20.style.left = "630px"
+                this.$refs.i21.style.left = "1260px"
+                this.$refs.i22.style.left = "1890px"
+                this.$refs.i23.style.left = "2520px"
+                this.$refs.i24.style.left = "3150px"
+                this.$refs.i25.style.left = "3780px"
+                this.$refs.i26.style.left = "4410px"
+            }
+            else if(this.i == 7){
+                this.$refs.i19.style.left = "-630px"
+                this.$refs.i20.style.left = "0px"
+                this.$refs.i21.style.left = "630px"
+                this.$refs.i22.style.left = "1260px"
+                this.$refs.i23.style.left = "1890px"
+                this.$refs.i24.style.left = "2520px"
+                this.$refs.i25.style.left = "3150px"
+                this.$refs.i26.style.left = "3780px"
+            }
+            else if(this.i == 8){
+                this.$refs.i20.style.left = "-630px"
+                this.$refs.i21.style.left = "0px"
+                this.$refs.i22.style.left = "630px"
+                this.$refs.i23.style.left = "1260px"
+                this.$refs.i24.style.left = "1890px"
+                this.$refs.i25.style.left = "2520px"
+                this.$refs.i26.style.left = "3150px"
+            }
+            else if(this.i == 9){
+                this.$refs.i21.style.left = "-630px"
+                this.$refs.i22.style.left = "0px"
+                this.$refs.i23.style.left = "630px"
+                this.$refs.i24.style.left = "1260px"
+                this.$refs.i25.style.left = "1890px"
+                this.$refs.i26.style.left = "2520px"
+            }
+            else if(this.i == 10){
+                this.$refs.i22.style.left = "-630px"
+                this.$refs.i23.style.left = "0px"
+                this.$refs.i24.style.left = "630px"
+                this.$refs.i25.style.left = "1260px"
+                this.$refs.i26.style.left = "1890px"
+            }
+            else if(this.i == 11){
+                this.$refs.i23.style.left = "-630px"
+                this.$refs.i24.style.left = "0px"
+                this.$refs.i25.style.left = "630px"
+                this.$refs.i26.style.left = "1260px"
+            }
+            else if(this.i == 12){
+                this.$refs.i24.style.left = "-630px"
+                this.$refs.i25.style.left = "0px"
+                this.$refs.i26.style.left = "630px"
+                this.$refs.i14.style.left = "1260px"
+            }
+            else if(this.i == 13){
+                this.$refs.i25.style.left = "-630px"
+                this.$refs.i26.style.left = "0px"
+                this.$refs.i14.style.left = "630px"
+
+
+
+                this.$refs.i15.style.left = "1260px"
+                this.$refs.i16.style.left = "1890px"
+                this.$refs.i17.style.left = "2520px"
+                this.$refs.i18.style.left = "3150px"
+                this.$refs.i19.style.left = "3780px"
+                this.$refs.i20.style.left = "4410px"
+                this.$refs.i21.style.left = "5040px"
+                this.$refs.i22.style.left = "5670px"
+                this.$refs.i23.style.left = "6300px"
+                this.$refs.i24.style.left = "6930px"
+                this.$refs.i25.style.left = "7560px"
+            }
+            else if(this.i == 14){
+                this.$refs.i26.style.left = "-630px"
+                this.$refs.i14.style.left = "0px"
+                this.$refs.i15.style.left = "630px"
+
+                this.$refs.i26.style.left = "7560px"
+            }
+            if(this.i == 14){
+                this.i = 1
+            }
             }
             
         },
@@ -311,7 +535,7 @@ export default {
             this.sliderAuto()
         },
         clickOnSliderMinus(){
-            
+            if(window.innerWidth > 456){
             this.i--
             if(this.i == 1){
                 this.$refs.i1.style.left = "0px"
@@ -326,7 +550,6 @@ export default {
                 this.$refs.i10.style.left = "5040px"
                 this.$refs.i11.style.left = "5670px"
                 this.$refs.i12.style.left = "6300px"
-                this.$refs.i13.style.opacity = "1"
                 this.$refs.i13.style.left = "6930px"
             }
             else if(this.i == 2){
@@ -343,7 +566,6 @@ export default {
                 this.$refs.i10.style.left = "5040px"
                 this.$refs.i11.style.left = "5670px"
                 this.$refs.i12.style.left = "6300px"
-                this.$refs.i13.style.opacity = "1"
                 this.$refs.i13.style.left = "6930px"
             }
             else if(this.i == 3){
@@ -440,27 +662,12 @@ export default {
                 this.$refs.i11.style.left = "-630px"
                 this.$refs.i12.style.left = "0px"
                 this.$refs.i13.style.left = "630px"
-                this.$refs.i1.style.opacity = "0"
                 this.$refs.i1.style.left = "1260px"
             }
             else if(this.i == 13){
                 this.$refs.i12.style.left = "-630px"
                 this.$refs.i13.style.left = "0px"
-                this.$refs.i1.style.opacity = "1"
                 this.$refs.i1.style.left = "630px"
-
-
-                this.$refs.i2.style.opacity = "0"
-                this.$refs.i3.style.opacity = "0"
-                this.$refs.i4.style.opacity = "0"
-                this.$refs.i5.style.opacity = "0"
-                this.$refs.i6.style.opacity = "0"
-                this.$refs.i7.style.opacity = "0"
-                this.$refs.i8.style.opacity = "0"
-                this.$refs.i9.style.opacity = "0"
-                this.$refs.i10.style.opacity = "0"
-                this.$refs.i11.style.opacity = "0"
-                this.$refs.i12.style.opacity = "0"
 
 
                 this.$refs.i2.style.left = "1260px"
@@ -478,28 +685,172 @@ export default {
             else if(this.i == 14){
                 this.$refs.i13.style.left = "-630px"
                 this.$refs.i1.style.left = "0px"
-                this.$refs.i2.style.opacity = "1"
                 this.$refs.i2.style.left = "630px"
 
-                this.$refs.i3.style.opacity = "1"
-                this.$refs.i4.style.opacity = "1"
-                this.$refs.i5.style.opacity = "1"
-                this.$refs.i6.style.opacity = "1"
-                this.$refs.i7.style.opacity = "1"
-                this.$refs.i8.style.opacity = "1"
-                this.$refs.i9.style.opacity = "1"
-                this.$refs.i10.style.opacity = "1"
-                this.$refs.i11.style.opacity = "1"
-                this.$refs.i12.style.opacity = "1"
+  
 
-                this.$refs.i13.style.opacity = "0"
                 this.$refs.i13.style.left = "7560px"
+            }
+            }
+            else{
+                this.i--
+            if(this.i == 1){
+                this.$refs.i14.style.left = "0px"
+                this.$refs.i15.style.left = "630px"
+                this.$refs.i16.style.left = "1260px"
+                this.$refs.i17.style.left = "1890px"
+                this.$refs.i18.style.left = "1890px"
+                this.$refs.i19.style.left = "2520px"
+                this.$refs.i20.style.left = "3150px"
+                this.$refs.i21.style.left = "3780px"
+                this.$refs.i22.style.left = "4410px"
+                this.$refs.i23.style.left = "5040px"
+                this.$refs.i24.style.left = "5670px"
+                this.$refs.i25.style.left = "6300px"
+                this.$refs.i26.style.left = "6930px"
+            }
+            else if(this.i == 2){
+                this.$refs.i14.style.left = "-630px"
+                this.$refs.i15.style.left = "0"
+                this.$refs.i16.style.left = "630px"
+                this.$refs.i17.style.left = "1260px"
+                this.$refs.i18.style.left = "1890px"
+                this.$refs.i19.style.left = "1890px"
+                this.$refs.i19.style.left = "2520px"
+                this.$refs.i20.style.left = "3150px"
+                this.$refs.i21.style.left = "3780px"
+                this.$refs.i22.style.left = "4410px"
+                this.$refs.i23.style.left = "5040px"
+                this.$refs.i24.style.left = "5670px"
+                this.$refs.i25.style.left = "6300px"
+                this.$refs.i26.style.left = "6930px"
+            }
+            else if(this.i == 3){
+                this.$refs.i15.style.left = "-630px"
+                this.$refs.i16.style.left = "0px"
+                this.$refs.i17.style.left = "630px"
+                this.$refs.i18.style.left = "1260px"
+                this.$refs.i19.style.left = "1890px"
+                this.$refs.i20.style.left = "2520px"
+                this.$refs.i21.style.left = "3150px"
+                this.$refs.i22.style.left = "3780px"
+                this.$refs.i23.style.left = "4410px"
+                this.$refs.i24.style.left = "5040px"
+                this.$refs.i25.style.left = "5670px"
+                this.$refs.i26.style.left = "6300px"
+            }
+            else if(this.i == 4){
+                this.$refs.i16.style.left = "-630px"
+                this.$refs.i17.style.left = "0px"
+                this.$refs.i18.style.left = "630px"
+                this.$refs.i19.style.left = "1260px"
+                this.$refs.i20.style.left = "1890px"
+                this.$refs.i21.style.left = "2520px"
+                this.$refs.i22.style.left = "3150px"
+                this.$refs.i23.style.left = "3780px"
+                this.$refs.i24.style.left = "4410px"
+                this.$refs.i25.style.left = "5040px"
+                this.$refs.i26.style.left = "5670px"
+            }
+            else if(this.i == 5){
+                this.$refs.i17.style.left = "-630px"
+                this.$refs.i18.style.left = "0px"
+                this.$refs.i19.style.left = "630px"
+                this.$refs.i20.style.left = "1260px"
+                this.$refs.i21.style.left = "1890px"
+                this.$refs.i22.style.left = "2520px"
+                this.$refs.i23.style.left = "3150px"
+                this.$refs.i24.style.left = "3780px"
+                this.$refs.i25.style.left = "4410px"
+                this.$refs.i26.style.left = "5040px"
+            }
+            else if(this.i == 6){
+                this.$refs.i18.style.left = "-630px"
+                this.$refs.i19.style.left = "0px"
+                this.$refs.i20.style.left = "630px"
+                this.$refs.i21.style.left = "1260px"
+                this.$refs.i22.style.left = "1890px"
+                this.$refs.i23.style.left = "2520px"
+                this.$refs.i24.style.left = "3150px"
+                this.$refs.i25.style.left = "3780px"
+                this.$refs.i26.style.left = "4410px"
+            }
+            else if(this.i == 7){
+                this.$refs.i19.style.left = "-630px"
+                this.$refs.i20.style.left = "0px"
+                this.$refs.i21.style.left = "630px"
+                this.$refs.i22.style.left = "1260px"
+                this.$refs.i23.style.left = "1890px"
+                this.$refs.i24.style.left = "2520px"
+                this.$refs.i25.style.left = "3150px"
+                this.$refs.i26.style.left = "3780px"
+            }
+            else if(this.i == 8){
+                this.$refs.i20.style.left = "-630px"
+                this.$refs.i21.style.left = "0px"
+                this.$refs.i22.style.left = "630px"
+                this.$refs.i23.style.left = "1260px"
+                this.$refs.i24.style.left = "1890px"
+                this.$refs.i25.style.left = "2520px"
+                this.$refs.i26.style.left = "3150px"
+            }
+            else if(this.i == 9){
+                this.$refs.i21.style.left = "-630px"
+                this.$refs.i22.style.left = "0px"
+                this.$refs.i23.style.left = "630px"
+                this.$refs.i24.style.left = "1260px"
+                this.$refs.i25.style.left = "1890px"
+                this.$refs.i26.style.left = "2520px"
+            }
+            else if(this.i == 10){
+                this.$refs.i22.style.left = "-630px"
+                this.$refs.i23.style.left = "0px"
+                this.$refs.i24.style.left = "630px"
+                this.$refs.i25.style.left = "1260px"
+                this.$refs.i26.style.left = "1890px"
+            }
+            else if(this.i == 11){
+                this.$refs.i23.style.left = "-630px"
+                this.$refs.i24.style.left = "0px"
+                this.$refs.i25.style.left = "630px"
+                this.$refs.i26.style.left = "1260px"
+            }
+            else if(this.i == 12){
+                this.$refs.i24.style.left = "-630px"
+                this.$refs.i25.style.left = "0px"
+                this.$refs.i26.style.left = "630px"
+                this.$refs.i14.style.left = "1260px"
+            }
+            else if(this.i == 13){
+                this.$refs.i25.style.left = "-630px"
+                this.$refs.i26.style.left = "0px"
+                this.$refs.i14.style.left = "630px"
+
+
+                this.$refs.i15.style.left = "1260px"
+                this.$refs.i16.style.left = "1890px"
+                this.$refs.i17.style.left = "2520px"
+                this.$refs.i18.style.left = "3150px"
+                this.$refs.i19.style.left = "3780px"
+                this.$refs.i20.style.left = "4410px"
+                this.$refs.i21.style.left = "5040px"
+                this.$refs.i22.style.left = "5670px"
+                this.$refs.i23.style.left = "6300px"
+                this.$refs.i24.style.left = "6930px"
+                this.$refs.i25.style.left = "7560px"
+            }
+            else if(this.i == 14){
+                this.$refs.i26.style.left = "-630px"
+                this.$refs.i14.style.left = "0px"
+                this.$refs.i15.style.left = "630px"
+                this.$refs.i26.style.left = "7560px"
+            }
             }
             
         },
     },
     mounted(){
-        setInterval(this.sliderAuto, 5000)
+        //setInterval(this.sliderAuto, 5000)
     }
 }
 </script>
@@ -560,6 +911,8 @@ export default {
             width: 100%
             margin: 0
             margin-bottom: 30px
+        .company_slider_phone, .company_slider_arrows_phone
+            display: none
         .company_slider
             height: 540px
             width: 1260px
@@ -591,11 +944,9 @@ export default {
                     top: 54px
                 img
                     vertical-align: top
-                    padding-top: 4px
                     margin-left: 10px
                     position: relative
-                    left: -108px
-                    top: 54px
+                    top: 5px
                     user-select: none
                 p
                     font-size: 16px
@@ -653,9 +1004,7 @@ export default {
                 h1
                     left: -8px
                     top: 54px
-                img
-                    left: -8px
-                    top: 54px
+       
                 p
                     top: -420px
                     left: 270px
@@ -668,9 +1017,7 @@ export default {
                 h1
                     left: -8px
                     top: 54px
-                img
-                    left: -8px
-                    top: 54px
+    
                 p
                     top: -420px
                     left: 270px
@@ -752,9 +1099,10 @@ export default {
         padding-top: 50px
         height: 860px
         .company_padding
-            padding-left: 7%
+            margin-left: 7vw
         h1
-            font-size: 7vw
+            font-size: 6.2vw
+            width: 95vw
             line-height: 38px
             font-weight: 700
             color: #370954
@@ -768,7 +1116,9 @@ export default {
             display: inline
             margin: 0
             margin-bottom: 30px
-        .company_slider
+        .company_slider, .company_slider_arrows
+            display: none
+        .company_slider_phone
             height: 670px
             width: 100%
             position: relative
@@ -781,11 +1131,13 @@ export default {
             .company_slider_item
                 position: absolute
                 width: 650px
+                top: 20px
                 transition: 0.5s all ease
                 .company_slider_big_img
                     position: relative
-                    left: -15px
-                    top: 110px
+                    left: -17px
+                    top: -105px
+                    width: 82vw
                     z-index: 98
                 
                 h1
@@ -793,35 +1145,33 @@ export default {
                     line-height: 24px
                     color: #370954
                     font-weight: 700
-                    position: relative
-                    left: -346px
-                    top: 4px
+                    position: absolute
+                    left: 7vw
+                    top: 7px
                 img
-                    vertical-align: top
-                    padding-top: 4px
                     margin-left: 10px
                     position: relative
-                    left: -346px
                     top: 4px
                 p
-                    font-size: 3.5vw
+                    font-size: 3.8vw
                     line-height: 24px
                     color: #222
                     font-weight: 400
                     vertical-align: top
                     width: 90vw
                     position: relative
-                    top: -510px
-                    left: 32px
+                    left: 7vw
+                    top: 40px
 
                 .company_slider_span
-                    font-size: 3.2vw
+                    font-size: 3.5vw
                     line-height: 5vw
                     color: #999
                     font-weight: 400
-                    vertical-align: top
-                    width: 30vw
-                    left: 235px
+                    width: 39vw
+                    left: 60vw
+                    top: 25px
+                    padding-top: 20px
                     
            
             .company_slider_1 // Спортмастер
@@ -830,120 +1180,36 @@ export default {
                 left: 630px
             .company_slider_3 // Альфа
                 left: 1260px
-                h1
-                    left: -350px
             .company_slider_4 // Университет Синергия
                 left: 1890px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -490px
-                    left: 32px
             .company_slider_5 // amoCRM
                 left: 2520px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -490px
-                    left: 32px
             .company_slider_6 // yota
                 left: 3150px
-                h1
-                    left: -346px
-                    top: 20px
-                img
-                    left: -346px
-                    top: 20px
-                p
-                    top: -470px
-                    left: 32px
             .company_slider_7 // БКС Банк
                 left: 3780px
             .company_slider_8 // Деловые Линии
                 left: 4410px
-                h1
-                    left: -346px
-                    top: 14px
-                img
-                    left: -346px
-                    top: 14px
-                p
-                    top: -470px
-                    left: 32px
             .company_slider_9 // TalkBank
                 left: 5040px
-                h1
-                    left: -346px
-                    top: 16px
-                img
-                    left: -346px
-                    top: 16px
-                p
-                    top: -484px
-                    left: 32px
             .company_slider_10 // М.Видео
                 left: 5670px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -470px
-                    left: 32px
             .company_slider_11 // Эльдорадо
                 left: 6300px
-                h1
-                    left: -346px
-                    top: 24px
-                img
-                    left: -346px
-                    top: 24px
-                p
-                    top: -470px
-                    left: 32pxs
             .company_slider_12 // Nestle
                 left: 6930px
-                h1
-                    left: -244px
-                    top: 30px
-                img
-                    left: -244px
-                    top: 30px
-                p
-                    top: -460px
-                    left: 35px
-
-                .company_slider_span
-                    left: 230px
-                    width: 30vw
+                .company_slider_big_img
+                    top: -100px
+                    width: 60vw
             .company_slider_13 // AliExpress
                 left: 7560px
-                h1
-                    left: -248px
-                    top: 10px
-                img
-                    left: -248px
-                    top: 10px
-                p
-                    top: -480px
-                    left: 32px
-
-                .company_slider_span
-                    left: 230px
-                    width: 30vw
-        .company_slider_arrows
+                .company_slider_big_img
+                    top: -100px
+                    width: 60vw
+                
+        .company_slider_arrows_phone
             padding-left: 37.5%
-            margin-top: 35px
+            margin-top: 5px
             padding-bottom: 65px
             z-index: 100
             position: relative
@@ -963,7 +1229,7 @@ export default {
             .company_background_images_1
                 display: block
                 position: absolute
-                top: -305px
+                top: -275px
                 right: 3vw
             .company_background_images_2
                 left: -125px
@@ -978,7 +1244,7 @@ export default {
                 display: block
                 position: absolute
                 right: 15vw
-                top: -345px
+                top: -315px
             
 
 </style>

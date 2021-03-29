@@ -1158,6 +1158,9 @@ export default {
                     position: absolute
                     left: 7vw
                     top: 7px
+                    user-select: none
+                    outline: none
+                    pointer-events: none
                 img
                     margin-left: 10px
                     position: relative
@@ -1237,6 +1240,9 @@ export default {
                 margin-left: 25%
 
         .company_background_images
+            user-select: none
+            outline: none
+            pointer-events: none
             position: absolute
             width: 100%
             height: 0px

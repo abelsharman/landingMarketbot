@@ -141,7 +141,7 @@
             <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
             <img class="opportunities_slider_arrow" style="left: 70vw;" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
 
-            <div class="company_slider_item company_slider_1" id="1" ref="i1" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_1" id="1" ref="i1" v-touch:swipe.left="clickOnSliderPlus" v-touch:touchhold="longClick" >
                 <img class="company_slider_big_img" src="../assets/img-3 mobile.png" alt="client">
                 <div class="company_slider_text">
                     <h1>Отправка файлов и каталогов</h1>
@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_2" id="2" ref="i2" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_2" id="2" ref="i2" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick" >
                 <img class="company_slider_big_img" src="../assets/img-3-2 mobile.png" alt="client">
                 <div class="company_slider_text">
                     <h1>Регистрация на мероприятия</h1>
@@ -157,7 +157,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_3" id="3" ref="i3"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_3" id="3" ref="i3"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick" >
                 <img class="company_slider_big_img"  src="../assets/img-3-3 mobile.png" alt="client">
                 <div class="company_slider_text">
                     <h1>Расчет параметров</h1>
@@ -165,7 +165,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_4" id="4" ref="i4"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_4" id="4" ref="i4"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-4 mobile.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Активация промокодов</h1>
@@ -174,7 +174,7 @@
             </div>
 
 
-            <div class="company_slider_item company_slider_5" id="5" ref="i5" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_5" id="5" ref="i5" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-5.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Генерация паролей</h1>
@@ -182,7 +182,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_6" id="6" ref="i6" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_6" id="6" ref="i6" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-6 mobile.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Подтверждение бронирования</h1>
@@ -190,7 +190,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_7" id="7" ref="i7" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_7" id="7" ref="i7" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-7 mobile.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Сбор отзывов и обратной связи</h1>
@@ -198,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_8" id="8" ref="i8" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_8" id="8" ref="i8" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-8 mobile.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Проведение опросов</h1>
@@ -206,7 +206,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_9" id="9" ref="i9" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_9" id="9" ref="i9" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-9 mobile.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Проведение обучения</h1>
@@ -214,7 +214,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_10" id="10" ref="i10" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_10" id="10" ref="i10" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-10 mobile.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Прием заказов</h1>
@@ -222,7 +222,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_11" id="11" ref="i11" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_11" id="11" ref="i11" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-11.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Прием платежей</h1>
@@ -230,7 +230,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_12" id="12" ref="i12" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_12" id="12" ref="i12" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-12.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Информирование и отправка уведомлений</h1>
@@ -238,7 +238,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_13" id="13" ref="i13" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_13" id="13" ref="i13" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-13.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Анкетирование</h1>
@@ -246,7 +246,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_14" id="14" ref="i14" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_14" id="14" ref="i14" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-14.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Ответы на частые вопросы</h1>
@@ -254,7 +254,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_15" id="15" ref="i15" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus">
+            <div class="company_slider_item company_slider_15" id="15" ref="i15" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
                 <img class="company_slider_big_img"  src="../assets/img-3-15.png" alt="client" loading="lazy">
                 <div class="company_slider_text">
                     <h1>Напоминания о записи</h1>
@@ -344,6 +344,8 @@ export default {
             iMobile: 6,
 
             iSlider: 1,
+
+            b:''
 
         }
     },
@@ -1110,7 +1112,8 @@ export default {
             }
         },
         clickOnSliderPlus(){
-            this.sliderAuto()
+            clearInterval(this.b)
+            this.b = this.sliderAuto()
         },
         clickOnSliderMinus(){
             this.iSlider--
@@ -1775,10 +1778,14 @@ export default {
 
                 this.sliderAuto()
             }
+        },
+        longClick(){
+            clearInterval(this.b)
+            setTimeout(()=> this.b = setInterval(this.intervalMethod, 4000), 5000)
         }
     },
     mounted(){
-        setInterval(this.intervalMethod, 4000)
+        this.b = setInterval(this.intervalMethod, 4000)
     }
 
 }
@@ -2112,6 +2119,9 @@ export default {
         
         .examples_background_images
             position: relative
+            user-select: none
+            outline: none
+            pointer-events: none
             height: 470px
             img
                 position: relative
@@ -2242,6 +2252,9 @@ export default {
                 top: 15vw
                 position: relative
                 z-index: 1110
+                user-select: none
+                outline: none
+                pointer-events: none
             .company_slider_item
                 position: absolute
                 width: 650px
@@ -2253,6 +2266,9 @@ export default {
                     left: -15px
                     top: 0px
                     display: inline-block
+                    user-select: none
+                    outline: none
+                    pointer-events: none
                     padding-left: 7vw
                     width: 50vw
                 .company_slider_text
@@ -2260,6 +2276,9 @@ export default {
                     display: inline-block
                     width: 43vw
                     vertical-align: top
+                    user-select: none
+                    outline: none
+                    pointer-events: none
     
 
                 h1
@@ -2321,6 +2340,9 @@ export default {
             .company_slider_15 // AliExpress
                 left: 8820px
         .company_slider_arrows
+            user-select: none
+            outline: none
+            pointer-events: none
             padding-left: 37.5%
             margin-top: 35px
             padding-bottom: 65px

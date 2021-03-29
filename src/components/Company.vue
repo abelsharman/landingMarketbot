@@ -1147,6 +1147,7 @@ export default {
                     z-index: 98
                     user-select: none
                     outline: none
+                    pointer-events: none
                 
                 h1
                     font-size: 4.38vw

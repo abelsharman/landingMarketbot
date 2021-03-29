@@ -116,21 +116,21 @@
                 <img class="company_slider_big_img" src="../assets/client-1.png" alt="client">
             </div>
 
-            <div class="company_slider_item company_slider_2" id="2" ref="i15" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_2" id="2" ref="i15" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>СДЭК<img src="../assets/check.png" alt="check"></h1>
                 <p>Один из самых активных и привлекательных участников российского рынка экспресс-доставки.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-2.png" alt="client">
             </div>
 
-            <div class="company_slider_item company_slider_3" id="3" ref="i16" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_3" id="3" ref="i16" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>Альфа-банк<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.</p>
                 <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
                 <img class="company_slider_big_img"  src="../assets/client-3.png" alt="client">
             </div>
 
-            <div class="company_slider_item company_slider_4" id="4" ref="i17" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_4" id="4" ref="i17" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>Университет Синергия<img src="../assets/check.png" alt="check"></h1>
                 <p>Негосударственное высшее учебное заведение.</p>
                 <p class="company_slider_span">Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.</p>
@@ -138,63 +138,63 @@
             </div>
 
 
-            <div class="company_slider_item company_slider_5" id="5" ref="i18" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_5" id="5" ref="i18" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>amoCRM<img src="../assets/check.png" alt="check"></h1>
                 <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-5.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_6" id="6" ref="i19" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_6" id="6" ref="i19" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>Yota<img src="../assets/check.png" alt="check"></h1>
                 <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-6.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_7" id="7" ref="i20" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_7" id="7" ref="i20" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>БКС Банк<img src="../assets/check.png" alt="check"></h1>
                 <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-7.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_8" id="8" ref="i21" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_8" id="8" ref="i21" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>Деловые Линии<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-8.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_9" id="9" ref="i22" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_9" id="9" ref="i22" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>TalkBank<img src="../assets/check.png" alt="check"></h1>
                 <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
                 <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
                 <img class="company_slider_big_img"  src="../assets/client-9.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_10" id="10" ref="i23" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_10" id="10" ref="i23" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>М.Видео<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-10.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_11" id="11" ref="i24" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_11" id="11" ref="i24" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>Эльдорадо<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-11.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_12" id="12" ref="i25" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_12" id="12" ref="i25" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>Nestle<img src="../assets/check.png" alt="check"></h1>
                 <p>Один из крупнейших в мире производитель продуктов питания.</p>
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <img class="company_slider_big_img"  src="../assets/client-12.png" alt="client" loading="lazy">
             </div>
 
-            <div class="company_slider_item company_slider_13" id="13" ref="i26" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_13" id="13" ref="i26" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
                 <h1>AliExpress<img src="../assets/check.png" alt="check"></h1>
                 <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
@@ -235,6 +235,7 @@ export default {
     data(){
         return{
             i: 1,
+            a:'',
         }
     },
     methods:{
@@ -849,11 +850,12 @@ export default {
             
         },
         longClick(){
-            console.log(1)
+            clearInterval(this.a)
+            setTimeout(()=> this.a = setInterval(this.sliderAuto, 5000), 5000)
         }
     },
     mounted(){
-        setInterval(this.sliderAuto, 5000)
+        this.a = setInterval(this.sliderAuto, 5000)
     }
 }
 </script>

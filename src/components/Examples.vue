@@ -2252,9 +2252,6 @@ export default {
                 top: 15vw
                 position: relative
                 z-index: 1110
-                user-select: none
-                outline: none
-                pointer-events: none
             .company_slider_item
                 position: absolute
                 width: 650px
@@ -2340,9 +2337,6 @@ export default {
             .company_slider_15 // AliExpress
                 left: 8820px
         .company_slider_arrows
-            user-select: none
-            outline: none
-            pointer-events: none
             padding-left: 37.5%
             margin-top: 35px
             padding-bottom: 65px

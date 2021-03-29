@@ -533,7 +533,8 @@ export default {
             
         },
         clickOnSliderPlus(){
-            this.sliderAuto()
+            clearInterval(this.a)
+            this.a = this.sliderAuto()
         },
         clickOnSliderMinus(){
             if(window.innerWidth > 456){

@@ -1145,6 +1145,8 @@ export default {
                     top: -105px
                     width: 82vw
                     z-index: 98
+                    user-select: none
+                    outline: none
                 
                 h1
                     font-size: 4.38vw

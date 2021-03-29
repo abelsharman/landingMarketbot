@@ -297,8 +297,8 @@ export default {
             checkVk: false, 
             checkChat: true, 
             checkWrite: false,
-            checkEditor: false, 
-            checkFunnel: true,
+            checkEditor: true, 
+            checkFunnel: false,
             checkBitrix: false,
             checkCrm: false,
             checkMail: true,
@@ -1223,7 +1223,7 @@ export default {
             .setting_background_images_3
                 position: absolute
                 display: inline
-                top: -960px
+                top: -880px
                 right: 5vw
             .setting_background_images_4
                 position: absolute

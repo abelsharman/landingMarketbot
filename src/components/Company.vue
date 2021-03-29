@@ -1171,6 +1171,9 @@ export default {
                     position: relative
                     left: 7vw
                     top: 40px
+                    user-select: none
+                    outline: none
+                    pointer-events: none
 
                 .company_slider_span
                     font-size: 3.5vw
@@ -1181,6 +1184,9 @@ export default {
                     left: 60vw
                     top: 25px
                     padding-top: 20px
+                    user-select: none
+                    outline: none
+                    pointer-events: none
                     
            
             .company_slider_1 // Спортмастер

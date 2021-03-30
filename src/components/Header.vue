@@ -4,10 +4,9 @@
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
-            <a href="#" @click="clickTeam" v-show="checkChrome">Команда</a>
-            <a href="#" @click="clickCost" v-show="checkChrome">Цены</a>
-            <a href="#team" v-show="!checkChrome">Команда</a>
-            <a href="#quiz" v-show="!checkChrome">Цены</a>
+           
+            <a href="#team">Команда</a>
+            <a href="#quiz">Цены</a>
             <a href="https://blog.marketbot.biz/">Блог</a>
         </div>
 

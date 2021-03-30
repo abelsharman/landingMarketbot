@@ -632,6 +632,7 @@ export default {
                         border-radius: 10px
                         cursor: pointer
                         user-select: none
+                        font-family: sans-serif
                     .setting_quiz_plus
                         position: relative
                         top: 13px
@@ -640,6 +641,7 @@ export default {
                         border: 1px solid white
                         color: white
                         background-color: #a13c7f
+                        font-family: sans-serif
                         padding: 0 4px
                         height: 18px
                         font-size: 16px
@@ -1022,7 +1024,6 @@ export default {
                         margin: 10px 0 0px 0px
                         margin-bottom: 15px
                         display: inline-block
-                        font-family: sans-serif
                         strong
                             position: relative
                             top: 14px
@@ -1037,7 +1038,6 @@ export default {
                         padding: 0 6px
                         border-radius: 10px
                         cursor: pointer
-                        font-family: sans-serif
                         user-select: none
                     .setting_quiz_plus
                         position: relative

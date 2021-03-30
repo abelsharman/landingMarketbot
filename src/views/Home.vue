@@ -126,7 +126,9 @@ export default {
   
 
 
-  
+*
+  scroll-behavior: smooth
+  -webkit-overflow-scrolling: touch
 *
   font-family: 'Cera Pro'
 .page

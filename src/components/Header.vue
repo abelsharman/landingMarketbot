@@ -3,15 +3,17 @@
         <img src="../assets/logo_main.png" alt="logo">
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
-            <a href="#">Продукты &or;</a>
-            <a href="#">Команда</a>
-            <a href="#">Цены</a>
+            <!--<a href="#">Продукты &or;</a>-->
+            <a href="#" @click="clickTeam" v-if="checkChrome">Команда</a>
+            <a href="#" @click="clickCost" v-if="checkChrome">Цены</a>
+            <a href="#team" v-if="!checkChrome">Команда</a>
+            <a href="#quiz" v-if="!checkChrome">Цены</a>
             <a href="https://blog.marketbot.biz/">Блог</a>
         </div>
 
         <a class="header_lang" href="#">RU</a>
 
-        <a href="https://marketbot.biz/user/home">
+        <a href="https://marketbot.biz/user/home" target="_blank">
             <div class="header_button">
                 <span>Личный кабинет</span>
                 <img src="../assets/key.png" alt="key">
@@ -43,6 +45,7 @@ export default {
     data(){
         return{
             checkBurger: false,
+            checkChrome: false
         }
     },
     methods:{
@@ -56,11 +59,39 @@ export default {
                 this.$refs.nav.style.left = '0vw'
             }
 
+        },
+        SmoothVerticalScrolling(e, time, where) {
+            var eTop = e.getBoundingClientRect().top;
+            var eAmt = eTop / 100;
+            var curTime = 0;
+            while (curTime <= time) {
+                window.setTimeout(this.SVS_B, curTime, eAmt, where);
+                curTime += time / 100;
+            }
+        },
+
+        SVS_B(eAmt, where) {
+            if(where == "center" || where == "")
+                window.scrollBy(0, eAmt / 2);
+            if (where == "top")
+                window.scrollBy(0, eAmt);
+        },
+        clickTeam(){
+            let a = document.querySelector("#team")
+            this.SmoothVerticalScrolling(a, 400, "top")
+        },  
+        clickCost(){
+            let a = document.querySelector("#quiz")
+            this.SmoothVerticalScrolling(a, 400, "top")
         }
     },
     created(){
         //let self = this
         //console.log(self.checkBurger)
+        if(navigator.userAgentString.indexOf("Safari") > -1 || navigator.userAgentString.indexOf("MSIE") > -1 ||  navigator.userAgentString.indexOf("rv:") > -1)
+            this.checkChrome = true
+        else
+            this.checkChrome = false
     }
 }
 </script>
@@ -99,7 +130,8 @@ export default {
             .header_nav 
                 position: relative
                 top: -4px
-                margin-left: 100px
+                //margin-left: 100px
+                margin-left: 200px
                 a
                     margin-right: 48px
                     font-weight: 400
@@ -109,7 +141,8 @@ export default {
                 user-select: none
                 position: relative
                 top: -4px
-                margin-left: 14px
+                //margin-left: 14px
+                margin-left: 51px
                 color: #999999
                 text-decoration: none
                 font-size: 13px
@@ -128,7 +161,7 @@ export default {
                 padding: 7px 15px
                 background-color: white
                 cursor: pointer
-                margin-left: 36px
+                margin-left: 40px
                 border-radius: 5px
                 text-decoration: none
                 img

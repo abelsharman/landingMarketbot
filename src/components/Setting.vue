@@ -1,7 +1,7 @@
 <template>
-    <div class="setting">
+    <div class="setting" id="quiz">
         <h1 class="setting_header">Настройте тариф под свои задачи</h1>
-        <h1 class="setting_header_2">и получите бесплатный доступ на 30 дней</h1>
+        <h1 class="setting_header_2">и получите бесплатный доступ на 10 дней</h1>
 
         <div class="setting_quiz" ref="header">
             <div class="setting_quiz_part" id="1" ref="1" v-if="this.i == 1">
@@ -236,12 +236,12 @@
     
 
             <div class="setting_quiz_result">
-                <h1>Итого: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ за 30 дней</strong></h1>
+                <h1>Итого: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ за 10 дней</strong></h1>
 
                 <img src="../assets/img-10-tarif.png" alt="img">
 
                 <div class="setting_quiz_result_info">
-                    <h2>Бесплатно 30 дней на <span>МАКСИМУМ</span></h2>
+                    <h2>Бесплатно 10 дней на <span>МАКСИМУМ</span></h2>
                     <p>В конце периода вы узнаете все возможности сервиса, и сможете настроить тариф точно под себя, чтобы не платить за лишнее.</p>
                 </div>
                 <button class="button_clicked" v-if="i == 6">Получить доступ</button>

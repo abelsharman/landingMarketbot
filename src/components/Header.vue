@@ -6,8 +6,8 @@
             <!--<a href="#">Продукты &or;</a>-->
             <a href="#" @click="clickTeam" v-show="checkChrome">Команда</a>
             <a href="#" @click="clickCost" v-show="checkChrome">Цены</a>
-            <a href="#team" v-show="!checkChrome">Команда</a>
-            <a href="#quiz" v-show="!checkChrome">Цены</a>
+            <a href="#team" @click="showBurger" v-show="!checkChrome">Команда</a>
+            <a href="#quiz" @click="showBurger" v-show="!checkChrome">Цены</a>
             <a href="https://blog.marketbot.biz/">Блог</a>
         </div>
 
@@ -61,9 +61,11 @@ export default {
 
         },
         clickTeam(){
+            this.showBurger()
             document.querySelector("#team").scrollIntoView({ behavior: 'smooth' });
         },  
         clickCost(){
+            this.showBurger()
             document.querySelector("#quiz").scrollIntoView({ behavior: 'smooth' });
         }
     },

@@ -4,9 +4,10 @@
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
-           
-            <a href="#team">Команда</a>
-            <a href="#quiz">Цены</a>
+            <a href="#" @click="clickTeam" v-show="checkChrome">Команда</a>
+            <a href="#" @click="clickCost" v-show="checkChrome">Цены</a>
+            <a href="#team" v-show="!checkChrome">Команда</a>
+            <a href="#quiz" v-show="!checkChrome">Цены</a>
             <a href="https://blog.marketbot.biz/">Блог</a>
         </div>
 
@@ -59,43 +60,11 @@ export default {
             }
 
         },
-        SmoothVerticalScrolling(e, time, where) {
-            var eTop = e.getBoundingClientRect().top;
-            var eAmt = eTop / 100;
-            var curTime = 0;
-            while (curTime <= time) {
-                window.setTimeout(this.SVS_B, curTime, eAmt, where);
-                curTime += time / 100;
-            }
-        },
-
-        SVS_B(eAmt, where) {
-            if(where == "center" || where == "")
-                window.scrollBy(0, eAmt / 2);
-            if (where == "top")
-                window.scrollBy(0, eAmt);
-        },
         clickTeam(){
-            if(window.innerWidth > 456){
-                let a = document.querySelector("#team")
-                this.SmoothVerticalScrolling(a, 400, "top")
-            }
-            else{
-                this.showBurger()
-                let a = document.querySelector("#team")
-                this.SmoothVerticalScrolling(a, 3000, "center")
-            }
+            document.querySelector("#team").scrollIntoView({ behavior: 'smooth' });
         },  
         clickCost(){
-            if(window.innerWidth > 456){
-                let a = document.querySelector("#quiz")
-                this.SmoothVerticalScrolling(a, 400, "top")
-            }
-            else{
-                this.showBurger()
-                let a = document.querySelector("#quiz")
-                this.SmoothVerticalScrolling(a, 3000, "center")
-            }
+            document.querySelector("#quiz").scrollIntoView({ behavior: 'smooth' });
         }
     },
     mounted(){

@@ -16,6 +16,7 @@
     "core-js": "^3.6.5",
     "sass": "^1.32.8",
     "sass-loader": "^10.1.1",
+    "smoothscroll-polyfill": "^0.4.4",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vue2-touch-events": "^3.2.1"

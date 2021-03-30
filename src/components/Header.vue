@@ -4,10 +4,10 @@
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
-            <a href="#" @click="clickTeam" v-if="checkChrome">Команда</a>
-            <a href="#" @click="clickCost" v-if="checkChrome">Цены</a>
-            <a href="#team" v-if="!checkChrome">Команда</a>
-            <a href="#quiz" v-if="!checkChrome">Цены</a>
+            <a href="#" @click="clickTeam" v-show="checkChrome">Команда</a>
+            <a href="#" @click="clickCost" v-show="checkChrome">Цены</a>
+            <a href="#team" v-show="!checkChrome">Команда</a>
+            <a href="#quiz" v-show="!checkChrome">Цены</a>
             <a href="https://blog.marketbot.biz/">Блог</a>
         </div>
 
@@ -45,7 +45,7 @@ export default {
     data(){
         return{
             checkBurger: false,
-            checkChrome: false
+            checkChrome: ''
         }
     },
     methods:{
@@ -85,13 +85,13 @@ export default {
             this.SmoothVerticalScrolling(a, 400, "top")
         }
     },
-    created(){
-        //let self = this
-        //console.log(self.checkBurger)
-        if(navigator.userAgentString.indexOf("Safari") > -1 || navigator.userAgentString.indexOf("MSIE") > -1 ||  navigator.userAgentString.indexOf("rv:") > -1)
-            this.checkChrome = true
-        else
+    mounted(){
+        console.log(navigator.userAgent)
+        let safariAgent = navigator.userAgent.indexOf("Safari") > -1
+        if(!safariAgent || !(navigator.userAgent.indexOf("MSIE") > -1) || !(navigator.userAgent.indexOf("rv:") > -1))
             this.checkChrome = false
+        else
+            this.checkChrome = true
     }
 }
 </script>

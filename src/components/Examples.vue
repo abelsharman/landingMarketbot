@@ -1866,7 +1866,7 @@ export default {
             .examples_background_images_5
                 position: absolute
                 z-index: 2
-                top: 215vh
+                top: 205vh
                 left: 87vw
             .examples_background_images_6
                 top: -695px
@@ -1933,11 +1933,11 @@ export default {
                 display: inline-block
                 width: 51.5%
                 vertical-align: middle
-                margin-top: 200px
+                margin-top: 180px
                 h1
                     width: 100%
                 p                  
-                    margin-right: 27px
+                    margin-right: 23px
                 
                    
                

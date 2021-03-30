@@ -89,7 +89,6 @@ export default {
             
         .header
             width: calc(100vw - (100vw - 1200px))
-            background-color: lightblue
             padding-bottom: 10px
             *
                 font-family: 'Cera Pro'

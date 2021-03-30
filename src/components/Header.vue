@@ -88,7 +88,7 @@ export default {
                 left: calc((100vw + 1200px) / 2)
             
         .header
-            width: 100%
+            width: calc(100vw - (100vw - 1200px))
             background-color: lightblue
             padding-bottom: 10px
             *

@@ -131,6 +131,7 @@ export default {
                 border-radius: 5px
                 text-decoration: none
                 img
+                    width: 18px
                     margin-left: 10px
                 span
                     font-size: 15px

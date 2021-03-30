@@ -65,7 +65,7 @@ export default {
             var eAmt = eTop / 100;
             var curTime = 0;
             while (curTime <= time) {
-                window.setTimeout(this.SVS_B, curTime, eAmt, where);
+                window.setTimeout(this.SVS_B(), curTime, eAmt, where);
                 curTime += time / 100;
             }
         },
@@ -77,30 +77,27 @@ export default {
                 window.scrollBy(0, eAmt);
         },
         clickTeam(){
+            this.showBurger()
             let a = document.querySelector("#team")
             this.SmoothVerticalScrolling(a, 400, "top")
         },  
         clickCost(){
+            this.showBurger()
             let a = document.querySelector("#quiz")
             this.SmoothVerticalScrolling(a, 400, "top")
         }
     },
     mounted(){
-        console.log(navigator.userAgent.indexOf("Chrome"))
-        console.log(navigator.userAgent.indexOf("Safari"))
         let safariAgent = navigator.userAgent.indexOf("Safari")
         let chromeAgent = navigator.userAgent.indexOf("Chrome")
 
         if(safariAgent != -1 && chromeAgent != -1){
-            console.log(3)
             this.checkChrome = false
         }
         else if(safariAgent > -1 || navigator.userAgent.indexOf("MSIE") > -1 || navigator.userAgent.indexOf("rv:") > -1){
-            console.log(1)
             this.checkChrome = true
         }
         else{
-            console.log(3)
             this.checkChrome = false
         }
     }

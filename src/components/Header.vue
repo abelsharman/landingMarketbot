@@ -86,12 +86,23 @@ export default {
         }
     },
     mounted(){
-        console.log(navigator.userAgent)
-        let safariAgent = navigator.userAgent.indexOf("Safari") > -1
-        if(!safariAgent || !(navigator.userAgent.indexOf("MSIE") > -1) || !(navigator.userAgent.indexOf("rv:") > -1))
+        console.log(navigator.userAgent.indexOf("Chrome"))
+        console.log(navigator.userAgent.indexOf("Safari"))
+        let safariAgent = navigator.userAgent.indexOf("Safari")
+        let chromeAgent = navigator.userAgent.indexOf("Chrome")
+
+        if(safariAgent != -1 && chromeAgent != -1){
+            console.log(3)
             this.checkChrome = false
-        else
+        }
+        else if(safariAgent > -1 || navigator.userAgent.indexOf("MSIE") > -1 || navigator.userAgent.indexOf("rv:") > -1){
+            console.log(1)
             this.checkChrome = true
+        }
+        else{
+            console.log(3)
+            this.checkChrome = false
+        }
     }
 }
 </script>

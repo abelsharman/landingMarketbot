@@ -233,7 +233,7 @@ $p_color: #370954
         width: 100%
         .platform_text
             padding-left: 7%
-            padding-top: 30px
+            padding-top: 45px
             width: 90%
             display: block
             h1
@@ -368,7 +368,7 @@ $p_color: #370954
         width: 100%
         .platform_text
             padding-left: 7%
-            padding-top: 20px
+            padding-top: 35px
             width: 90%
             display: block
             h1

@@ -1103,7 +1103,7 @@ export default {
         position: relative
         top: 0px
         padding-top: 20px
-        height: 110vh
+        height: 186vw
         .company_padding
             margin-left: 7vw
         h1
@@ -1227,12 +1227,12 @@ export default {
                     width: 60vw
                 
         .company_slider_arrows_phone
-            padding-left: 37.5%
+            padding-left: 39.5vw
             margin-top: 0px
-            padding-bottom: 45px
+            padding-bottom: 0px
             z-index: 100
             position: relative
-            top: -0px
+            top: -30px
             img
                 cursor: pointer
                 outline: none
@@ -1270,9 +1270,9 @@ export default {
                 top: -315px
 @media screen and (max-width: 375px)
     .company
-        height: 100vh            
+        height: 190vw           
         .company_slider_arrows_phone
-            top: -40px
+            top: -80px
 
       
             

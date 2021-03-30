@@ -23,13 +23,13 @@
             <img src="../assets/img-2.png" alt="img" id="1" ref="i1">
             <img src="../assets/img-2-2.png" alt="img" id="2" ref="i2">
             <img src="../assets/img-2-3.png" alt="img" id="3" ref="i3">
-            <img src="../assets/img-2-4.png" loading="lazy" alt="img" id="4" ref="i4" >
+            <img src="../assets/img-2-4.png" loading="lazy" alt="img" id="4" ref="i4">
             <img src="../assets/img-2-5.png" loading="lazy" alt="img" id="5" ref="i5">
         </div>
 
         <div class="examples_image_phone">
             <img src="../assets/img-2 mobile.png" alt="img" id="6">
-            <img src="../assets/img-2-2 mobile.png" alt="img" id="7">
+            <img src="../assets/img-2-2.png" alt="img" id="7">
             <img src="../assets/img-2-3 mobile.png" alt="img" id="8">
             <img src="../assets/img-2-4 mobile.png" alt="img" id="9">
             <img src="../assets/img-2-5 mobile.png" alt="img" id="10">
@@ -123,17 +123,17 @@
             <img src="../assets/img-3-2 mobile.png" alt="img" id="28">
             <img src="../assets/img-3-3 mobile.png" alt="img" id="29">
             <img src="../assets/img-3-4 mobile.png" alt="img" id="30">
-            <img src="../assets/img-3-5.png" alt="img" id="31">
+            <img src="../assets/img-3-5 mobile.png" alt="img" id="31">
             <img src="../assets/img-3-6 mobile.png" alt="img" id="32">
             <img src="../assets/img-3-7 mobile.png" alt="img" id="33">
             <img src="../assets/img-3-8 mobile.png" alt="img" id="34">
             <img src="../assets/img-3-9 mobile.png" alt="img" id="35">
             <img src="../assets/img-3-10 mobile.png" alt="img" id="36">
-            <img src="../assets/img-3-11.png" alt="img" id="37">
-            <img src="../assets/img-3-12.png" alt="img" id="38">
-            <img src="../assets/img-3-13.png" alt="img" id="39">
-            <img src="../assets/img-3-14.png" alt="img" id="40">
-            <img src="../assets/img-3-15.png" alt="img" id="41">
+            <img src="../assets/img-3-11 mobile.png" alt="img" id="37">
+            <img src="../assets/img-3-12 mobile.png" alt="img" id="38">
+            <img src="../assets/img-3-13 mobile.png" alt="img" id="39">
+            <img src="../assets/img-3-14 mobile.png" alt="img" id="40">
+            <img src="../assets/img-3-15 mobile.png" alt="img" id="41">
         </div>
 
         <div class="opportunities_slider">
@@ -2075,6 +2075,7 @@ export default {
             width: 93%
             padding-left: 7%
             vertical-align: top
+            
             h1
                 z-index: 3
                 position: relative
@@ -2083,13 +2084,13 @@ export default {
                 line-height: 9.6vw
                 font-weight: 700
                 color: #370954
+                margin-bottom: 0px
                 padding-bottom: 10px
             p
                 font-weight: 400
                 font-size: 4.3vw
                 color: #c2c2c2
                 display: inline-block
-               
                 margin: 0
                 margin-right: 40px
                 margin-top: 10px
@@ -2122,14 +2123,16 @@ export default {
             user-select: none
             outline: none
             pointer-events: none
-            height: 470px
+            //height: 450px
+            height: 115vw
             img
                 position: relative
                 display: none
             .examples_background_images_1
                 position: absolute
                 display: block
-                top: -47vh
+                //top: -47vh
+                top: -82vw
                 width: 35vw
                 right: 0
             .examples_background_images_2
@@ -2206,7 +2209,7 @@ export default {
             left: 0
             padding: 0
             width: 100%
-            top: 60px
+            top: 0px
             height: max-content
             z-index: 1
             .opportunities_image, .opportunities_nav
@@ -2219,7 +2222,6 @@ export default {
                 position: relative
                 top: 0px
                 img 
-                    width: 100%
                     transition: 0.5s all ease
                     position: absolute
                     opacity: 0
@@ -2289,7 +2291,7 @@ export default {
                     padding-top: 7vw
                 p
                     font-size: 3.28vw
-                    line-height: 20px
+                    line-height: 5.26vw
                     color: #888
                     font-weight: 300
                     width: 95%

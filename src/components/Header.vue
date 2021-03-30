@@ -224,6 +224,7 @@ export default {
                 cursor: pointer
                 margin-left: 5%
                 border-radius: 5px
+                height: 6vw
                 img
                     width: 4vw
                     margin-left: 0px

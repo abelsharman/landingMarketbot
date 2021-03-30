@@ -59,6 +59,8 @@ export default {
             display: inline-block
             width: 46.7%
             vertical-align: top
+            position: relative
+            top: -25px
             h1
                 font-size: 30px
                 width: 100%

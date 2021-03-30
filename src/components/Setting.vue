@@ -493,7 +493,7 @@ export default {
             position: relative
             background-color: #f9f9f9
             z-index: 3
-            box-shadow: 0px 0px 10px 3px rgb(240,240,240)
+            box-shadow: 0px 0px 16px -5px rgb(100,100,100)
             border-radius: 10px
             margin: 0 29px
 
@@ -628,6 +628,7 @@ export default {
                         color: white
                         background-color: #a13c7f
                         padding: 0 6px
+                        font-size: 16px
                         border-radius: 10px
                         cursor: pointer
                         user-select: none
@@ -640,6 +641,7 @@ export default {
                         color: white
                         background-color: #a13c7f
                         padding: 0 4px
+                        font-size: 16px
                         cursor: pointer
                         border-radius: 30px
                         outline: none

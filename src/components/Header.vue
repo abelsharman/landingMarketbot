@@ -77,14 +77,26 @@ export default {
                 window.scrollBy(0, eAmt);
         },
         clickTeam(){
-            this.showBurger()
-            let a = document.querySelector("#team")
-            this.SmoothVerticalScrolling(a, 400, "top")
+            if(window.innerWidth > 456){
+                let a = document.querySelector("#team")
+                this.SmoothVerticalScrolling(a, 400, "top")
+            }
+            else{
+                this.showBurger()
+                let a = document.querySelector("#team")
+                this.SmoothVerticalScrolling(a, 1000, "top")
+            }
         },  
         clickCost(){
-            this.showBurger()
-            let a = document.querySelector("#quiz")
-            this.SmoothVerticalScrolling(a, 400, "top")
+            if(window.innerWidth > 456){
+                let a = document.querySelector("#quiz")
+                this.SmoothVerticalScrolling(a, 400, "top")
+            }
+            else{
+                this.showBurger()
+                let a = document.querySelector("#quiz")
+                this.SmoothVerticalScrolling(a, 400, "top")
+            }
         }
     },
     mounted(){

@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="setting_quiz_part" id="2" ref="2" v-if="this.i == 2">
+            <div class="setting_quiz_part" id="2" ref="2" v-show="this.i == 2">
                 <h1>Шаг {{ this.i }}<strong class="setting_quiz_part_strong"> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
@@ -87,9 +87,9 @@
 
                     <div class="setting_quiz_icons_7">
                         <span>{{ Math.round(info.op_cost * info.yearly_discount) }}₽</span>
-                        <strong class="setting_quiz_minus" @click="clickOperatorMinus">-</strong>
-                        <strong class="setting_quiz_operator"><strong>{{ operators }}</strong></strong>
-                        <strong class="setting_quiz_plus" @click="clickOperatorPlus">+</strong>
+                        <strong class="setting_quiz_minus" @click="clickOperatorMinus" ref="minus">-</strong>
+                        <strong class="setting_quiz_operator"><strong ref="operator">{{ operators }}</strong></strong>
+                        <strong class="setting_quiz_plus" @click="clickOperatorPlus" ref="plus">+</strong>
                         <p>Операторы</p>
                     </div>
                 </div>
@@ -439,13 +439,22 @@ export default {
             return Math.round(this.sum * this.info.yearly_discount)
         }
     },
+    mounted(){
+        if (navigator.appVersion.indexOf("Win") != -1) {
+            this.$refs.minus.style.padding = "0px 7px 2px 7px"
+            this.$refs.plus.style.padding = "1px 7px"
+            this.$refs.minus.style.top = "11px"
+            this.$refs.plus.style.top = "11px"
+            this.$refs.operator.style.top = "12px"
+        }
+    },
     created(){
         window.addEventListener('keydown', (e) => {
             if (e.key == 'Enter') {
                 if(this.i < 6)
                     this.i++
             }
-        });
+        })
     }
 }
 </script>
@@ -627,7 +636,7 @@ export default {
                         border: 1px solid white
                         color: white
                         background-color: #a13c7f
-                        padding: 0 6px
+                        padding: 0 7px
                         font-size: 16px
                         border-radius: 10px
                         cursor: pointer

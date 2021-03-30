@@ -641,6 +641,7 @@ export default {
                         color: white
                         background-color: #a13c7f
                         padding: 0 4px
+                        height: 18px
                         font-size: 16px
                         cursor: pointer
                         border-radius: 30px
@@ -1021,6 +1022,7 @@ export default {
                         margin: 10px 0 0px 0px
                         margin-bottom: 15px
                         display: inline-block
+                        font-family: sans-serif
                         strong
                             position: relative
                             top: 14px
@@ -1035,6 +1037,7 @@ export default {
                         padding: 0 6px
                         border-radius: 10px
                         cursor: pointer
+                        font-family: sans-serif
                         user-select: none
                     .setting_quiz_plus
                         position: relative

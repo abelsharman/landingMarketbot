@@ -65,7 +65,7 @@ export default {
             var eAmt = eTop / 100;
             var curTime = 0;
             while (curTime <= time) {
-                window.setTimeout(this.SVS_B(), curTime, eAmt, where);
+                window.setTimeout(this.SVS_B, curTime, eAmt, where);
                 curTime += time / 100;
             }
         },

@@ -88,6 +88,8 @@ export default {
                 left: calc((100vw + 1200px) / 2)
             
         .header
+            width: 100%
+            background-color: lightblue
             padding-bottom: 10px
             *
                 font-family: 'Cera Pro'

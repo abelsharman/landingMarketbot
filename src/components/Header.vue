@@ -84,7 +84,7 @@ export default {
             else{
                 this.showBurger()
                 let a = document.querySelector("#team")
-                this.SmoothVerticalScrolling(a, 1000, "top")
+                this.SmoothVerticalScrolling(a, 1200, "top")
             }
         },  
         clickCost(){
@@ -95,7 +95,7 @@ export default {
             else{
                 this.showBurger()
                 let a = document.querySelector("#quiz")
-                this.SmoothVerticalScrolling(a, 400, "top")
+                this.SmoothVerticalScrolling(a, 1400, "top")
             }
         }
     },

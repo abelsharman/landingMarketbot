@@ -57,7 +57,7 @@ export default {
             left: calc((100vw + 1200px) / 2)
     .footer
         background-color: white
-        width: 100%
+        width: calc(100vw - (100vw - 1200px))
         position: relative
         left: calc((100vw - 1200px) / -2)
         padding: 0 calc((100vw - 1200px) / 2)

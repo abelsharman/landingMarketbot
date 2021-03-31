@@ -7,7 +7,7 @@
         <div class="mood_nav">
             <h1>Настраивайте и подключайте новые каналы взаимодействия с вашими клиентами</h1>
             <h2>вместе с Marketbot</h2>
-            <button>Получить доступ на 30 дней</button>
+            <a href="#quiz"><button>Получить доступ на 10 дней</button></a>
         </div>
 
 
@@ -36,6 +36,8 @@
 </template>
 
 <script>
+import JQuery from 'jquery'
+let $ = JQuery
 export default {
     name: 'Mood',
     data(){
@@ -45,7 +47,7 @@ export default {
             mood_background_images_3_x: 1,
             mood_background_images_4_x: 1,
             mood_background_images_5_x: 1,
-            mood_background_images_6_x: 1, 
+            mood_background_images_6_x: 1,
         }
     },
     methods:{
@@ -60,7 +62,8 @@ export default {
             document.querySelector(".mood_background_images_6").style.left = (this.mood_background_images_6_x + x).toString() + 'px'
             }
             
-        }
+        },
+       
     },
     mounted() {
         document.addEventListener('mousemove', this.onMouseUpdate)
@@ -70,9 +73,34 @@ export default {
         this.mood_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_4")).left).length - 2))
         this.mood_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_5")).left).length - 2))
         this.mood_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_6")).left).length - 2))
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 300, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
         
     },
 }
+
 </script>
 
 

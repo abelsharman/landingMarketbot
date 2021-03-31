@@ -190,8 +190,8 @@ export default {
                 z-index: 2
             .associate_background_images_2
                 left: 730px
-                top: -830px
-                z-index: 2
+                top: -860px
+                z-index: 1
             .associate_background_images_3
                 top: -980px
                 left: -200px
@@ -330,7 +330,7 @@ export default {
                 right: 5vw
                 width: 35vw
                 top: -1030px
-                z-index: 2
+                z-index: 1
             .associate_background_images_3
                 top: -980px
                 left: -200px

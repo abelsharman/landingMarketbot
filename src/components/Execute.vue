@@ -57,7 +57,6 @@ export default {
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
             let y = e.clientY / window.innerHeight * 20
-            console.log(y)
             document.querySelector(".execute_background_images_1").style.top = (this.execute_background_images_1_x + y).toString() + 'px'
             document.querySelector(".execute_background_images_2").style.top = (this.execute_background_images_2_x + y).toString() + 'px'
             document.querySelector(".execute_background_images_3").style.top = (this.execute_background_images_3_x + y).toString() + 'px'

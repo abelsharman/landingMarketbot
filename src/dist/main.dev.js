@@ -8,11 +8,11 @@ var _router = _interopRequireDefault(require("./router"));
 
 var _vue2TouchEvents = _interopRequireDefault(require("vue2-touch-events"));
 
-var _smoothscrollPolyfill = _interopRequireDefault(require("smoothscroll-polyfill"));
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-_smoothscrollPolyfill["default"].polyfill();
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
 
 _vue["default"].use(_vue2TouchEvents["default"]);
 

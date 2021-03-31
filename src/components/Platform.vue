@@ -5,7 +5,7 @@
             <h3>через мессенджеры и социальные сети</h3>
             <h2>+ <span>Конструктор чат-ботов</span></h2>
             <p>К нам приходят, чтобы настроить общение с клиентами в мессенджерах. Разговаривайте с клиентами через WhatsApp, Telegram, Viber, Вконтакте.</p>
-            <button>Получить доступ на 30 дней</button>
+            <a href="#quiz"><button>Получить доступ на 10 дней</button></a>
        </div>
 
 
@@ -80,10 +80,8 @@ export default {
             document.querySelector(".platform_background_images_9").style.left = (this.platform_background_images_9_x + x).toString() + 'px'
             document.querySelector(".platform_background_images_10").style.left = (this.platform_background_images_10_x + x).toString() + 'px'
             document.querySelector(".platform_background_images_11").style.left = (this.platform_background_images_11_x + x).toString() + 'px'
-            }
-
-            
-        }
+            }  
+        },  
     },
     mounted(){
         document.addEventListener('mousemove', this.onMouseUpdate)
@@ -98,6 +96,8 @@ export default {
         this.platform_background_images_9_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_9")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_9")).left).length - 2))
         this.platform_background_images_10_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).length - 2))
         this.platform_background_images_11_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).length - 2))
+        
+        
     }
 }
 </script>

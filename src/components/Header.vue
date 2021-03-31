@@ -4,10 +4,8 @@
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
-            <a href="#" @click="clickTeam" v-show="checkChrome">Команда</a>
-            <a href="#" @click="clickCost" v-show="checkChrome">Цены</a>
-            <a href="#team" @click="showBurger" v-show="!checkChrome">Команда</a>
-            <a href="#quiz" @click="showBurger" v-show="!checkChrome">Цены</a>
+            <a href="#team" @click="showBurger">Команда</a>
+            <a href="#quiz" @click="showBurger">Цены</a>
             <a href="https://blog.marketbot.biz/">Блог</a>
         </div>
 
@@ -45,7 +43,6 @@ export default {
     data(){
         return{
             checkBurger: false,
-            checkChrome: ''
         }
     },
     methods:{
@@ -62,28 +59,8 @@ export default {
             }
 
         },
-        clickTeam(){
-            this.showBurger()
-            document.querySelector("#team").scrollIntoView({ behavior: 'smooth' });
-        },  
-        clickCost(){
-            this.showBurger()
-            document.querySelector("#quiz").scrollIntoView({ behavior: 'smooth' });
-        }
     },
     mounted(){
-        let safariAgent = navigator.userAgent.indexOf("Safari")
-        let chromeAgent = navigator.userAgent.indexOf("Chrome")
-
-        if(safariAgent != -1 && chromeAgent != -1){
-            this.checkChrome = false
-        }
-        else if(safariAgent > -1 || navigator.userAgent.indexOf("MSIE") > -1 || navigator.userAgent.indexOf("rv:") > -1){
-            this.checkChrome = true
-        }
-        else{
-            this.checkChrome = false
-        }
     }
 }
 </script>

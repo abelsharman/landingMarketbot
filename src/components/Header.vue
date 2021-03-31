@@ -50,13 +50,15 @@ export default {
     },
     methods:{
         showBurger(){
-            if(this.checkBurger == true){
-                this.checkBurger = false
-                this.$refs.nav.style.left = '100vw'
-            }
-            else{
-                this.checkBurger = true
-                this.$refs.nav.style.left = '0vw'
+            if(window.innerWidth < 456){
+                if(this.checkBurger == true){
+                    this.checkBurger = false
+                    this.$refs.nav.style.left = '100vw'
+                }
+                else{
+                    this.checkBurger = true
+                    this.$refs.nav.style.left = '0vw'
+                }
             }
 
         },

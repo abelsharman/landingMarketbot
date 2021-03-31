@@ -133,6 +133,9 @@ export default {
   font-family: 'Cera Pro'
 .page
   background-color: #f9f9f9
+  overflow-x: hidden
+body
+  overflow-x: hidden
 
 </style>
 

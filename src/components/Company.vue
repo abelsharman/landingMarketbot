@@ -236,6 +236,10 @@ export default {
         return{
             i: 1,
             a:'',
+            company_background_images_1_x: 1,
+            company_background_images_2_x: 1,
+            company_background_images_3_x: 1,
+            company_background_images_4_x: 1,
         }
     },
     methods:{
@@ -853,10 +857,26 @@ export default {
         longClick(){
             clearInterval(this.a)
             setTimeout(()=> this.a = setInterval(this.sliderAuto, 5000), 5000)
+        },
+        onMouseUpdate(e){
+            if(window.innerWidth > 456){
+            let x = e.pageX / window.innerWidth * 20
+            document.querySelector(".company_background_images_1").style.left = (this.company_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".company_background_images_2").style.left = (this.company_background_images_2_x + x).toString() + 'px'
+            document.querySelector(".company_background_images_3").style.left = (this.company_background_images_3_x + x).toString() + 'px'
+            document.querySelector(".company_background_images_4").style.left = (this.company_background_images_4_x + x).toString() + 'px'
+        
+            }
         }
     },
     mounted(){
         this.a = setInterval(this.sliderAuto, 5000)
+        document.addEventListener('mousemove', this.onMouseUpdate)
+        this.company_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_1")).left).length - 2))
+        this.company_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_2")).left).length - 2))
+        this.company_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_3")).left).length - 2))
+        this.company_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_4")).left).length - 2))
+       
     }
 }
 </script>

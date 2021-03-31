@@ -303,10 +303,32 @@ export default {
             checkCrm: false,
             checkMail: true,
             operators: 0,
+            setting_background_images_1_x: 1,
+            setting_background_images_2_x: 1,
+            setting_background_images_3_x: 1,
+            setting_background_images_4_x: 1,
+            setting_background_images_5_x: 1,
+            setting_background_images_6_x: 1,
+            setting_background_images_7_x: 1,
+            setting_background_images_8_x: 1,
 
         }
     },
     methods:{
+        onMouseUpdate(e){
+            if(window.innerWidth > 456){
+            let x = e.pageX / window.innerWidth * 20
+            document.querySelector(".setting_background_images_1").style.left = (this.setting_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".setting_background_images_2").style.left = (this.setting_background_images_2_x + x).toString() + 'px'
+            document.querySelector(".setting_background_images_3").style.left = (this.setting_background_images_3_x + x).toString() + 'px'
+            document.querySelector(".setting_background_images_4").style.left = (this.setting_background_images_4_x + x).toString() + 'px'
+            document.querySelector(".setting_background_images_5").style.left = (this.setting_background_images_5_x + x).toString() + 'px'
+            document.querySelector(".setting_background_images_6").style.left = (this.setting_background_images_6_x + x).toString() + 'px'
+            document.querySelector(".setting_background_images_7").style.left = (this.setting_background_images_7_x + x).toString() + 'px'
+            document.querySelector(".setting_background_images_8").style.left = (this.setting_background_images_8_x + x).toString() + 'px'
+            }
+            
+        },
         extensionForSafari(e, time, where){
             var eTop = e.getBoundingClientRect().top;
             var eAmt = eTop / 100;
@@ -448,6 +470,17 @@ export default {
             this.$refs.plus.style.top = "11px"
             this.$refs.operator.style.top = "12px"
         }
+
+        document.addEventListener('mousemove', this.onMouseUpdate)
+        this.setting_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_1")).left).length - 2))
+        this.setting_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).length - 2))
+        this.setting_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_3")).left).length - 2))
+        this.setting_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_4")).left).length - 2))
+        this.setting_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_5")).left).length - 2))
+        this.setting_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_6")).left).length - 2))
+        this.setting_background_images_7_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).length - 2))
+        this.setting_background_images_8_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).length - 2))
+
     },
     created(){
         window.addEventListener('keydown', (e) => {

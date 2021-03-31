@@ -136,6 +136,37 @@
 <script>
 export default {
     name: 'Team',
+    data(){
+        return{
+            team_background_images_1_x: 1,
+            team_background_images_2_x: 1,
+            team_background_images_3_x: 1,
+            team_background_images_4_x: 1,
+            team_background_images_5_x: 1,
+        }
+    },
+    methods:{
+        onMouseUpdate(e){
+            if(window.innerWidth > 456){
+            let x = e.pageX / window.innerWidth * 20
+            document.querySelector(".team_background_images_1").style.left = (this.team_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".team_background_images_2").style.left = (this.team_background_images_2_x + x - 200).toString() + 'px'
+            document.querySelector(".team_background_images_3").style.left = (this.team_background_images_3_x + x).toString() + 'px'
+            document.querySelector(".team_background_images_4").style.left = (this.team_background_images_4_x + x).toString() + 'px'
+            document.querySelector(".team_background_images_5").style.left = (this.team_background_images_5_x + x).toString() + 'px'
+       
+            }
+        }
+    },
+    mounted() {
+        document.addEventListener('mousemove', this.onMouseUpdate)
+        this.team_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_1")).left).length - 2))
+        this.team_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_2")).left).length - 2))
+        this.team_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_3")).left).length - 2))
+        this.team_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_4")).left).length - 2))
+        this.team_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_5")).left).length - 2))
+        
+    },
 }
 </script>
 

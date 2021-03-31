@@ -228,7 +228,7 @@ export default {
             .header_lang
                 position: relative
                 top: -4px
-                margin-left: 15%
+                margin-left: 14.2%
                 color: #999999
                 text-decoration: none
                 font-size: 2.85vw
@@ -236,7 +236,7 @@ export default {
                 font-weight: 400
                 line-height: 27px
                 background-color: #e8e8e8
-                padding: 5px 3px
+                padding: 1.5vw 1.3vw
                 border-radius: 45px
                 vertical-align: middle
             .header_button
@@ -244,7 +244,7 @@ export default {
                 position: relative
                 top: -4px
                 border: 1px solid #c34688
-                padding: 1.5vw
+                padding: 1.1vw 1.22vw
                 background-color: white
                 cursor: pointer
                 margin-left: 5%

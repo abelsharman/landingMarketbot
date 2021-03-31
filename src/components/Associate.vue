@@ -77,7 +77,7 @@ export default {
             document.querySelector(".associate_background_images_7").style.left = (this.associate_background_images_7_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_8").style.left = (this.associate_background_images_8_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_9").style.left = (this.associate_background_images_9_x + x).toString() + 'px'
-            document.querySelector(".associate_background_images_10").style.left = (this.associate_background_images_10_x + x).toString() + 'px'
+            document.querySelector(".associate_background_images_10").style.left = (this.associate_background_images_10_x + x - 400).toString() + 'px'
             document.querySelector(".associate_background_images_11").style.left = (this.associate_background_images_11_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_12").style.left = (this.associate_background_images_12_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_13").style.left = (this.associate_background_images_13_x + x).toString() + 'px'

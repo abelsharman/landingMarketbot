@@ -442,7 +442,8 @@ export default {
     mounted(){
         if (navigator.appVersion.indexOf("Win") != -1) {
             this.$refs.minus.style.padding = "0px 7px 2px 7px"
-            this.$refs.plus.style.padding = "1px 7px"
+            this.$refs.minus.style.borderRadius = "25px"
+            this.$refs.plus.style.padding = "1px 5px"
             this.$refs.minus.style.top = "11px"
             this.$refs.plus.style.top = "11px"
             this.$refs.operator.style.top = "12px"

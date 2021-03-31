@@ -215,8 +215,8 @@ export default {
                 left: 00px
                 top: -1010px
             .associate_background_images_10
-                left: 100px
-                top: -540px
+                left: 470px
+                top: -610px
             .associate_background_images_11
                 left: -390px
                 top: -1000px

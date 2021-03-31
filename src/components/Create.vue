@@ -339,8 +339,8 @@ export default {
             top: 100px
             z-index: 100
             img
-                width: 86%
-                padding-left: 7%
+                padding-left: 3.5vw
+                width: 93vw
                 position: relative
                 z-index: 100
                                 

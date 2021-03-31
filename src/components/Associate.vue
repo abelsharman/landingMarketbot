@@ -67,10 +67,11 @@ export default {
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
-            document.querySelector(".associate_background_images_1").style.left = (this.associate_background_images_1_x + x).toString() + 'px'
-            document.querySelector(".associate_background_images_2").style.left = (this.associate_background_images_2_x + x).toString() + 'px'
-            document.querySelector(".associate_background_images_3").style.left = (this.associate_background_images_3_x + x).toString() + 'px'
-            document.querySelector(".associate_background_images_4").style.left = (this.associate_background_images_4_x + x).toString() + 'px'
+            let y = e.clientY / window.innerHeight * 20
+            document.querySelector(".associate_background_images_1").style.top = (this.associate_background_images_1_x + y).toString() + 'px'
+            document.querySelector(".associate_background_images_2").style.top = (this.associate_background_images_2_x + y).toString() + 'px'
+            document.querySelector(".associate_background_images_3").style.top = (this.associate_background_images_3_x + y).toString() + 'px'
+            document.querySelector(".associate_background_images_4").style.top = (this.associate_background_images_4_x + y).toString() + 'px'
             document.querySelector(".associate_background_images_5").style.left = (this.associate_background_images_5_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_6").style.left = (this.associate_background_images_6_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_7").style.left = (this.associate_background_images_7_x + x).toString() + 'px'
@@ -87,10 +88,10 @@ export default {
     },
     mounted(){
         document.addEventListener('mousemove', this.onMouseUpdate)
-        this.associate_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_1")).left).length - 2))
-        this.associate_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_2")).left).length - 2))
-        this.associate_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_3")).left).length - 2))
-        this.associate_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_4")).left).length - 2))
+        this.associate_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_1")).top).length - 2))
+        this.associate_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_2")).top).length - 2))
+        this.associate_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_3")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_3")).top).length - 2))
+        this.associate_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_4")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_4")).top).length - 2))
         this.associate_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_5")).left).length - 2))
         this.associate_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_6")).left).length - 2))
         this.associate_background_images_7_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_7")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_7")).left).length - 2))
@@ -307,8 +308,8 @@ export default {
             height: 70vw
             background-color: #f9f9f9
             img
-                width: 86%
-                padding-left: 7%
+                padding-left: 3.5vw
+                width: 93vw
         .associate_background_images
             position: absolute
             width: 100%

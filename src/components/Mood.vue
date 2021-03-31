@@ -339,8 +339,8 @@ export default {
             top: 100px
             z-index: 110
             img
-                width: 86%
-                padding-left: 7%
+                width: 100vw
+                padding-left: 0
                 z-index: 110
                 position: absolute
         .mood_background_images

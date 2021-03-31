@@ -6,11 +6,10 @@
 
         <div class="footer_logos">
             <div class="footer_logos_flex">
-                <img src="../assets/back/whatsapp.png" alt="whatsapp">
-                <img src="../assets/back/facebook.png" alt="facebook">
-                <img src="../assets/back/insta.png" alt="insta">
-                <img src="../assets/back/twitter.png" alt="twitter">
-                <img src="../assets/back/telega.png" alt="telega">
+                <a href="https://marketbot.biz/935" target="_blank"><img src="../assets/back/whatsapp.png" alt="whatsapp"></a>
+                <a href="#"><img src="../assets/back/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="../assets/back/insta.png" alt="insta"></a>
+                <a href="#"><img src="../assets/back/telega.png" alt="telega"></a>
             </div>
         </div>
 
@@ -76,6 +75,7 @@ export default {
             .footer_logos_flex
                 display: flex
                 justify-content: space-around
+
         p
             display: inline-block
             font-size: 16px

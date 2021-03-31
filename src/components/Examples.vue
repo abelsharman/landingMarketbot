@@ -29,7 +29,7 @@
 
         <div class="examples_image_phone">
             <img src="../assets/img-2 mobile.png" alt="img" id="6">
-            <img src="../assets/img-2-2.png" alt="img" id="7">
+            <img src="../assets/img-2-2 mobile.png" alt="img" id="7">
             <img src="../assets/img-2-3 mobile.png" alt="img" id="8">
             <img src="../assets/img-2-4 mobile.png" alt="img" id="9">
             <img src="../assets/img-2-5 mobile.png" alt="img" id="10">
@@ -1800,8 +1800,9 @@ export default {
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
-            document.querySelector(".examples_background_images_1").style.left = (this.examples_background_images_1_x + x).toString() + 'px'
-            document.querySelector(".examples_background_images_2").style.left = (this.examples_background_images_2_x + x).toString() + 'px'
+            let y = e.clientY / window.innerHeight * 20
+            document.querySelector(".examples_background_images_1").style.top = (this.examples_background_images_1_x + y).toString() + 'px'
+            document.querySelector(".examples_background_images_2").style.top = (this.examples_background_images_2_x + y).toString() + 'px'
             document.querySelector(".examples_background_images_3").style.left = (this.examples_background_images_3_x + x).toString() + 'px'
             document.querySelector(".examples_background_images_4").style.left = (this.examples_background_images_4_x + x).toString() + 'px'
             document.querySelector(".examples_background_images_5").style.left = (this.examples_background_images_5_x + x).toString() + 'px'
@@ -1822,8 +1823,8 @@ export default {
     mounted(){
         this.b = setInterval(this.intervalMethod, 4000)
         document.addEventListener('mousemove', this.onMouseUpdate)
-        this.examples_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_1")).left).length - 2))
-        this.examples_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_2")).left).length - 2))
+        this.examples_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_1")).top).length - 2))
+        this.examples_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_2")).top).length - 2))
         this.examples_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_3")).left).length - 2))
         this.examples_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_4")).left).length - 2))
         this.examples_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_5")).left).length - 2))
@@ -2162,8 +2163,8 @@ export default {
                 transition: 0.5s all ease
                 position: absolute
                 opacity: 0
-                width: 86%
-                padding-left: 7%
+                padding-left: 3.5vw
+                width: 93vw
                 z-index: 100
         .examples_image
             display: none
@@ -2292,7 +2293,7 @@ export default {
 
 
         .opportunities_slider
-            height: 175vw
+            height: 160vw
             width: 100%
             position: relative
             left: 0px
@@ -2445,8 +2446,8 @@ export default {
                 transition: 0.5s all ease
                 position: absolute
                 opacity: 0
-                width: 86%
-                padding-left: 7%
+                padding-left: 3.5vw
+                width: 93vw
                 z-index: 100
         .examples_image
             display: none

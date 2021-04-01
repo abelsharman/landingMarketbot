@@ -20,19 +20,57 @@
 
 
         <div class="examples_image">
-            <img src="../assets/img-2.png" alt="img" id="1" ref="i1">
-            <img src="../assets/img-2-2.png" alt="img" id="2" ref="i2">
-            <img src="../assets/img-2-3.png" alt="img" id="3" ref="i3">
-            <img src="../assets/img-2-4.png" loading="lazy" alt="img" id="4" ref="i4">
-            <img src="../assets/img-2-5.png" loading="lazy" alt="img" id="5" ref="i5">
+            <picture>
+                <source srcset="../assets/img-2.webp" type="image/webp">
+                <img src="../assets/img-2.png" alt="img" id="1" ref="i1">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-2.webp" type="image/webp">
+                <img src="../assets/img-2-2.png" alt="img" id="2" ref="i2">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-3.webp" type="image/webp">
+                <img src="../assets/img-2-3.png" alt="img" id="3" ref="i3">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-4.webp" type="image/webp">
+                <img src="../assets/img-2-4.png" alt="img" id="4" ref="i4">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-5.webp" type="image/webp">
+                <img src="../assets/img-2-5.png" alt="img" id="5" ref="i5">
+            </picture>
         </div>
 
         <div class="examples_image_phone">
-            <img src="../assets/img-2 mobile.png" alt="img" id="6">
-            <img src="../assets/img-2-2 mobile.png" alt="img" id="7">
-            <img src="../assets/img-2-3 mobile.png" alt="img" id="8">
-            <img src="../assets/img-2-4 mobile.png" alt="img" id="9">
-            <img src="../assets/img-2-5 mobile.png" alt="img" id="10">
+            <picture>
+                <source srcset="../assets/img-2mobile.webp" type="image/webp">
+                <img src="../assets/img-2mobile.png" alt="img" id="6">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-2mobile.webp" type="image/webp">
+                <img src="../assets/img-2-2mobile.png" alt="img" id="7">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-3mobile.webp" type="image/webp">
+                <img src="../assets/img-2-3mobile.png" alt="img" id="8">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-4mobile.webp" type="image/webp">
+                <img src="../assets/img-2-4mobile.png" alt="img" id="9">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-2-5mobile.webp" type="image/webp">
+                <img src="../assets/img-2-5mobile.png" alt="img" id="10">
+            </picture>
         </div>
 
         <div class="examples_background_images">
@@ -60,21 +98,80 @@
         <div class="examples opportunities">
         <h1 class="opportunities_heading">Какие возможности у мессенджеров при общении с клиентами</h1>
         <div class="examples_image opportunities_image">
-            <img src="../assets/img-3.png" alt="img" id="12">
-            <img src="../assets/img-3-2.png" alt="img" id="13">
-            <img src="../assets/img-3-3.png" alt="img" id="14">
-            <img src="../assets/img-3-4.png" loading="lazy" alt="img" id="15">
-            <img src="../assets/img-3-5.png" loading="lazy" alt="img" id="16">
-            <img src="../assets/img-3-6.png" loading="lazy" alt="img" id="17">
-            <img src="../assets/img-3-7.png" loading="lazy" alt="img" id="18">
-            <img src="../assets/img-3-8.png" loading="lazy" alt="img" id="19">
-            <img src="../assets/img-3-9.png" loading="lazy" alt="img" id="20">
-            <img src="../assets/img-3-10.png" loading="lazy" alt="img" id="21">
-            <img src="../assets/img-3-11.png" loading="lazy" alt="img" id="22">
-            <img src="../assets/img-3-12.png" loading="lazy" alt="img" id="23">
-            <img src="../assets/img-3-13.png" loading="lazy" alt="img" id="24">
-            <img src="../assets/img-3-14.png" loading="lazy" alt="img" id="25">
-            <img src="../assets/img-3-15.png" loading="lazy" alt="img" id="26">
+            <picture>
+                <source srcset="../assets/img-3.webp" type="image/webp">
+                <img src="../assets/img-3.png" alt="img" id="12">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-2.webp" type="image/webp">
+                <img src="../assets/img-3-2.png" alt="img" id="13">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-3.webp" type="image/webp">
+                <img src="../assets/img-3-3.png" alt="img" id="14">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-4.webp" type="image/webp">
+                <img src="../assets/img-3-4.png" alt="img" id="15">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-5.webp" type="image/webp">
+                <img src="../assets/img-3-5.png" alt="img" id="16">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-6.webp" type="image/webp">
+                <img src="../assets/img-3-6.png" alt="img" id="17">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-7.webp" type="image/webp">
+                <img src="../assets/img-3-7.png" alt="img" id="18">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-8.webp" type="image/webp">
+                <img src="../assets/img-3-8.png" alt="img" id="19">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-9.webp" type="image/webp">
+                <img src="../assets/img-3-9.png" alt="img" id="20">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-10.webp" type="image/webp">
+                <img src="../assets/img-3-10.png" alt="img" id="21">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-11.webp" type="image/webp">
+                <img src="../assets/img-3-11.png" alt="img" id="22">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-12.webp" type="image/webp">
+                <img src="../assets/img-3-12.png" alt="img" id="23">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-13.webp" type="image/webp">
+                <img src="../assets/img-3-13.png" alt="img" id="24">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-14.webp" type="image/webp">
+                <img src="../assets/img-3-14.png" alt="img" id="25">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-15.webp" type="image/webp">
+                <img src="../assets/img-3-15.png" alt="img" id="26">
+            </picture>
         </div>
 
         
@@ -119,21 +216,80 @@
         </div>
 
         <div class="examples_image_phone opportunities_image_phone">
-            <img src="../assets/img-3 mobile.png" alt="img" id="27">
-            <img src="../assets/img-3-2 mobile.png" alt="img" id="28">
-            <img src="../assets/img-3-3 mobile.png" alt="img" id="29">
-            <img src="../assets/img-3-4 mobile.png" alt="img" id="30">
-            <img src="../assets/img-3-5 mobile.png" alt="img" id="31">
-            <img src="../assets/img-3-6 mobile.png" alt="img" id="32">
-            <img src="../assets/img-3-7 mobile.png" alt="img" id="33">
-            <img src="../assets/img-3-8 mobile.png" alt="img" id="34">
-            <img src="../assets/img-3-9 mobile.png" alt="img" id="35">
-            <img src="../assets/img-3-10 mobile.png" alt="img" id="36">
-            <img src="../assets/img-3-11 mobile.png" alt="img" id="37">
-            <img src="../assets/img-3-12 mobile.png" alt="img" id="38">
-            <img src="../assets/img-3-13 mobile.png" alt="img" id="39">
-            <img src="../assets/img-3-14 mobile.png" alt="img" id="40">
-            <img src="../assets/img-3-15 mobile.png" alt="img" id="41">
+            <picture>
+                <source srcset="../assets/img-3mobile.webp" type="image/webp">
+                <img src="../assets/img-3mobile.png" alt="img" id="27">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-2mobile.webp" type="image/webp">
+                <img src="../assets/img-3-2mobile.png" alt="img" id="28">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-3mobile.webp" type="image/webp">
+                <img src="../assets/img-3-3mobile.png" alt="img" id="29">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-4mobile.webp" type="image/webp">
+                <img src="../assets/img-3-4mobile.png" alt="img" id="30">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-5mobile.webp" type="image/webp">
+                <img src="../assets/img-3-5mobile.png" alt="img" id="31">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-6mobile.webp" type="image/webp">
+                <img src="../assets/img-3-6mobile.png" alt="img" id="32">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-7mobile.webp" type="image/webp">
+                <img src="../assets/img-3-7mobile.png" alt="img" id="33">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-8mobile.webp" type="image/webp">
+                <img src="../assets/img-3-8mobile.png" alt="img" id="34">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-9mobile.webp" type="image/webp">
+                <img src="../assets/img-3-9mobile.png" alt="img" id="35">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-10mobile.webp" type="image/webp">
+                <img src="../assets/img-3-10mobile.png" alt="img" id="36">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-11mobile.webp" type="image/webp">
+                <img src="../assets/img-3-11mobile.png" alt="img" id="37">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-12mobile.webp" type="image/webp">
+                <img src="../assets/img-3-12mobile.png" alt="img" id="38">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-13mobile.webp" type="image/webp">
+                <img src="../assets/img-3-13mobile.png" alt="img" id="39">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-14mobile.webp" type="image/webp">
+                <img src="../assets/img-3-14mobile.png" alt="img" id="40">
+            </picture>
+
+            <picture>
+                <source srcset="../assets/img-3-15mobile.webp" type="image/webp">
+                <img src="../assets/img-3-15mobile.png" alt="img" id="41">
+            </picture>
         </div>
 
         <div class="opportunities_slider">
@@ -142,7 +298,10 @@
             <img class="opportunities_slider_arrow" style="left: 70vw;" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
 
             <div class="company_slider_item company_slider_1" id="1" ref="i1" v-touch:swipe.left="clickOnSliderPlus" v-touch:touchhold="longClick" >
-                <img class="company_slider_big_img" src="../assets/img-3 mobile.png" alt="client">
+                <picture>
+                    <source srcset="../assets/img-3mobile.webp" type="image/webp">
+                    <img src="../assets/img-3mobile.png" alt="img" class="company_slider_big_img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Отправка файлов и каталогов</h1>
                     <p>Отправляйте своим клиентам любые файлы. Часто клиенты просят отправить счет или каталог в мессенджер. И это действительно удобно.</p>
@@ -150,7 +309,10 @@
             </div>
 
             <div class="company_slider_item company_slider_2" id="2" ref="i2" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick" >
-                <img class="company_slider_big_img" src="../assets/img-3-2 mobile.png" alt="client">
+                <picture>
+                    <source srcset="../assets/img-3-2mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-2mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Регистрация на мероприятия</h1>
                     <p>Регистрировать на мероприятия можно через мессенджеры. Например, на вебинар или мастер-класс. Вам достаточно дать возможность клиенту выбрать удобный для него мессенджер.</p>
@@ -158,7 +320,10 @@
             </div>
 
             <div class="company_slider_item company_slider_3" id="3" ref="i3"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick" >
-                <img class="company_slider_big_img"  src="../assets/img-3-3 mobile.png" alt="client">
+                <picture>
+                    <source srcset="../assets/img-3-3mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-3mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Расчет параметров</h1>
                     <p>Вы моежет вести клиентов на чат-бот в мессенджеры. Например, для расчета конкретных параметров. Чат-бот проведет опрос и выдаст нужный ответ.</p>
@@ -166,7 +331,10 @@
             </div>
 
             <div class="company_slider_item company_slider_4" id="4" ref="i4"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-4 mobile.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-4mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-4mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Активация промокодов</h1>
                     <p>Теперь вы сможете раздавать промокод эффективнее. Каждый, кто захочет его активировать, попадет к вам в мессенджер, отсканировав QR-код или перейдя по ссылке.</p>
@@ -175,7 +343,10 @@
 
 
             <div class="company_slider_item company_slider_5" id="5" ref="i5" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-5.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-5mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-5mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Генерация паролей</h1>
                     <p></p>
@@ -183,7 +354,10 @@
             </div>
 
             <div class="company_slider_item company_slider_6" id="6" ref="i6" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-6 mobile.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-6mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-6mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Подтверждение бронирования</h1>
                     <p>Уточняйте у ваших клиентов актуальность брони в автоматическом режиме.</p>
@@ -191,7 +365,10 @@
             </div>
 
             <div class="company_slider_item company_slider_7" id="7" ref="i7" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-7 mobile.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-7mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-7mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Сбор отзывов и обратной связи</h1>
                     <p>Собирайте отзывы автоматически. В нужный момент и в удобном формате. Например, сразу после покупки.</p>
@@ -199,7 +376,10 @@
             </div>
 
             <div class="company_slider_item company_slider_8" id="8" ref="i8" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-8 mobile.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-8mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-8mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Проведение опросов</h1>
                     <p>Опрос клиента при помощи чат-бота - это очень удобно! 24/7 чат-бот будет квалифицировать ваших клиентов.</p>
@@ -207,7 +387,10 @@
             </div>
 
             <div class="company_slider_item company_slider_9" id="9" ref="i9" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-9 mobile.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-9mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-9mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Проведение обучения</h1>
                     <p>Создайте заранее весь сценарий обучения. Клиенту останется только поэтапно проходить обучение, а настроенный чат-бот поможет ему в этом.</p>
@@ -215,7 +398,11 @@
             </div>
 
             <div class="company_slider_item company_slider_10" id="10" ref="i10" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-10 mobile.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-10mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-10mobile.png" alt="img" class="company_slider_big_img">
+                </picture>
+                
                 <div class="company_slider_text">
                     <h1>Прием заказов</h1>
                     <p>Автоматизируйте процессы бронирования и оплаты билетов. Клиент получит билеты прямо в мессенджер.</p>
@@ -223,7 +410,10 @@
             </div>
 
             <div class="company_slider_item company_slider_11" id="11" ref="i11" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-11.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-11mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-11mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Прием платежей</h1>
                     <p></p>
@@ -231,7 +421,10 @@
             </div>
 
             <div class="company_slider_item company_slider_12" id="12" ref="i12" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-12.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-12mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-12mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Информирование и отправка уведомлений</h1>
                     <p></p>
@@ -239,7 +432,10 @@
             </div>
 
             <div class="company_slider_item company_slider_13" id="13" ref="i13" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-13.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-13mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-13mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Анкетирование</h1>
                     <p></p>
@@ -247,7 +443,10 @@
             </div>
 
             <div class="company_slider_item company_slider_14" id="14" ref="i14" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-14.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-14mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-14mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Ответы на частые вопросы</h1>
                     <p></p>
@@ -255,7 +454,10 @@
             </div>
 
             <div class="company_slider_item company_slider_15" id="15" ref="i15" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
-                <img class="company_slider_big_img"  src="../assets/img-3-15.png" alt="client" loading="lazy">
+                <picture>
+                    <source srcset="../assets/img-3-15mobile.webp" type="image/webp">
+                    <img src="../assets/img-3-15mobile.png" class="company_slider_big_img" alt="img">
+                </picture>
                 <div class="company_slider_text">
                     <h1>Напоминания о записи</h1>
                     <p></p>

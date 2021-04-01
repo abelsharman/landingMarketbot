@@ -7,12 +7,18 @@
         </div>
 
         <div class="execute_image">
-            <img src="../assets/img-6.png" alt="img">
+            <picture>
+                <source srcset="../assets/img-6.webp" type="image/webp">
+                <img src="../assets/img-6.png" />
+            </picture>
         </div>
 
 
         <div class="execute_image_phone">
-            <img src="../assets/img-6 mobile.png" alt="img">
+            <picture>
+                <source srcset="../assets/img-6mobile.webp" type="image/webp">
+                <img src="../assets/img-6mobile.png" />
+            </picture>
         </div>
 
 

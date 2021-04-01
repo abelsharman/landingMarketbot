@@ -11,14 +11,17 @@
 
        <div class="platform_image">
             <picture>
-                <source srcset="../assets/img-1.png" type="image/png">
-                <img srcset="../assets/img-1.webp" alt="Flowers">
+                <source srcset="../assets/img_1.webp" type="image/webp">
+                <img src="../assets/img_1.png" />
             </picture>
        </div>
 
 
        <div class="platform_image_phone">
-           <img src="../assets/img-1 mobile.png" loading="lazy" alt="img-1">
+            <picture>
+                <source srcset="../assets/img-1-mobile.webp" type="image/webp">
+                <img src="../assets/img-1-mobile.png" alt="1">
+            </picture>
        </div>
 
        <div class="platform_background_images">
@@ -208,6 +211,10 @@ $p_color: #370954
             position: relative
             user-select: none
             padding-top: 70px
+            picture
+                display: block
+            source
+                display: block
         .platform_image_phone
             display: none
         .platform_background_images

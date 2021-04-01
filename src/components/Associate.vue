@@ -49,7 +49,7 @@
     </div>
 </template>
 
-<script>
+<script async>
 export default {
     name: 'Associate',
     data(){

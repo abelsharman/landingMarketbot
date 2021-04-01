@@ -41,7 +41,7 @@
     </div>
 </template>
 
-<script>
+<script async>
 import JQuery from 'jquery'
 let $ = JQuery
 export default {

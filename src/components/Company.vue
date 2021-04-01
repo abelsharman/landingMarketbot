@@ -307,7 +307,7 @@
 
 
 
-<script>
+<script async>
 export default {
     name: 'Company',
     data(){

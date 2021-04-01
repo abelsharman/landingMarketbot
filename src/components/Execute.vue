@@ -41,7 +41,7 @@
 
 
 
-<script>
+<script async>
 export default {
     name: 'Execute',
     data(){

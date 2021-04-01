@@ -492,7 +492,7 @@
 </template>
 
 
-<script>
+<script async>
 export default {
     name: 'Examples',
     data(){

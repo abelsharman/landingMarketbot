@@ -53,7 +53,7 @@
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button ref="after">Далее</button>
+                    <button ref="after1">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button ref="after">Далее</button>
+                    <button ref="after2">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -138,7 +138,7 @@
                 </div>
 
                 <div class="setting_quiz_after setting_quiz_after_1" @click="i++">
-                    <button ref="after">Далее</button>
+                    <button ref="after3">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -176,7 +176,7 @@
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button ref="after">Далее</button>
+                    <button ref="after4">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -207,7 +207,7 @@
                 </div>
 
                 <div class="setting_quiz_after setting_quiz_after_1" @click="i++">
-                    <button ref="after">Далее</button>
+                    <button ref="after5">Далее</button>
                     <p>Или нажмите <strong>Enter</strong></p>
                 </div>
             </div>
@@ -330,25 +330,29 @@ export default {
             }
             
         },
-        extensionForSafari(e, time, where){
-            var eTop = e.getBoundingClientRect().top;
-            var eAmt = eTop / 100;
-            var curTime = 0;
-            while (curTime <= time) {
-                window.setTimeout(this.SVS_B, curTime, eAmt, where);
-                curTime += time / 100;
-            }
-        },
-        SVS_B(eAmt, where) {
-            if(where == "center" || where == "")
-                window.scrollBy(0, eAmt / 2);
-            if (where == "top")
-                window.scrollBy(0, eAmt);
-        },
         clickMotion(){
             if(window.innerWidth > 456){
-                this.$refs.after.style.animation = "clickMotionButton 0.9s"
-                setTimeout(()=> this.$refs.after.style.animation = "none", 900)
+                if(this.i == 1){
+                    this.$refs.after1.style.animation = "clickMotionButton 0.7s"
+                    setTimeout(()=> this.$refs.after1.style.animation = "none", 700)
+                }
+                
+                else if(this.i == 2){
+                    this.$refs.after2.style.animation = "clickMotionButton 0.7s"
+                    setTimeout(()=> this.$refs.after2.style.animation = "none", 700)
+                }
+                else if(this.i == 3){
+                    this.$refs.after3.style.animation = "clickMotionButton 0.7s"
+                    setTimeout(()=> this.$refs.after3.style.animation = "none", 700)
+                }
+                else if(this.i == 4){
+                    this.$refs.after4.style.animation = "clickMotionButton 0.7s"
+                    setTimeout(()=> this.$refs.after4.style.animation = "none", 700)
+                }
+                else if(this.i == 5){
+                    this.$refs.after5.style.animation = "clickMotionButton 0.7s"
+                    setTimeout(()=> this.$refs.after5.style.animation = "none", 700)
+                }
             }
             else{
                 this.extensionForSafari(this.$refs.header, 200, "top")

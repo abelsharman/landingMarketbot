@@ -9,7 +9,7 @@
                 <a href="https://marketbot.biz/935" target="_blank"><img src="../assets/back/whatsapp.png" alt="whatsapp"></a>
                 <a href="#"><img src="../assets/back/facebook.png" alt="facebook"></a>
                 <a href="#"><img src="../assets/back/insta.png" alt="insta"></a>
-                <a href="#"><img src="../assets/back/telega.png" alt="telega"></a>
+                <a href="http://t.me/marketbot_biz_support_bot"><img src="../assets/back/telega.png" alt="telega"></a>
             </div>
         </div>
 

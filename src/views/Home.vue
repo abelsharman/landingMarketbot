@@ -128,14 +128,14 @@ export default {
 
 *
   scroll-behavior: smooth
-  -webkit-overflow-scrolling: touch
+
 *
   font-family: 'Cera Pro'
 .page
   background-color: #f9f9f9
-  overflow-x: hidden
-body
-  overflow-x: hidden
+  //overflow-x: hidden
+//body
+  //overflow-x: hidden
 
 </style>
 

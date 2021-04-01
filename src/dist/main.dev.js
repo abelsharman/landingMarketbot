@@ -10,10 +10,9 @@ var _vue2TouchEvents = _interopRequireDefault(require("vue2-touch-events"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-global.jQuery = require('jquery');
-var $ = global.jQuery;
-window.$ = $;
-
+//global.jQuery = require('jquery');
+//var $ = global.jQuery;
+//window.$ = $;
 _vue["default"].use(_vue2TouchEvents["default"]);
 
 _vue["default"].config.productionTip = false;

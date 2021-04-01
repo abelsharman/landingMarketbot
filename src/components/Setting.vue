@@ -330,13 +330,27 @@ export default {
             }
             
         },
+        extensionForSafari(e, time, where){
+            var eTop = e.getBoundingClientRect().top;
+            var eAmt = eTop / 100;
+            var curTime = 0;
+            while (curTime <= time) {
+                window.setTimeout(this.SVS_B, curTime, eAmt, where);
+                curTime += time / 100;
+            }
+        },
+        SVS_B(eAmt, where) {
+            if(where == "center" || where == "")
+                window.scrollBy(0, eAmt / 2);
+            if (where == "top")
+                window.scrollBy(0, eAmt);
+        },
         clickMotion(){
             if(window.innerWidth > 456){
                 if(this.i == 1){
                     this.$refs.after1.style.animation = "clickMotionButton 0.7s"
                     setTimeout(()=> this.$refs.after1.style.animation = "none", 700)
                 }
-                
                 else if(this.i == 2){
                     this.$refs.after2.style.animation = "clickMotionButton 0.7s"
                     setTimeout(()=> this.$refs.after2.style.animation = "none", 700)
@@ -355,7 +369,7 @@ export default {
                 }
             }
             else{
-                this.extensionForSafari(this.$refs.header, 200, "top")
+                window.scrollBy(0, -300);
                 //window.scrollTo({top: window.pageYOffset + this.$refs.header.getBoundingClientRect().top, behavior: 'smooth'})
             }
         },
@@ -490,8 +504,9 @@ export default {
     created(){
         window.addEventListener('keydown', (e) => {
             if (e.key == 'Enter') {
-                if(this.i < 6)
+                if(this.i < 6){
                     this.i++
+                }
             }
         })
     }

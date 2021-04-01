@@ -10,7 +10,10 @@
 
 
        <div class="platform_image">
-           <img src="../assets/img-1.png" loading="lazy" alt="img-1" >
+            <picture>
+                <source srcset="../assets/img-1.png" type="image/png">
+                <img srcset="../assets/img-1.webp" alt="Flowers">
+            </picture>
        </div>
 
 

@@ -238,7 +238,10 @@
             <div class="setting_quiz_result">
                 <h1>Итого: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ за 10 дней</strong></h1>
 
-                <img src="../assets/img-10-tarif.png" alt="img">
+                <picture>
+                    <source srcset="../assets/img-10-tarif.webp" type="image/webp">
+                    <img src="../assets/img-10-tarif.png" />
+                </picture>
 
                 <div class="setting_quiz_result_info">
                     <h2>Бесплатно 10 дней на <span>МАКСИМУМ</span></h2>

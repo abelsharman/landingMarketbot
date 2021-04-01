@@ -8,20 +8,29 @@
 
         <div class="team_members">
             <div class="team_member">
-                <img src="../assets/ava-1.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-1.webp" type="image/webp">
+                    <img src="../assets/ava-1.png" />
+                </picture>
                 <h2>Иван Каплюченко</h2>
                 <p>Основатель проекта, CEO</p>
             </div>
 
             <div class="team_member">
-                <img src="../assets/ava-2.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-2.webp" type="image/webp">
+                    <img src="../assets/ava-2.png" />
+                </picture>
                 <h2>Богдан Марфейчук</h2>
                 <p>Технический директор, CIO</p>
             </div>
 
 
             <div class="team_member">
-                <img src="../assets/ava-3.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-3.webp" type="image/webp">
+                    <img src="../assets/ava-3.png" />
+                </picture>
                 <h2>Владимир Казбанов</h2>
                 <p>Инвестор проекта, CFO</p>
             </div>
@@ -32,33 +41,48 @@
 
         <div class="team_members">
             <div class="team_member">
-                <img src="../assets/ava-4.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-4.webp" type="image/webp">
+                    <img src="../assets/ava-4.png" />
+                </picture>
                 <h2>Александр</h2>
                 <p>Дизайнер проекта</p>
             </div>
 
             <div class="team_member">
-                <img src="../assets/ava-5.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-5.webp" type="image/webp">
+                    <img src="../assets/ava-5.png" />
+                </picture>
                 <h2>Даниил</h2>
                 <p>Маркетолог, PR</p>
             </div>
 
 
             <div class="team_member">
-                <img src="../assets/ava-6.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-6.webp" type="image/webp">
+                    <img src="../assets/ava-6.png" />
+                </picture>
                 <h2>Раден</h2>
                 <p>Контент мейкер</p>
             </div>
 
             <div class="team_member">
-                <img src="../assets/ava-7.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-7.webp" type="image/webp">
+                    <img src="../assets/ava-7.png" />
+                </picture>
                 <h2>Анна</h2>
                 <p>Копирайтер, SMM</p>
             </div>
 
 
             <div class="team_member">
-                <img src="../assets/ava-8.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-8.webp" type="image/webp">
+                    <img src="../assets/ava-8.png" />
+                </picture>
                 <h2>Екатерина</h2>
                 <p>HR специалист</p>
             </div>
@@ -67,52 +91,76 @@
 
         <div class="team_members_phone">
             <div class="team_member">
-                <img src="../assets/ava-1.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-1.webp" type="image/webp">
+                    <img src="../assets/ava-1.png" />
+                </picture>
                 <h2>Иван Каплюченко</h2>
                 <p>Основатель проекта, CEO</p>
             </div>
 
             <div class="team_member">
-                <img src="../assets/ava-2.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-2.webp" type="image/webp">
+                    <img src="../assets/ava-2.png" />
+                </picture>
                 <h2>Богдан Марфейчук</h2>
                 <p>Технический директор, CIO</p>
             </div>
 
 
             <div class="team_member">
-                <img src="../assets/ava-3.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-3.webp" type="image/webp">
+                    <img src="../assets/ava-3.png" />
+                </picture>
                 <h2>Владимир Казбанов</h2>
                 <p>Инвестор проекта, CFO</p>
             </div>
 
             <div class="team_member">
-                <img src="../assets/ava-4.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-4.webp" type="image/webp">
+                    <img src="../assets/ava-4.png" />
+                </picture>
                 <h2>Александр</h2>
                 <p>Дизайнер проекта</p>
             </div>
 
             <div class="team_member">
-                <img src="../assets/ava-5.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-5.webp" type="image/webp">
+                    <img src="../assets/ava-5.png" />
+                </picture>
                 <h2>Даниил</h2>
                 <p>Маркетолог, PR</p>
             </div>
 
 
             <div class="team_member">
-                <img src="../assets/ava-6.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-6.webp" type="image/webp">
+                    <img src="../assets/ava-6.png" />
+                </picture>
                 <h2>Раден</h2>
                 <p>Контент мейкер</p>
             </div>
 
             <div class="team_member">
-                <img src="../assets/ava-7.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-7.webp" type="image/webp">
+                    <img src="../assets/ava-7.png" />
+                </picture>
                 <h2>Анна</h2>
                 <p>Копирайтер, SMM</p>
             </div>
 
 
             <div class="team_member">
-                <img src="../assets/ava-8.png" alt="ava">
+                <picture>
+                    <source srcset="../assets/ava-8.webp" type="image/webp">
+                    <img src="../assets/ava-8.png" />
+                </picture>
                 <h2>Екатерина</h2>
                 <p>HR специалист</p>
             </div>

@@ -3,9 +3,9 @@ import App from './App.vue'
 import router from './router'
 import Vue2TouchEvents from 'vue2-touch-events'
 
-//global.jQuery = require('jquery');
-//var $ = global.jQuery;
-//window.$ = $;
+global.jQuery = require('jquery');
+var $ = global.jQuery;
+window.$ = $;
 
 
 Vue.use(Vue2TouchEvents)

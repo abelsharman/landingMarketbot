@@ -84,6 +84,7 @@ export default {
         },  
     },
     mounted(){
+        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.platform_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_1")).top).length - 2))
         this.platform_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_2")).top).length - 2))
@@ -97,7 +98,7 @@ export default {
         this.platform_background_images_10_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).length - 2))
         this.platform_background_images_11_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).length - 2))
         
-        
+        }
     }
 }
 </script>

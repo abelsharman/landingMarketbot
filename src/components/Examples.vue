@@ -1822,6 +1822,7 @@ export default {
     },
     mounted(){
         this.b = setInterval(this.intervalMethod, 4000)
+        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.examples_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_1")).top).length - 2))
         this.examples_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_2")).top).length - 2))
@@ -1837,6 +1838,7 @@ export default {
         this.examples_background_images_13_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_13")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_13")).left).length - 2))
         this.examples_background_images_14_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_14")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_14")).left).length - 2))
         this.examples_background_images_15_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_15")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_15")).left).length - 2))
+        }
     }
 
 }

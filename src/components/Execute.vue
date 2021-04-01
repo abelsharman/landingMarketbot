@@ -71,6 +71,7 @@ export default {
         }
     },
     mounted(){
+        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.execute_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_1")).top).length - 2))
         this.execute_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_2")).top).length - 2))
@@ -81,7 +82,7 @@ export default {
         this.execute_background_images_7_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_7")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_7")).left).length - 2))
         this.execute_background_images_8_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_8")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_8")).left).length - 2))
         this.execute_background_images_9_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_9")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_9")).left).length - 2))
-
+        }
     }
 }
 </script>

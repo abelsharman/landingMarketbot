@@ -870,13 +870,14 @@ export default {
         }
     },
     mounted(){
+        if(window.innerWidth > 456){
         this.a = setInterval(this.sliderAuto, 5000)
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.company_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_1")).left).length - 2))
         this.company_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_2")).left).length - 2))
         this.company_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_3")).left).length - 2))
         this.company_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_4")).left).length - 2))
-       
+        }
     }
 }
 </script>

@@ -489,7 +489,7 @@ export default {
             this.$refs.plus.style.top = "11px"
             this.$refs.operator.style.top = "12px"
         }
-
+        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.setting_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_1")).top).length - 2))
         this.setting_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).length - 2))
@@ -499,7 +499,7 @@ export default {
         this.setting_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_6")).left).length - 2))
         this.setting_background_images_7_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).length - 2))
         this.setting_background_images_8_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).length - 2))
-
+        }
     },
     created(){
         window.addEventListener('keydown', (e) => {

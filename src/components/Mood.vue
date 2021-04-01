@@ -66,6 +66,7 @@ export default {
        
     },
     mounted() {
+        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.mood_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_1")).left).length - 2))
         this.mood_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_2")).left).length - 2))
@@ -73,6 +74,7 @@ export default {
         this.mood_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_4")).left).length - 2))
         this.mood_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_5")).left).length - 2))
         this.mood_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_6")).left).length - 2))
+        }
 /*
 $(document).ready(function(){
   // Add smooth scrolling to all links

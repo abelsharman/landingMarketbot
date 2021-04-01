@@ -16,7 +16,7 @@
         <div class="associate_image">
             <picture>
                 <source srcset="../assets/img-4.webp" type="image/webp">
-                <img src="../assets/img-4.png" />
+                <img src="../assets/img-4.png" loading="lazy" />
             </picture>
         </div>
 
@@ -24,7 +24,7 @@
         <div class="associate_image_phone">
             <picture>
                 <source srcset="../assets/img-4mobile.webp" type="image/webp">
-                <img src="../assets/img-4mobile.png" />
+                <img src="../assets/img-4mobile.png" loading="lazy" />
             </picture>
         </div>
 

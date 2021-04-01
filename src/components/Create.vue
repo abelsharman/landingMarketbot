@@ -3,7 +3,7 @@
         <div class="create_image">
             <picture>
                 <source srcset="../assets/img-5.webp" type="image/webp">
-                <img src="../assets/img-5.png" />
+                <img src="../assets/img-5.png" loading="lazy" />
             </picture>
         </div>
 
@@ -36,7 +36,7 @@
         <div class="create_image_phone">
             <picture>
                 <source srcset="../assets/img-5mobile.webp" type="image/webp">
-                <img src="../assets/img-5mobile.png" />
+                <img src="../assets/img-5mobile.png" loading="lazy" />
             </picture>
         </div>
 

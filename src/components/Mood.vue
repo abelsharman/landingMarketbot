@@ -3,7 +3,7 @@
         <div class="mood_image">
             <picture>
                 <source srcset="../assets/img-7.webp" type="image/webp">
-                <img src="../assets/img-7.png" />
+                <img src="../assets/img-7.png" loading="lazy" />
             </picture>
         </div>
 
@@ -17,7 +17,7 @@
         <div class="mood_image_phone">
             <picture>
                 <source srcset="../assets/img-7mobile.webp" type="image/webp">
-                <img src="../assets/img-7mobile.png" />
+                <img src="../assets/img-7mobile.png" loading="lazy" />
             </picture>
         </div>
 

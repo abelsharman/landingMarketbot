@@ -9,7 +9,7 @@
         <div class="execute_image">
             <picture>
                 <source srcset="../assets/img-6.webp" type="image/webp">
-                <img src="../assets/img-6.png" />
+                <img src="../assets/img-6.png" loading="lazy" />
             </picture>
         </div>
 
@@ -17,7 +17,7 @@
         <div class="execute_image_phone">
             <picture>
                 <source srcset="../assets/img-6mobile.webp" type="image/webp">
-                <img src="../assets/img-6mobile.png" />
+                <img src="../assets/img-6mobile.png" loading="lazy" />
             </picture>
         </div>
 

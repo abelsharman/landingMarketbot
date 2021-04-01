@@ -40,7 +40,7 @@
             <div class="company_slider_item company_slider_4" id="4" ref="i4">
                 <picture>
                     <source srcset="../assets/client-4.webp" type="image/webp">
-                    <img src="../assets/client-4.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-4.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>Университет Синергия<img src="../assets/check.png" alt="check"></h1>
                 <p>Негосударственное высшее учебное заведение.</p>
@@ -51,7 +51,7 @@
             <div class="company_slider_item company_slider_5" id="5" ref="i5">
                 <picture>
                     <source srcset="../assets/client-5.webp" type="image/webp">
-                    <img src="../assets/client-5.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-5.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>amoCRM<img src="../assets/check.png" alt="check"></h1>
                 <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
@@ -61,7 +61,7 @@
             <div class="company_slider_item company_slider_6" id="6" ref="i6">
                 <picture>
                     <source srcset="../assets/client-6.webp" type="image/webp">
-                    <img src="../assets/client-6.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-6.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>Yota<img src="../assets/check.png" alt="check"></h1>
                 <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
@@ -71,7 +71,7 @@
             <div class="company_slider_item company_slider_7" id="7" ref="i7">
                 <picture>
                     <source srcset="../assets/client-7.webp" type="image/webp">
-                    <img src="../assets/client-7.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-7.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>БКС Банк<img src="../assets/check.png" alt="check"></h1>
                 <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
@@ -81,7 +81,7 @@
             <div class="company_slider_item company_slider_8" id="8" ref="i8">
                 <picture>
                     <source srcset="../assets/client-8.webp" type="image/webp">
-                    <img src="../assets/client-8.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-8.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>Деловые Линии<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
@@ -91,7 +91,7 @@
             <div class="company_slider_item company_slider_9" id="9" ref="i9">
                 <picture>
                     <source srcset="../assets/client-9.webp" type="image/webp">
-                    <img src="../assets/client-9.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-9.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>TalkBank<img src="../assets/check.png" alt="check"></h1>
                 <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
@@ -101,7 +101,7 @@
             <div class="company_slider_item company_slider_10" id="10" ref="i10">
                 <picture>
                     <source srcset="../assets/client-10.webp" type="image/webp">
-                    <img src="../assets/client-10.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-10.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>М.Видео<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
@@ -111,7 +111,7 @@
             <div class="company_slider_item company_slider_11" id="11" ref="i11">
                 <picture>
                     <source srcset="../assets/client-11.webp" type="image/webp">
-                    <img src="../assets/client-11.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-11.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>Эльдорадо<img src="../assets/check.png" alt="check"></h1>
                 <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
@@ -121,7 +121,7 @@
             <div class="company_slider_item company_slider_12" id="12" ref="i12">
                 <picture>
                     <source srcset="../assets/client-12.webp" type="image/webp">
-                    <img src="../assets/client-12.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-12.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>Nestle<img src="../assets/check.png" alt="check"></h1>
                 <p>Один из крупнейших в мире производитель продуктов питания.</p>
@@ -131,7 +131,7 @@
             <div class="company_slider_item company_slider_13" id="13" ref="i13">
                 <picture>
                     <source srcset="../assets/client-13.webp" type="image/webp">
-                    <img src="../assets/client-13.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-13.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
                 <h1>AliExpress<img src="../assets/check.png" alt="check"></h1>
                 <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
@@ -184,7 +184,7 @@
                 <p class="company_slider_span">Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.</p>
                 <picture>
                     <source srcset="../assets/client-4.webp" type="image/webp">
-                    <img src="../assets/client-4.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-4.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -195,7 +195,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-5.webp" type="image/webp">
-                    <img src="../assets/client-5.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-5.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -205,7 +205,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-6.webp" type="image/webp">
-                    <img src="../assets/client-6.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-6.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -215,7 +215,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-7.webp" type="image/webp">
-                    <img src="../assets/client-7.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-7.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -225,7 +225,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-8.webp" type="image/webp">
-                    <img src="../assets/client-8.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-8.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -235,7 +235,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
                 <picture>
                     <source srcset="../assets/client-9.webp" type="image/webp">
-                    <img src="../assets/client-9.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-9.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -245,7 +245,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-10.webp" type="image/webp">
-                    <img src="../assets/client-10.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-10.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -255,7 +255,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-11.webp" type="image/webp">
-                    <img src="../assets/client-11.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-11.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -265,7 +265,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-12.webp" type="image/webp">
-                    <img src="../assets/client-12.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-12.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
 
@@ -275,7 +275,7 @@
                 <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
                 <picture>
                     <source srcset="../assets/client-13.webp" type="image/webp">
-                    <img src="../assets/client-13.png" class="company_slider_big_img"/>
+                    <img src="../assets/client-13.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
             </div>
         </div>

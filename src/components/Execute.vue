@@ -1,9 +1,9 @@
 <template>
     <div class="execute">
         <div class="execute_nav">
-            <h1>Запускайте умные рассылки по своей аудитории</h1>
-            <h2>с настройкой поведенческих факторов</h2>
-            <p>Например: отправить сообщение с приглашением на ужин всем, кто посетил ваш ресторан более 30 дней назад</p>
+            <h1>{{ langTexts[langComp].execute.execute_h1 }}</h1>
+            <h2>{{ langTexts[langComp].execute.execute_h2 }}</h2>
+            <p>{{ langTexts[langComp].execute.execute_p }}</p>
         </div>
 
         <div class="execute_image">
@@ -42,6 +42,7 @@
 
 
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Execute',
     data(){
@@ -55,7 +56,7 @@ export default {
             execute_background_images_7_x: 1,
             execute_background_images_8_x: 1,
             execute_background_images_9_x: 1,
-        
+            langTexts: langText,
         }
     },
     methods: {
@@ -74,6 +75,11 @@ export default {
             document.querySelector(".execute_background_images_9").style.left = (this.execute_background_images_9_x + x).toString() + 'px'
             }
             
+        }
+    },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
         }
     },
     mounted(){

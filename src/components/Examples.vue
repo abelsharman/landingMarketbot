@@ -1,21 +1,21 @@
 <template>
     <div class="examples">
         <div class="examples_nav">
-            <h1>Примеры внедрения мессенджеров в бизнес</h1>
-            <p @click="clickOnImage" v-bind:class="{ clicked : first }">Виджеты обратной связи</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : second }">QR-коды</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : third }">Формы для регистраций</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : fourth }">Автоуведомления из CRM</p>
-            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">Прямые ссылки на мессенджер</p>
+            <h1>{{ langTexts[langComp].example.example_h1 }}</h1>
+            <p @click="clickOnImage" v-bind:class="{ clicked : first }">{{ langTexts[langComp].example.example_1 }}</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : second }">{{ langTexts[langComp].example.example_2 }}</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : third }">{{ langTexts[langComp].example.example_3 }}</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fourth }">{{ langTexts[langComp].example.example_4 }}</p>
+            <p @click="clickOnImage" v-bind:class="{ clicked : fifth }">{{ langTexts[langComp].example.example_5 }}</p>
         </div>
 
         <div class="examples_nav_phone">
-            <h1>Примеры внедрения мессенджеров в бизнес</h1>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : firstPhone }">Виджеты обратной связи</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : secondPhone }">QR-коды</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : thirdPhone }">Формы для регистраций</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : fourthPhone }">Автоуведомления из CRM</p>
-            <p @click="clickOnImagePhone" v-bind:class="{ clicked : fifthPhone }">Прямые ссылки на мессенджер</p>
+            <h1>{{ langTexts[langComp].example.example_h1 }}</h1>
+            <p @click="clickOnImagePhone" v-bind:class="{ clicked : firstPhone }">{{ langTexts[langComp].example.example_1 }}</p>
+            <p @click="clickOnImagePhone" v-bind:class="{ clicked : secondPhone }">{{ langTexts[langComp].example.example_2 }}</p>
+            <p @click="clickOnImagePhone" v-bind:class="{ clicked : thirdPhone }">{{ langTexts[langComp].example.example_3 }}</p>
+            <p @click="clickOnImagePhone" v-bind:class="{ clicked : fourthPhone }">{{ langTexts[langComp].example.example_4 }}</p>
+            <p @click="clickOnImagePhone" v-bind:class="{ clicked : fifthPhone }">{{ langTexts[langComp].example.example_5 }}</p>
         </div>
 
 
@@ -96,7 +96,7 @@
 
 
         <div class="examples opportunities">
-        <h1 class="opportunities_heading">Какие возможности у мессенджеров при общении с клиентами</h1>
+        <h1 class="opportunities_heading">{{ langTexts[langComp].opportunity.opportunity_h1 }}</h1>
         <div class="examples_image opportunities_image">
             <picture>
                 <source srcset="../assets/img-3.webp" type="image/webp">
@@ -177,120 +177,25 @@
         
         
         <div class="examples_nav opportunities_nav">
-            <h1>Какие возможности у мессенджеров при общении с клиентами</h1>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['12'] }">Отправка файлов и каталогов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['13'] }">Регистрация на мероприятия</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['14'] }">Расчет параметров</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['15'] }">Активация промокодов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['16'] }">Генерация паролей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['17'] }">Подтверждение бронирования</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['18'] }">Сбор отзывов и обратной связи</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['19'] }">Проведение опросов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['20'] }">Проведение обучения</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['21'] }">Прием заказов</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['22'] }">Прием платежей</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['23'] }">Информирование и отправка уведомлений</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['24'] }">Анкетирование</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['25'] }">Ответы на частые вопросы</p>
-            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['26'] }">Напоминания о записи</p>
+            <h1>{{ langTexts[langComp].opportunity.opportunity_h1 }}</h1>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['12'] }">{{ langTexts[langComp].opportunity.opportunity_1 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['13'] }">{{ langTexts[langComp].opportunity.opportunity_2 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['14'] }">{{ langTexts[langComp].opportunity.opportunity_3 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['15'] }">{{ langTexts[langComp].opportunity.opportunity_4 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['16'] }">{{ langTexts[langComp].opportunity.opportunity_5 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['17'] }">{{ langTexts[langComp].opportunity.opportunity_6 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['18'] }">{{ langTexts[langComp].opportunity.opportunity_7 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['19'] }">{{ langTexts[langComp].opportunity.opportunity_8 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['20'] }">{{ langTexts[langComp].opportunity.opportunity_9 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['21'] }">{{ langTexts[langComp].opportunity.opportunity_10 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['22'] }">{{ langTexts[langComp].opportunity.opportunity_11 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['23'] }">{{ langTexts[langComp].opportunity.opportunity_12 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['24'] }">{{ langTexts[langComp].opportunity.opportunity_13 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['25'] }">{{ langTexts[langComp].opportunity.opportunity_14 }}</p>
+            <p @click="clickOnImageOpport" v-bind:class="{ clicked : coloredP['26'] }">{{ langTexts[langComp].opportunity.opportunity_15 }}</p>
 
         </div>
 
-        <div class="examples_nav_phone opportunities_nav_phone">
-            <h1>Какие возможности у мессенджеров при общении с клиентами</h1>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['12'] }">Отправка файлов и каталогов</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['13'] }">Регистрация на мероприятия</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['14'] }">Расчет параметров</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['15'] }">Активация промокодов</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['16'] }">Генерация паролей</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['17'] }">Подтверждение бронирования</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['18'] }">Сбор отзывов и обратной связи</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['19'] }">Проведение опросов</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['20'] }">Проведение обучения</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['21'] }">Прием заказов</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['22'] }">Прием платежей</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['23'] }">Информирование и отправка уведомлений</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['24'] }">Анкетирование</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['25'] }">Ответы на частые вопросы</p>
-            <p @click="clickOnImageOpportPhone" v-bind:class="{ clicked : coloredP['26'] }">Напоминания о записи</p>
-        </div>
-
-        <div class="examples_image_phone opportunities_image_phone">
-            <picture>
-                <source srcset="../assets/img-3mobile.webp" type="image/webp">
-                <img src="../assets/img-3mobile.png" alt="img" id="27">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-2mobile.webp" type="image/webp">
-                <img src="../assets/img-3-2mobile.png" alt="img" id="28">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-3mobile.webp" type="image/webp">
-                <img src="../assets/img-3-3mobile.png" alt="img" id="29">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-4mobile.webp" type="image/webp">
-                <img src="../assets/img-3-4mobile.png" alt="img" id="30">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-5mobile.webp" type="image/webp">
-                <img src="../assets/img-3-5mobile.png" alt="img" id="31">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-6mobile.webp" type="image/webp">
-                <img src="../assets/img-3-6mobile.png" alt="img" id="32">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-7mobile.webp" type="image/webp">
-                <img src="../assets/img-3-7mobile.png" alt="img" id="33">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-8mobile.webp" type="image/webp">
-                <img src="../assets/img-3-8mobile.png" alt="img" id="34">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-9mobile.webp" type="image/webp">
-                <img src="../assets/img-3-9mobile.png" alt="img" id="35">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-10mobile.webp" type="image/webp">
-                <img src="../assets/img-3-10mobile.png" alt="img" id="36">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-11mobile.webp" type="image/webp">
-                <img src="../assets/img-3-11mobile.png" alt="img" id="37">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-12mobile.webp" type="image/webp">
-                <img src="../assets/img-3-12mobile.png" alt="img" id="38">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-13mobile.webp" type="image/webp">
-                <img src="../assets/img-3-13mobile.png" alt="img" id="39">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-14mobile.webp" type="image/webp">
-                <img src="../assets/img-3-14mobile.png" alt="img" id="40">
-            </picture>
-
-            <picture>
-                <source srcset="../assets/img-3-15mobile.webp" type="image/webp">
-                <img src="../assets/img-3-15mobile.png" alt="img" id="41">
-            </picture>
-        </div>
 
         <div class="opportunities_slider">
             <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
@@ -303,8 +208,8 @@
                     <img src="../assets/img-3mobile.png" alt="img" class="company_slider_big_img">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Отправка файлов и каталогов</h1>
-                    <p>Отправляйте своим клиентам любые файлы. Часто клиенты просят отправить счет или каталог в мессенджер. И это действительно удобно.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_1 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p1 }}</p>
                 </div>
             </div>
 
@@ -314,8 +219,8 @@
                     <img src="../assets/img-3-2mobile.png" class="company_slider_big_img" alt="img">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Регистрация на мероприятия</h1>
-                    <p>Регистрировать на мероприятия можно через мессенджеры. Например, на вебинар или мастер-класс. Вам достаточно дать возможность клиенту выбрать удобный для него мессенджер.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_2 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p2 }}</p>
                 </div>
             </div>
 
@@ -325,8 +230,8 @@
                     <img src="../assets/img-3-3mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Расчет параметров</h1>
-                    <p>Вы моежет вести клиентов на чат-бот в мессенджеры. Например, для расчета конкретных параметров. Чат-бот проведет опрос и выдаст нужный ответ.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_3 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p3 }}</p>
                 </div>
             </div>
 
@@ -336,8 +241,8 @@
                     <img src="../assets/img-3-4mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Активация промокодов</h1>
-                    <p>Теперь вы сможете раздавать промокод эффективнее. Каждый, кто захочет его активировать, попадет к вам в мессенджер, отсканировав QR-код или перейдя по ссылке.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_4 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p4 }}</p>
                 </div>
             </div>
 
@@ -348,7 +253,7 @@
                     <img src="../assets/img-3-5mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Генерация паролей</h1>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_5 }}</h1>
                     <p></p>
                 </div>
             </div>
@@ -359,8 +264,8 @@
                     <img src="../assets/img-3-6mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Подтверждение бронирования</h1>
-                    <p>Уточняйте у ваших клиентов актуальность брони в автоматическом режиме.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_6 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p6 }}</p>
                 </div>
             </div>
 
@@ -370,8 +275,8 @@
                     <img src="../assets/img-3-7mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Сбор отзывов и обратной связи</h1>
-                    <p>Собирайте отзывы автоматически. В нужный момент и в удобном формате. Например, сразу после покупки.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_7 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p7 }}</p>
                 </div>
             </div>
 
@@ -381,8 +286,8 @@
                     <img src="../assets/img-3-8mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Проведение опросов</h1>
-                    <p>Опрос клиента при помощи чат-бота - это очень удобно! 24/7 чат-бот будет квалифицировать ваших клиентов.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_8 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p8 }}</p>
                 </div>
             </div>
 
@@ -392,8 +297,8 @@
                     <img src="../assets/img-3-9mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Проведение обучения</h1>
-                    <p>Создайте заранее весь сценарий обучения. Клиенту останется только поэтапно проходить обучение, а настроенный чат-бот поможет ему в этом.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_9 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p9 }}</p>
                 </div>
             </div>
 
@@ -404,8 +309,8 @@
                 </picture>
                 
                 <div class="company_slider_text">
-                    <h1>Прием заказов</h1>
-                    <p>Автоматизируйте процессы бронирования и оплаты билетов. Клиент получит билеты прямо в мессенджер.</p>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_10 }}</h1>
+                    <p>{{ langTexts[langComp].opportunity.opportunity_p10 }}</p>
                 </div>
             </div>
 
@@ -415,7 +320,7 @@
                     <img src="../assets/img-3-11mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Прием платежей</h1>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_11 }}</h1>
                     <p></p>
                 </div>
             </div>
@@ -426,7 +331,7 @@
                     <img src="../assets/img-3-12mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Информирование и отправка уведомлений</h1>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_12 }}</h1>
                     <p></p>
                 </div>
             </div>
@@ -437,7 +342,7 @@
                     <img src="../assets/img-3-13mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Анкетирование</h1>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_13 }}</h1>
                     <p></p>
                 </div>
             </div>
@@ -448,7 +353,7 @@
                     <img src="../assets/img-3-14mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Ответы на частые вопросы</h1>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_14 }}</h1>
                     <p></p>
                 </div>
             </div>
@@ -459,7 +364,7 @@
                     <img src="../assets/img-3-15mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
                 </picture>
                 <div class="company_slider_text">
-                    <h1>Напоминания о записи</h1>
+                    <h1>{{ langTexts[langComp].opportunity.opportunity_15 }}</h1>
                     <p></p>
                 </div>
             </div>
@@ -493,6 +398,7 @@
 
 
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Examples',
     data(){
@@ -539,6 +445,7 @@ export default {
                 40: false,
                 41: false,
             },
+            langTexts: langText,
 
             i: 1,
             p: 12,
@@ -567,7 +474,7 @@ export default {
     },
     methods:{
         clickOnImage(event){
-            if(event.target.innerHTML == 'Виджеты обратной связи'){
+            if(event.target.innerHTML == 'Виджеты обратной связи' || event.target.innerHTML == 'Feedback widgets'){
                 this.i = 1
                 let a = document.querySelectorAll(".examples_image img")
                 for (let x of a){
@@ -581,7 +488,7 @@ export default {
                 this.first = true,this.second = false, this.third = false, this.fourth = false, this.fifth = false
 
             }
-            else if (event.target.innerHTML == 'QR-коды'){
+            else if (event.target.innerHTML == 'QR-коды' || event.target.innerHTML == 'QR-codes'){
                 this.i = 2
                 let a = document.querySelectorAll(".examples_image img")
                 for (let x of a){
@@ -594,7 +501,7 @@ export default {
                 }
                 this.first = false,this.second = true, this.third = false, this.fourth = false, this.fifth = false
             }
-            else if (event.target.innerHTML == 'Формы для регистраций'){  
+            else if (event.target.innerHTML == 'Формы для регистраций' || event.target.innerHTML == 'Registration forms'){  
                 this.i = 3
                 let a = document.querySelectorAll(".examples_image img")
                 for (let x of a){
@@ -607,7 +514,7 @@ export default {
                 }
                 this.first = false,this.second = false, this.third = true, this.fourth = false, this.fifth = false
             }     
-            else if (event.target.innerHTML == 'Автоуведомления из CRM'){
+            else if (event.target.innerHTML == 'Автоуведомления из CRM' || event.target.innerHTML == 'Auto notifications from CRM'){
                 this.i = 4
                 let a = document.querySelectorAll(".examples_image img")
                 for (let x of a){
@@ -620,7 +527,7 @@ export default {
                 }
                 this.first = false,this.second = false, this.third = false, this.fourth = true, this.fifth = false
             }
-            else if (event.target.innerHTML == 'Прямые ссылки на мессенджер'){
+            else if (event.target.innerHTML == 'Прямые ссылки на мессенджер' || event.target.innerHTML == 'Direct links to the messenger'){
                 this.i = 5
                 let a = document.querySelectorAll(".examples_image img")
                 for (let x of a){
@@ -635,7 +542,7 @@ export default {
             }
         },
         clickOnImagePhone(event){
-            if(event.target.innerHTML == 'Виджеты обратной связи'){
+            if(event.target.innerHTML == 'Виджеты обратной связи' || event.target.innerHTML == 'Feedback widgets'){
                 this.iMobile = 6
                 let a = document.querySelectorAll(".examples_image_phone img")
                 for (let x of a){
@@ -649,7 +556,7 @@ export default {
                 this.firstPhone = true,this.secondPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
 
             }
-            else if (event.target.innerHTML == 'QR-коды'){
+            else if (event.target.innerHTML == 'QR-коды' || event.target.innerHTML == 'QR-codes'){
                 this.iMobile = 7
                 let a = document.querySelectorAll(".examples_image_phone img")
                 for (let x of a){
@@ -662,7 +569,7 @@ export default {
                 }
                 this.secondPhone = true,this.firstPhone = false, this.thirdPhone = false, this.fourthPhone = false, this.fifthPhone = false
             }
-            else if (event.target.innerHTML == 'Формы для регистраций'){  
+            else if (event.target.innerHTML == 'Формы для регистраций' || event.target.innerHTML == 'Registration forms'){  
                 this.iMobile = 8
                 let a = document.querySelectorAll(".examples_image_phone img")
                 for (let x of a){
@@ -675,7 +582,7 @@ export default {
                 }
                 this.thirdPhone = true,this.firstPhone = false, this.secondPhone = false, this.fourthPhone = false, this.fifthPhone = false
             }     
-            else if (event.target.innerHTML == 'Автоуведомления из CRM'){
+            else if (event.target.innerHTML == 'Автоуведомления из CRM' || event.target.innerHTML == 'Auto notifications from CRM'){
                 this.iMobile = 9
                 let a = document.querySelectorAll(".examples_image_phone img")
                 for (let x of a){
@@ -688,7 +595,7 @@ export default {
                 }
                 this.fourthPhone = true,this.firstPhone = false, this.secondPhone = false, this.thirdPhone = false, this.fifthPhone = false
             }
-            else if (event.target.innerHTML == 'Прямые ссылки на мессенджер'){
+            else if (event.target.innerHTML == 'Прямые ссылки на мессенджер' || event.target.innerHTML == 'Direct links to the messenger'){
                 this.iMobile = 10
                 let a = document.querySelectorAll(".examples_image_phone img")
                 for (let x of a){
@@ -703,7 +610,7 @@ export default {
             }
         },
         clickOnImageOpport(){
-            if(event.target.innerHTML == 'Отправка файлов и каталогов'){
+            if(event.target.innerHTML == 'Отправка файлов и каталогов' || event.target.innerHTML == 'Uploading files and directories'){
                 this.p = 12
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -726,7 +633,7 @@ export default {
 
             }
 
-            else if(event.target.innerHTML == 'Регистрация на мероприятия'){
+            else if(event.target.innerHTML == 'Регистрация на мероприятия' || event.target.innerHTML == 'Registration for events'){
                 this.p = 13
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -746,7 +653,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Расчет параметров'){
+            else if(event.target.innerHTML == 'Расчет параметров' || event.target.innerHTML == 'Calculation of parameters'){
                 this.p = 14
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -766,7 +673,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Активация промокодов'){
+            else if(event.target.innerHTML == 'Активация промокодов' || event.target.innerHTML == 'Activation of promo codes'){
                 this.p = 15
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -786,7 +693,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Генерация паролей'){
+            else if(event.target.innerHTML == 'Генерация паролей' || event.target.innerHTML == 'Generating passwords'){
                 this.p = 16
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -806,7 +713,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Подтверждение бронирования'){
+            else if(event.target.innerHTML == 'Подтверждение бронирования' || event.target.innerHTML == 'Booking Confirmation'){
                 this.p = 17
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -826,7 +733,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Сбор отзывов и обратной связи'){
+            else if(event.target.innerHTML == 'Сбор отзывов и обратной связи' || event.target.innerHTML == 'Collecting reviews and feedback'){
                 this.p = 18
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -846,7 +753,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Проведение опросов'){
+            else if(event.target.innerHTML == 'Проведение опросов' || event.target.innerHTML == 'Conducting polls'){
                 this.p = 19
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -866,7 +773,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Проведение обучения'){
+            else if(event.target.innerHTML == 'Проведение обучения' || event.target.innerHTML == 'Conducting training'){
                 this.p = 20
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -886,7 +793,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Прием заказов'){
+            else if(event.target.innerHTML == 'Прием заказов' || event.target.innerHTML == 'Receiving orders'){
                 this.p = 21
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -906,7 +813,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Прием платежей'){
+            else if(event.target.innerHTML == 'Прием платежей' || event.target.innerHTML == 'Acceptance of payments'){
                 this.p = 22
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -926,7 +833,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Информирование и отправка уведомлений'){
+            else if(event.target.innerHTML == 'Информирование и отправка уведомлений' || event.target.innerHTML == 'Informing and sending notifications'){
                 this.p = 23
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -946,7 +853,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Анкетирование'){
+            else if(event.target.innerHTML == 'Анкетирование' || event.target.innerHTML == 'Questionnaire'){
                 this.p = 24
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -966,7 +873,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Ответы на частые вопросы'){
+            else if(event.target.innerHTML == 'Ответы на частые вопросы' || event.target.innerHTML == 'Frequently asked questions'){
                 this.p = 25
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -986,7 +893,7 @@ export default {
                         }
                 }
             }
-            else if(event.target.innerHTML == 'Напоминания о записи'){
+            else if(event.target.innerHTML == 'Напоминания о записи' || event.target.innerHTML == 'Recording reminders'){
                 this.p = 26
                 let a = document.querySelectorAll(".opportunities_image img")
                 for (let x of a){
@@ -2022,6 +1929,11 @@ export default {
             
         }
     },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
+        }
+    },
     mounted(){
         this.b = setInterval(this.intervalMethod, 4000)
         if(window.innerWidth > 456){
@@ -2163,7 +2075,7 @@ export default {
             left: calc((100vw - 1200px) / -2)
             padding: 0 calc((100vw - 1200px) / 2)
             top: -100px
-            height: 900px
+            height: 880px
             .opportunities_heading
                 display: none
             .opportunities_slider
@@ -2188,7 +2100,7 @@ export default {
                 display: inline-block
                 width: 51.5%
                 vertical-align: middle
-                margin-top: 180px
+                margin-top: 160px
                 h1
                     width: 100%
                 p                  
@@ -2451,7 +2363,7 @@ export default {
             h1
                 z-index: 3
                 position: relative
-                width: 93%
+                width: 90%
                 padding-left: 7%
                 font-size: 7vw
                 line-height: 9.6vw
@@ -2459,6 +2371,7 @@ export default {
                 color: #370954
                 padding-bottom: 10px
                 padding-top: 30px
+            
             background-color: white
             position: relative
             left: 0

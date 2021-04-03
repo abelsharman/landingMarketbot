@@ -1,8 +1,8 @@
 <template>
     <div class="team" id="team" ref="teams">
         <div class="team_intro">
-            <h1>Наша команда</h1>
-            <p>Мы видим, что людям нравится общаться в мессенджерах. Выстраивайте связь с клиентом через диалоги, делая процесс общения максимально комфортным. Для этого мы создали платформу с помощь которой вы внедрите диалоговый маркетинг в свой бизнес.</p>
+            <h1>{{ langTexts[langComp].team.team_h1 }}</h1>
+            <p>{{ langTexts[langComp].team.team_p }}</p>
         </div>
 
 
@@ -12,8 +12,8 @@
                     <source srcset="../assets/ava-1.webp" type="image/webp">
                     <img src="../assets/ava-1.png" />
                 </picture>
-                <h2>Иван Каплюченко</h2>
-                <p>Основатель проекта, CEO</p>
+                <h2>{{ langTexts[langComp].team.team_name_1 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_1 }}</p>
             </div>
 
             <div class="team_member">
@@ -21,8 +21,8 @@
                     <source srcset="../assets/ava-2.webp" type="image/webp">
                     <img src="../assets/ava-2.png" />
                 </picture>
-                <h2>Богдан Марфейчук</h2>
-                <p>Технический директор, CIO</p>
+                <h2>{{ langTexts[langComp].team.team_name_2 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_2 }}</p>
             </div>
 
 
@@ -31,8 +31,8 @@
                     <source srcset="../assets/ava-3.webp" type="image/webp">
                     <img src="../assets/ava-3.png" />
                 </picture>
-                <h2>Владимир Казбанов</h2>
-                <p>Инвестор проекта, CFO</p>
+                <h2>{{ langTexts[langComp].team.team_name_3 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_3 }}</p>
             </div>
 
 
@@ -45,8 +45,8 @@
                     <source srcset="../assets/ava-4.webp" type="image/webp">
                     <img src="../assets/ava-4.png" />
                 </picture>
-                <h2>Александр</h2>
-                <p>Дизайнер проекта</p>
+                <h2>{{ langTexts[langComp].team.team_name_4 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_4 }}</p>
             </div>
 
             <div class="team_member">
@@ -54,8 +54,8 @@
                     <source srcset="../assets/ava-5.webp" type="image/webp">
                     <img src="../assets/ava-5.png" />
                 </picture>
-                <h2>Даниил</h2>
-                <p>Маркетолог, PR</p>
+                <h2>{{ langTexts[langComp].team.team_name_5 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_5 }}</p>
             </div>
 
 
@@ -64,8 +64,8 @@
                     <source srcset="../assets/ava-6.webp" type="image/webp">
                     <img src="../assets/ava-6.png" />
                 </picture>
-                <h2>Раден</h2>
-                <p>Контент мейкер</p>
+                <h2>{{ langTexts[langComp].team.team_name_6 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_6 }}</p>
             </div>
 
             <div class="team_member">
@@ -73,8 +73,8 @@
                     <source srcset="../assets/ava-7.webp" type="image/webp">
                     <img src="../assets/ava-7.png" />
                 </picture>
-                <h2>Анна</h2>
-                <p>Копирайтер, SMM</p>
+                <h2>{{ langTexts[langComp].team.team_name_7 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_7 }}</p>
             </div>
 
 
@@ -83,8 +83,8 @@
                     <source srcset="../assets/ava-8.webp" type="image/webp">
                     <img src="../assets/ava-8.png" />
                 </picture>
-                <h2>Екатерина</h2>
-                <p>HR специалист</p>
+                <h2>{{ langTexts[langComp].team.team_name_8 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_8 }}</p>
             </div>
         </div>
 
@@ -95,8 +95,8 @@
                     <source srcset="../assets/ava-1.webp" type="image/webp">
                     <img src="../assets/ava-1.png" />
                 </picture>
-                <h2>Иван Каплюченко</h2>
-                <p>Основатель проекта, CEO</p>
+                <h2>{{ langTexts[langComp].team.team_name_1 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_1 }}</p>
             </div>
 
             <div class="team_member">
@@ -104,8 +104,8 @@
                     <source srcset="../assets/ava-2.webp" type="image/webp">
                     <img src="../assets/ava-2.png" />
                 </picture>
-                <h2>Богдан Марфейчук</h2>
-                <p>Технический директор, CIO</p>
+                <h2>{{ langTexts[langComp].team.team_name_2 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_2 }}</p>
             </div>
 
 
@@ -114,8 +114,8 @@
                     <source srcset="../assets/ava-3.webp" type="image/webp">
                     <img src="../assets/ava-3.png" />
                 </picture>
-                <h2>Владимир Казбанов</h2>
-                <p>Инвестор проекта, CFO</p>
+                <h2>{{ langTexts[langComp].team.team_name_3 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_3 }}</p>
             </div>
 
             <div class="team_member">
@@ -123,8 +123,8 @@
                     <source srcset="../assets/ava-4.webp" type="image/webp">
                     <img src="../assets/ava-4.png" />
                 </picture>
-                <h2>Александр</h2>
-                <p>Дизайнер проекта</p>
+                <h2>{{ langTexts[langComp].team.team_name_4 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_4 }}</p>
             </div>
 
             <div class="team_member">
@@ -132,8 +132,8 @@
                     <source srcset="../assets/ava-5.webp" type="image/webp">
                     <img src="../assets/ava-5.png" />
                 </picture>
-                <h2>Даниил</h2>
-                <p>Маркетолог, PR</p>
+                <h2>{{ langTexts[langComp].team.team_name_5 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_5 }}</p>
             </div>
 
 
@@ -142,8 +142,8 @@
                     <source srcset="../assets/ava-6.webp" type="image/webp">
                     <img src="../assets/ava-6.png" />
                 </picture>
-                <h2>Раден</h2>
-                <p>Контент мейкер</p>
+                <h2>{{ langTexts[langComp].team.team_name_6 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_6 }}</p>
             </div>
 
             <div class="team_member">
@@ -151,8 +151,8 @@
                     <source srcset="../assets/ava-7.webp" type="image/webp">
                     <img src="../assets/ava-7.png" />
                 </picture>
-                <h2>Анна</h2>
-                <p>Копирайтер, SMM</p>
+                <h2>{{ langTexts[langComp].team.team_name_7 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_7 }}</p>
             </div>
 
 
@@ -161,8 +161,8 @@
                     <source srcset="../assets/ava-8.webp" type="image/webp">
                     <img src="../assets/ava-8.png" />
                 </picture>
-                <h2>Екатерина</h2>
-                <p>HR специалист</p>
+                <h2>{{ langTexts[langComp].team.team_name_8 }}</h2>
+                <p>{{ langTexts[langComp].team.team_role_8 }}</p>
             </div>
         </div>
 
@@ -182,6 +182,7 @@
 
 
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Team',
     data(){
@@ -191,6 +192,7 @@ export default {
             team_background_images_3_x: 1,
             team_background_images_4_x: 1,
             team_background_images_5_x: 1,
+            langTexts: langText,
         }
     },
     methods:{
@@ -205,6 +207,11 @@ export default {
             document.querySelector(".team_background_images_5").style.left = (this.team_background_images_5_x + x).toString() + 'px'
        
             }
+        }
+    },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
         }
     },
     mounted() {

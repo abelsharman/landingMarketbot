@@ -8,9 +8,9 @@
         </div>
 
         <div class="mood_nav">
-            <h1>Настраивайте и подключайте новые каналы взаимодействия с вашими клиентами</h1>
-            <h2>вместе с Marketbot</h2>
-            <a href="#quiz"><button>Получить доступ на 10 дней</button></a>
+            <h1>{{ langTexts[langComp].mood.mood_h1 }}</h1>
+            <h2>{{ langTexts[langComp].mood.mood_h2 }}</h2>
+            <a href="#quiz"><button>{{ langTexts[langComp].platform.platform_a }}</button></a>
         </div>
 
 
@@ -44,6 +44,7 @@
 <script async>
 import JQuery from 'jquery'
 let $ = JQuery
+import langText from '../assets/lang.js'
 export default {
     name: 'Mood',
     data(){
@@ -54,6 +55,7 @@ export default {
             mood_background_images_4_x: 1,
             mood_background_images_5_x: 1,
             mood_background_images_6_x: 1,
+            langTexts: langText,
         }
     },
     methods:{
@@ -70,6 +72,11 @@ export default {
             
         },
        
+    },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
+        }
     },
     mounted() {
         document.addEventListener('mousemove', this.onMouseUpdate)

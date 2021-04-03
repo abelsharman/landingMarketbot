@@ -1,11 +1,11 @@
 <template>
     <div class="platform">
        <div class="platform_text">
-            <h1>Платформа для обмена сообщениями с клиентами</h1>
-            <h3>через мессенджеры и социальные сети</h3>
-            <h2>+ <span>Конструктор чат-ботов</span></h2>
-            <p>К нам приходят, чтобы настроить общение с клиентами в мессенджерах. Разговаривайте с клиентами через WhatsApp, Telegram, Viber, Вконтакте.</p>
-            <a href="#quiz"><button>Получить доступ на 10 дней</button></a>
+            <h1>{{ langTexts[langComp].platform.platform_h1 }}</h1>
+            <h3>{{ langTexts[langComp].platform.platform_h3 }}</h3>
+            <h2>+ <span>{{ langTexts[langComp].platform.platform_h2 }}</span></h2>
+            <p>{{ langTexts[langComp].platform.platform_p }}</p>
+            <a href="#quiz"><button>{{ langTexts[langComp].platform.platform_a }}</button></a>
        </div>
 
 
@@ -53,6 +53,7 @@
 
 
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Platform',
     data(){
@@ -68,6 +69,8 @@ export default {
             platform_background_images_9_x: 1,
             platform_background_images_10_x: 1,
             platform_background_images_11_x: 1,
+            langTexts: langText,
+
         }
     },
     methods:{
@@ -88,6 +91,11 @@ export default {
             document.querySelector(".platform_background_images_11").style.left = (this.platform_background_images_11_x + x).toString() + 'px'
             }  
         },  
+    },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
+        }
     },
     mounted(){
         if(window.innerWidth > 456){

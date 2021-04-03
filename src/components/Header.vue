@@ -4,16 +4,17 @@
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
-            <a href="#team" @click="showBurger">Команда</a>
-            <a href="#quiz" @click="showBurger">Цены</a>
-            <a href="https://blog.marketbot.biz/">Блог</a>
+            <a href="#team" class="header_nav_a" @click="showBurger">{{ langTexts[a].header.header_team }}</a>
+            <a href="#quiz" class="header_nav_b" @click="showBurger">{{ langTexts[a].header.header_cost }}</a>
+            <a href="https://blog.marketbot.biz/">{{ langTexts[a].header.header_blog }}</a>
         </div>
 
-        <a class="header_lang" href="#">RU</a>
+        <a class="header_lang" id="lang1" v-if="a == 1" @click="changeLang">RU</a>
+        <a class="header_lang" id="lang2" v-if="a == 2" @click="changeLang">EN</a>
 
         <a href="https://marketbot.biz/user/home" target="_blank">
             <div class="header_button">
-                <span>Личный кабинет</span>
+                <span>{{ langTexts[a].header.header_cab }}</span>
                 <img src="../assets/key.png" alt="key">
             </div>
         </a>
@@ -38,11 +39,13 @@
 </template>
 
 <script>
+import langText from '../assets/lang.js'
 export default {
     name: 'Header',
     data(){
         return{
             checkBurger: false,
+            langTexts: langText,
         }
     },
     methods:{
@@ -59,7 +62,22 @@ export default {
             }
 
         },
+        changeLang(){
+            if(this.a == 1){
+                this.$store.state.lang = 2
+            }
+            else{
+                this.$store.state.lang = 1
+            }
+        },
     },
+    computed:{
+        a(){
+            return this.$store.state.lang
+        }
+    },
+    mounted(){
+    }
 }
 </script>
 <style lang="sass" scoped>
@@ -68,7 +86,7 @@ export default {
         .page_grey_lines
             img
                 position: absolute
-                height: 2520px
+                height: 2500px
                 width: 1px
                 top: -20px
                 z-index: 99
@@ -104,8 +122,18 @@ export default {
                     font-weight: 400
                     color: $h_color
                     text-decoration: none
+                .header_nav_a
+                    display: inline-block
+                    width: 113px
+                    margin-right: 0px
+                .header_nav_b
+                    display: inline-block
+                    width: 89px
+                    margin-right: 0px
+                    
             .header_lang
                 user-select: none
+                cursor: pointer
                 position: relative
                 top: -4px
                 //margin-left: 14px
@@ -136,6 +164,8 @@ export default {
                     margin-left: 10px
                 span
                     font-size: 15px
+                    width: 116px
+                    display: inline-block
                     color: #c34688
                     text-decoration: none
             .header_burger

@@ -8,26 +8,26 @@
         </div>
 
         <div class="create_nav">
-            <h1>Создавайте сценарии и автоворонки для чат-бота</h1>
-            <h2>через простой и удобный редактор сценария</h2>
+            <h1>{{ langTexts[langComp].create.create_h1 }}</h1>
+            <h2>{{ langTexts[langComp].create.create_h2 }}</h2>
             
-            <img src="../assets/ulli.png" alt="ulli"><p>Отправка отложенных сообщений</p>
-            <strong>Например, когда нужно напомнить о себе</strong>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].create.create_1 }}</p>
+            <strong>{{ langTexts[langComp].create.create_strong_1 }}</strong>
 
-            <img src="../assets/ulli.png" alt="ulli"><p>Создание меню с кнопками</p>
-            <strong>Клиенту удобнее нажать на кнопку, чем ответить</strong>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].create.create_2 }}</p>
+            <strong>{{ langTexts[langComp].create.create_strong_2 }}</strong>
 
-            <img src="../assets/ulli.png" alt="ulli"><p>Автоуведомления</p>
-            <strong>Например, если заказ прибыл в пункт назначения</strong>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].create.create_3 }}</p>
+            <strong>{{ langTexts[langComp].create.create_strong_3 }}</strong>
 
-            <img src="../assets/ulli.png" alt="ulli"><p>Сбор данных</p>
-            <strong>Если нужно спросить клиента о чем-то конкретном</strong>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].create.create_4 }}</p>
+            <strong>{{ langTexts[langComp].create.create_strong_4 }}</strong>
 
-            <img src="../assets/ulli.png" alt="ulli"><p>Подключение оператора</p>
-            <strong>Когда чат-бот не может дать ответ, человек всегда придет на помощь</strong>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].create.create_5 }}</p>
+            <strong>{{ langTexts[langComp].create.create_strong_5 }}</strong>
 
-            <img src="../assets/ulli.png" alt="ulli"><p>Прием платежей</p>
-            <strong>Намного удобнее взять оплату прямо в мессенджере</strong>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].create.create_6 }}</p>
+            <strong>{{ langTexts[langComp].create.create_strong_6 }}</strong>
 
 
         </div>
@@ -64,6 +64,7 @@
 
 
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Create',
     data(){
@@ -74,6 +75,7 @@ export default {
             create_background_images_4_x: 1,
             create_background_images_5_x: 1,
             create_background_images_6_x: 1, 
+            langTexts: langText,
         }
     },
     methods:{
@@ -88,6 +90,11 @@ export default {
             document.querySelector(".create_background_images_6").style.left = (this.create_background_images_6_x + x).toString() + 'px'
        
             }
+        }
+    },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
         }
     },
     mounted() {

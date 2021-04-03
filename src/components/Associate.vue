@@ -1,16 +1,16 @@
 <template>
     <div class="associate">
         <div class="associate_nav">
-            <h1>Общайтесь с клиентами в одном месте через удобный чат-центр</h1>
-            <img src="../assets/ulli.png" alt="ulli"><p>Отправляйте файлы и каталоги</p><br>
-            <img src="../assets/ulli.png" alt="ulli"><p>Создавайте шаблоны для быстрых ответов</p><br>
-            <img src="../assets/ulli.png" alt="ulli"><p>Обменивайтесь аудиосообщениями</p><br>
-            <img src="../assets/ulli.png" alt="ulli"><p>Проводите опросы</p><br>
-            <img src="../assets/ulli.png" alt="ulli"><p>Делитесь ссылками</p><br>
-            <img src="../assets/ulli.png" alt="ulli"><p>Поддержка любого количества операторов и возможность общаться с клиентами с одного номера телефона или аккаунта</p>
+            <h1>{{ langTexts[langComp].associate.associate_h1 }}</h1>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].associate.associate_1 }}</p><br>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].associate.associate_2 }}</p><br>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].associate.associate_3 }}</p><br>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].associate.associate_4 }}</p><br>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].associate.associate_5 }}</p><br>
+            <img src="../assets/ulli.png" alt="ulli"><p>{{ langTexts[langComp].associate.associate_6 }}</p>
 
 
-            <h2>Возможна интеграция с: <img src="../assets/crm-png.png" loading="lazy" alt=""><img src="" alt=""></h2>
+            <h2>{{ langTexts[langComp].associate.associate_h2 }} <img src="../assets/crm-png.png" loading="lazy" alt=""><img src="" alt=""></h2>
         </div>
 
         <div class="associate_image">
@@ -50,6 +50,7 @@
 </template>
 
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Associate',
     data(){
@@ -67,6 +68,7 @@ export default {
             associate_background_images_11_x: 1,
             associate_background_images_12_x: 1,
             associate_background_images_13_x: 1,
+            langTexts: langText,
         }
     },
     methods:{
@@ -90,6 +92,11 @@ export default {
             }
 
             
+        }
+    },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
         }
     },
     mounted(){

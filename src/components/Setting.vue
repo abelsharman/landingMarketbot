@@ -1450,7 +1450,7 @@ export default {
                 .setting_quiz_popup_close
                     position: relative
                     left: 82%
-                    top: 3%
+                    top: 4%
                     cursor: pointer
                     width: 11vw
                 .setting_quiz_popup_bottom

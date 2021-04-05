@@ -258,7 +258,7 @@
                 <a href="https://marketbot.biz/935" target="_blank"><button>{{ langTexts[langComp].setting.setting_popup_btn }}</button></a>
                 <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p2 }}</p>
                 <img src="../assets/qr.png" alt="qr">
-                <p class="setting_quiz_popup_bottom">{{ langTexts[langComp].setting.setting_popup_p3 }}<span>{{ langTexts[langComp].setting.setting_popup_p3_span_1 }}</span> {{ langTexts[langComp].setting.setting_popup_p3_span_3 }} <span>{{ langTexts[langComp].setting.setting_popup_p3_span_2 }}</span></p>
+                <p class="setting_quiz_popup_bottom">{{ langTexts[langComp].setting.setting_popup_p3 }}<a href="https://marketbot.biz/oferta.html" target="_blank">{{ langTexts[langComp].setting.setting_popup_p3_span_1 }}</a> {{ langTexts[langComp].setting.setting_popup_p3_span_3 }} <a href="https://marketbot.biz/oferta.html" target="_blank">{{ langTexts[langComp].setting.setting_popup_p3_span_2 }}</a></p>
             </div>
 
         </div>
@@ -983,7 +983,9 @@ export default {
                     margin-left: 280px
                     text-align: center
                     width: 580px
-                    span
+                    a
+                        text-decoration: none
+                        color: #999
                         border-bottom: 1px solid #999
 
 

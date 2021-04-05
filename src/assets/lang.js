@@ -211,6 +211,16 @@ export default
             "setting_result_btn": "Получить доступ",
             "setting_result_btn_span": "Для активации настройте тариф",
 
+            "setting_popup_h1": "Для регистрации на платформе вы будете переправлены в WhatsApp, где получите логин и пароль",
+            "setting_popup_p1": "Нажмите кнопку, если у вас есть приложение WhatsApp на компьютере",
+            "setting_popup_p2": "Или отсканируйте QR-код с мобильного устройства",
+            "setting_popup_p3": "Продолжая, вы даете согласие на обработку персональных данных и соглашаетесь с ",
+            "setting_popup_p3_span_1": "политикой конфиденциальности",
+            "setting_popup_p3_span_3": "и",
+            "setting_popup_p3_span_2": "пользовательским соглашением",
+            "setting_popup_btn": "Перейти в WhatsApp",
+
+
         },
     },
 
@@ -425,6 +435,15 @@ export default
             "setting_result_p": "At the end of the period, you will find out all the features of the service, and you will be able to adjust the tariff exactly for yourself so as not to pay for too much.",
             "setting_result_btn": "Get access",
             "setting_result_btn_span": "To activate, set up a tariff",
+
+            "setting_popup_h1": "To register on the platform, you will be redirected to WhatsApp, where you will receive a username and password.",
+            "setting_popup_p1": "Click the button if you have WhatsApp on your computer",
+            "setting_popup_p2": "Or scan the QR code from your mobile device",
+            "setting_popup_p3": "By continuing, you consent to the processing of personal data and agree to ",
+            "setting_popup_p3_span_1": "privacy policy",
+            "setting_popup_p3_span_3": "and",
+            "setting_popup_p3_span_2": "user agreement",
+            "setting_popup_btn": "Go to WhatsApp",
 
         },
     }

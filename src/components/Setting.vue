@@ -235,7 +235,7 @@
 
     
 
-            <div class="setting_quiz_result">
+            <div class="setting_quiz_result" id="result">
                 <h1>{{ langTexts[langComp].setting.setting_result_h1 }}: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
                 <picture>
@@ -247,9 +247,18 @@
                     <h2>{{ langTexts[langComp].setting.setting_result_h2 }} <span>{{ langTexts[langComp].setting.setting_result_h2_span }}</span></h2>
                     <p>{{ langTexts[langComp].setting.setting_result_p }}</p>
                 </div>
-                <button class="button_clicked" v-if="i == 6">{{ langTexts[langComp].setting.setting_result_btn }}</button>
+                <button class="button_clicked" @click="openPopup" v-if="i == 6">{{ langTexts[langComp].setting.setting_result_btn }}</button>
                 <button @click="clickMotion" v-if="i < 6">{{ langTexts[langComp].setting.setting_result_btn }}</button>
                 <p class="setting_quiz_result_dop_info">{{ langTexts[langComp].setting.setting_result_btn_span }}</p>
+            </div>
+
+            <div class="setting_quiz_popup" id="popup">
+                <h1>{{ langTexts[langComp].setting.setting_popup_h1 }}</h1>
+                <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p1 }}</p>
+                <a href="https://marketbot.biz/935" target="_blank"><button>{{ langTexts[langComp].setting.setting_popup_btn }}</button></a>
+                <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p2 }}</p>
+                <img src="../assets/qr.png" alt="qr">
+                <p class="setting_quiz_popup_bottom">{{ langTexts[langComp].setting.setting_popup_p3 }}<span>{{ langTexts[langComp].setting.setting_popup_p3_span_1 }}</span> {{ langTexts[langComp].setting.setting_popup_p3_span_3 }} <span>{{ langTexts[langComp].setting.setting_popup_p3_span_2 }}</span></p>
             </div>
 
         </div>
@@ -319,6 +328,12 @@ export default {
         }
     },
     methods:{
+        openPopup(){
+            this.i = 7
+            document.querySelector("#result").style.display = "none"
+            document.querySelector("#popup").style.display = "block"
+
+        },
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
@@ -908,6 +923,83 @@ export default {
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
+
+
+
+
+            .setting_quiz_popup
+                width: 100%
+                height: 580px
+                display: none
+                background-color: white
+                border-radius: 10px
+                h1
+                    font-weight: 700
+                    font-size: 20px
+                    line-height: 32px
+                    color: #370954
+                    text-align: center
+                    width: 700px
+                    padding-left: 220px
+                    padding-top: 73px
+                .setting_quiz_popup_p
+                    font-weight: 400
+                    font-size: 16px
+                    line-height: 24px
+                    color: #999
+                    text-align: center
+                    width: 700px
+                    padding-left: 220px
+                    padding-top: 13px
+                button
+                    color: white
+                    font-size: 18px
+                    font-weight: 400
+                    border: 0px
+                    padding: 23px 70px
+                    background-color: #189d0e
+                    border-radius: 31px
+                    margin-left: 400px
+                    width: 350px
+                    outline: none 
+                    cursor: pointer
+                    transition: 0.3s all ease
+                    margin-bottom: 10px
+                    background-image: url("../assets/whatsapp_btn.png")
+                    background-repeat: no-repeat
+                    background-position: 95% 50%
+                    user-select: none
+                button:hover
+                    background-color: rgb(0, 140, 14)
+                img
+                    margin-left: 515px
+                    margin-bottom: 10px
+                    user-select: none
+                .setting_quiz_popup_bottom
+                    color: #999
+                    font-size: 14px
+                    line-height: 18px
+                    font-weight: 400
+                    margin-left: 280px
+                    text-align: center
+                    width: 580px
+                    span
+                        border-bottom: 1px solid #999
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         .setting_background_images
             user-select: none
             position: absolute

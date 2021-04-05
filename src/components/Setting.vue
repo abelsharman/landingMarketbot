@@ -253,11 +253,12 @@
             </div>
 
             <div class="setting_quiz_popup" id="popup">
+                <img @click="closePopup" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_popup_h1 }}</h1>
                 <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p1 }}</p>
                 <a href="https://marketbot.biz/935" target="_blank"><button>{{ langTexts[langComp].setting.setting_popup_btn }}</button></a>
                 <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p2 }}</p>
-                <img src="../assets/qr.png" alt="qr">
+                <img class="setting_quiz_popup_qr" src="../assets/qr.png" alt="qr">
                 <p class="setting_quiz_popup_bottom">{{ langTexts[langComp].setting.setting_popup_p3 }}<a href="https://marketbot.biz/oferta.html" target="_blank">{{ langTexts[langComp].setting.setting_popup_p3_span_1 }}</a> {{ langTexts[langComp].setting.setting_popup_p3_span_3 }} <a href="https://marketbot.biz/oferta.html" target="_blank">{{ langTexts[langComp].setting.setting_popup_p3_span_2 }}</a></p>
             </div>
 
@@ -332,7 +333,20 @@ export default {
             this.i = 7
             document.querySelector("#result").style.display = "none"
             document.querySelector("#popup").style.display = "block"
+            if(window.innerWidth < 456){
+                this.$refs.header.style.boxShadow = "none"
+                document.querySelector("#quiz").style.height = "850px"
+            }
 
+        },
+        closePopup(){
+            this.i = 6
+            document.querySelector("#result").style.display = "inline-block"
+            document.querySelector("#popup").style.display = "none"
+            if(window.innerWidth < 456){
+                this.$refs.header.style.boxShadow = "0px 0px 16px -5px rgb(100,100,100)"
+                document.querySelector("#quiz").style.height = "1050px"
+            }
         },
         onMouseUpdate(e){
             if(window.innerWidth > 456){
@@ -934,6 +948,8 @@ export default {
                 background-color: white
                 border-radius: 10px
                 h1
+                    position: relative
+                    top: -5%
                     font-weight: 700
                     font-size: 20px
                     line-height: 32px
@@ -943,6 +959,8 @@ export default {
                     padding-left: 220px
                     padding-top: 73px
                 .setting_quiz_popup_p
+                    position: relative
+                    top: -5%
                     font-weight: 400
                     font-size: 16px
                     line-height: 24px
@@ -952,6 +970,8 @@ export default {
                     padding-left: 220px
                     padding-top: 13px
                 button
+                    position: relative
+                    top: -5%
                     color: white
                     font-size: 18px
                     font-weight: 400
@@ -971,11 +991,20 @@ export default {
                     user-select: none
                 button:hover
                     background-color: rgb(0, 140, 14)
-                img
+                .setting_quiz_popup_qr
+                    position: relative
+                    top: -5%
                     margin-left: 515px
                     margin-bottom: 10px
                     user-select: none
+                .setting_quiz_popup_close
+                    position: relative
+                    left: 95%
+                    top: 4%
+                    cursor: pointer
                 .setting_quiz_popup_bottom
+                    position: relative
+                    top: -5%
                     color: #999
                     font-size: 14px
                     line-height: 18px
@@ -1364,12 +1393,91 @@ export default {
                     color: #999
                     margin: 0
                     margin-bottom: 30px
-                    
                     width: 100vw
                     text-align: center
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
+
+
+            .setting_quiz_popup
+                width: 91%
+                height: 160vw
+                margin-left: 4.5%
+                display: none
+                background-color: rgba(130,130,130,0.1)
+                //background-color: #eee
+                border-radius: 10px
+                h1
+                    position: relative
+                    top: -3%
+                    font-weight: 700
+                    font-size: 6.57894vw
+                    line-height: 8.771vw
+                    width: 95%
+                    margin-left: 2.5%
+                    color: #370954
+                    text-align: center
+                    padding-top: 25vw
+                .setting_quiz_popup_p
+                    display: none
+                button
+                    position: relative
+                    top: -3%
+                    color: white
+                    font-size: 4.385964vw
+                    font-weight: 400
+                    border: 0px
+                    padding: 23px 0px
+                    background-color: #189d0e
+                    border-radius: 31px
+                    width: 91%
+                    margin-left: 4.5%
+                    
+                    outline: none 
+                    cursor: pointer
+                    transition: 0.3s all ease
+                    margin-top: 8vw
+                    margin-bottom: 4vw
+                    background-image: url("../assets/whatsapp_btn.png")
+                    background-repeat: no-repeat
+                    background-position: 95% 50%
+                    user-select: none
+                button:hover
+                    background-color: rgb(0, 140, 14)
+                .setting_quiz_popup_qr
+                    display: none
+                .setting_quiz_popup_close
+                    position: relative
+                    left: 82%
+                    top: 3%
+                    cursor: pointer
+                    width: 11vw
+                .setting_quiz_popup_bottom
+                    position: relative
+                    top: -3%
+                    color: #999
+                    font-size: 3.5vw
+                    line-height: 4.38vw
+                    width: 90%
+                    margin-left: 5%
+                    font-weight: 400
+                    text-align: center
+                    a
+                        text-decoration: none
+                        color: #999
+                        border-bottom: 1px solid #999
+
+
+
+
+
+
+
+
+
+
+
         .setting_background_images
             position: absolute
             width: 100vw

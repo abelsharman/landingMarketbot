@@ -1,19 +1,19 @@
 <template>
     <div class="setting" id="quiz">
-        <h1 class="setting_header">Настройте тариф под свои задачи</h1>
-        <h1 class="setting_header_2">и получите бесплатный доступ на 10 дней</h1>
+        <h1 class="setting_header">{{ langTexts[langComp].setting.setting_h1 }}</h1>
+        <h1 class="setting_header_2">{{ langTexts[langComp].setting.setting_h2 }}</h1>
 
         <div class="setting_quiz" ref="header">
             <div class="setting_quiz_part" id="1" ref="1" v-if="this.i == 1">
-                <h1>Шаг {{ this.i }}<strong> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
+                <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
 
                 <div class="setting_quiz_progress">
                     <div class="setting_quiz_progress_grey"></div>
                     <div class="setting_quiz_progress_pink" v-bind:style="{ width: (i-1) * 20 + '%' }"></div>
                 </div>
 
-                <h2>Какие мессенджеры будете подключать?</h2>
-                <h3>Выберите один или несколько</h3>
+                <h2>{{ langTexts[langComp].setting.setting_1_h2 }}</h2>
+                <h3>{{ langTexts[langComp].setting.setting_1_h3 }}</h3>
 
 
 
@@ -49,32 +49,32 @@
 
 
                 <div class="setting_quiz_back" v-if="i > 1" @click="i--">
-                    <img src="../assets/back.png" alt="back"><span>Предыдущий шаг</span>
+                    <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button ref="after1">Далее</button>
-                    <p>Или нажмите <strong>Enter</strong></p>
+                    <button ref="after1">{{ langTexts[langComp].setting.setting_after }}</button>
+                    <p>{{ langTexts[langComp].setting.setting_after_span }} <strong>Enter</strong></p>
                 </div>
             </div>
 
             <div class="setting_quiz_part" id="2" ref="2" v-show="this.i == 2">
-                <h1>Шаг {{ this.i }}<strong class="setting_quiz_part_strong"> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
+                <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
                     <div class="setting_quiz_progress_grey"></div>
                     <div class="setting_quiz_progress_pink" v-bind:style="{ width: (i-1) * 20 + '%' }"></div>
                 </div>
 
-                <h2>Будете общаться с клиентами через чат-центр?</h2>
-                <h3>Можно пропустить</h3>
+                <h2>{{ langTexts[langComp].setting.setting_2_h2 }}</h2>
+                <h3>{{ langTexts[langComp].setting.setting_2_h3 }}</h3>
 
                 <div class="setting_quiz_icons setting_quiz_icons_12">
                     <div class="setting_quiz_icons_5">
                         <span>{{ Math.round(info.chat_cost * info.yearly_discount) }}₽</span>
                         <img @click="closeChat" v-if="checkChat" src="../assets/quiz/chat.png" alt="chat">
                         <img @click="clickChat" v-if="!checkChat" src="../assets/quiz/chat3.png" alt="chat">
-                        <p>Чат</p>
+                        <p>{{ langTexts[langComp].setting.setting_2_1_p }}</p>
                     </div>
 
                     <div class="setting_quiz_icons_6">
@@ -82,7 +82,7 @@
                         <img @click="closeWrite" v-if="checkWrite" src="../assets/quiz/question.png" alt="question">
                         <img @click="clickWrite" v-if="!checkWrite && checkWhatsApp" src="../assets/quiz/question3.png" alt="question">
                         <img v-if="!checkWrite && !checkWhatsApp" src="../assets/quiz/question3.png" alt="question">
-                        <p>Написать первым</p>
+                        <p>{{ langTexts[langComp].setting.setting_2_2_p }}</p>
                     </div>
 
                     <div class="setting_quiz_icons_7">
@@ -90,69 +90,69 @@
                         <strong class="setting_quiz_minus" @click="clickOperatorMinus" ref="minus">-</strong>
                         <strong class="setting_quiz_operator"><strong ref="operator">{{ operators }}</strong></strong>
                         <strong class="setting_quiz_plus" @click="clickOperatorPlus" ref="plus">+</strong>
-                        <p>Операторы</p>
+                        <p>{{ langTexts[langComp].setting.setting_2_3_p }}</p>
                     </div>
                 </div>
 
 
                 <div class="setting_quiz_back" v-if="i > 1" @click="i--">
-                    <img src="../assets/back.png" alt="back"><span>Предыдущий шаг</span>
+                    <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button ref="after2">Далее</button>
-                    <p>Или нажмите <strong>Enter</strong></p>
+                    <button ref="after2">{{ langTexts[langComp].setting.setting_after }}</button>
+                    <p>{{ langTexts[langComp].setting.setting_after_span }} <strong>Enter</strong></p>
                 </div>
             </div>
 
             <div class="setting_quiz_part" id="3" ref="3" v-if="this.i == 3">
-                <h1>Шаг {{ this.i }}<strong class="setting_quiz_part_strong"> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
+                <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
                     <div class="setting_quiz_progress_grey"></div>
                     <div class="setting_quiz_progress_pink" v-bind:style="{ width: (i-1) * 20 + '%' }"></div>
                 </div>
 
-                <h2>Включите редактор чат-ботов, если хотите автоматизировать общение с клиентами</h2>
-                <h3>Можно пропустить</h3>
+                <h2>{{ langTexts[langComp].setting.setting_3_h2 }}</h2>
+                <h3>{{ langTexts[langComp].setting.setting_2_h3 }}</h3>
 
                 <div class="setting_quiz_icons setting_quiz_icons_11">
                     <div class="setting_quiz_icons_8">
                         <span>{{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
                         <img @click="closeEditor" v-if="checkEditor" src="../assets/quiz/editor.png" alt="editor">
                         <img @click="clickEditor" v-if="!checkEditor" src="../assets/quiz/editor3.png" alt="editor">
-                        <p>Редактор сценария</p>
+                        <p>{{ langTexts[langComp].setting.setting_3_1_p }}</p>
                     </div>
 
                     <div class="setting_quiz_icons_9">
                         <span>{{ Math.round(info.deferred_exec * info.yearly_discount) }}₽</span>
                         <img @click="closeFunnel" v-if="checkFunnel" src="../assets/quiz/funnel.png" alt="funnel">
                         <img @click="clickFunnel" v-if="!checkFunnel" src="../assets/quiz/funnel3.png" alt="funnel">
-                        <p>Автоворонки</p>
+                        <p>{{ langTexts[langComp].setting.setting_3_2_p }}</p>
                     </div>
                 </div>
 
 
                 <div class="setting_quiz_back setting_quiz_back_1" v-if="i > 1" @click="i--">
-                    <img src="../assets/back.png" alt="back"><span>Предыдущий шаг</span>
+                    <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
 
                 <div class="setting_quiz_after setting_quiz_after_1" @click="i++">
-                    <button ref="after3">Далее</button>
-                    <p>Или нажмите <strong>Enter</strong></p>
+                    <button ref="after3">{{ langTexts[langComp].setting.setting_after }}</button>
+                    <p>{{ langTexts[langComp].setting.setting_after_span }} <strong>Enter</strong></p>
                 </div>
             </div>
 
             <div class="setting_quiz_part" id="4" ref="4" v-if="this.i == 4">
-                <h1>Шаг {{ this.i }}<strong class="setting_quiz_part_strong"> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
+                <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
                     <div class="setting_quiz_progress_grey"></div>
                     <div class="setting_quiz_progress_pink" v-bind:style="{ width: (i-1) * 20 + '%' }"></div>
                 </div>
 
-                <h2>Выберите CRM систему для интеграции</h2>
-                <h3>Можно пропустить</h3>
+                <h2>{{ langTexts[langComp].setting.setting_4_h2 }}</h2>
+                <h3>{{ langTexts[langComp].setting.setting_2_h3 }}</h3>
 
                 <div class="setting_quiz_icons">
                     <div class="setting_quiz_icons_8">
@@ -172,59 +172,59 @@
 
 
                 <div class="setting_quiz_back" v-if="i > 1" @click="i--">
-                    <img src="../assets/back.png" alt="back"><span>Предыдущий шаг</span>
+                    <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
 
                 <div class="setting_quiz_after" @click="i++">
-                    <button ref="after4">Далее</button>
-                    <p>Или нажмите <strong>Enter</strong></p>
+                    <button ref="after4">{{ langTexts[langComp].setting.setting_after }}</button>
+                    <p>{{ langTexts[langComp].setting.setting_after_span }} <strong>Enter</strong></p>
                 </div>
             </div>
 
             <div class="setting_quiz_part" id="5" ref="5" v-if="this.i == 5">
-                <h1>Шаг {{ this.i }}<strong class="setting_quiz_part_strong"> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
+                <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
                     <div class="setting_quiz_progress_grey"></div>
                     <div class="setting_quiz_progress_pink" v-bind:style="{ width: (i-1) * 20 + '%' }"></div>
                 </div>
 
-                <h2>Подключите рассылки, если планируете оповещать своих клиентов</h2>
-                <h3>Можно пропустить</h3>
+                <h2>{{ langTexts[langComp].setting.setting_5_h2 }}</h2>
+                <h3>{{ langTexts[langComp].setting.setting_2_h3 }}</h3>
 
                 <div class="setting_quiz_icons setting_quiz_icons_11 setting_quiz_icons_12">
                     <div class="setting_quiz_icons_10">
                         <span>{{ Math.round(info.mailing * info.yearly_discount) }}₽</span>
                         <img @click="closeMailing" v-if="checkMail" src="../assets/quiz/mail.png" alt="mail">
                         <img @click="clickMailing" v-if="!checkMail" src="../assets/quiz/mail3.png" alt="mail">
-                        <p>Массовая рассылка</p>
+                        <p>{{ langTexts[langComp].setting.setting_5_1_p }}</p>
                     </div>
                 </div>
 
 
                 <div class="setting_quiz_back setting_quiz_back_1" v-if="i > 1" @click="i--">
-                    <img src="../assets/back.png" alt="back"><span>Предыдущий шаг</span>
+                    <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
 
                 <div class="setting_quiz_after setting_quiz_after_1" @click="i++">
-                    <button ref="after5">Далее</button>
-                    <p>Или нажмите <strong>Enter</strong></p>
+                    <button ref="after5">{{ langTexts[langComp].setting.setting_after }}</button>
+                    <p>{{ langTexts[langComp].setting.setting_after_span }} <strong>Enter</strong></p>
                 </div>
             </div>
 
             <div class="setting_quiz_part" id="6" ref="6" v-if="this.i == 6">
-                <h1>Финиш<strong class="setting_quiz_part_strong_2"> Готово: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
+                <h1>{{ langTexts[langComp].setting.setting_phinish }}<strong class="setting_quiz_part_strong_2"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
                     <div class="setting_quiz_progress_grey"></div>
                     <div class="setting_quiz_progress_pink" v-bind:style="{ width: (i-1) * 20 + '%' }"></div>
                 </div>
 
-                <h2>Отлично! Активируйте личный кабинет и начните внедрять мессенджеры в ваш бизнес.</h2>
+                <h2>{{ langTexts[langComp].setting.setting_6_h2 }}</h2>
        
 
                 <div class="setting_quiz_back setting_quiz_back_2" v-if="i > 1" @click="i--">
-                    <img src="../assets/back.png" alt="back"><span>Предыдущий шаг</span>
+                    <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
             </div>
 
@@ -236,7 +236,7 @@
     
 
             <div class="setting_quiz_result">
-                <h1>Итого: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ за 10 дней</strong></h1>
+                <h1>{{ langTexts[langComp].setting.setting_result_h1 }}: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
                 <picture>
                     <source srcset="../assets/img-10-tarif.webp" type="image/webp">
@@ -244,12 +244,12 @@
                 </picture>
 
                 <div class="setting_quiz_result_info">
-                    <h2>Бесплатно 10 дней на <span>МАКСИМУМ</span></h2>
-                    <p>В конце периода вы узнаете все возможности сервиса, и сможете настроить тариф точно под себя, чтобы не платить за лишнее.</p>
+                    <h2>{{ langTexts[langComp].setting.setting_result_h2 }} <span>{{ langTexts[langComp].setting.setting_result_h2_span }}</span></h2>
+                    <p>{{ langTexts[langComp].setting.setting_result_p }}</p>
                 </div>
-                <button class="button_clicked" v-if="i == 6">Получить доступ</button>
-                <button @click="clickMotion" v-if="i < 6">Получить доступ</button>
-                <p class="setting_quiz_result_dop_info">Для активации настройте тариф</p>
+                <button class="button_clicked" v-if="i == 6">{{ langTexts[langComp].setting.setting_result_btn }}</button>
+                <button @click="clickMotion" v-if="i < 6">{{ langTexts[langComp].setting.setting_result_btn }}</button>
+                <p class="setting_quiz_result_dop_info">{{ langTexts[langComp].setting.setting_result_btn_span }}</p>
             </div>
 
         </div>
@@ -263,13 +263,13 @@
             <img class="setting_background_images_6" src="../assets/back/bluemy.png" alt="greenby">
             <img class="setting_background_images_7" src="../assets/back/yellowbyfull.png" alt="yellowbyfull">
             <img class="setting_background_images_8" src="../assets/back/purpleby.png" alt="purpleby">
-
        </div>
     </div>
 </template>
 
  
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Setting',
     data(){
@@ -314,6 +314,7 @@ export default {
             setting_background_images_6_x: 1,
             setting_background_images_7_x: 1,
             setting_background_images_8_x: 1,
+            langTexts: langText,
 
         }
     },
@@ -481,6 +482,9 @@ export default {
     computed:{
         totalOfYear(){
             return Math.round(this.sum * this.info.yearly_discount)
+        },
+        langComp(){
+            return this.$store.state.lang
         }
     },
     mounted(){
@@ -898,8 +902,9 @@ export default {
                     font-weight: 400
                     color: #999
                     margin: 0
-                    margin-bottom: 50px
-                    padding-left: 140px
+                    margin-bottom: 30px
+                    width: 115%
+                    text-align: center
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer

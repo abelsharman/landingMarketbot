@@ -112,6 +112,106 @@ export default
             "team_name_8": "Екатерина",
             "team_role_8": "HR специалист",
         },
+        "company": {
+            "company_h1": "Компании, ",
+            "company_h2": "которые уже используют в своем бизнесе мессенджеры",
+
+            "company_1_h1": "Спортмастер",
+            "company_1_p": "Российская компания розничной торговли спорттоварами. Продает спорттовары в большом количестве, используя при этом различные чат-боты.",
+            "company_1_span": "WhatsApp является основным каналом взаимодействия службы поддержки с клиентами.",
+
+            "company_2_h1": "СДЭК",
+            "company_2_p": "Один из самых активных и привлекательных участников российского рынка экспресс-доставки.",
+            "company_2_span": "Через WhatsApp происходит уведомление и взаимодействие с клиентами.",
+
+            "company_3_h1": "Альфа-банк",
+            "company_3_p": "Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.",
+            "company_3_span": "Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.",
+
+            "company_4_h1": "Университет Синергия",
+            "company_4_p": "Негосударственное высшее учебное заведение.",
+            "company_4_span": "Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.",
+
+            "company_5_h1": "amoCRM",
+            "company_5_p": "Удобная web-программа для анализа продаж, доступная в режиме online.",
+            "company_5_span": "Через WhatsApp происходит взаимодействие службы поддержки с клиентами.",
+
+            "company_6_h1": "Yota",
+            "company_6_p": "Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.",
+            "company_6_span": "Через WhatsApp происходит взаимодействие службы поддержки с клиентами.",
+
+            "company_7_h1": "БКС Банк",
+            "company_7_p": "Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.",
+            "company_7_span": "Через WhatsApp происходит взаимодействие службы поддержки с клиентами.",
+
+            "company_8_h1": "Деловые Линии",
+            "company_8_p": "Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.",
+            "company_8_span": "Через WhatsApp происходит взаимодействие службы поддержки с клиентами.",
+
+            "company_9_h1": "TalkBank",
+            "company_9_p": "Банк в мессенджерах без отделений, мобильных приложений и колл-центров.",
+            "company_9_span": "Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.",
+
+            "company_10_h1": "М.Видео",
+            "company_10_p": "Крупнейшая российская розничная компания на рынке бытовой техники и электроники.",
+            "company_10_span": "Через WhatsApp происходит уведомление и взаимодействие с клиентами.",
+
+            "company_11_h1": "Эльдорадо",
+            "company_11_p": "Крупный интернет-магазин электроники, цифровой и бытовой техники.",
+            "company_11_span": "Через WhatsApp происходит уведомление и взаимодействие с клиентами.",
+
+            "company_12_h1": "Nestle",
+            "company_12_p": "Один из крупнейших в мире производитель продуктов питания.",
+            "company_12_span": "Через WhatsApp происходит взаимодействие службы поддержки с клиентами.",
+
+            "company_13_h1": "AliExpress",
+            "company_13_p": "Глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.",
+            "company_13_span": "Через WhatsApp происходит уведомление и взаимодействие с клиентами.",
+        },
+        "setting": {
+            "setting_h1": "Настройте тариф под свои задачи",
+            "setting_h2": "и получите бесплатный доступ на 10 дней",
+            "setting_step": "Шаг",
+            "setting_ready": "Готово",
+            "setting_phinish": "Финиш",
+            "setting_after": "Далее",
+            "setting_after_span": "Или нажмите",
+            "setting_back": "Предыдущий шаг",
+
+            "setting_1_h2": "Какие мессенджеры будете подключать?",
+            "setting_1_h3": "Выберите один или несколько",
+
+            "setting_2_h2": "Будете общаться с клиентами через чат-центр?",
+            "setting_2_h3": "Можно пропустить",
+            "setting_2_1_p": "Чат",
+            "setting_2_2_p": "Написать первым",
+            "setting_2_3_p": "Операторы",
+
+            "setting_3_h2": "Включите редактор чат-ботов, если хотите автоматизировать общение с клиентами",
+            "setting_3_h3": "Можно пропустить",
+            "setting_3_1_p": "Редактор сценария",
+            "setting_3_2_p": "Автоворонки",
+
+            "setting_4_h2": "Выберите CRM систему для интеграции",
+            "setting_4_h3": "Можно пропустить",
+
+            "setting_5_h2": "Подключите рассылки, если планируете оповещать своих клиентов",
+            "setting_5_h3": "Можно пропустить",
+            "setting_5_1_p": "Массовая рассылка",
+
+            "setting_6_h2": "Отлично! Активируйте личный кабинет и начните внедрять мессенджеры в ваш бизнес.",
+
+
+            "setting_result_h1": "Итого",
+            "setting_result_h1_span": "за 10 дней",
+
+            "setting_result_h2": "Бесплатно 10 дней на",
+            "setting_result_h2_span": "МАКСИМУМ",
+            "setting_result_p": "В конце периода вы узнаете все возможности сервиса, и сможете настроить тариф точно под себя, чтобы не платить за лишнее.",
+            "setting_result_btn": "Получить доступ",
+            "setting_result_btn_span": "Для активации настройте тариф",
+
+        },
     },
 
 
@@ -227,6 +327,105 @@ export default
             "team_role_7": "Copywriter, SMM",
             "team_name_8": "Catherine",
             "team_role_8": "HR specialist",
+        },
+        "company": {
+            "company_h1": "Companies ",
+            "company_h2": "that already use messengers in their business",
+
+            "company_1_h1": "Sportmaster",
+            "company_1_p": "Russian sporting goods retailer. Sells sporting goods in large quantities using various chatbots.",
+            "company_1_span": "WhatsApp is the primary channel for customer support.",
+
+            "company_2_h1": "CDEK",
+            "company_2_p": "One of the most active and attractive participants in the Russian express delivery market.",
+            "company_2_span": "Notification and interaction with customers takes place through WhatsApp.",
+
+            "company_3_h1": "Alfa Bank",
+            "company_3_p": "The largest private bank in Russia, one of the five largest banks in Russia in terms of assets.",
+            "company_3_span": "WhatsApp is used to issue and activate bank cards, money transfers and payments.",
+
+            "company_4_h1": "University Synergy",
+            "company_4_p": "Non-state higher educational institution.",
+            "company_4_span": "Through the chatbot in WhatsApp, online courses and registration for events are taught.",
+
+            "company_5_h1": "amoCRM",
+            "company_5_p": "Convenient web-based program for the analysis of sales, available online.",
+            "company_5_span": "Customer support interacts through WhatsApp.",
+
+            "company_6_h1": "Yota",
+            "company_6_p": "Russian federal wireless operator providing mobile and 4G Internet services.",
+            "company_6_span": "Customer support interacts through WhatsApp.",
+
+            "company_7_h1": "BCS Bank",
+            "company_7_p": "Commercial bank, actively developing in retail banking business and services for small and medium-sized businesses.",
+            "company_7_span": "Customer support interacts through WhatsApp.",
+
+            "company_8_h1": "Business Line",
+            "company_8_p": "Large transport and logistics company in Russia. Provides services for the transportation of goods.",
+            "company_8_span": "Customer support interacts through WhatsApp.",
+
+            "company_9_h1": "TalkBank",
+            "company_9_p": "Bank in instant messengers without branches, mobile applications and call centers.",
+            "company_9_span": "WhatsApp is used to issue and activate bank cards, money transfers and payments.",
+
+            "company_10_h1": "M Video",
+            "company_10_p": "The largest Russian retail company in the household appliances and electronics market.",
+            "company_10_span": "Notification and interaction with customers takes place through WhatsApp.",
+
+            "company_11_h1": "El Dorado",
+            "company_11_p": "Large online store of electronics, digital and household appliances.",
+            "company_11_span": "Notification and interaction with customers takes place through WhatsApp.",
+
+            "company_12_h1": "Nestle",
+            "company_12_p": "One of the world's largest food manufacturer.",
+            "company_12_span": "Customer support interacts through WhatsApp.",
+
+            "company_13_h1": "AliExpress",
+            "company_13_p": "A global virtual trading platform that provides an opportunity to buy goods from manufacturers from China, as well as Russia, Europe, Turkey and other countries.",
+            "company_13_span": "Notification and interaction with customers takes place through WhatsApp.",
+
+
+        },
+        "setting": {
+            "setting_h1": "Customize the tariff for your tasks",
+            "setting_h2": "and get free access for 10 days",
+            "setting_step": "Step",
+            "setting_ready": "Done",
+            "setting_phinish": "Finish",
+            "setting_after": "Further",
+            "setting_after_span": "Or press",
+            "setting_back": "Previous step",
+
+            "setting_1_h2": "What messengers will you connect?",
+            "setting_1_h3": "Choose one or more",
+
+            "setting_2_h2": "Will you communicate through the chat-center?",
+            "setting_2_h3": "You can skip",
+            "setting_2_1_p": "Chat room",
+            "setting_2_2_p": "Write first",
+            "setting_2_3_p": "Operators",
+
+            "setting_3_h2": "Turn on the chatbot editor if you want to automate communication with clients",
+            "setting_3_1_p": "Сontinuity redactora",
+            "setting_3_2_p": "Auto funnels",
+
+            "setting_4_h2": "Choose a CRM system for integration",
+
+            "setting_5_h2": "Connect mailing lists if you plan to notify your customers",
+            "setting_5_1_p": "Wholesale mailing",
+
+            "setting_6_h2": "Excellent! Activate your personal account and start introducing instant messengers into your business.",
+
+
+            "setting_result_h1": "Total",
+            "setting_result_h1_span": "in 10 days",
+
+            "setting_result_h2": "Free 10 days for",
+            "setting_result_h2_span": "MAXIMUM",
+            "setting_result_p": "At the end of the period, you will find out all the features of the service, and you will be able to adjust the tariff exactly for yourself so as not to pay for too much.",
+            "setting_result_btn": "Get access",
+            "setting_result_btn_span": "To activate, set up a tariff",
+
         },
     }
 }

@@ -1,8 +1,8 @@
 <template>
     <div class="company">
         <div class="company_padding">
-        <h1>Компании, </h1>
-        <h2>которые уже используют в своем бизнесе мессенджеры:</h2>
+        <h1>{{ langTexts[langComp].company.company_h1 }}</h1>
+        <h2>{{ langTexts[langComp].company.company_h2 }}</h2>
         </div>
 
 
@@ -12,9 +12,9 @@
                     <source srcset="../assets/client-1.webp" type="image/webp">
                     <img src="../assets/client-1.png" class="company_slider_big_img"/>
                 </picture>
-                <h1>Спортмастер<img src="../assets/check.png" alt="check"></h1>
-                <p>Российская компания розничной торговли спорттоварами. Продает спорттовары в большом количестве, используя при этом различные чат-боты.</p>
-                <p class="company_slider_span">WhatsApp является основным каналом взаимодействия службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_1_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_1_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_1_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_2" id="2" ref="i2">
@@ -22,9 +22,9 @@
                     <source srcset="../assets/client-2.webp" type="image/webp">
                     <img src="../assets/client-2.png" class="company_slider_big_img"/>
                 </picture>
-                <h1>СДЭК<img src="../assets/check.png" alt="check"></h1>
-                <p>Один из самых активных и привлекательных участников российского рынка экспресс-доставки.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_2_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_2_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_2_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_3" id="3" ref="i3">
@@ -32,9 +32,9 @@
                     <source srcset="../assets/client-3.webp" type="image/webp">
                     <img src="../assets/client-3.png" class="company_slider_big_img"/>
                 </picture>
-                <h1>Альфа-банк<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.</p>
-                <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
+                <h1>{{ langTexts[langComp].company.company_3_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_3_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_3_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_4" id="4" ref="i4">
@@ -42,9 +42,9 @@
                     <source srcset="../assets/client-4.webp" type="image/webp">
                     <img src="../assets/client-4.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>Университет Синергия<img src="../assets/check.png" alt="check"></h1>
-                <p>Негосударственное высшее учебное заведение.</p>
-                <p class="company_slider_span">Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.</p>
+                <h1>{{ langTexts[langComp].company.company_4_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_4_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_4_span }}</p>
             </div>
 
 
@@ -53,9 +53,9 @@
                     <source srcset="../assets/client-5.webp" type="image/webp">
                     <img src="../assets/client-5.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>amoCRM<img src="../assets/check.png" alt="check"></h1>
-                <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_5_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_5_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_5_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_6" id="6" ref="i6">
@@ -63,9 +63,9 @@
                     <source srcset="../assets/client-6.webp" type="image/webp">
                     <img src="../assets/client-6.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>Yota<img src="../assets/check.png" alt="check"></h1>
-                <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_6_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_6_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_6_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_7" id="7" ref="i7">
@@ -73,9 +73,9 @@
                     <source srcset="../assets/client-7.webp" type="image/webp">
                     <img src="../assets/client-7.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>БКС Банк<img src="../assets/check.png" alt="check"></h1>
-                <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_7_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_7_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_7_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_8" id="8" ref="i8">
@@ -83,9 +83,9 @@
                     <source srcset="../assets/client-8.webp" type="image/webp">
                     <img src="../assets/client-8.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>Деловые Линии<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_8_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_8_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_8_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_9" id="9" ref="i9">
@@ -93,9 +93,9 @@
                     <source srcset="../assets/client-9.webp" type="image/webp">
                     <img src="../assets/client-9.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>TalkBank<img src="../assets/check.png" alt="check"></h1>
-                <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
-                <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
+                <h1>{{ langTexts[langComp].company.company_9_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_9_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_9_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_10" id="10" ref="i10">
@@ -103,9 +103,9 @@
                     <source srcset="../assets/client-10.webp" type="image/webp">
                     <img src="../assets/client-10.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>М.Видео<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_10_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_10_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_10_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_11" id="11" ref="i11">
@@ -113,9 +113,9 @@
                     <source srcset="../assets/client-11.webp" type="image/webp">
                     <img src="../assets/client-11.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>Эльдорадо<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_11_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_11_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_11_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_12" id="12" ref="i12">
@@ -123,9 +123,9 @@
                     <source srcset="../assets/client-12.webp" type="image/webp">
                     <img src="../assets/client-12.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>Nestle<img src="../assets/check.png" alt="check"></h1>
-                <p>Один из крупнейших в мире производитель продуктов питания.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_12_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_12_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_12_span }}</p>
             </div>
 
             <div class="company_slider_item company_slider_13" id="13" ref="i13">
@@ -133,9 +133,9 @@
                     <source srcset="../assets/client-13.webp" type="image/webp">
                     <img src="../assets/client-13.png" class="company_slider_big_img" loading="lazy"/>
                 </picture>
-                <h1>AliExpress<img src="../assets/check.png" alt="check"></h1>
-                <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_13_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_13_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_13_span }}</p>
             </div>
         </div>
 
@@ -149,9 +149,9 @@
 
         <div class="company_slider_phone">
             <div class="company_slider_item company_slider_1" id="1" ref="i14" v-touch:touchhold="longClick" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>Спортмастер<img src="../assets/check.png" alt="check"></h1>
-                <p>Российская компания розничной торговли спорттоварами. Продает спорттовары в большом количестве, используя при этом различные чат-боты.</p>
-                <p class="company_slider_span">WhatsApp является основным каналом взаимодействия службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_1_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_1_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_1_span }}</p>
                 <picture>
                     <source srcset="../assets/client-1.webp" type="image/webp">
                     <img src="../assets/client-1.png" class="company_slider_big_img"/>
@@ -159,9 +159,9 @@
             </div>
 
             <div class="company_slider_item company_slider_2" id="2" ref="i15" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>СДЭК<img src="../assets/check.png" alt="check"></h1>
-                <p>Один из самых активных и привлекательных участников российского рынка экспресс-доставки.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_2_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_2_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_2_span }}</p>
                 <picture>
                     <source srcset="../assets/client-2.webp" type="image/webp">
                     <img src="../assets/client-2.png" class="company_slider_big_img"/>
@@ -169,9 +169,9 @@
             </div>
 
             <div class="company_slider_item company_slider_3" id="3" ref="i16" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>Альфа-банк<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупнейший частный банк в России, входит в пятерку крупнейших банков России по объему активов.</p>
-                <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
+                <h1>{{ langTexts[langComp].company.company_3_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_3_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_3_span }}</p>
                 <picture>
                     <source srcset="../assets/client-3.webp" type="image/webp">
                     <img src="../assets/client-3.png" class="company_slider_big_img"/>
@@ -179,9 +179,9 @@
             </div>
 
             <div class="company_slider_item company_slider_4" id="4" ref="i17" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>Университет Синергия<img src="../assets/check.png" alt="check"></h1>
-                <p>Негосударственное высшее учебное заведение.</p>
-                <p class="company_slider_span">Через чат-бот в WhatsApp происходит обучение онлайн-курсам и регистрации на мероприятия.</p>
+                <h1>{{ langTexts[langComp].company.company_4_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_4_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_4_span }}</p>
                 <picture>
                     <source srcset="../assets/client-4.webp" type="image/webp">
                     <img src="../assets/client-4.png" class="company_slider_big_img" loading="lazy"/>
@@ -190,9 +190,9 @@
 
 
             <div class="company_slider_item company_slider_5" id="5" ref="i18" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>amoCRM<img src="../assets/check.png" alt="check"></h1>
-                <p>Удобная web-программа для анализа продаж, доступная в режиме online.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_5_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_5_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_5_span }}</p>
                 <picture>
                     <source srcset="../assets/client-5.webp" type="image/webp">
                     <img src="../assets/client-5.png" class="company_slider_big_img" loading="lazy"/>
@@ -200,9 +200,9 @@
             </div>
 
             <div class="company_slider_item company_slider_6" id="6" ref="i19" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>Yota<img src="../assets/check.png" alt="check"></h1>
-                <p>Российский федеральный оператор беспроводной связи, предоставляющий услуги мобильной связи и 4G-интернета.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_6_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_6_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_6_span }}</p>
                 <picture>
                     <source srcset="../assets/client-6.webp" type="image/webp">
                     <img src="../assets/client-6.png" class="company_slider_big_img" loading="lazy"/>
@@ -210,9 +210,9 @@
             </div>
 
             <div class="company_slider_item company_slider_7" id="7" ref="i20" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>БКС Банк<img src="../assets/check.png" alt="check"></h1>
-                <p>Коммерческий банк, активно развивается в розничном банковском бизнесе и обслуживании малого и среднего бизнеса.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_7_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_7_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_7_span }}</p>
                 <picture>
                     <source srcset="../assets/client-7.webp" type="image/webp">
                     <img src="../assets/client-7.png" class="company_slider_big_img" loading="lazy"/>
@@ -220,9 +220,9 @@
             </div>
 
             <div class="company_slider_item company_slider_8" id="8" ref="i21" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>Деловые Линии<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупная транспортно-логистическая компания России. Оказывает услуги по перевозке грузов.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_8_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_8_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_8_span }}</p>
                 <picture>
                     <source srcset="../assets/client-8.webp" type="image/webp">
                     <img src="../assets/client-8.png" class="company_slider_big_img" loading="lazy"/>
@@ -230,9 +230,9 @@
             </div>
 
             <div class="company_slider_item company_slider_9" id="9" ref="i22" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>TalkBank<img src="../assets/check.png" alt="check"></h1>
-                <p>Банк в мессенджерах без отделений, мобильных приложений и колл-центров.</p>
-                <p class="company_slider_span">Через WhatsApp происходит выдача и активация банковских карт, денежные переводы и платежи.</p>
+                <h1>{{ langTexts[langComp].company.company_9_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_9_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_9_span }}</p>
                 <picture>
                     <source srcset="../assets/client-9.webp" type="image/webp">
                     <img src="../assets/client-9.png" class="company_slider_big_img" loading="lazy"/>
@@ -240,9 +240,9 @@
             </div>
 
             <div class="company_slider_item company_slider_10" id="10" ref="i23" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>М.Видео<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупнейшая российская розничная компания на рынке бытовой техники и электроники.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_10_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_10_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_10_span }}</p>
                 <picture>
                     <source srcset="../assets/client-10.webp" type="image/webp">
                     <img src="../assets/client-10.png" class="company_slider_big_img" loading="lazy"/>
@@ -250,9 +250,9 @@
             </div>
 
             <div class="company_slider_item company_slider_11" id="11" ref="i24" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>Эльдорадо<img src="../assets/check.png" alt="check"></h1>
-                <p>Крупный интернет-магазин электроники, цифровой и бытовой техники.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_11_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_11_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_11_span }}</p>
                 <picture>
                     <source srcset="../assets/client-11.webp" type="image/webp">
                     <img src="../assets/client-11.png" class="company_slider_big_img" loading="lazy"/>
@@ -260,9 +260,9 @@
             </div>
 
             <div class="company_slider_item company_slider_12" id="12" ref="i25" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>Nestle<img src="../assets/check.png" alt="check"></h1>
-                <p>Один из крупнейших в мире производитель продуктов питания.</p>
-                <p class="company_slider_span">Через WhatsApp происходит взаимодействие службы поддержки с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_12_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_12_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_12_span }}</p>
                 <picture>
                     <source srcset="../assets/client-12.webp" type="image/webp">
                     <img src="../assets/client-12.png" class="company_slider_big_img" loading="lazy"/>
@@ -270,9 +270,9 @@
             </div>
 
             <div class="company_slider_item company_slider_13" id="13" ref="i26" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>AliExpress<img src="../assets/check.png" alt="check"></h1>
-                <p>глобальная виртуальная торговая площадка, предоставляющая возможность покупать товары производителей из КНР, а также России, Европы, Турции и других стран.</p>
-                <p class="company_slider_span">Через WhatsApp происходит уведомление и взаимодействие с клиентами.</p>
+                <h1>{{ langTexts[langComp].company.company_13_h1 }}<img src="../assets/check.png" alt="check"></h1>
+                <p>{{ langTexts[langComp].company.company_13_p }}</p>
+                <p class="company_slider_span">{{ langTexts[langComp].company.company_13_span }}</p>
                 <picture>
                     <source srcset="../assets/client-13.webp" type="image/webp">
                     <img src="../assets/client-13.png" class="company_slider_big_img" loading="lazy"/>
@@ -308,6 +308,7 @@
 
 
 <script async>
+import langText from '../assets/lang.js'
 export default {
     name: 'Company',
     data(){
@@ -318,6 +319,7 @@ export default {
             company_background_images_2_x: 1,
             company_background_images_3_x: 1,
             company_background_images_4_x: 1,
+            langTexts: langText,
         }
     },
     methods:{
@@ -947,6 +949,11 @@ export default {
             }
         }
     },
+    computed:{
+        langComp(){
+            return this.$store.state.lang
+        }
+    },
     mounted(){
         if(window.innerWidth > 456){
         this.a = setInterval(this.sliderAuto, 5000)
@@ -1242,7 +1249,7 @@ export default {
                 .company_slider_big_img
                     position: relative
                     left: -17px
-                    top: -105px
+                    top: -75px
                     width: 82vw
                     z-index: 98
                     user-select: none
@@ -1300,6 +1307,8 @@ export default {
                 left: 1260px
             .company_slider_4 // Университет Синергия
                 left: 1890px
+                .company_slider_big_img
+                    top: -100px
             .company_slider_5 // amoCRM
                 left: 2520px
             .company_slider_6 // yota
@@ -1317,7 +1326,7 @@ export default {
             .company_slider_12 // Nestle
                 left: 6930px
                 .company_slider_big_img
-                    top: -100px
+                    top: -70px
                     width: 60vw
             .company_slider_13 // AliExpress
                 left: 7560px

@@ -206,7 +206,7 @@
                     <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
 
-                <div class="setting_quiz_after setting_quiz_after_1" @click="i++">
+                <div class="setting_quiz_after setting_quiz_after_1" @click="clickAfter">
                     <button ref="after5">{{ langTexts[langComp].setting.setting_after }}</button>
                     <p>{{ langTexts[langComp].setting.setting_after_span }} <strong>Enter</strong></p>
                 </div>
@@ -222,12 +222,13 @@
 
                 <h2>{{ langTexts[langComp].setting.setting_6_h2 }}</h2>
        
-
+                <!--
                 <div class="setting_quiz_back setting_quiz_back_2" v-if="i > 1" @click="i--">
                     <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
                 </div>
-            </div>
+                -->
 
+            </div>
 
 
 
@@ -329,6 +330,14 @@ export default {
         }
     },
     methods:{
+        clickAfter(){
+            this.i++
+            if(window.innerWidth < 456){
+                document.querySelector("#result button").style.position = "relative"
+                document.querySelector("#result button").style.top = "-120vw"
+            }
+            
+        },
         openPopup(){
             this.i = 7
             document.querySelector("#result").style.display = "none"

@@ -259,7 +259,7 @@
                 <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p1 }}</p>
                 <a href="https://marketbot.biz/935" target="_blank"><button>{{ langTexts[langComp].setting.setting_popup_btn }}</button></a>
                 <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p2 }}</p>
-                <img class="setting_quiz_popup_qr" src="../assets/qr.png" alt="qr">
+                <img class="setting_quiz_popup_qr" src="../assets/qr.png" alt="qr" width="120">
                 <p class="setting_quiz_popup_bottom">{{ langTexts[langComp].setting.setting_popup_p3 }}<a href="https://marketbot.biz/oferta.html" target="_blank">{{ langTexts[langComp].setting.setting_popup_p3_span_1 }}</a> {{ langTexts[langComp].setting.setting_popup_p3_span_3 }} <a href="https://marketbot.biz/oferta.html" target="_blank">{{ langTexts[langComp].setting.setting_popup_p3_span_2 }}</a></p>
             </div>
 
@@ -571,6 +571,27 @@ export default {
     100%
         transform: rotate(0deg)
 
+@keyframes motionWhatsapp
+    0%
+        transform: rotate(2deg)
+    10%
+        transform: rotate(-2deg)
+    20%
+        transform: rotate(1deg)
+    30%
+        transform: rotate(-1deg)
+    40%
+        transform: rotate(0deg)
+    50%
+        transform: rotate(-2deg)
+    60%
+        transform: rotate(2deg)
+    70%
+        transform: rotate(-1deg)
+    80%
+        transform: rotate(1deg)
+    100% 
+        transform: rotate(0deg)
 @media screen and (min-width: 456px)
     .setting
         position: relative
@@ -998,13 +1019,14 @@ export default {
                     background-repeat: no-repeat
                     background-position: 95% 50%
                     user-select: none
+                    animation: motionWhatsapp 1.2s infinite
                 button:hover
                     background-color: rgb(0, 140, 14)
                 .setting_quiz_popup_qr
                     position: relative
                     top: -5%
-                    margin-left: 515px
-                    margin-bottom: 10px
+                    margin-left: 505px
+                    margin-bottom: 0px
                     user-select: none
                 .setting_quiz_popup_close
                     position: relative
@@ -1442,7 +1464,6 @@ export default {
                     border-radius: 31px
                     width: 91%
                     margin-left: 4.5%
-                    
                     outline: none 
                     cursor: pointer
                     transition: 0.3s all ease
@@ -1452,6 +1473,7 @@ export default {
                     background-repeat: no-repeat
                     background-position: 95% 50%
                     user-select: none
+                    animation: motionWhatsapp 1.2s infinite
                 button:hover
                     background-color: rgb(0, 140, 14)
                 .setting_quiz_popup_qr
@@ -1459,9 +1481,9 @@ export default {
                 .setting_quiz_popup_close
                     position: relative
                     left: 82%
-                    top: 4%
+                    top: 6%
                     cursor: pointer
-                    width: 11vw
+                    width: 9vw
                 .setting_quiz_popup_bottom
                     position: relative
                     top: -3%

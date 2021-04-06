@@ -137,147 +137,13 @@
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_13_span }}</p>
             </div>
         </div>
-        <marquee behavior="smooth" direction="left" scrollamount="15" scrolldelay="0">
-        <div class="company_slider company_slider_slider">
-            <div class="company_slider_item company_slider_1" id="1" ref="i1">
-                <picture>
-                    <source srcset="../assets/client-1.webp" type="image/webp">
-                    <img src="../assets/client-1.png" class="company_slider_big_img"/>
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_1_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_1_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_1_span }}</p>
-            </div>
+        
 
-            <div class="company_slider_item company_slider_2" id="2" ref="i2">
-                <picture>
-                    <source srcset="../assets/client-2.webp" type="image/webp">
-                    <img src="../assets/client-2.png" class="company_slider_big_img"/>
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_2_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_2_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_2_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_3" id="3" ref="i3">
-                <picture>
-                    <source srcset="../assets/client-3.webp" type="image/webp">
-                    <img src="../assets/client-3.png" class="company_slider_big_img"/>
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_3_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_3_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_3_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_4" id="4" ref="i4">
-                <picture>
-                    <source srcset="../assets/client-4.webp" type="image/webp">
-                    <img src="../assets/client-4.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_4_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_4_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_4_span }}</p>
-            </div>
-
-
-            <div class="company_slider_item company_slider_5" id="5" ref="i5">
-                <picture>
-                    <source srcset="../assets/client-5.webp" type="image/webp">
-                    <img src="../assets/client-5.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_5_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_5_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_5_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_6" id="6" ref="i6">
-                <picture>
-                    <source srcset="../assets/client-6.webp" type="image/webp">
-                    <img src="../assets/client-6.png" class="company_slider_big_img"/>
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_6_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_6_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_6_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_7" id="7" ref="i7">
-                <picture>
-                    <source srcset="../assets/client-7.webp" type="image/webp">
-                    <img src="../assets/client-7.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_7_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_7_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_7_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_8" id="8" ref="i8">
-                <picture>
-                    <source srcset="../assets/client-8.webp" type="image/webp">
-                    <img src="../assets/client-8.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_8_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_8_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_8_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_9" id="9" ref="i9">
-                <picture>
-                    <source srcset="../assets/client-9.webp" type="image/webp">
-                    <img src="../assets/client-9.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_9_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_9_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_9_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_10" id="10" ref="i10">
-                <picture>
-                    <source srcset="../assets/client-10.webp" type="image/webp">
-                    <img src="../assets/client-10.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_10_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_10_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_10_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_11" id="11" ref="i11">
-                <picture>
-                    <source srcset="../assets/client-11.webp" type="image/webp">
-                    <img src="../assets/client-11.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_11_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_11_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_11_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_12" id="12" ref="i12">
-                <picture>
-                    <source srcset="../assets/client-12.webp" type="image/webp">
-                    <img src="../assets/client-12.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_12_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_12_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_12_span }}</p>
-            </div>
-
-            <div class="company_slider_item company_slider_13" id="13" ref="i13">
-                <picture>
-                    <source srcset="../assets/client-13.webp" type="image/webp">
-                    <img src="../assets/client-13.png" class="company_slider_big_img" />
-                </picture>
-                <h1>{{ langTexts[langComp].company.company_13_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_13_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_13_span }}</p>
-            </div>
-        </div>
-        </marquee>
-        <!--
         <div class="company_slider_arrows">
             <img v-if="this.i != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="">
             <img v-if="this.i == 1" src="../assets/left_arrow_passive.png" alt="">
             <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
         </div>
-        -->
 
 
 
@@ -414,148 +280,13 @@
             </div>
         </div>
 
-        <marquee behavior="smooth" direction="left" scrollamount="10" scrolldelay="0">
-        <div class="company_slider_phone company_slider_phone_phone">
-            <div class="company_slider_item company_slider_1" id="1" ref="i14" v-touch:touchhold="longClick" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_1_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_1_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_1_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-1.webp" type="image/webp">
-                    <img src="../assets/client-1.png" class="company_slider_big_img"/>
-                </picture>
-            </div>
+        
 
-            <div class="company_slider_item company_slider_2" id="2" ref="i15" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_2_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_2_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_2_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-2.webp" type="image/webp">
-                    <img src="../assets/client-2.png" class="company_slider_big_img"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_3" id="3" ref="i16" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_3_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_3_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_3_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-3.webp" type="image/webp">
-                    <img src="../assets/client-3.png" class="company_slider_big_img"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_4" id="4" ref="i17" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_4_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_4_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_4_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-4.webp" type="image/webp">
-                    <img src="../assets/client-4.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-
-            <div class="company_slider_item company_slider_5" id="5" ref="i18" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_5_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_5_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_5_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-5.webp" type="image/webp">
-                    <img src="../assets/client-5.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_6" id="6" ref="i19" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_6_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_6_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_6_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-6.webp" type="image/webp">
-                    <img src="../assets/client-6.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_7" id="7" ref="i20" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_7_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_7_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_7_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-7.webp" type="image/webp">
-                    <img src="../assets/client-7.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_8" id="8" ref="i21" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_8_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_8_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_8_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-8.webp" type="image/webp">
-                    <img src="../assets/client-8.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_9" id="9" ref="i22" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_9_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_9_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_9_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-9.webp" type="image/webp">
-                    <img src="../assets/client-9.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_10" id="10" ref="i23" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_10_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_10_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_10_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-10.webp" type="image/webp">
-                    <img src="../assets/client-10.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_11" id="11" ref="i24" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_11_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_11_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_11_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-11.webp" type="image/webp">
-                    <img src="../assets/client-11.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_12" id="12" ref="i25" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_12_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_12_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_12_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-12.webp" type="image/webp">
-                    <img src="../assets/client-12.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-
-            <div class="company_slider_item company_slider_13" id="13" ref="i26" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
-                <h1>{{ langTexts[langComp].company.company_13_h1 }}<img src="../assets/check.png" alt="check"></h1>
-                <p>{{ langTexts[langComp].company.company_13_p }}</p>
-                <p class="company_slider_span">{{ langTexts[langComp].company.company_13_span }}</p>
-                <picture>
-                    <source srcset="../assets/client-13.webp" type="image/webp">
-                    <img src="../assets/client-13.png" class="company_slider_big_img" loading="lazy"/>
-                </picture>
-            </div>
-        </div>
-        </marquee>
-
-        <!--
         <div class="company_slider_arrows_phone">
             <img v-if="this.i != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="">
             <img v-if="this.i == 1" src="../assets/left_arrow_passive.png" alt="">
             <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
         </div>
-        -->
 
         
         <div class="company_background_images">
@@ -1218,6 +949,7 @@ export default {
             document.querySelector(".company_background_images_4").style.left = (this.company_background_images_4_x + x).toString() + 'px'
         
             }
+            
         }
     },
     computed:{
@@ -1226,8 +958,8 @@ export default {
         }
     },
     mounted(){
+        this.a = setInterval(this.sliderAuto, 5000)
         if(window.innerWidth > 456){
-        //this.a = setInterval(this.sliderAuto, 5000)
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.company_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_1")).left).length - 2))
         this.company_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_2")).left).length - 2))
@@ -1296,16 +1028,13 @@ export default {
             margin-bottom: 30px
         .company_slider_phone, .company_slider_arrows_phone
             display: none
-        marquee //
-            white-space: normal
         .company_slider
-            display: none //
-            height: 640px //height:540px
+            height: 540px
             width: 1260px
             position: relative
             left: -30px
             top: 28px
-            overflow-x: visible //
+            overflow-x: hidden 
             overflow-y: hidden
 
             
@@ -1445,41 +1174,7 @@ export default {
                 top: -730px
 
 
-        .company_slider_slider //
-            display: block
-            width: 8450px
-            .company_slider_item
-                vertical-align: top
-                position: relative
-                width: 650px
-                display: inline-block
-                transition: 0.5s all ease
-            .company_slider_1 // Спортмастер
-                left: 0px
-            .company_slider_2 //
-                left: 0px
-            .company_slider_3 //
-                left: 0px
-            .company_slider_4 //
-                left: 0px
-            .company_slider_5 //
-                left: 0px
-            .company_slider_6 //yota
-                left: 0px
-            .company_slider_7 //бкс
-                left: 0px
-            .company_slider_8 //деловые линии
-                left: 0px 
-            .company_slider_9 //talkbank
-                left: 0px
-            .company_slider_10 //м видео
-                left: 0px
-            .company_slider_11 //эльдорадо
-                left: 0px
-            .company_slider_12 //nestle
-                left: 0px
-            .company_slider_13 //ali
-                left: 0px
+        
     
     
     
@@ -1521,10 +1216,7 @@ export default {
         position: relative
         top: 0px
         padding-top: 20px
-        //height: 186vw
-        height: 190vw //
-        marquee //
-            white-space: normal
+        height: 190vw
         .company_padding
             margin-left: 7vw
         h1
@@ -1547,7 +1239,6 @@ export default {
         .company_slider, .company_slider_arrows
             display: none
         .company_slider_phone
-            display: none //
             height: 650px
             width: 100%
             position: relative
@@ -1650,41 +1341,7 @@ export default {
                     top: -100px
                     width: 60vw
 
-        .company_slider_phone_phone //
-            display: block     
-            width: 1300vw
-            .company_slider_item
-                vertical-align: top
-                position: relative
-                width: 100vw
-                display: inline-block
-                transition: 0.5s all ease
-            .company_slider_1 // Спортмастер
-                left: 0px
-            .company_slider_2 //
-                left: 0px
-            .company_slider_3 //
-                left: 0px
-            .company_slider_4 //
-                left: 0px
-            .company_slider_5 //
-                left: 0px
-            .company_slider_6 //yota
-                left: 0px
-            .company_slider_7 //бкс
-                left: 0px
-            .company_slider_8 //деловые линии
-                left: 0px 
-            .company_slider_9 //talkbank
-                left: 0px
-            .company_slider_10 //м видео
-                left: 0px
-            .company_slider_11 //эльдорадо
-                left: 0px
-            .company_slider_12 //nestle
-                left: 0px
-            .company_slider_13 //ali
-                left: 0px  
+
 
 
 
@@ -1702,7 +1359,7 @@ export default {
             padding-bottom: 0px
             z-index: 100
             position: relative
-            top: -30px
+            top: -10px
             img
                 cursor: pointer
                 outline: none
@@ -1742,7 +1399,7 @@ export default {
     .company
         height: 196vw           
         .company_slider_arrows_phone
-            top: -80px
+            top: -60px
 
       
             

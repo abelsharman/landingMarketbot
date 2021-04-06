@@ -12,7 +12,7 @@
         <a class="header_lang" id="lang1" v-if="a == 1" @click="changeLang">RU</a>
         <a class="header_lang" id="lang2" v-if="a == 2" @click="changeLang">EN</a>
 
-        <a href="https://marketbot.biz/user/home" target="_blank">
+        <a class="header_header_button_a" href="https://marketbot.biz/user/home" target="_blank">
             <div class="header_button">
                 <span>{{ langTexts[a].header.header_cab }}</span>
                 <img src="../assets/key.png" alt="key">
@@ -146,8 +146,9 @@ export default {
                 background-color: #e8e8e8
                 padding: 5px 3px
                 border-radius: 45px
-            a
+            .header_header_button_a
                 text-decoration: none
+                margin-left: 40px
             .header_button
                 position: relative
                 top: -4px
@@ -156,7 +157,6 @@ export default {
                 padding: 7px 15px
                 background-color: white
                 cursor: pointer
-                margin-left: 40px
                 border-radius: 5px
                 text-decoration: none
                 img
@@ -228,8 +228,9 @@ export default {
                     font-weight: 400
                     color: white
                     text-decoration: none
-            a
+            .header_header_button_a
                 text-decoration: none
+                margin-left: 5%
             .header_lang
                 position: relative
                 top: -4px
@@ -252,7 +253,6 @@ export default {
                 padding: 1.1vw 1.22vw
                 background-color: white
                 cursor: pointer
-                margin-left: 5%
                 border-radius: 5px
                 height: 6vw
                 img

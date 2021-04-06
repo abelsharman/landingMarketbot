@@ -148,7 +148,7 @@ export default {
                 border-radius: 45px
             .header_header_button_a
                 text-decoration: none
-                margin-left: 40px
+                margin-left: 39px
             .header_button
                 position: relative
                 top: -4px

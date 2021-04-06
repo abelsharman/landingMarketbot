@@ -137,7 +137,7 @@
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_13_span }}</p>
             </div>
         </div>
-        <marquee behavior="smooth" direction="left" scrollamount="35" scrolldelay="0">
+        <marquee behavior="smooth" direction="left" scrollamount="15" scrolldelay="0">
         <div class="company_slider company_slider_slider">
             <div class="company_slider_item company_slider_1" id="1" ref="i1">
                 <picture>
@@ -1297,7 +1297,7 @@ export default {
         .company_slider_phone, .company_slider_arrows_phone
             display: none
         marquee //
-            white-space: pre-wrap
+            white-space: normal
         .company_slider
             display: none //
             height: 640px //height:540px
@@ -1524,7 +1524,7 @@ export default {
         //height: 186vw
         height: 190vw //
         marquee //
-            white-space: pre-wrap
+            white-space: normal
         .company_padding
             margin-left: 7vw
         h1

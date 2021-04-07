@@ -333,7 +333,6 @@ export default {
         clickAfter(){
             this.i++
             if(window.innerWidth < 456){
-                document.querySelector("#result button").style.position = "relative"
                 document.querySelector("#result button").style.top = "-120vw"
             }
             
@@ -356,6 +355,7 @@ export default {
                 this.$refs.header.style.boxShadow = "0px 0px 16px -5px rgb(100,100,100)"
                 document.querySelector("#quiz").style.height = "1050px"
             }
+            setTimeout(()=> document.querySelector("#result button").style.top = "-120vw", 50)
         },
         onMouseUpdate(e){
             if(window.innerWidth > 456){
@@ -1429,6 +1429,9 @@ export default {
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
+                    position: relative
+                    top: 0px
+                    transition: 0.2s all ease
 
 
             .setting_quiz_popup
@@ -1482,7 +1485,6 @@ export default {
                     position: relative
                     left: 82%
                     top: 7vw
-                    cursor: pointer
                     width: 9vw
                 .setting_quiz_popup_bottom
                     position: relative
@@ -1859,6 +1861,9 @@ export default {
                 .button_clicked
                     background-color: #c34688
                     cursor: pointer
+                    position: relative
+                    top: 0px
+                    transition: 0.2s all ease
     
 
 

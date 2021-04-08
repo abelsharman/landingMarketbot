@@ -171,6 +171,7 @@ export default
         "setting": {
             "setting_h1": "Настройте тариф под свои задачи",
             "setting_h2": "и получите бесплатный доступ на 10 дней",
+            "setting_h2_1": "Получите бесплатный доступ на 10 дней",
             "setting_step": "Шаг",
             "setting_ready": "Готово",
             "setting_phinish": "Финиш",
@@ -399,6 +400,7 @@ export default
         "setting": {
             "setting_h1": "Customize the tariff for your tasks",
             "setting_h2": "and get free access for 10 days",
+            "setting_h2_1": "Get free access for 10 days",
             "setting_step": "Step",
             "setting_ready": "Done",
             "setting_phinish": "Finish",

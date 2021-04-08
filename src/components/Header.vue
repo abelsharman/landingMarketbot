@@ -5,7 +5,7 @@
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
             <a href="#team" class="header_nav_a" @click="showBurger">{{ langTexts[a].header.header_team }}</a>
-            <a href="#quiz" class="header_nav_b" @click="showBurger">{{ langTexts[a].header.header_cost }}</a>
+            <a href="#quiz2" class="header_nav_b" @click="showBurger">{{ langTexts[a].header.header_cost }}</a>
             <a href="https://blog.marketbot.biz/">{{ langTexts[a].header.header_blog }}</a>
         </div>
 

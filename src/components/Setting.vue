@@ -505,7 +505,7 @@
 
                 <div class="setting_quiz_result_2_right">
                     <h1 class="setting_header_2">{{ langTexts[langComp].setting.setting_h2_1 }}</h1>
-                    <h1><span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
+                    <h1><strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
                     <div class="setting_quiz_result_info">
                         <h2>{{ langTexts[langComp].setting.setting_result_h2 }} <span>{{ langTexts[langComp].setting.setting_result_h2_span }}</span></h2>
@@ -518,7 +518,7 @@
 
             <div class="setting_quiz_result setting_quiz_result_2" id="result3" v-show="this.i == 6 && widthScreen < 456">
                 <h1 class="setting_header_2">{{ langTexts[langComp].setting.setting_h2_1 }}</h1>
-                <h1><span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
+                <h1><strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
                 <picture>
                     <img src="../assets/img-lock.png" />

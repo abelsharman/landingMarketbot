@@ -287,6 +287,7 @@
 
         <div class="setting_quiz" ref="header2">        
             <div class="setting_quiz_part setting_quiz_part_2" id="1" ref="1" v-if="this.i == 1">
+                <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
 
                 <div class="setting_quiz_progress">
@@ -341,6 +342,7 @@
             </div>
 
             <div class="setting_quiz_part setting_quiz_part_2" id="2" ref="2" v-show="this.i == 2">
+                <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
@@ -388,6 +390,7 @@
             </div>
 
             <div class="setting_quiz_part setting_quiz_part_2" id="3" ref="3" v-if="this.i == 3">
+                <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
@@ -426,6 +429,7 @@
             </div>
 
             <div class="setting_quiz_part setting_quiz_part_2" id="4" ref="4" v-if="this.i == 4">
+                <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
@@ -464,6 +468,7 @@
             </div>
 
             <div class="setting_quiz_part setting_quiz_part_2" id="5" ref="5" v-if="this.i == 5">
+                <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
                 <div class="setting_quiz_progress">
@@ -494,10 +499,32 @@
                 </div>
             </div>
 
+            <div class="setting_quiz_part setting_quiz_part_2" id="6" ref="6" v-if="this.i == 6">
+                <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
+                <h1>{{ langTexts[langComp].setting.setting_phinish }}<strong class="setting_quiz_part_strong_2"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
+                 
+                <div class="setting_quiz_progress">
+                    <div class="setting_quiz_progress_grey"></div>
+                    <div class="setting_quiz_progress_pink" v-bind:style="{ width: (i-1) * 20 + '%' }"></div>
+                </div>
+
+                <h2>{{ langTexts[langComp].setting.setting_6_h2 }}</h2>
+                <div class="setting_quiz_after setting_quiz_after_1 setting_quiz_after_2" @click="i++">
+                    <button ref="after5">{{ langTexts[langComp].setting.setting_result_btn }}</button>
+                </div>
+       
+                <!--
+                <div class="setting_quiz_back setting_quiz_back_2" v-if="i > 1" @click="i--">
+                    <img src="../assets/back.png" alt="back"><span>{{ langTexts[langComp].setting.setting_back }}</span>
+                </div>
+                -->
+
+            </div>
+
             
 
             
-            <div class="setting_quiz_result setting_quiz_result_2" id="result2" v-show="this.i == 6 && widthScreen > 456">
+            <div class="setting_quiz_result setting_quiz_result_2" id="result2" v-show="this.i == 0 && widthScreen > 456">
                 <picture>
                     <img src="../assets/img-lock.png" />
                 </picture>
@@ -513,10 +540,10 @@
                     </div>
                     
                 </div>
-                <button class="button_clicked" @click="openPopup2" v-if="i == 6">{{ langTexts[langComp].setting.setting_result_btn }}</button>
+                <button class="button_clicked" @click="i++" v-if="i == 0">{{ langTexts[langComp].setting.setting_result_btn }}</button>
             </div>
 
-            <div class="setting_quiz_result setting_quiz_result_2" id="result3" v-show="this.i == 6 && widthScreen < 456">
+            <div class="setting_quiz_result setting_quiz_result_2" id="result3" v-show="this.i == 0 && widthScreen < 456">
                 <h1 class="setting_header_2">{{ langTexts[langComp].setting.setting_h2_1 }}</h1>
                 <h1><strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
@@ -531,11 +558,11 @@
                     <p>{{ langTexts[langComp].setting.setting_result_p }}</p>
                 </div>
                     
-                <button class="button_clicked" @click="openPopup2" v-if="i == 6">{{ langTexts[langComp].setting.setting_result_btn }}</button>
+                <button class="button_clicked" @click="i++">{{ langTexts[langComp].setting.setting_result_btn }}</button>
             </div>
 
-            <div class="setting_quiz_popup" id="popup2">
-                <img @click="closePopup2" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
+            <div class="setting_quiz_popup" id="popup2" v-if="this.i == 7">
+                <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_popup_h1 }}</h1>
                 <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p1 }}</p>
                 <a href="https://marketbot.biz/935" target="_blank"><button>{{ langTexts[langComp].setting.setting_popup_btn }}</button></a>
@@ -559,6 +586,7 @@
     </div>
     </div>
 </template>
+
  
 <script async>
 import langText from '../assets/lang.js'
@@ -566,7 +594,7 @@ export default {
     name: 'Setting',
     data(){
         return{
-            i: 1,
+            i: 0, //1
             sum: 2499+499+499+299+499,
             info:{
                 "waba_setup_fee": 499,
@@ -631,8 +659,6 @@ export default {
         },
         openPopup2(){
             this.i = 7
-            document.querySelector("#result2").style.display = "none"
-            document.querySelector("#popup2").style.display = "block"
             if(window.innerWidth < 456){
                 this.$refs.header.style.boxShadow = "none"
             }
@@ -934,8 +960,9 @@ export default {
             .setting_quiz_part
                 display: inline-block
                 background: white
-                border-top-left-radius: 10px
-                border-bottom-left-radius: 10px
+                //border-top-left-radius: 10px //
+                //border-bottom-left-radius: 10px // 
+                border-radius: 10px
                 width: 522px
                 padding: 0 49px
                 height: 580px
@@ -1173,6 +1200,12 @@ export default {
                         text-align: center
                         font-weight: 400
                         //margin-bottom: 60px
+                .setting_quiz_popup_close
+                    position: absolute
+                    left: 94%
+                    top: 30px
+                    cursor: pointer
+                
                 .setting_quiz_after_1
                     margin-top: 82px
                 .setting_quiz_back_1
@@ -1182,6 +1215,37 @@ export default {
 
             .setting_quiz_part_2 //
                 padding: 0 calc(260px + 49px)
+                .setting_quiz_icons
+                    .setting_quiz_icons_1:hover
+                        span
+                            left: calc(150px + 260px)
+                    .setting_quiz_icons_2:hover
+                        span
+                            left: calc(260px + 260px)
+                    .setting_quiz_icons_3:hover
+                        span
+                            left: calc(370px + 260px)
+                    .setting_quiz_icons_4:hover
+                        span
+                            left: calc(480px + 260px)
+                    .setting_quiz_icons_5:hover
+                        span
+                            left: calc(205px + 260px)
+                    .setting_quiz_icons_6:hover
+                        span
+                            left: calc(315px + 260px)
+                    .setting_quiz_icons_7:hover
+                        span
+                            left: calc(425px + 260px)
+                    .setting_quiz_icons_8:hover
+                        span
+                            left: calc(265px + 260px)
+                    .setting_quiz_icons_9:hover
+                        span
+                            left: calc(375px + 260px)
+                    .setting_quiz_icons_10:hover
+                        span
+                            left: calc(315px + 260px)
                         
 
 
@@ -1355,7 +1419,6 @@ export default {
             .setting_quiz_popup
                 width: 100%
                 height: 580px
-                display: none
                 background-color: white
                 border-radius: 10px
                 h1
@@ -1410,9 +1473,9 @@ export default {
                     margin-bottom: 0px
                     user-select: none
                 .setting_quiz_popup_close
-                    position: relative
-                    left: 95%
-                    top: 4%
+                    position: absolute
+                    left: 94%
+                    top: 30px
                     cursor: pointer
                 .setting_quiz_popup_bottom
                     position: relative
@@ -1585,7 +1648,12 @@ export default {
                         transition: 0.5s all ease 
 
                 
-                    
+                .setting_quiz_popup_close
+                    position: absolute
+                    left: 88%
+                    width: 8vw
+                    top: 30px
+                    cursor: pointer
 
                 .setting_quiz_icons
                     width: 100%
@@ -1716,6 +1784,10 @@ export default {
                         //margin-bottom: 60px
                 .setting_quiz_after_1
                     margin-top: 8px
+                .setting_quiz_after_2
+                    button
+                        width: 45vw
+                        background: #c34688
                 .setting_quiz_back_1
                     margin-top: 24px
                 .setting_quiz_back_2
@@ -1879,7 +1951,6 @@ export default {
                 width: 91%
                 height: 160vw
                 margin-left: 4.5%
-                display: none
                 background-color: rgba(130,130,130,0.1)
                 //background-color: #eee
                 border-radius: 10px

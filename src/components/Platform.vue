@@ -5,7 +5,7 @@
             <h3>{{ langTexts[langComp].platform.platform_h3 }}</h3>
             <h2>+ <span>{{ langTexts[langComp].platform.platform_h2 }}</span></h2>
             <p>{{ langTexts[langComp].platform.platform_p }}</p>
-            <a href="#quiz"><button>{{ langTexts[langComp].platform.platform_a }}</button></a>
+            <a href="#quiz2"><button>{{ langTexts[langComp].platform.platform_a }}</button></a>
        </div>
 
 

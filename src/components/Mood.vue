@@ -10,7 +10,7 @@
         <div class="mood_nav">
             <h1>{{ langTexts[langComp].mood.mood_h1 }}</h1>
             <h2>{{ langTexts[langComp].mood.mood_h2 }}</h2>
-            <a href="#quiz"><button>{{ langTexts[langComp].platform.platform_a }}</button></a>
+            <a href="#quiz2"><button>{{ langTexts[langComp].platform.platform_a }}</button></a>
         </div>
 
 

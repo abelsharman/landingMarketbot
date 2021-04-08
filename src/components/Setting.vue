@@ -448,7 +448,7 @@
 
     
 
-            <div class="setting_quiz_result" id="result" v-if="widthScreen < 456">
+            <div class="setting_quiz_result" id="result" v-show="widthScreen < 456">
                 <h1>{{ langTexts[langComp].setting.setting_result_h1 }}: <span>{{ totalOfYear }}</span> <strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
                 <picture>
@@ -585,7 +585,7 @@ export default {
         closePopup(){
             this.i = 6
             //document.querySelector("#result").style.display = "inline-block"
-            document.querySelector("#result").style.display = "inline-block"
+            //document.querySelector("#result").style.display = "inline-block"
             document.querySelector("#popup").style.display = "none"
             if(window.innerWidth < 456){
                 this.$refs.header.style.boxShadow = "0px 0px 16px -5px rgb(100,100,100)"

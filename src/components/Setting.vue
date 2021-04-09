@@ -2307,6 +2307,10 @@ export default {
                         //margin-bottom: 60px
                 .setting_quiz_after_1
                     margin-top: 8px
+                .setting_quiz_after_2
+                    button
+                        width: 45vw
+                        background: #c34688
                 .setting_quiz_back_1
                     margin-top: 30px
                 .setting_quiz_back_2

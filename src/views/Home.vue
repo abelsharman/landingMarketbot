@@ -95,7 +95,7 @@ export default {
 @font-face 
     font-family: 'Cera Pro'
     src: local('Cera Pro'), url('../assets/CeraPro-Bold.woff') 
-    font-weight: bold
+    font-weight: 700
     font-display: swap
     font-style: normal
 

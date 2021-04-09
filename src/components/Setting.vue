@@ -925,10 +925,9 @@ export default {
     #quiz
         display: none
     .setting
-        position: relative
-        top: 00px
         height: 780px
         width: 100%
+        overflow: hidden
         .setting_header
             width: 100%
             text-align: center

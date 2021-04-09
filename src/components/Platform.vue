@@ -160,7 +160,7 @@ $p_color: #370954
             width: 47.7%
             display: inline-block
             h1
-                width: 90%
+                width: 89%
                 color: $h_color
                 line-height: 54px
                 font-size: 46px

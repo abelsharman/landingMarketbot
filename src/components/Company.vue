@@ -1368,7 +1368,7 @@ export default {
             z-index: 100
             position: relative
             top: -10px
-            animation: motionOfArrows 1s infinite
+            //animation: motionOfArrows 1s infinite
             img
                 cursor: pointer
                 outline: none

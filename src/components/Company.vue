@@ -161,7 +161,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_2" id="2" ref="i15"> <!-- v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus" -->
+            <div class="company_slider_item company_slider_2" id="2" ref="i15">
                 <h1>{{ langTexts[langComp].company.company_2_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_2_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_2_span }}</p>

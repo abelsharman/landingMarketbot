@@ -972,13 +972,13 @@ export default {
 
 <style lang="sass">
 //vue2-touch-events
-@keyframes motionOfArrows 
+@keyframes motionOfArrows_2
     0%
-        left: -3vw
+        padding-left: -63vw
     50%
-        left: 3vw
+        padding-left: 63vw
     100%
-        left: -3vw
+        padding-left: -63vw
 @media screen and (min-width: 456px)
     .page_grey_lines_14
         display: none
@@ -1368,7 +1368,7 @@ export default {
             z-index: 100
             position: relative
             top: -10px
-            //animation: motionOfArrows 1s infinite
+            animation: motionOfArrows_2 1s infinite
             img
                 cursor: pointer
                 outline: none

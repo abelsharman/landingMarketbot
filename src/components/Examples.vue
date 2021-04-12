@@ -2422,7 +2422,7 @@ export default {
                 position: relative
                 top: 0vw
                 padding-left: 57vw
-                //animation: 1s motionOfArrows infinite ease
+                //animation: 1s motionOfArrows infinite
         .opportunities_slider_arrow
             padding-left: 10vw
             top: 15vw

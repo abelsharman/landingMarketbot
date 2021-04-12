@@ -1252,7 +1252,7 @@ export default {
             position: relative
             left: 0px
             top: -8vw
-            overflow-x: visible //hidden
+            overflow-x: auto //hidden
             overflow-y: hidden
 
             

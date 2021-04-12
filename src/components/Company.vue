@@ -1258,7 +1258,7 @@ export default {
             
             .company_slider_item
                 position: absolute
-                width: 100vw
+                width: 630px
                 top: 20px
                 transition: 0.5s all ease
                 .company_slider_big_img
@@ -1315,36 +1315,36 @@ export default {
                     
            
             .company_slider_1 // Спортмастер
-                left: 0vw //0px
+                left: 0px
             .company_slider_2 // СДЭК
-                left: 100vw //630px
+                left: 630px
             .company_slider_3 // Альфа
-                left: 200vw //1260px
+                left: 1260px
             .company_slider_4 // Университет Синергия
-                left: 300vw //1890px
+                left:  1890px
                 .company_slider_big_img
                     top: -100px
             .company_slider_5 // amoCRM
-                left: 400vw //2520px
+                left: 2520px
             .company_slider_6 // yota
-                left: 500vw //3150px
+                left: 3150px
             .company_slider_7 // БКС Банк
-                left: 600vw //3780px
+                left: 3780px
             .company_slider_8 // Деловые Линии
-                left: 700vw //4410px
+                left: 4410px
             .company_slider_9 // TalkBank
-                left: 800vw //5040px
+                left: 5040px
             .company_slider_10 // М.Видео
-                left: 900vw //5670px
+                left: 5670px
             .company_slider_11 // Эльдорадо
-                left: 1000vw //6300px
+                left: 6300px
             .company_slider_12 // Nestle
-                left: 1100vw //6930px
+                left: 6930px
                 .company_slider_big_img
                     top: -70px
                     width: 60vw
             .company_slider_13 // AliExpress
-                left: 1200vw //7560px
+                left: 7560px
                 .company_slider_big_img
                     top: -100px
                     width: 60vw

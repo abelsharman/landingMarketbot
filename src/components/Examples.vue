@@ -196,13 +196,11 @@
 
         </div>
 
-
+        <div class="opportunities_slider_arrow_block">
+                <img class="opportunities_slider_arrow" style="left: 60vw;" src="../assets/left_arrow.png" alt="left_arrow">
+                <img class="opportunities_slider_arrow" style="left: 70vw;" src="../assets/right_arrow.png" alt="right_arrow">
+            </div>
         <div class="opportunities_slider">
-            <!--
-            <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
-            <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
-            <img class="opportunities_slider_arrow" style="left: 70vw;" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
--->
             <div class="company_slider_item company_slider_1" id="1" ref="i1"> <!-- v-touch:swipe.left="clickOnSliderPlus" v-touch:touchhold="longClick"  v-touch:swipe.right="clickOnSliderMinus"   -->
                 <picture>
                     <source srcset="../assets/img-3mobile.webp" type="image/webp">
@@ -1961,7 +1959,15 @@ export default {
 
 
 <style lang="sass">
+@keyframes motionOfArrows 
+    0%
+        left: -3vw
+    50%
+        left: 3vw
+    100%
+        left: -3vw
 
+    
 @media screen and (min-width: 456px)
     .page_grey_lines_16
         display: none
@@ -2066,7 +2072,8 @@ export default {
             .examples_background_images_15
                 display: none
 
-
+        .opportunities_slider_arrow_block
+            display: none
 
 
 
@@ -2410,6 +2417,18 @@ export default {
                     margin-right: 30px
 
 
+
+        .opportunities_slider_arrow_block
+                position: relative
+                top: 0vw
+                padding-left: 57vw
+                animation: 1s motionOfArrows infinite ease
+        .opportunities_slider_arrow
+            padding-left: 10vw
+            top: 15vw
+            z-index: 1110
+            right: 0vw
+
         .opportunities_slider
             height: 160vw
             width: 100%
@@ -2418,12 +2437,9 @@ export default {
             top: 00px
             overflow-x: visible //hidden
             overflow-y: hidden
-            .opportunities_slider_arrow
-                padding-left: 7vw
-                top: 15vw
-                position: relative
-                z-index: 1110
+            
             .company_slider_item
+                padding-top: -10vw
                 position: absolute
                 width: 100vw
                 transition: 0.5s all ease

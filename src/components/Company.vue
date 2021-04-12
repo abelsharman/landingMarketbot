@@ -145,7 +145,10 @@
             <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
         </div>
 
-
+        <div class="company_slider_arrows_phone">
+            <img src="../assets/left_arrow.png" alt="">
+            <img class="company_slider_arrows_2" src="../assets/right_arrow.png" alt="">
+        </div>
 
         <div class="company_slider_phone">
             <div class="company_slider_item company_slider_1" id="1" ref="i14" v-touch:touchhold="longClick" v-touch:swipe.left="clickOnSliderPlus">
@@ -281,13 +284,7 @@
         </div>
 
         
-<!--
-        <div class="company_slider_arrows_phone">
-            <img v-if="this.i != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="">
-            <img v-if="this.i == 1" src="../assets/left_arrow_passive.png" alt="">
-            <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
-        </div>
--->
+        
         
         <div class="company_background_images">
             <img class="company_background_images_1" src="../assets/back/lightbluemy.png" alt="lightbluemy">
@@ -972,6 +969,13 @@ export default {
 </script>
 
 <style lang="sass">
+@keyframes motionOfArrows 
+    0%
+        left: -3vw
+    50%
+        left: 3vw
+    100%
+        left: -3vw
 @media screen and (min-width: 456px)
     .page_grey_lines_14
         display: none
@@ -1244,7 +1248,7 @@ export default {
             width: 100%
             position: relative
             left: 0px
-            top: -10px
+            top: -8vw
             overflow-x: visible //hidden
             overflow-y: hidden
 
@@ -1355,17 +1359,18 @@ export default {
 
 
         .company_slider_arrows_phone
-            padding-left: 39.5vw
+            padding-left: 60vw
             margin-top: 0px
             padding-bottom: 0px
             z-index: 100
             position: relative
             top: -10px
+            animation: motionOfArrows 1s infinite
             img
                 cursor: pointer
                 outline: none
             .company_slider_arrows_2
-                margin-left: 25%
+                margin-left: 10vw
 
         .company_background_images
             user-select: none
@@ -1400,7 +1405,7 @@ export default {
     .company
         height: 196vw           
         .company_slider_arrows_phone
-            top: -60px
+            top: -10px
 
 
 

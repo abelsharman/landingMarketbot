@@ -1963,7 +1963,7 @@ export default {
     0%
         padding-left: 54vw
     50%
-        padding-left: 60vw
+        padding-left: 57vw
     100%
         padding-left: 54vw
 

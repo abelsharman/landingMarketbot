@@ -1402,7 +1402,42 @@ export default {
         .company_slider_arrows_phone
             top: -60px
 
+
+
+
+
+
       
-            
+@media screen and (max-width: 355px)
+    .company
+        .company_background_images
+            user-select: none
+            outline: none
+            pointer-events: none
+            position: absolute
+            width: 100%
+            height: 0px
+            img
+                position: relative
+                display: none
+            .company_background_images_1
+                display: block
+                position: absolute
+                top: -275px
+                right: 3vw
+            .company_background_images_2
+                left: -125px
+                z-index: 3
+                top: -240px
+            .company_background_images_3
+                display: block
+                position: relative
+                top: -100px
+                left: 10vw
+            .company_background_images_4
+                display: block
+                position: absolute
+                right: 15vw
+                top: -315px
 
 </style>

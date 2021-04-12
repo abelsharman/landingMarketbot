@@ -375,7 +375,7 @@ export default {
             .associate_background_images_11
                 display: block
                 left: 88vw
-                top: -610px
+                top: -630px
                 width: 5vw
             .associate_background_images_12
                 display: block
@@ -390,6 +390,73 @@ export default {
                 top: -50px
                 width: 15vw
 
+
+@media screen and (max-width: 355px)   
+     .associate
+        .associate_background_images
+            position: absolute
+            width: 100%
+            height: 0px
+            img
+                position: relative
+                display: none
+            .associate_background_images_1
+                position: absolute
+                display: block
+                top: -420px
+                right: 0vw
+                width: 30vw
+                z-index: 2
+            .associate_background_images_2
+                position: absolute
+                display: block
+                right: 5vw
+                width: 35vw
+                top: -1030px
+                z-index: 1
+            .associate_background_images_3
+                top: -980px
+                left: -200px
+                z-index: 3
+            .associate_background_images_4
+                left: 630px
+                top: -270px
+            .associate_background_images_5
+                top: -15px
+                left: 34vw
+            .associate_background_images_6
+                top: -155px
+                left: 36vw
+                z-index: 1
+            .associate_background_images_7
+                left: 40px
+                top: -200px
+            .associate_background_images_8
+                left: 250px
+                top: -800px
+            .associate_background_images_9
+                left: 00px
+                top: -1010px
+            .associate_background_images_10
+                left: 100px
+                top: -540px
+            .associate_background_images_11
+                display: block
+                left: 88vw
+                top: -630px
+                width: 5vw
+            .associate_background_images_12
+                display: block
+                position: absolute
+                right: 0
+                top: -780px
+                width: 10vw
+            .associate_background_images_13
+                display: block
+                position: absolute
+                right: 0
+                top: -50px
+                width: 15vw
 
 
 </style>

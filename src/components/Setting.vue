@@ -2068,6 +2068,7 @@ export default {
                 top: -10px
                 right: 0
                 z-index: 3
+                width: 35vw
                 display: inline
             .setting_background_images_2
                 position: absolute
@@ -2079,7 +2080,7 @@ export default {
             .setting_background_images_3
                 position: absolute
                 display: inline
-                top: -880px
+                top: -690px
                 right: 5vw
             .setting_background_images_4
                 position: absolute
@@ -2319,6 +2320,379 @@ export default {
 
             .setting_quiz_part_2 //
                 height: 580px
+                padding: 50px 30px 0px 30px
+                h1
+                    padding-top: 20px
+                h2
+                    margin: 20px 0 0 0 
+
+                
+                    
+
+                .setting_quiz_icons
+                    margin-top: 30px
+
+                .setting_quiz_icons_11
+                    margin-top: 32px
+                .setting_quiz_icons_12
+                    margin-top: 42px
+                    
+                    
+                .setting_quiz_back
+                    margin-top: 65px
+
+                .setting_quiz_after
+                    margin-top: 48px
+                .setting_quiz_after_1
+                    margin-top: 30px
+                .setting_quiz_back_1
+                    margin-top: 54px
+                .setting_quiz_back_2
+                    margin-top: 76px             
+
+
+
+
+
+
+
+
+
+
+            .setting_quiz_result
+                top: -50px
+                position: relative
+                display: inline-block
+                //background: #f9f9f9f9
+                background-color: white
+                vertical-align: top
+                h1
+                    font-size: 3.94vw
+                    padding-left: 16vw
+                    padding-top: 0px
+                    line-height: 10.52vw
+                    font-weight: 400
+                    color: #222
+                    span
+                        padding-left: 4px
+                        font-size: 4.38vw
+                        color: #bdbdbd
+                        text-decoration: line-through
+                        text-decoration-color: #d6496f
+                    strong
+                        font-size: 5.7vw
+                        color: #d6496f
+                        font-weight: 400
+                        span
+                            color: #d6496f
+                            text-decoration: none
+                            font-size: 10.1vw
+                            font-weight: 700
+
+                img
+                    padding-left: 25vw
+                    width: 50vw
+                .setting_quiz_result_info
+                    margin-top: 0px
+                    width: calc(100vw - 40px)
+                    margin-left: 0px
+                    padding: 16px 0px 0px 40px
+                    background-color: white
+                    border-radius: 5px
+                    h2
+                        margin: 0
+                        font-size: 3.9473vw
+                        line-height: 5.263vw
+                        font-weight: 700
+                        color: #370954
+                        span
+                            color: #c34688
+                    p
+                        font-size: 3.5vw
+                        line-height: 5.263vw
+                        font-weight: 400
+                        color: #222
+                        width: 90%
+                button
+                    width: 80vw
+                    margin-left: 10vw
+                    color: white
+                    border-radius: 31px
+                    border: 0px
+                    background-color: #dbe0e4
+                    margin-top: 4px
+                    margin-bottom: 20px
+                    font-size: 4.38vw
+                    font-weight: 400
+                    padding: 20px 0
+                    cursor: not-allowed
+                    outline: none
+                    transition: 0.2s all ease
+                .setting_quiz_result_dop_info
+                    font-size: 3.947vw
+                    line-height: 16px
+                    font-weight: 400
+                    color: #999
+                    margin: 0
+                    margin-bottom: 30px
+                    
+                    width: 100vw
+                    text-align: center
+                .button_clicked
+                    background-color: #c34688
+                    cursor: pointer
+                    position: relative
+                    top: 0px
+                    transition: 0.2s all ease
+            .setting_quiz_result_2 //
+                display: block
+                height: 650px
+                top: 0px
+                .setting_header_2
+                    width: 60%
+                    padding: 30px 0 10px 0 
+                    margin: 0
+                    margin-left: 20%
+                    text-align: center
+                    font-size: 5.22vw
+                    line-height: 3.6vh
+                    color: #370954
+                    font-weight: 700
+                    margin-bottom: 0px
+                h1
+                    text-align: center
+                    width: 100%
+                    padding-left: 0vw
+                    padding-top: 0px
+                    line-height: 3.52vw
+
+                img
+                    padding-left: 0vw
+                    width: 100vw
+
+
+
+
+
+
+@media screen and (max-width: 360px)
+    #quiz2
+        height: 670px
+    .setting
+        .setting_quiz
+            .setting_quiz_part
+                display: block
+                background: white
+                border-top-left-radius: 10px
+                border-bottom-left-radius: 10px
+                width: calc(100vw - 60px)
+                padding: 0 30px
+                height: 420px
+                margin: 0
+                h1
+                    font-size: 6.57vw
+                    padding-top: 20px
+                    line-height: 42px
+                    font-weight: 700
+                    color: #c34688
+                    text-align: left
+                    width: 100%
+                    strong
+                        padding-left: 43vw
+                        font-size: 3.50vw
+                        line-height: 26px
+                        font-weight: 400
+                        color: #999
+                    .setting_quiz_part_strong
+                        padding-left: 39vw
+                    .setting_quiz_part_strong_2
+                        padding-left: 35vw
+                    span
+                        font-size: 3.50vw
+                        text-align: right
+                        line-height: 26px
+                        font-weight: 400
+                        color: #c34688
+                h2
+                    font-size: 4.38vw
+                    line-height: 6.14vw
+                    font-weight: 700
+                    color: #370954
+                    text-align: left
+                    width: 100%
+                    margin: 10px 0 0 0 
+                h3
+                    margin: 0
+                    margin-top: 4px
+                    font-size: 3.508vw
+                    line-height: 5.7vw
+                    font-weight: 400
+                    color: #999
+                .setting_quiz_progress
+                    position: relative
+                    top: -7px
+                    .setting_quiz_progress_grey
+                        width: 100%
+                        height: 4px
+                        background: #eee
+                        border-radius: 2px
+                    .setting_quiz_progress_pink
+                        position: relative
+                        min-width: 2%
+                        width: 0%
+                        top: -4px
+                        height: 4px
+                        background: #c34688
+                        border-radius: 2px   
+                        transition: 0.5s all ease 
+
+                
+                    
+
+                .setting_quiz_icons
+                    width: 100%
+                    display: flex
+                    flex-wrap: wrap
+                    justify-content: center
+                    margin-top: 10px
+                    margin-left: 0px
+                    p
+                        font-size: 2.85vw
+                        font-weight: 400
+                        color: #777
+                        margin: 0
+                        width: 100%
+                        text-align: center
+                    div
+                        width: 25%
+                        img
+                           padding-left: 10%
+                           width: 80%
+                           cursor: pointer
+                    span
+                        font-size: 0.6vw
+                        font-weight: 600
+                        color: white
+                        background-color: #d6496f
+                        padding: 1px 3px   
+                        border-radius: 10px
+                        position: absolute
+                        z-index: 10
+                        top: 335px
+                        display: none
+
+
+
+
+
+                    .setting_quiz_operator
+                        width: 10vw
+                        border: 1px solid #a13c7f
+                        font-size: 4.38vw
+                        border-radius: 50px
+                        background-color: #f6f6f6
+                        height: 10vw
+                        color: #a13c7f
+                        text-align: center
+                        margin: 10px 0 0px 0px
+                        margin-bottom: 15px
+                        display: inline-block
+                        strong
+                            position: relative
+                            top: 8px
+                    .setting_quiz_minus
+                        position: relative
+                        top: 8px
+                        left: 9px
+                        font-weight: 200
+                        border: 1px solid white
+                        color: white
+                        font-size: 3.3vw
+                        background-color: #a13c7f
+                        padding: 0 4px
+                        border-radius: 10px
+                        cursor: pointer
+                        user-select: none
+                    .setting_quiz_plus
+                        position: relative
+                        top: 8px
+                        left: -9px
+                        //left: 61px !important
+                        //top: -34px !important
+                        font-weight: 200
+                        border: 1px solid white
+                        color: white
+                        font-size: 3.3vw
+                        background-color: #a13c7f
+                        padding: 0 3px
+                        cursor: pointer
+                        border-radius: 30px
+                        outline: none
+                        user-select: none
+                .setting_quiz_icons_11
+                    margin-top: 10px
+                .setting_quiz_icons_12
+                    margin-top: 10px
+                    
+                    
+                .setting_quiz_back
+                    cursor: pointer
+                    float: left 
+                    margin-top: 40px
+                    outline: none
+                    user-select: none
+                    span
+                        font-style: italic
+                        font-weight: 300
+                        font-size: 3.50vw
+                        color: #bbb
+                        padding-left: 21px
+                        outline: none
+                        user-select: none 
+
+                .setting_quiz_after
+                    float: right
+                    user-select: none
+                    margin-top: 28px
+                    outline: none
+                    button
+                        width: 37vw
+                        color: white
+                        border-radius: 31px
+                        border: 0px
+                        font-size: 3.947vw
+                        font-weight: 400
+                        padding: 20px 0
+                        cursor: pointer
+                        outline: none
+                        transition: 0.2s all ease
+                        background: url('../assets/after.png') no-repeat 80% 50% #c34688
+                    p
+                        display: none
+                        margin: 0
+                        margin-top: 10px
+                        font-size: 3.50vw
+                        line-height: 16px
+                        color: #999
+                        width: 100%
+                        text-align: center
+                        font-weight: 400
+                        //margin-bottom: 60px
+                .setting_quiz_after_1
+                    margin-top: 8px
+                .setting_quiz_after_2
+                    button
+                        width: 45vw
+                        background: #c34688
+                .setting_quiz_back_1
+                    margin-top: 30px
+                .setting_quiz_back_2
+                    margin-top: 76px
+                
+
+
+            .setting_quiz_part_2 //
+                height: 480px
                 padding: 50px 30px 0px 30px
                 h1
                     padding-top: 20px

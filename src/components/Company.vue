@@ -151,7 +151,7 @@
         </div>
 
         <div class="company_slider_phone">
-            <div class="company_slider_item company_slider_1" id="1" ref="i14" v-touch:touchhold="longClick" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_1" id="1" ref="i14" >
                 <h1>{{ langTexts[langComp].company.company_1_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_1_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_1_span }}</p>
@@ -161,7 +161,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_2" id="2" ref="i15" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_2" id="2" ref="i15"> <!-- v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus" -->
                 <h1>{{ langTexts[langComp].company.company_2_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_2_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_2_span }}</p>
@@ -171,7 +171,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_3" id="3" ref="i16" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_3" id="3" ref="i16" >
                 <h1>{{ langTexts[langComp].company.company_3_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_3_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_3_span }}</p>
@@ -181,7 +181,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_4" id="4" ref="i17" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_4" id="4" ref="i17" >
                 <h1>{{ langTexts[langComp].company.company_4_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_4_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_4_span }}</p>
@@ -192,7 +192,7 @@
             </div>
 
 
-            <div class="company_slider_item company_slider_5" id="5" ref="i18" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_5" id="5" ref="i18" >
                 <h1>{{ langTexts[langComp].company.company_5_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_5_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_5_span }}</p>
@@ -202,7 +202,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_6" id="6" ref="i19" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_6" id="6" ref="i19" >
                 <h1>{{ langTexts[langComp].company.company_6_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_6_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_6_span }}</p>
@@ -212,7 +212,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_7" id="7" ref="i20" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_7" id="7" ref="i20" >
                 <h1>{{ langTexts[langComp].company.company_7_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_7_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_7_span }}</p>
@@ -222,7 +222,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_8" id="8" ref="i21" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_8" id="8" ref="i21" >
                 <h1>{{ langTexts[langComp].company.company_8_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_8_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_8_span }}</p>
@@ -232,7 +232,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_9" id="9" ref="i22" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_9" id="9" ref="i22" >
                 <h1>{{ langTexts[langComp].company.company_9_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_9_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_9_span }}</p>
@@ -242,7 +242,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_10" id="10" ref="i23" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_10" id="10" ref="i23" >
                 <h1>{{ langTexts[langComp].company.company_10_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_10_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_10_span }}</p>
@@ -252,7 +252,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_11" id="11" ref="i24" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_11" id="11" ref="i24" >
                 <h1>{{ langTexts[langComp].company.company_11_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_11_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_11_span }}</p>
@@ -262,7 +262,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_12" id="12" ref="i25" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_12" id="12" ref="i25" >
                 <h1>{{ langTexts[langComp].company.company_12_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_12_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_12_span }}</p>
@@ -272,7 +272,7 @@
                 </picture>
             </div>
 
-            <div class="company_slider_item company_slider_13" id="13" ref="i26" v-touch:touchhold="longClick" v-touch:swipe.right="clickOnSliderMinus" v-touch:swipe.left="clickOnSliderPlus">
+            <div class="company_slider_item company_slider_13" id="13" ref="i26" >
                 <h1>{{ langTexts[langComp].company.company_13_h1 }}<img src="../assets/check.png" alt="check"></h1>
                 <p>{{ langTexts[langComp].company.company_13_p }}</p>
                 <p class="company_slider_span">{{ langTexts[langComp].company.company_13_span }}</p>

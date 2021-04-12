@@ -198,11 +198,12 @@
 
 
         <div class="opportunities_slider">
+            <!--
             <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="left_arrow">
             <img class="opportunities_slider_arrow" style="left: 50vw;" v-if="this.iSlider == 1" src="../assets/left_arrow_passive.png" alt="left_arrow">
             <img class="opportunities_slider_arrow" style="left: 70vw;" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="right_arrow">
-
-            <div class="company_slider_item company_slider_1" id="1" ref="i1" v-touch:swipe.left="clickOnSliderPlus" v-touch:touchhold="longClick" >
+-->
+            <div class="company_slider_item company_slider_1" id="1" ref="i1"> <!-- v-touch:swipe.left="clickOnSliderPlus" v-touch:touchhold="longClick"  v-touch:swipe.right="clickOnSliderMinus"   -->
                 <picture>
                     <source srcset="../assets/img-3mobile.webp" type="image/webp">
                     <img src="../assets/img-3mobile.png" alt="img" class="company_slider_big_img">
@@ -213,7 +214,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_2" id="2" ref="i2" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick" >
+            <div class="company_slider_item company_slider_2" id="2" ref="i2"  >
                 <picture>
                     <source srcset="../assets/img-3-2mobile.webp" type="image/webp">
                     <img src="../assets/img-3-2mobile.png" class="company_slider_big_img" alt="img">
@@ -224,7 +225,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_3" id="3" ref="i3"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick" >
+            <div class="company_slider_item company_slider_3" id="3" ref="i3" >
                 <picture>
                     <source srcset="../assets/img-3-3mobile.webp" type="image/webp">
                     <img src="../assets/img-3-3mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -235,7 +236,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_4" id="4" ref="i4"  v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_4" id="4" ref="i4" >
                 <picture>
                     <source srcset="../assets/img-3-4mobile.webp" type="image/webp">
                     <img src="../assets/img-3-4mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -247,7 +248,7 @@
             </div>
 
 
-            <div class="company_slider_item company_slider_5" id="5" ref="i5" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_5" id="5" ref="i5" >
                 <picture>
                     <source srcset="../assets/img-3-5mobile.webp" type="image/webp">
                     <img src="../assets/img-3-5mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -258,7 +259,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_6" id="6" ref="i6" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_6" id="6" ref="i6" >
                 <picture>
                     <source srcset="../assets/img-3-6mobile.webp" type="image/webp">
                     <img src="../assets/img-3-6mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -269,7 +270,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_7" id="7" ref="i7" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_7" id="7" ref="i7" >
                 <picture>
                     <source srcset="../assets/img-3-7mobile.webp" type="image/webp">
                     <img src="../assets/img-3-7mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -280,7 +281,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_8" id="8" ref="i8" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_8" id="8" ref="i8" >
                 <picture>
                     <source srcset="../assets/img-3-8mobile.webp" type="image/webp">
                     <img src="../assets/img-3-8mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -291,7 +292,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_9" id="9" ref="i9" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_9" id="9" ref="i9" >
                 <picture>
                     <source srcset="../assets/img-3-9mobile.webp" type="image/webp">
                     <img src="../assets/img-3-9mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -302,7 +303,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_10" id="10" ref="i10" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_10" id="10" ref="i10" >
                 <picture>
                     <source srcset="../assets/img-3-10mobile.webp" type="image/webp">
                     <img src="../assets/img-3-10mobile.png" alt="img" class="company_slider_big_img" loading="lazy">
@@ -314,7 +315,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_11" id="11" ref="i11" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_11" id="11" ref="i11" >
                 <picture>
                     <source srcset="../assets/img-3-11mobile.webp" type="image/webp">
                     <img src="../assets/img-3-11mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -325,7 +326,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_12" id="12" ref="i12" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_12" id="12" ref="i12" >
                 <picture>
                     <source srcset="../assets/img-3-12mobile.webp" type="image/webp">
                     <img src="../assets/img-3-12mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -336,7 +337,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_13" id="13" ref="i13" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_13" id="13" ref="i13" >
                 <picture>
                     <source srcset="../assets/img-3-13mobile.webp" type="image/webp">
                     <img src="../assets/img-3-13mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -347,7 +348,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_14" id="14" ref="i14" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_14" id="14" ref="i14" >
                 <picture>
                     <source srcset="../assets/img-3-14mobile.webp" type="image/webp">
                     <img src="../assets/img-3-14mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -358,7 +359,7 @@
                 </div>
             </div>
 
-            <div class="company_slider_item company_slider_15" id="15" ref="i15" v-touch:swipe.left="clickOnSliderPlus" v-touch:swipe.right="clickOnSliderMinus" v-touch:touchhold="longClick">
+            <div class="company_slider_item company_slider_15" id="15" ref="i15" >
                 <picture>
                     <source srcset="../assets/img-3-15mobile.webp" type="image/webp">
                     <img src="../assets/img-3-15mobile.png" class="company_slider_big_img" alt="img" loading="lazy">
@@ -1899,7 +1900,7 @@ export default {
 
 
 
-                this.sliderAuto()
+                //this.sliderAuto()
             }
         },
         longClick(){
@@ -2415,7 +2416,7 @@ export default {
             position: relative
             left: 0px
             top: 00px
-            overflow-x: hidden
+            overflow-x: visible //hidden
             overflow-y: hidden
             .opportunities_slider_arrow
                 padding-left: 7vw
@@ -2424,7 +2425,7 @@ export default {
                 z-index: 1110
             .company_slider_item
                 position: absolute
-                width: 650px
+                width: 100vw
                 transition: 0.5s all ease
                 img
                     z-index: 100
@@ -2477,35 +2478,35 @@ export default {
                     
            
             .company_slider_1 // Спортмастер
-                left: 0px
+                left: 000vw // 0px 
             .company_slider_2 // СДЭК
-                left: 630px
+                left: 100vw // 630px
             .company_slider_3 // Альфа
-                left: 1260px
+                left: 200vw // 1260px
             .company_slider_4 // Университет Синергия
-                left: 1890px
+                left: 300vw //1890px
             .company_slider_5 // amoCRM
-                left: 2520px
+                left: 400vw // 2520px
             .company_slider_6 // yota
-                left: 3150px
+                left: 500vw //3150px
             .company_slider_7 // БКС Банк
-                left: 3780px
+                left: 600vw //3780px
             .company_slider_8 // Деловые Линии
-                left: 4410px
+                left: 700vw // 4410px
             .company_slider_9 // TalkBank
-                left: 5040px
+                left: 800vw //5040px
             .company_slider_10 // М.Видео
-                left: 5670px
+                left: 900vw //5670px
             .company_slider_11 // Эльдорадо
-                left: 6300px
+                left: 1000vw //6300px
             .company_slider_12 // Nestle
-                left: 6930px
+                left: 1100vw //6930px
             .company_slider_13 // AliExpress
-                left: 7560px
+                left: 1200vw //7560px
             .company_slider_14 // AliExpress
-                left: 8190px
+                left: 1300vw //8190px
             .company_slider_15 // AliExpress
-                left: 8820px
+                left: 1400vw //8820px
         .company_slider_arrows
             padding-left: 37.5%
             margin-top: 35px

@@ -281,13 +281,13 @@
         </div>
 
         
-
+<!--
         <div class="company_slider_arrows_phone">
             <img v-if="this.i != 1" @click="clickOnSliderMinus" src="../assets/left_arrow.png" alt="">
             <img v-if="this.i == 1" src="../assets/left_arrow_passive.png" alt="">
             <img class="company_slider_arrows_2" @click="clickOnSliderPlus" src="../assets/right_arrow.png" alt="">
         </div>
-
+-->
         
         <div class="company_background_images">
             <img class="company_background_images_1" src="../assets/back/lightbluemy.png" alt="lightbluemy">
@@ -472,7 +472,7 @@ export default {
 
 
 
-
+            /*
             else{
                 this.i++
             if(this.i == 2){
@@ -616,6 +616,7 @@ export default {
                 this.i = 1
             }
             }
+            */
             
         },
         clickOnSliderPlus(){
@@ -1085,11 +1086,11 @@ export default {
                     
            
             .company_slider_1 // Спортмастер
-                left: 0px
+                left:  0px
             .company_slider_2 //
                 left: 630px
             .company_slider_3 //
-                left: 1260px
+                left:  1260px
             .company_slider_4 //
                 left: 1890px
             .company_slider_5 //
@@ -1244,13 +1245,13 @@ export default {
             position: relative
             left: 0px
             top: -10px
-            overflow-x: hidden
+            overflow-x: visible //hidden
             overflow-y: hidden
 
             
             .company_slider_item
                 position: absolute
-                width: 650px
+                width: 100vw
                 top: 20px
                 transition: 0.5s all ease
                 .company_slider_big_img
@@ -1307,36 +1308,36 @@ export default {
                     
            
             .company_slider_1 // Спортмастер
-                left: 0px
+                left: 0vw //0px
             .company_slider_2 // СДЭК
-                left: 630px
+                left: 100vw //630px
             .company_slider_3 // Альфа
-                left: 1260px
+                left: 200vw //1260px
             .company_slider_4 // Университет Синергия
-                left: 1890px
+                left: 300vw //1890px
                 .company_slider_big_img
                     top: -100px
             .company_slider_5 // amoCRM
-                left: 2520px
+                left: 400vw //2520px
             .company_slider_6 // yota
-                left: 3150px
+                left: 500vw //3150px
             .company_slider_7 // БКС Банк
-                left: 3780px
+                left: 600vw //3780px
             .company_slider_8 // Деловые Линии
-                left: 4410px
+                left: 700vw //4410px
             .company_slider_9 // TalkBank
-                left: 5040px
+                left: 800vw //5040px
             .company_slider_10 // М.Видео
-                left: 5670px
+                left: 900vw //5670px
             .company_slider_11 // Эльдорадо
-                left: 6300px
+                left: 1000vw //6300px
             .company_slider_12 // Nestle
-                left: 6930px
+                left: 1100vw //6930px
                 .company_slider_big_img
                     top: -70px
                     width: 60vw
             .company_slider_13 // AliExpress
-                left: 7560px
+                left: 1200vw //7560px
                 .company_slider_big_img
                     top: -100px
                     width: 60vw

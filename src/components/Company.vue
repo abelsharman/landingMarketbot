@@ -617,8 +617,10 @@ export default {
             
         },
         clickOnSliderPlus(){
+            if(window.innerWidth > 456){
             clearInterval(this.a)
             this.a = this.sliderAuto()
+            }
         },
         clickOnSliderMinus(){
             if(window.innerWidth > 456){
@@ -956,8 +958,8 @@ export default {
         }
     },
     mounted(){
-        this.a = setInterval(this.sliderAuto, 5000)
         if(window.innerWidth > 456){
+        this.a = setInterval(this.sliderAuto, 5000)
         document.addEventListener('mousemove', this.onMouseUpdate)
         this.company_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_1")).left).length - 2))
         this.company_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".company_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".company_background_images_2")).left).length - 2))
@@ -969,6 +971,7 @@ export default {
 </script>
 
 <style lang="sass">
+//vue2-touch-events
 @keyframes motionOfArrows 
     0%
         left: -3vw

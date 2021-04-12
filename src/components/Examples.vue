@@ -1961,11 +1961,11 @@ export default {
 <style lang="sass">
 @keyframes motionOfArrows 
     0%
-        left: -3vw
+        padding-left: 54vw
     50%
-        left: 3vw
+        padding-left: 60vw
     100%
-        left: -3vw
+        padding-left: 54vw
 
     
 @media screen and (min-width: 456px)
@@ -2422,7 +2422,7 @@ export default {
                 position: relative
                 top: 0vw
                 padding-left: 57vw
-                //animation: 1s motionOfArrows infinite
+                animation: 1s motionOfArrows infinite
         .opportunities_slider_arrow
             padding-left: 10vw
             top: 15vw

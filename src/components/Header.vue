@@ -4,16 +4,24 @@
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
-            <a href="#team" class="header_nav_a" @click="showBurger">{{ langTexts[a].header.header_team }}</a>
+            <a href="#team" class="header_nav_a" @click="showBurger" :style="[b == 2 ? {color: 'white'} : {color: '#370954'}]">{{ langTexts[a].header.header_team }}</a>
             <a href="#quiz2" class="header_nav_b" @click="showBurger">{{ langTexts[a].header.header_cost }}</a>
             <a href="https://blog.marketbot.biz/">{{ langTexts[a].header.header_blog }}</a>
         </div>
 
-        <a class="header_lang" id="lang1" v-if="a == 1" @click="changeLang">RU</a>
-        <a class="header_lang" id="lang2" v-if="a == 2" @click="changeLang">EN</a>
 
-        <a class="header_header_button_a" href="https://marketbot.biz/user/home" target="_blank">
-            <div class="header_button">
+        <label class="switch">
+            <input type="checkbox" ref="check" @click="changeColor">
+            <span class="slider round" ></span>
+        </label>
+
+
+
+        <a class="header_lang" id="lang1" v-if="a == 1" @click="changeLang" :style="[b == 1 ? {background: 'white'} : {background: '#222'}]">RU</a>
+        <a class="header_lang" id="lang2" v-if="a == 2" @click="changeLang" :style="[b == 1 ? {background: 'white'} : {background: '#222'}]">EN</a>
+
+        <a class="header_header_button_a" href="https://marketbot.biz/user/home" target="_blank" >
+            <div class="header_button" :style="[b == 1 ? {background: 'white'} : {background: '#222'}]">
                 <span>{{ langTexts[a].header.header_cab }}</span>
                 <img src="../assets/key.png" alt="key">
             </div>
@@ -49,6 +57,14 @@ export default {
         }
     },
     methods:{
+        changeColor(){
+            if(this.b == 1){
+                this.$store.state.color = 2
+            }
+            else{
+                this.$store.state.color = 1
+            }
+        },
         showBurger(){
             if(window.innerWidth < 456){
                 if(this.checkBurger == true){
@@ -74,6 +90,22 @@ export default {
     computed:{
         a(){
             return this.$store.state.lang
+        },
+        b(){
+            if(this.$store.state.color == 1){
+                let x = document.querySelectorAll("a, p, span, h1, h2, h3,strong")
+                for(let item of x){
+                    item.style.color = "#370954"
+                }
+                return this.$store.state.color
+            }
+            else{
+                let x = document.querySelectorAll("a, p, span, h1, h2, h3, strong")
+                for(let item of x){
+                    item.style.color = "white"
+                }
+                return this.$store.state.color
+            }
         }
     },
     mounted(){
@@ -82,6 +114,8 @@ export default {
 </script>
 <style lang="sass" scoped>
     $h_color: #370954
+    
+    //$background_color: #f9f9f9
     @media screen and (min-width: 456px)
         .page_grey_lines
             img
@@ -118,10 +152,11 @@ export default {
                 //margin-left: 100px
                 margin-left: 200px
                 a
-                    margin-right: 48px
+                    margin-right: 38px //48px
                     font-weight: 400
                     color: $h_color
                     text-decoration: none
+                    transition: 0.5s all ease
                 .header_nav_a
                     display: inline-block
                     width: 113px
@@ -130,6 +165,62 @@ export default {
                     display: inline-block
                     width: 89px
                     margin-right: 0px
+                
+            .switch 
+                position: relative
+                margin: 0px 15px
+                display: inline-block
+                width: 46px
+                height: 20px
+                top: -2px
+    
+
+                input 
+                    opacity: 0
+                    width: 0
+                    height: 0
+
+                .slider 
+                    position: absolute
+                    cursor: pointer
+                    top: 0
+                    left: 0
+                    right: 0
+                    bottom: 0
+                    background-color: #ccc
+                    -webkit-transition: .4s
+                    transition: .4s
+    
+
+                .slider:before 
+                    position: absolute
+                    content: ""
+                    height: 20px
+                    width: 20px
+                    left: 1px
+                    bottom: 0px
+                    background-color: white
+                    z-index: 99
+                    -webkit-transition: .4s
+                    transition: .4s
+    
+                input:checked + .slider 
+                    background-color: #2196F3
+
+                input:focus + .slider 
+                    box-shadow: 0 0 1px #2196F3
+
+                input:checked + .slider:before 
+                    -webkit-transform: translateX(24px)
+                    -ms-transform: translateX(24px)
+                    transform: translateX(24px)
+
+
+                .slider.round 
+                    border-radius: 34px
+
+                .slider.round:before 
+                    border-radius: 50%
                     
             .header_lang
                 user-select: none
@@ -137,7 +228,7 @@ export default {
                 position: relative
                 top: -4px
                 //margin-left: 14px
-                margin-left: 51px
+                margin-left: 11px //51px
                 color: #999999
                 text-decoration: none
                 font-size: 13px
@@ -148,7 +239,7 @@ export default {
                 border-radius: 45px
             .header_header_button_a
                 text-decoration: none
-                margin-left: 39px
+                margin-left: 23px //39px
             .header_button
                 position: relative
                 top: -4px
@@ -228,6 +319,8 @@ export default {
                     font-weight: 400
                     color: white
                     text-decoration: none
+
+
             .header_header_button_a
                 text-decoration: none
                 margin-left: 5%

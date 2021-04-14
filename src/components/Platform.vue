@@ -226,8 +226,10 @@ $p_color: #370954
         .platform_image_phone
             display: none
         .platform_background_images
+            transition: none
             user-select: none
             img
+                transition: none
                 position: relative
             .platform_background_images_1
                 top: -225px
@@ -381,6 +383,7 @@ $p_color: #370954
 
 
         .platform_background_images
+            transition: 0s 
             img
                 position: relative
                 display: none

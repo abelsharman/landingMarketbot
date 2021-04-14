@@ -162,6 +162,7 @@ export default {
             position: absolute
             height: 0px
             img
+                transition: none
                 position: relative
             .execute_background_images_1
                 top: -70px

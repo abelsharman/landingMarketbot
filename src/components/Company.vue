@@ -1,5 +1,5 @@
 <template>
-    <div class="company">
+    <div class="company" :style="[c == 1 ? {background: 'white'} : {background: '#222'}]">
         <div class="company_padding">
         <h1>{{ langTexts[langComp].company.company_h1 }}</h1>
         <h2>{{ langTexts[langComp].company.company_h2 }}</h2>
@@ -955,6 +955,9 @@ export default {
     computed:{
         langComp(){
             return this.$store.state.lang
+        },
+        c(){
+            return this.$store.state.color
         }
     },
     mounted(){
@@ -1163,6 +1166,7 @@ export default {
             position: absolute
             height: 0px
             img
+                transition: none
                 position: relative
             .company_background_images_1
                 position: absolute

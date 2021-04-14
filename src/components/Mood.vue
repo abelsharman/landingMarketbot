@@ -1,5 +1,5 @@
 <template>
-    <div class="mood">
+    <div class="mood" :style="[c == 1 ? {background: 'white'} : {background: '#222'}]">
         <div class="mood_image">
             <picture>
                 <source srcset="../assets/img-7.webp" type="image/webp">
@@ -76,6 +76,9 @@ export default {
     computed:{
         langComp(){
             return this.$store.state.lang
+        },
+        c(){
+            return this.$store.state.color
         }
     },
     mounted() {
@@ -235,6 +238,7 @@ $(document).ready(function(){
             height: 0px
             user-select: none
             img
+                transition: none
                 position: relative
             .mood_background_images_1
                 top: -475px

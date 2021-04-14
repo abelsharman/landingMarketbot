@@ -286,6 +286,7 @@ export default {
             height: 0px
             user-select: none
             img
+                transition: none
                 position: relative
             .team_background_images_1
                 top: -1025px

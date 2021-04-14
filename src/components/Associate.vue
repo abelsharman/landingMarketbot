@@ -198,6 +198,7 @@ export default {
             position: absolute
             height: 0px
             img
+                transition: none
                 position: relative
             .associate_background_images_1
                 top: -60px

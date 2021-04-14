@@ -1,5 +1,5 @@
 <template>
-    <div class="create">
+    <div class="create" :style="[c == 1 ? {background: 'white'} : {background: '#222'}]">
         <div class="create_image">
             <picture>
                 <source srcset="../assets/img-5.webp" type="image/webp">
@@ -95,6 +95,9 @@ export default {
     computed:{
         langComp(){
             return this.$store.state.lang
+        },
+        c(){
+            return this.$store.state.color
         }
     },
     mounted() {
@@ -219,6 +222,7 @@ export default {
             height: 0px
             user-select: none
             img
+                transition: none
                 position: relative
             .create_background_images_1
                 top: -260px

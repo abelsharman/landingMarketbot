@@ -95,7 +95,7 @@
 
 
 
-        <div class="examples opportunities">
+        <div class="examples opportunities" :style="[c == 1 ? {background: 'white'} : {background: '#222'}]">
         <h1 class="opportunities_heading">{{ langTexts[langComp].opportunity.opportunity_h1 }}</h1>
         <div class="examples_image opportunities_image">
             <picture>
@@ -1931,6 +1931,9 @@ export default {
     computed:{
         langComp(){
             return this.$store.state.lang
+        },
+        c(){
+            return this.$store.state.color
         }
     },
     mounted(){
@@ -2022,6 +2025,7 @@ export default {
         .examples_background_images
             user-select: none
             img
+                transition: none
                 position: relative
             .examples_background_images_1
                 top: 0px
@@ -2098,6 +2102,7 @@ export default {
                 top: 95px
                 z-index: 100
                 img 
+                    transition: none
                     transition: 0.5s all ease
                     position: absolute
                     z-index: 2

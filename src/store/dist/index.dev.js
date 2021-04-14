@@ -15,7 +15,8 @@ _vue["default"].use(_vuex["default"]);
 
 var _default = new _vuex["default"].Store({
   state: {
-    lang: 1
+    lang: 1,
+    color: 1
   },
   mutations: {},
   actions: {},

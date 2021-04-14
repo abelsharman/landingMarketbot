@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="page" :style="[b == 1 ? {background: '#f9f9f9'} : {background: '#222'}]">
     <Header />
     <Platform />
     <Examples />
@@ -43,7 +43,13 @@ export default {
     Team,
     Setting,
     Footer
+  },
+  computed:{
+    b(){
+      return this.$store.state.color 
+    },
   }
+  
 }
 </script>
 
@@ -141,7 +147,9 @@ export default {
 
 *
   font-family: 'Cera Pro'
+  transition: 0.5s all ease
 .page
+  transition: 0.5s all ease
   background-color: #f9f9f9
 
 

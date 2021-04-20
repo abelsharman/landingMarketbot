@@ -6,7 +6,6 @@ Vue.use(Vuex)
 export default new Vuex.Store({
   state: {
     lang: 1,
-    color: 1,
   },
   mutations: {
   },

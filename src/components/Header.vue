@@ -4,24 +4,20 @@
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
-            <a href="#team" class="header_nav_a" @click="showBurger" :style="[b == 2 ? {color: 'white'} : {color: '#370954'}]">{{ langTexts[a].header.header_team }}</a>
+            <a href="#team" class="header_nav_a" @click="showBurger" >{{ langTexts[a].header.header_team }}</a>
             <a href="#quiz2" class="header_nav_b" @click="showBurger">{{ langTexts[a].header.header_cost }}</a>
             <a href="https://blog.marketbot.biz/">{{ langTexts[a].header.header_blog }}</a>
         </div>
 
 
-        <label class="switch">
-            <input type="checkbox" ref="check" @click="changeColor">
-            <span class="slider round" ></span>
-        </label>
 
 
 
-        <a class="header_lang" id="lang1" v-if="a == 1" @click="changeLang" :style="[b == 1 ? {background: 'white'} : {background: '#222'}]">RU</a>
-        <a class="header_lang" id="lang2" v-if="a == 2" @click="changeLang" :style="[b == 1 ? {background: 'white'} : {background: '#222'}]">EN</a>
+        <a class="header_lang" id="lang1" v-if="a == 1" @click="changeLang">RU</a>
+        <a class="header_lang" id="lang2" v-if="a == 2" @click="changeLang">EN</a>
 
         <a class="header_header_button_a" href="https://marketbot.biz/user/home" target="_blank" >
-            <div class="header_button" :style="[b == 1 ? {background: 'white'} : {background: '#222'}]">
+            <div class="header_button" >
                 <span>{{ langTexts[a].header.header_cab }}</span>
                 <img src="../assets/key.png" alt="key">
             </div>
@@ -91,22 +87,6 @@ export default {
         a(){
             return this.$store.state.lang
         },
-        b(){
-            if(this.$store.state.color == 1){
-                let x = document.querySelectorAll("a, p, span, h1, h2, h3,strong")
-                for(let item of x){
-                    item.style.color = "#370954"
-                }
-                return this.$store.state.color
-            }
-            else{
-                let x = document.querySelectorAll("a, p, span, h1, h2, h3, strong")
-                for(let item of x){
-                    item.style.color = "white"
-                }
-                return this.$store.state.color
-            }
-        }
     },
     mounted(){
     }
@@ -149,10 +129,10 @@ export default {
             .header_nav 
                 position: relative
                 top: -4px
-                //margin-left: 100px
                 margin-left: 200px
+                //margin-left: 200px
                 a
-                    margin-right: 38px //48px
+                    margin-right: 48px //38px
                     font-weight: 400
                     color: $h_color
                     text-decoration: none
@@ -228,7 +208,7 @@ export default {
                 position: relative
                 top: -4px
                 //margin-left: 14px
-                margin-left: 11px //51px
+                margin-left: 51px //51px
                 color: #999999
                 text-decoration: none
                 font-size: 13px
@@ -239,7 +219,7 @@ export default {
                 border-radius: 45px
             .header_header_button_a
                 text-decoration: none
-                margin-left: 23px //39px
+                margin-left: 39px //39px
             .header_button
                 position: relative
                 top: -4px
@@ -303,22 +283,22 @@ export default {
                 display: inline
                 position: fixed
                 left: 100vw
-                background-color: black
-                top: 90px
+
+                background: linear-gradient(90deg, #6831a1 -20%, rgba(214, 73, 111, 1) 100%)
+                top: 70px
                 transition: 0.3s all ease
-                width: 100vw
+                width: 94vw
                 z-index: 2
-                padding: 15px 0
+                padding: 4vh 6vw 4vh 0
+                text-align: right
                 a
-                    margin-right: 0px
-                    padding: 10px 0
+                    padding: 1vh 0
                     display: block
                     width: 100%
-                    font-size: 18px
-                    text-align: center
-                    font-weight: 400
+                    font-size: 4.70vw //16px
+                    font-weight: 500
                     color: white
-                    text-decoration: none
+
 
 
             .header_header_button_a

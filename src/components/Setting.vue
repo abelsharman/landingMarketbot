@@ -286,7 +286,7 @@
         <h1 class="setting_header">{{ langTexts[langComp].setting.setting_h1 }}</h1>
 
         <div class="setting_quiz" ref="header2">        
-            <div class="setting_quiz_part setting_quiz_part_2" id="1" ref="1" v-show="this.i == 1"  :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_part setting_quiz_part_2" id="1" ref="1" v-show="this.i == 1">
                 <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
 
@@ -341,7 +341,7 @@
                 </div>
             </div>
 
-            <div class="setting_quiz_part setting_quiz_part_2" id="2" ref="2" v-show="this.i == 2"  :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_part setting_quiz_part_2" id="2" ref="2" v-show="this.i == 2" >
                 <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
@@ -389,7 +389,7 @@
                 </div>
             </div>
 
-            <div class="setting_quiz_part setting_quiz_part_2" id="3" ref="3" v-show="this.i == 3" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_part setting_quiz_part_2" id="3" ref="3" v-show="this.i == 3" >
                 <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
@@ -428,7 +428,7 @@
                 </div>
             </div>
 
-            <div class="setting_quiz_part setting_quiz_part_2" id="4" ref="4" v-show="this.i == 4" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_part setting_quiz_part_2" id="4" ref="4" v-show="this.i == 4" >
                 <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
@@ -467,7 +467,7 @@
                 </div>
             </div>
 
-            <div class="setting_quiz_part setting_quiz_part_2" id="5" ref="5" v-show="this.i == 5" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_part setting_quiz_part_2" id="5" ref="5" v-show="this.i == 5" >
                 <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_step }} {{ this.i }}<strong class="setting_quiz_part_strong"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
@@ -499,7 +499,7 @@
                 </div>
             </div>
 
-            <div class="setting_quiz_part setting_quiz_part_2" id="6" ref="6" v-show="this.i == 6" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_part setting_quiz_part_2" id="6" ref="6" v-show="this.i == 6" >
                 <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_phinish }}<strong class="setting_quiz_part_strong_2"> {{ langTexts[langComp].setting.setting_ready }}: </strong><span>{{ (this.i - 1) * 20 }}%</span></h1>
                  
@@ -524,7 +524,7 @@
             
 
             
-            <div class="setting_quiz_result setting_quiz_result_2" id="result2" v-show="this.i == 0 && widthScreen > 456"  :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_result setting_quiz_result_2" id="result2" v-show="this.i == 0 && widthScreen > 456"  >
                 <picture>
                     <img src="../assets/img-lock.png" />
                 </picture>
@@ -534,7 +534,7 @@
                     <h1 class="setting_header_2">{{ langTexts[langComp].setting.setting_h2_1 }}</h1>
                     <h1><strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
-                    <div class="setting_quiz_result_info" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+                    <div class="setting_quiz_result_info" >
                         <h2>{{ langTexts[langComp].setting.setting_result_h2 }} <span>{{ langTexts[langComp].setting.setting_result_h2_span }}</span></h2>
                         <p>{{ langTexts[langComp].setting.setting_result_p }}</p>
                     </div>
@@ -543,7 +543,7 @@
                 <button class="button_clicked" @click="i++" v-if="i == 0">{{ langTexts[langComp].setting.setting_result_btn }}</button>
             </div>
 
-            <div class="setting_quiz_result setting_quiz_result_2" id="result3" v-show="this.i == 0 && widthScreen < 456" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_result setting_quiz_result_2" id="result3" v-show="this.i == 0 && widthScreen < 456" >
                 <h1 class="setting_header_2">{{ langTexts[langComp].setting.setting_h2_1 }}</h1>
                 <h1><strong><span>0</span> ₽ {{ langTexts[langComp].setting.setting_result_h1_span }}</strong></h1>
 
@@ -561,7 +561,7 @@
                 <button class="button_clicked" @click="i++">{{ langTexts[langComp].setting.setting_result_btn }}</button>
             </div>
 
-            <div class="setting_quiz_popup" id="popup2" v-show="this.i == 7" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+            <div class="setting_quiz_popup" id="popup2" v-show="this.i == 7" >
                 <img @click="i=0" class="setting_quiz_popup_close" src="../assets/close.png" alt="close">
                 <h1>{{ langTexts[langComp].setting.setting_popup_h1 }}</h1>
                 <p class="setting_quiz_popup_p">{{ langTexts[langComp].setting.setting_popup_p1 }}</p>
@@ -853,9 +853,6 @@ export default {
         langComp(){
             return this.$store.state.lang
         },
-        c(){
-            return this.$store.state.color
-        }
     },
     mounted(){
         if (navigator.appVersion.indexOf("Win") != -1) {

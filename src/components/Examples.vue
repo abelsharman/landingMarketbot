@@ -95,7 +95,7 @@
 
 
 
-        <div class="examples opportunities" :style="[c == 1 ? {background: 'white'} : {background: '#222'}]">
+        <div class="examples opportunities">
         <h1 class="opportunities_heading">{{ langTexts[langComp].opportunity.opportunity_h1 }}</h1>
         <div class="examples_image opportunities_image">
             <picture>
@@ -1932,9 +1932,6 @@ export default {
         langComp(){
             return this.$store.state.lang
         },
-        c(){
-            return this.$store.state.color
-        }
     },
     mounted(){
         this.b = setInterval(this.intervalMethod, 4000)

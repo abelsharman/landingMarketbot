@@ -1,5 +1,5 @@
 <template>
-    <div class="mood" :style="[c == 1 ? {background: 'white'} : {background: '#222'}]">
+    <div class="mood">
         <div class="mood_image">
             <picture>
                 <source srcset="../assets/img-7.webp" type="image/webp">
@@ -77,9 +77,6 @@ export default {
         langComp(){
             return this.$store.state.lang
         },
-        c(){
-            return this.$store.state.color
-        }
     },
     mounted() {
         document.addEventListener('mousemove', this.onMouseUpdate)

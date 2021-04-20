@@ -1,5 +1,5 @@
 <template>
-    <div class="footer" :style="[c == 1 ? {background: 'white', color:'black'} : {background: '#222', color:'white'}]">
+    <div class="footer">
         <div class="footer_logo">
             <img src="../assets/logo_main.png" alt="logo_main">
         </div>
@@ -31,9 +31,6 @@
 export default {
     name: 'Footer',
     computed:{
-        c(){
-            return this.$store.state.color
-        }
     },
 }
 </script>

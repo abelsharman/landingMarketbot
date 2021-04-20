@@ -1,5 +1,5 @@
 <template>
-    <div class="company" :style="[c == 1 ? {background: 'white'} : {background: '#222'}]">
+    <div class="company">
         <div class="company_padding">
         <h1>{{ langTexts[langComp].company.company_h1 }}</h1>
         <h2>{{ langTexts[langComp].company.company_h2 }}</h2>
@@ -956,9 +956,6 @@ export default {
         langComp(){
             return this.$store.state.lang
         },
-        c(){
-            return this.$store.state.color
-        }
     },
     mounted(){
         if(window.innerWidth > 456){

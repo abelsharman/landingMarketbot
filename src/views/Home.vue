@@ -1,5 +1,5 @@
 <template>
-  <div class="page" :style="[b == 1 ? {background: '#f9f9f9'} : {background: '#222'}]">
+  <div class="page">
     <Header />
     <Platform />
     <Examples />
@@ -45,9 +45,6 @@ export default {
     Footer
   },
   computed:{
-    b(){
-      return this.$store.state.color 
-    },
   }
   
 }

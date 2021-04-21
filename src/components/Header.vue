@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <img src="../assets/logo_main.png" alt="logo">
+        <img src="../assets/logo_white.png" alt="logo">
         <div class="header_nav" ref="nav">
             <a href="#">WhatsApp Business API</a>
             <!--<a href="#">Продукты &or;</a>-->
@@ -134,7 +134,7 @@ export default {
                 a
                     margin-right: 48px //38px
                     font-weight: 400
-                    color: $h_color
+                    color: white
                     text-decoration: none
                     transition: 0.5s all ease
                 .header_nav_a
@@ -209,7 +209,7 @@ export default {
                 top: -4px
                 //margin-left: 14px
                 margin-left: 51px //51px
-                color: #999999
+                color: #240d32
                 text-decoration: none
                 font-size: 13px
                 font-weight: 400
@@ -226,7 +226,6 @@ export default {
                 width: 180px
                 border: 1px solid #c34688
                 padding: 7px 15px
-                background-color: white
                 cursor: pointer
                 border-radius: 5px
                 text-decoration: none
@@ -308,7 +307,7 @@ export default {
                 position: relative
                 top: -4px
                 margin-left: 14.2%
-                color: #999999
+                color: #240d32
                 text-decoration: none
                 font-size: 2.85vw
                 
@@ -324,7 +323,7 @@ export default {
                 top: -4px
                 border: 1px solid #c34688
                 padding: 1.1vw 1.22vw
-                background-color: white
+                background-color: #1e2024
                 cursor: pointer
                 border-radius: 5px
                 height: 6vw

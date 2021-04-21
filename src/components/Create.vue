@@ -139,7 +139,7 @@ export default {
         .page_grey_line_6
             left: calc((100vw + 1200px) / 2)
     .create
-        background-color: white
+        background-color: #1e2024
         width: 100%
         position: relative
         left: calc((100vw - 1200px) / -2)
@@ -158,7 +158,7 @@ export default {
                 width: 100%
                 line-height: 42px
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
                 margin-bottom: 15px
 
@@ -175,7 +175,7 @@ export default {
 
             h2
                 font-size: 20px
-                color: #370954
+                color: white
                 font-weight: 500
                 display: inline-block
                 width: 100%
@@ -185,7 +185,7 @@ export default {
             p
                 font-weight: 400
                 font-size: 18px
-                color: #222
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: max-content
@@ -199,7 +199,7 @@ export default {
                 margin-left: 56px
                 font-size: 16px
                 font-weight: 400
-                color: #999
+                color: #aaa
   
         .create_image
             height: 560px
@@ -277,7 +277,7 @@ export default {
                 display: none
                 left: calc((100vw + 1200px) / 2)
     .create
-        background-color: white
+        background-color: #1e2024
         width: 100%
         position: relative
         top: -20px
@@ -294,7 +294,7 @@ export default {
                 font-size: 6.578vw
                 line-height: 9.6vw
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
                 margin-bottom: 10px
 
@@ -311,7 +311,7 @@ export default {
             h2
                 margin-top: 0px
                 font-size: 4.38vw
-                color: #370954
+                color: white
                 font-weight: 500
                 line-height: 6.1vw
                 margin: 0
@@ -324,13 +324,13 @@ export default {
                 font-size: 3.5vw
                 width: 80vw
                 font-weight: 400
-                color: #999
+                color: #aaa
                   
             p
                 font-weight: 400
                 font-size: 3.94vw
                 line-height: 5vw
-                color: #222
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: 90%

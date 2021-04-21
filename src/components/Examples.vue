@@ -1911,11 +1911,14 @@ export default {
         onMouseUpdate(e){
             let x = e.pageX / window.innerWidth * 20
             if(window.innerWidth < 456){
-                x = window.pageYOffset / window.innerWidth * 16
+                x = (window.pageYOffset - 4000) / window.innerWidth * 10
             }
             //let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".examples_background_images_1").style.left = (this.examples_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".examples_background_images_1").style.right = (this.examples_background_images_1_x - x).toString() + 'px'
             document.querySelector(".examples_background_images_2").style.left = (this.examples_background_images_2_x + x).toString() + 'px'
+            if(window.innerWidth > 456){
+                document.querySelector(".examples_background_images_1").style.left = (this.examples_background_images_1_x + x).toString() + 'px'
+            }
 
             /*
             document.querySelector(".examples_background_images_3").style.left = (this.examples_background_images_3_x + x).toString() + 'px'
@@ -1995,12 +1998,12 @@ export default {
                 width: 80%
                 line-height: 42px
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 20px
             p
                 font-weight: 400
                 font-size: 20px
-                color: #c2c2c2
+                color: white
                 display: inline-block
                 width: max-content
                 margin: 0
@@ -2090,7 +2093,7 @@ export default {
 
 
         .opportunities
-            background-color: white
+            background-color: #1e2024
             position: relative
             left: calc((100vw - 1200px) / -2)
             padding: 0 calc((100vw - 1200px) / 2)
@@ -2142,12 +2145,12 @@ export default {
                 width: 80%
                 line-height: 42px
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 20px
             p
                 font-weight: 400
                 font-size: 20px
-                color: #c2c2c2
+                color: white
                 display: inline-block
                 width: max-content
                 margin: 0
@@ -2271,13 +2274,13 @@ export default {
                 font-size: 7vw
                 line-height: 9.6vw
                 font-weight: 700
-                color: #370954
+                color: white
                 margin-bottom: 0px
                 padding-bottom: 10px
             p
                 font-weight: 400
                 font-size: 4.3vw
-                color: #c2c2c2
+                color: white
                 display: inline-block
                 margin: 0
                 margin-right: 40px
@@ -2389,11 +2392,11 @@ export default {
                 font-size: 7vw
                 line-height: 9.6vw
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 10px
                 padding-top: 30px
             
-            background-color: white
+            background-color: #1e2024
             position: relative
             left: 0
             padding: 0
@@ -2481,7 +2484,7 @@ export default {
                 h1
                     font-size: 4.38vw
                     line-height: 24px
-                    color: #c34688
+                    color: white
                     font-weight: 700
                     position: relative
                     margin: 0
@@ -2490,7 +2493,7 @@ export default {
                 p
                     font-size: 3.28vw
                     line-height: 5.26vw
-                    color: #888
+                    color: white
                     font-weight: 300
                     width: 95%
                     vertical-align: top
@@ -2499,7 +2502,7 @@ export default {
                 .company_slider_span
                     font-size: 3.2vw
                     line-height: 5vw
-                    color: #999
+                    color: white
                     font-weight: 400
                     vertical-align: top
                     width: 30vw

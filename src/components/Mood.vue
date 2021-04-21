@@ -145,7 +145,7 @@ $(document).ready(function(){
         .page_grey_line_6
             left: calc((100vw + 1200px) / 2)
     .mood
-        background-color: white
+        background-color: #1e2024
         width: 100%
         position: relative
         left: calc((100vw - 1200px) / -2)
@@ -164,7 +164,7 @@ $(document).ready(function(){
                 width: 100%
                 line-height: 42px
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
                 margin-bottom: 15px
 
@@ -180,7 +180,7 @@ $(document).ready(function(){
 
             h2
                 font-size: 20px
-                color: #370954
+                color: white
                 font-weight: 500
                 display: inline-block
                 width: 100%
@@ -189,7 +189,7 @@ $(document).ready(function(){
             p
                 font-weight: 400
                 font-size: 18px
-                color: #222
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: max-content
@@ -295,7 +295,7 @@ $(document).ready(function(){
                 display: none
                 left: calc((100vw + 1200px) / 2)  
     .mood
-        background-color: white
+        background-color: #1e2024
         width: 100%
         position: relative
         height: 190vw
@@ -312,7 +312,7 @@ $(document).ready(function(){
                 font-size: 6.57vw
                 line-height: 9.21vw
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
                 margin-bottom: 15px
 
@@ -329,7 +329,7 @@ $(document).ready(function(){
             h2
                 margin-top: 0px
                 font-size: 4.38vw
-                color: #370954
+                color: white
                 font-weight: 500
                 margin: 0
                 margin-bottom: 30px
@@ -345,7 +345,7 @@ $(document).ready(function(){
             p
                 font-weight: 400
                 font-size: 18px
-                color: #222
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: 90%

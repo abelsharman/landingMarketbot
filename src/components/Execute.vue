@@ -63,12 +63,19 @@ export default {
     },
     methods: {
         onMouseUpdate(e){
-            if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
             //let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".execute_background_images_1").style.left = (this.execute_background_images_1_x + x).toString() + 'px'
-            document.querySelector(".execute_background_images_2").style.left = (this.execute_background_images_2_x + x).toString() + 'px'
+            if(window.innerWidth < 456){
+                x = (window.pageYOffset - 2000) / window.innerWidth * 12
+            }
+            document.querySelector(".execute_background_images_1").style.right = (this.execute_background_images_1_x - x).toString() + 'px'
+            document.querySelector(".execute_background_images_2").style.right = (this.execute_background_images_2_x - x).toString() + 'px'
             document.querySelector(".execute_background_images_3").style.left = (this.execute_background_images_3_x + x).toString() + 'px'
+            if(window.innerWidth > 456){
+                document.querySelector(".execute_background_images_1").style.left = (this.execute_background_images_1_x + x).toString() + 'px'
+                document.querySelector(".execute_background_images_2").style.left = (this.execute_background_images_2_x + x).toString() + 'px'
+                document.querySelector(".execute_background_images_3").style.left = (this.execute_background_images_3_x + x).toString() + 'px'
+            }
             /*
             document.querySelector(".execute_background_images_4").style.left = (this.execute_background_images_4_x + x).toString() + 'px'
             document.querySelector(".execute_background_images_5").style.left = (this.execute_background_images_5_x + x).toString() + 'px'
@@ -77,7 +84,6 @@ export default {
             document.querySelector(".execute_background_images_8").style.left = (this.execute_background_images_8_x + x).toString() + 'px'
             document.querySelector(".execute_background_images_9").style.left = (this.execute_background_images_9_x + x).toString() + 'px'
             */
-            }
             
         }
     },
@@ -87,8 +93,10 @@ export default {
         }
     },
     mounted(){
-        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
+        if(window.innerWidth < 456){
+            document.addEventListener('scroll', this.onMouseUpdate)
+        }
         this.execute_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_1")).left).length - 2))
         this.execute_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_2")).left).length - 2))
         this.execute_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_3")).left).length - 2))
@@ -100,7 +108,6 @@ export default {
         this.execute_background_images_8_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_8")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_8")).left).length - 2))
         this.execute_background_images_9_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_9")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_9")).left).length - 2))
         */
-        }
     }
 }
 </script>
@@ -121,13 +128,13 @@ export default {
                 width: 95%
                 line-height: 42px
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
                 margin: 0
 
             h2
                 font-size: 20px
-                color: #370954
+                color: white
                 font-weight: 500
                 display: inline-block
                 width: 100%
@@ -137,7 +144,7 @@ export default {
             p
                 font-weight: 400
                 font-size: 16px
-                color: #999
+                color: white
                 
                 display: inline-block
                 font-weight: 400
@@ -176,7 +183,7 @@ export default {
                 z-index: 2
             .execute_background_images_2
                 left: 0px
-                top: -330px
+                top: -270px
             .execute_background_images_3
                 top: -680px
                 left: -50px
@@ -206,7 +213,7 @@ export default {
     .execute
         position: relative
         z-index: 110
-        background-color: #f9f9f9
+        background-color: #1e2024
         margin-top: 0px
         top: -20px
         .execute_nav
@@ -221,7 +228,7 @@ export default {
                 font-size: 7vw
                 line-height: 9.6vw
                 font-weight: 700
-                color: #370954
+                color: white
                 margin: 0
 
            
@@ -230,7 +237,7 @@ export default {
 
             h2
                 font-size: 4.38vw
-                color: #370954
+                color: white
                 font-weight: 500
                 display: inline-block
                 width: 100%
@@ -241,7 +248,7 @@ export default {
                 font-weight: 400
                 font-size: 3.5vw
                 line-height: 5.26vw
-                color: #999
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: 91%
@@ -269,7 +276,7 @@ export default {
             top: 80px
             height: 120vw
             margin-bottom: 50px
-            background-color: #f9f9f9
+            background-color: #1e2024
             z-index: 1
             img
                 position: relative

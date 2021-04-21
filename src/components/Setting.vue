@@ -690,9 +690,11 @@ export default {
             }
         },
         onMouseUpdate(e){
-            if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
             //let y = e.clientY / window.innerHeight * 20
+            if(window.innerWidth < 456){
+                x = (window.pageYOffset) / window.innerWidth * 100
+            }
             document.querySelector("#quiz2 .setting_background_images_1").style.left = (this.setting_background_images_1_x + x).toString() + 'px'
             /*
             document.querySelector("#quiz2 .setting_background_images_2").style.left = (this.setting_background_images_2_x + x).toString() + 'px'
@@ -703,7 +705,6 @@ export default {
             document.querySelector("#quiz2 .setting_background_images_7").style.left = (this.setting_background_images_7_x + x).toString() + 'px'
             document.querySelector("#quiz2 .setting_background_images_8").style.left = (this.setting_background_images_8_x + x).toString() + 'px'
             */
-            }
             
         },
         extensionForSafari(e, time, where){
@@ -868,8 +869,10 @@ export default {
             this.$refs.plus.style.top = "11px"
             this.$refs.operator.style.top = "12px"
         }
-        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
+        if(window.innerWidth < 456){
+            document.addEventListener('scroll', this.onMouseUpdate)
+        }
         this.setting_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_1")).left).length - 2))
         /*
         this.setting_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).length - 2))
@@ -880,7 +883,6 @@ export default {
         this.setting_background_images_7_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).length - 2))
         this.setting_background_images_8_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).length - 2))
         */
-        }
     },
     created(){
         window.addEventListener('keydown', (e) => {
@@ -940,7 +942,7 @@ export default {
             text-align: center
             font-size: 30px
             line-height: 42px
-            color: #370954
+            color: white
             font-weight: 700
             margin-bottom: 50px //0px
         .setting_header_2
@@ -948,7 +950,7 @@ export default {
             text-align: center
             font-size: 23px
             line-height: 12px
-            color: #370954
+            color: white
             font-weight: 700
             margin-bottom: 50px
 
@@ -1565,7 +1567,7 @@ export default {
             text-align: center
             font-size: 6.14vw
             line-height: 4vh
-            color: #370954
+            color: white
             font-weight: 700
             margin-bottom: 40px //0px
         .setting_header_2
@@ -1574,7 +1576,7 @@ export default {
             text-align: center
             font-size: 4.82vw
             line-height: 3.3vh
-            color: #370954
+            color: white
             font-weight: 700
             margin-bottom: 50px
 
@@ -1955,10 +1957,11 @@ export default {
 
 
             .setting_quiz_popup
-                width: 91%
+                width: 100%
                 height: 160vw
-                margin-left: 4.5%
+                margin-left: 0%
                 background-color: rgba(130,130,130,0.1)
+                background-color: white
                 //background-color: #eee
                 border-radius: 10px
                 h1

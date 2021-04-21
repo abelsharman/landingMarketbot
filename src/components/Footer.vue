@@ -1,15 +1,15 @@
 <template>
     <div class="footer">
         <div class="footer_logo">
-            <img src="../assets/logo_main.png" alt="logo_main">
+            <img src="../assets/logo_white.png" alt="logo_main">
         </div>
 
         <div class="footer_logos">
             <div class="footer_logos_flex">
-                <a href="https://marketbot.biz/935" target="_blank"><img src="../assets/back/whatsapp.png" alt="whatsapp"></a>
-                <a href="#"><img src="../assets/back/facebook.png" alt="facebook"></a>
-                <a href="#"><img src="../assets/back/insta.png" alt="insta"></a>
-                <a href="http://t.me/marketbot_biz_support_bot"><img src="../assets/back/telega.png" alt="telega"></a>
+                <a href="https://marketbot.biz/935" target="_blank"><img src="../assets/wp_white.png" alt="whatsapp"></a>
+                <a href="#"><img src="../assets/facebook_white.png" alt="facebook"></a>
+                <a href="#"><img src="../assets/insta_white.png" alt="insta"></a>
+                <a href="http://t.me/marketbot_biz_support_bot"><img src="../assets/telega_white.png" alt="telega"></a>
             </div>
         </div>
 
@@ -57,7 +57,7 @@ export default {
         .page_grey_line_6
             left: calc((100vw + 1200px) / 2)
     .footer
-        background-color: white
+        background-color: #1e2024
         width: calc(100vw - (100vw - 1200px))
         position: relative
         left: calc((100vw - 1200px) / -2)
@@ -83,7 +83,7 @@ export default {
             font-size: 16px
             line-height: 40px
             font-weight: 400
-            color: #999
+            color: white
             margin: 0 0 0 205px
 
 
@@ -116,7 +116,7 @@ export default {
             display: none
             left: calc((100vw + 1200px) / 2)
     .footer
-        background-color: white
+        background-color: #1e2024
         width: 100%
         position: relative
         left: 0
@@ -140,7 +140,7 @@ export default {
             display: inline-block
             font-size: 3.5vw
             font-weight: 400
-            color: #999
+            color: white
             width: 62%
             margin: 5vh 0 5vh 19%
 </style>

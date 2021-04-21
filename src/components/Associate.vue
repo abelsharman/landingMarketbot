@@ -81,8 +81,8 @@ export default {
                 x = window.pageYOffset / window.innerWidth * 12
             }
             //let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".associate_background_images_1").style.left = (this.associate_background_images_1_x + x).toString() + 'px'
-            document.querySelector(".associate_background_images_2").style.left = (this.associate_background_images_2_x + x).toString() + 'px'
+            document.querySelector(".associate_background_images_1").style.left = (this.associate_background_images_1_x - x).toString() + 'px'
+            document.querySelector(".associate_background_images_2").style.left = (this.associate_background_images_2_x - x).toString() + 'px'
             document.querySelector(".associate_background_images_3").style.left = (this.associate_background_images_3_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_4").style.left = (this.associate_background_images_4_x + x).toString() + 'px'
 
@@ -150,7 +150,7 @@ export default {
                 width: 100%
                 line-height: 42px
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 20px
 
            
@@ -166,7 +166,7 @@ export default {
 
             h2
                 font-size: 20px
-                color: #370954
+                color: white
                 font-weight: 500
                 display: inline-block
                 width: 100%
@@ -180,7 +180,7 @@ export default {
             p
                 font-weight: 400
                 font-size: 18px
-                color: #222
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: 80%
@@ -261,7 +261,7 @@ export default {
      .associate
         position: relative
         z-index: 1000
-        background-color: #f9f9f9
+        background-color: #1e2024
         top: 0
         .associate_nav
             display: block
@@ -270,14 +270,14 @@ export default {
             vertical-align: top
             position: relative
             top: -150px
-            background-color: #f9f9f9
+            background-color: #1e2024
             padding-top: 40px
             h1
                 width: 95%
                 font-size: 7vw
                 line-height: 9.6vw
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
 
            
@@ -293,7 +293,7 @@ export default {
             h2
                 margin-top: 20px
                 font-size: 4.38vw
-                color: #370954
+                color: white
                 font-weight: 500
                 display: inline-block
                 width: 100%
@@ -306,7 +306,7 @@ export default {
             p
                 font-weight: 400
                 font-size: 3.94vw
-                color: #222
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: 90%
@@ -334,7 +334,7 @@ export default {
             top: -140px
             z-index: 2
             height: 70vw
-            background-color: #f9f9f9
+            background-color: #1e2024
             img
                 padding-left: 3.5vw
                 width: 93vw
@@ -357,7 +357,7 @@ export default {
                 display: block
                 right: 5vw
                 width: 35vw
-                top: -1030px
+                top: -1050px
                 z-index: 1
             .associate_background_images_3
                 top: -980px

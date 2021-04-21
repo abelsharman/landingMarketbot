@@ -147,24 +147,20 @@ export default {
   transition: 0.5s all ease
 .page
   transition: 0.5s all ease
-  background-color: #f9f9f9
+  background-color: #1e2024
 
 
 @media screen and (min-width: 456px)
   .page
-    background-color: #f9f9f9
     overflow-x: hidden
   body
     overflow-x: hidden
 
-@media screen and (max-width: 456px)
+@media screen and (min-width: 456px)
   .page
-    background-color: #f9f9f9
     overflow-x: hidden
-    width: 100vw
   body
     overflow-x: hidden
-    width: 100vw
 
 </style>
 

@@ -166,13 +166,13 @@ $p_color: #370954
             display: inline-block
             h1
                 width: 89%
-                color: $h_color
+                color: white
                 line-height: 54px
                 font-size: 46px
                 font-weight: 700
                 margin: 0
             h3
-                color: $h_color
+                color: white
                 font-size: 26px
                 line-height: 38px
                 font-weight: 700
@@ -192,7 +192,7 @@ $p_color: #370954
                 font-size: 18px
                 margin-top: 30px
                 line-height: 30px
-                color: #222222
+                color: white
                 font-size: 400
             button
                 user-select: none
@@ -313,14 +313,14 @@ $p_color: #370954
             display: block
             h1
                 width: 90%
-                color: $h_color
+                color: white
                 line-height: 11.842vw
                 font-size: 10.08vw
                 width: 77%
                 font-weight: 700
                 margin: 0
             h3
-                color: $h_color
+                color: white
                 font-size: 5.7vw
                 line-height: 8.33vw
                 font-weight: 700
@@ -341,7 +341,7 @@ $p_color: #370954
                 margin: 0
                 margin-top: 30px
                 line-height: 6.57vw
-                color: #222222
+                color: white
                 font-size: 400
             button
                 border-radius: 31px

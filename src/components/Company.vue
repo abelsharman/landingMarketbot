@@ -1016,7 +1016,7 @@ export default {
                 display: none
                 left: calc((100vw + 1200px) / 2)  
     .company
-        background-color: white
+        background-color: #1e2024
         width: 100%
         position: relative
         left: calc((100vw - 1200px) / -2)
@@ -1029,13 +1029,13 @@ export default {
             width: 100%
             line-height: 42px
             font-weight: 700
-            color: #370954
+            color: white
             padding-bottom: 0px
             margin-bottom: 15px
             display: inline
         h2
             font-size: 20px
-            color: #370954
+            color: white
             font-weight: 500
             display: inline
             width: 100%
@@ -1067,7 +1067,7 @@ export default {
                 h1
                     font-size: 20px
                     line-height: 24px
-                    color: #370954
+                    color: white
                     font-weight: 700
                     position: relative
                     left: -108px
@@ -1081,7 +1081,7 @@ export default {
                 p
                     font-size: 16px
                     line-height: 24px
-                    color: #222
+                    color: white
                     font-weight: 400
                     vertical-align: top
                     width: 320px
@@ -1092,7 +1092,7 @@ export default {
                 .company_slider_span
                     font-size: 16px
                     line-height: 24px
-                    color: #999
+                    color: white
                     font-weight: 400
                     vertical-align: top
                     width: 200px
@@ -1227,7 +1227,7 @@ export default {
                 display: none
                 left: calc((100vw + 1200px) / 2)  
     .company
-        background-color: white
+        background-color: #1e2024
         width: 100%
         position: relative
         top: 0px
@@ -1240,14 +1240,14 @@ export default {
             font-size: 7vw
             line-height: 9.6vw
             font-weight: 700
-            color: #370954
+            color: white
             padding-bottom: 0px
             margin-bottom: 5px
             display: inline
         h2
             font-size: 4.58vw
             line-height: 7.6vw
-            color: #370954
+            color: white
             font-weight: 500
             display: inline
             margin: 0
@@ -1282,7 +1282,7 @@ export default {
                 h1
                     font-size: 4.38vw
                     line-height: 5.26vw
-                    color: #370954
+                    color: white
                     font-weight: 700
                     position: absolute
                     left: 7vw
@@ -1297,7 +1297,7 @@ export default {
                 p
                     font-size: 3.5vw
                     line-height: 5.26vw
-                    color: #222
+                    color: white
                     font-weight: 400
                     vertical-align: top
                     width: 90vw
@@ -1311,7 +1311,7 @@ export default {
                 .company_slider_span
                     font-size: 3.5vw
                     line-height: 5.26vw
-                    color: #999
+                    color: white
                     font-weight: 400
                     width: 39vw
                     left: 60vw

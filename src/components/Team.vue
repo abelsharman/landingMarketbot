@@ -200,17 +200,23 @@ export default {
     },
     methods:{
         onMouseUpdate(e){
-            if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
             //let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".team_background_images_1").style.left = (this.team_background_images_1_x + x).toString() + 'px'
+            if(window.innerWidth < 456){
+                x = (window.pageYOffset) / window.innerWidth * 12
+            }
+            document.querySelector(".team_background_images_1").style.right = (this.team_background_images_1_x + x).toString() + 'px'
             document.querySelector(".team_background_images_2").style.left = (this.team_background_images_2_x + x).toString() + 'px'
+            if(window.innerWidth > 456){
+              document.querySelector(".team_background_images_1").style.left = (this.team_background_images_1_x + x).toString() + 'px'
+                document.querySelector(".team_background_images_2").style.left = (this.team_background_images_2_x + x).toString() + 'px'  
+            }
             /*
             document.querySelector(".team_background_images_3").style.left = (this.team_background_images_3_x + x).toString() + 'px'
             document.querySelector(".team_background_images_4").style.left = (this.team_background_images_4_x + x).toString() + 'px'
             document.querySelector(".team_background_images_5").style.left = (this.team_background_images_5_x + x).toString() + 'px'
             */
-            }
+
         }
     },
     computed:{
@@ -219,8 +225,10 @@ export default {
         }
     },
     mounted() {
-        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
+        if(window.innerWidth < 456){
+            document.addEventListener('scroll', this.onMouseUpdate)
+        }
         this.team_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_1")).left).length - 2))
         this.team_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_2")).left).length - 2))
         /*
@@ -228,7 +236,7 @@ export default {
         this.team_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_4")).left).length - 2))
         this.team_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_5")).left).length - 2))
         */
-        }
+
     },
 }
 </script>
@@ -248,13 +256,13 @@ export default {
                 width: 95%
                 line-height: 42px
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
                 margin: 0
             p
                 font-weight: 400
                 font-size: 18px
-                color: #222
+                color: white
                 line-height: 30px
                 width: 88%
         .team_members
@@ -273,12 +281,12 @@ export default {
                     font-weight: 500
                     font-size: 20px
                     line-height: 22px
-                    color: #370954
+                    color: white
                 p
                     font-size: 18px
                     line-height: 22px
                     font-weight: 400
-                    color: #222
+                    color: #aaa
                     text-align: center
                     width: 90%
                     padding: 0 5%
@@ -333,13 +341,13 @@ export default {
                 font-size: 6.5vw
                 line-height: 9.21vw
                 font-weight: 700
-                color: #370954
+                color: white
                 padding-bottom: 0px
                 margin: 0
             p
                 font-weight: 400
                 font-size: 3.94vw
-                color: #222
+                color: white
                 line-height: 6.57vw
                 width: 95%
         .team_members
@@ -361,13 +369,13 @@ export default {
                     font-weight: 500
                     font-size: 4.38vw
                     line-height: 4.82vw
-                    color: #370954
+                    color: white
                     margin: 1vh 0
                 p
                     font-size: 3.947vw
                     line-height: 5.7vw
                     font-weight: 400
-                    color: #222
+                    color: #aaa
                     text-align: center
                     width: 90%
                     padding: 0 5%

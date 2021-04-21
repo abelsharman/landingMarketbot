@@ -76,8 +76,10 @@ export default {
     },
     methods:{
         onMouseUpdate(e){
-            if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
+            if(window.innerWidth < 456){
+                x = window.pageYOffset / window.innerWidth * 12
+            }
             //let y = e.clientY / window.innerHeight * 20
             document.querySelector(".associate_background_images_1").style.left = (this.associate_background_images_1_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_2").style.left = (this.associate_background_images_2_x + x).toString() + 'px'
@@ -95,7 +97,6 @@ export default {
             document.querySelector(".associate_background_images_12").style.left = (this.associate_background_images_12_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_13").style.left = (this.associate_background_images_13_x + x).toString() + 'px'
             */
-            }
 
             
         }
@@ -106,8 +107,10 @@ export default {
         }
     },
     mounted(){
-        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
+        if(window.innerWidth < 456){
+            document.addEventListener('scroll', this.onMouseUpdate)
+        }
         this.associate_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_1")).left).length - 2))
         this.associate_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_2")).left).length - 2))
         this.associate_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_3")).left).length - 2))
@@ -125,7 +128,7 @@ export default {
         this.associate_background_images_12_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_12")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_12")).left).length - 2))
         this.associate_background_images_13_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_13")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_13")).left).length - 2))
         */
-        }
+
     }
 }
 </script>

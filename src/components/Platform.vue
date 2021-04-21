@@ -77,7 +77,6 @@ export default {
     },
     methods:{
         onMouseUpdate(e){
-            if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
             //let y = e.clientY / window.innerHeight * 20
             document.querySelector(".platform_background_images_1").style.left = (this.platform_background_images_1_x + x).toString() + 'px'
@@ -93,7 +92,7 @@ export default {
             document.querySelector(".platform_background_images_10").style.left = (this.platform_background_images_10_x + x).toString() + 'px'
             document.querySelector(".platform_background_images_11").style.left = (this.platform_background_images_11_x + x).toString() + 'px'
             */
-            }  
+            
         },  
     },
     computed:{
@@ -102,11 +101,12 @@ export default {
         }
     },
     mounted(){
-        if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
+
         this.platform_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_1")).left).length - 2))
         this.platform_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_2")).left).length - 2))
         this.platform_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_3")).left).length - 2))
+        
         /*
         this.platform_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_4")).left).length - 2))
         this.platform_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_5")).left).length - 2))
@@ -117,7 +117,7 @@ export default {
         this.platform_background_images_10_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).length - 2))
         this.platform_background_images_11_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).length - 2))
         */
-        }
+        
     }
 }
 </script>

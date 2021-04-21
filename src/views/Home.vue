@@ -157,12 +157,14 @@ export default {
   body
     overflow-x: hidden
 
-@media screen and (min-width: 456px)
+@media screen and (max-width: 456px)
   .page
     background-color: #f9f9f9
     overflow-x: hidden
+    width: 100vw
   body
     overflow-x: hidden
+    width: 100vw
 
 </style>
 

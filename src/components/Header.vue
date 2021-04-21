@@ -284,7 +284,7 @@ export default {
                 position: fixed
                 left: 100vw
 
-                background: #370954 //linear-gradient(90deg, #370954 -20%, #c34688 100%)
+                background: #c34688 //#370954 //linear-gradient(90deg, #370954 -20%, #c34688 100%)
                 top: 70px
                 transition: 0.3s all ease
                 width: 94vw

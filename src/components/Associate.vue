@@ -34,6 +34,8 @@
             <img class="associate_background_images_2" src="../assets/back/vk_back.png" alt="vk_back">
             <img class="associate_background_images_3" src="../assets/back/whatsapp_back_2.png" alt="whatsapp_back_2">
             <img class="associate_background_images_4" src="../assets/back/viber_back.png" alt="yellowby">
+
+            <!--
             <img class="associate_background_images_5" src="../assets/back/purplesn.png" alt="purplesn">
             <img class="associate_background_images_6" src="../assets/back/greymy.png" alt="greenby">
             <img class="associate_background_images_7" src="../assets/back/lightbluemy.png" alt="lightbluemy">
@@ -43,6 +45,7 @@
             <img class="associate_background_images_11" src="../assets/back/greysn.png" alt="greysn">
             <img class="associate_background_images_12" src="../assets/back/purplebyhalf.png" alt="greysn">
             <img class="associate_background_images_13" src="../assets/back/brownmyhalf.png" alt="greysn">
+            -->
         </div>
 
 
@@ -75,11 +78,13 @@ export default {
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
-            let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".associate_background_images_1").style.top = (this.associate_background_images_1_x + y).toString() + 'px'
-            document.querySelector(".associate_background_images_2").style.top = (this.associate_background_images_2_x + y).toString() + 'px'
-            document.querySelector(".associate_background_images_3").style.top = (this.associate_background_images_3_x + y).toString() + 'px'
-            document.querySelector(".associate_background_images_4").style.top = (this.associate_background_images_4_x + y).toString() + 'px'
+            //let y = e.clientY / window.innerHeight * 20
+            document.querySelector(".associate_background_images_1").style.left = (this.associate_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".associate_background_images_2").style.left = (this.associate_background_images_2_x + x).toString() + 'px'
+            document.querySelector(".associate_background_images_3").style.left = (this.associate_background_images_3_x + x).toString() + 'px'
+            document.querySelector(".associate_background_images_4").style.left = (this.associate_background_images_4_x + x).toString() + 'px'
+
+            /*
             document.querySelector(".associate_background_images_5").style.left = (this.associate_background_images_5_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_6").style.left = (this.associate_background_images_6_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_7").style.left = (this.associate_background_images_7_x + x).toString() + 'px'
@@ -89,6 +94,7 @@ export default {
             document.querySelector(".associate_background_images_11").style.left = (this.associate_background_images_11_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_12").style.left = (this.associate_background_images_12_x + x).toString() + 'px'
             document.querySelector(".associate_background_images_13").style.left = (this.associate_background_images_13_x + x).toString() + 'px'
+            */
             }
 
             
@@ -102,10 +108,12 @@ export default {
     mounted(){
         if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
-        this.associate_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_1")).top).length - 2))
-        this.associate_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_2")).top).length - 2))
-        this.associate_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_3")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_3")).top).length - 2))
-        this.associate_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_4")).top).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_4")).top).length - 2))
+        this.associate_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_1")).left).length - 2))
+        this.associate_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_2")).left).length - 2))
+        this.associate_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_3")).left).length - 2))
+        this.associate_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_4")).left).length - 2))
+
+        /*
         this.associate_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_5")).left).length - 2))
         this.associate_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_6")).left).length - 2))
         this.associate_background_images_7_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_7")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_7")).left).length - 2))
@@ -116,6 +124,7 @@ export default {
         this.associate_background_images_11_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_11")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_11")).left).length - 2))
         this.associate_background_images_12_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_12")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_12")).left).length - 2))
         this.associate_background_images_13_x = Number.parseInt((window.getComputedStyle(document.querySelector(".associate_background_images_13")).left).substring(0, (window.getComputedStyle(document.querySelector(".associate_background_images_13")).left).length - 2))
+        */
         }
     }
 }

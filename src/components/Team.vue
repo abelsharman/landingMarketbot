@@ -171,9 +171,12 @@
         <div class="team_background_images">
             <img class="team_background_images_1" src="../assets/back/whatsapp_back.png" alt="whatsapp_back">
             <img class="team_background_images_2" src="../assets/back/vk_back.png" alt="vk_back">
+
+            <!--
             <img class="team_background_images_3" src="../assets/back/purplesn.png" alt="1">
             <img class="team_background_images_4" src="../assets/back/greymy.png" alt="2">
             <img class="team_background_images_5" src="../assets/back/greysn.png" alt="3">
+            -->
 
 
        </div>
@@ -199,13 +202,14 @@ export default {
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
-            let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".team_background_images_1").style.top = (this.team_background_images_1_x + y).toString() + 'px'
-            document.querySelector(".team_background_images_2").style.top = (this.team_background_images_2_x + y).toString() + 'px'
+            //let y = e.clientY / window.innerHeight * 20
+            document.querySelector(".team_background_images_1").style.left = (this.team_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".team_background_images_2").style.left = (this.team_background_images_2_x + x).toString() + 'px'
+            /*
             document.querySelector(".team_background_images_3").style.left = (this.team_background_images_3_x + x).toString() + 'px'
             document.querySelector(".team_background_images_4").style.left = (this.team_background_images_4_x + x).toString() + 'px'
             document.querySelector(".team_background_images_5").style.left = (this.team_background_images_5_x + x).toString() + 'px'
-       
+            */
             }
         }
     },
@@ -217,11 +221,13 @@ export default {
     mounted() {
         if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
-        this.team_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_1")).top).length - 2))
-        this.team_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_2")).top).length - 2))
+        this.team_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_1")).left).length - 2))
+        this.team_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_2")).left).length - 2))
+        /*
         this.team_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_3")).left).length - 2))
         this.team_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_4")).left).length - 2))
         this.team_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".team_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".team_background_images_5")).left).length - 2))
+        */
         }
     },
 }

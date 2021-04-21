@@ -77,11 +77,13 @@
             <img class="examples_background_images_1" src="../assets/back/whatsapp_back_2.png" alt="whatsapp_back_2">
             <img class="examples_background_images_2" src="../assets/back/viber_back_2.png" alt="viber_back_2">
 
+            <!--
             <img class="examples_background_images_3" src="../assets/back/purplesn.png" alt="purplesn">
             <img class="examples_background_images_4" src="../assets/back/greymy.png" alt="greymy">
             <img class="examples_background_images_5" src="../assets/back/lightbluemy.png" alt="lightbluemy">
             <img class="examples_background_images_6" src="../assets/back/purpleby.png" alt="purpleby">
             <img class="examples_background_images_7" src="../assets/back/bluemn.png" alt="bluemn">
+            -->
         </div>
 
         <div class="page_grey_lines_16">
@@ -371,13 +373,14 @@
 
         
         <div class="examples_background_images opportunities_background_images">
+            <!--
             <img class="examples_background_images_10" src="../assets/back/lightbluemy.png" alt="lightbluemy">
             <img class="examples_background_images_11" src="../assets/back/purplesn.png" alt="purplesn">
             <img class="examples_background_images_12" src="../assets/back/bluemy.png" alt="blueby">
             <img class="examples_background_images_13" src="../assets/back/yellowbyfull.png" alt="yellowby">
             <img class="examples_background_images_14" src="../assets/back/greenmn.png" alt="greenmn">
             <img class="examples_background_images_15" src="../assets/back/bluemyhalf.png" alt="bluemyhalf">
-
+            -->
         </div>
 
         <div class="page_grey_lines_17">
@@ -1908,9 +1911,11 @@ export default {
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
-            let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".examples_background_images_1").style.top = (this.examples_background_images_1_x + y).toString() + 'px'
-            document.querySelector(".examples_background_images_2").style.top = (this.examples_background_images_2_x + y).toString() + 'px'
+            //let y = e.clientY / window.innerHeight * 20
+            document.querySelector(".examples_background_images_1").style.left = (this.examples_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".examples_background_images_2").style.left = (this.examples_background_images_2_x + x).toString() + 'px'
+
+            /*
             document.querySelector(".examples_background_images_3").style.left = (this.examples_background_images_3_x + x).toString() + 'px'
             document.querySelector(".examples_background_images_4").style.left = (this.examples_background_images_4_x + x).toString() + 'px'
             document.querySelector(".examples_background_images_5").style.left = (this.examples_background_images_5_x + x).toString() + 'px'
@@ -1923,6 +1928,7 @@ export default {
             document.querySelector(".examples_background_images_13").style.left = (this.examples_background_images_13_x + x).toString() + 'px'
             document.querySelector(".examples_background_images_14").style.left = (this.examples_background_images_14_x + x).toString() + 'px'
             document.querySelector(".examples_background_images_15").style.left = (this.examples_background_images_15_x + x).toString() + 'px'
+            */
             }
 
             
@@ -1937,8 +1943,9 @@ export default {
         this.b = setInterval(this.intervalMethod, 4000)
         if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
-        this.examples_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_1")).top).length - 2))
-        this.examples_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_2")).top).length - 2))
+        this.examples_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_1")).left).length - 2))
+        this.examples_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_2")).left).length - 2))
+        /*
         this.examples_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_3")).left).length - 2))
         this.examples_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_4")).left).length - 2))
         this.examples_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_5")).left).length - 2))
@@ -1951,6 +1958,7 @@ export default {
         this.examples_background_images_13_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_13")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_13")).left).length - 2))
         this.examples_background_images_14_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_14")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_14")).left).length - 2))
         this.examples_background_images_15_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_15")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_15")).left).length - 2))
+        */
         }
     }
 

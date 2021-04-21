@@ -22,12 +22,14 @@
         </div>
 
         <div class="mood_background_images">
+            <!--
             <img class="mood_background_images_1" src="../assets/back/greenmn.png" alt="greenmn">
             <img class="mood_background_images_2" src="../assets/back/lightbluemy.png" alt="lightbluemy">
             <img class="mood_background_images_3" src="../assets/back/purplesn.png" alt="purplesn">
             <img class="mood_background_images_4" src="../assets/back/turquoiseby.png" alt="turquoiseby">
             <img class="mood_background_images_5" src="../assets/back/yellowbyfull.png" alt="yellowby">
             <img class="mood_background_images_6" src="../assets/back/greysn.png" alt="greysn">
+            -->
         </div>
 
         <div class="page_grey_lines_11">
@@ -59,8 +61,9 @@ export default {
         }
     },
     methods:{
-        onMouseUpdate(e){
+        onMouseUpdate(){
             if(window.innerWidth > 456){
+                /*
             let x = e.pageX / window.innerWidth * 20
             document.querySelector(".mood_background_images_1").style.left = (this.mood_background_images_1_x + x).toString() + 'px'
             document.querySelector(".mood_background_images_2").style.left = (this.mood_background_images_2_x + x).toString() + 'px'
@@ -68,6 +71,7 @@ export default {
             document.querySelector(".mood_background_images_4").style.left = (this.mood_background_images_4_x + x).toString() + 'px'
             document.querySelector(".mood_background_images_5").style.left = (this.mood_background_images_5_x + x).toString() + 'px'
             document.querySelector(".mood_background_images_6").style.left = (this.mood_background_images_6_x + x).toString() + 'px'
+            */
             }
             
         },
@@ -80,12 +84,14 @@ export default {
     },
     mounted() {
         document.addEventListener('mousemove', this.onMouseUpdate)
+        /*
         this.mood_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_1")).left).length - 2))
         this.mood_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_2")).left).length - 2))
         this.mood_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_3")).left).length - 2))
         this.mood_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_4")).left).length - 2))
         this.mood_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_5")).left).length - 2))
         this.mood_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".mood_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".mood_background_images_6")).left).length - 2))
+        */
 $(document).ready(function(){
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {

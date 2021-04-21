@@ -575,6 +575,8 @@
 
         <div class="setting_background_images">
             <img class="setting_background_images_1" src="../assets/back/telegram_back.png" alt="telegram_back">
+
+            <!--
             <img class="setting_background_images_2" src="../assets/back/greenmn.png" alt="greenmn">
             <img class="setting_background_images_3" src="../assets/back/lightbluemy.png" alt="lightbluemy">
             <img class="setting_background_images_4" src="../assets/back/purplesn.png" alt="purplesn">
@@ -582,6 +584,7 @@
             <img class="setting_background_images_6" src="../assets/back/bluemy.png" alt="greenby">
             <img class="setting_background_images_7" src="../assets/back/yellowbyfull.png" alt="yellowbyfull">
             <img class="setting_background_images_8" src="../assets/back/purpleby.png" alt="purpleby">
+            -->
        </div>
     </div>
     </div>
@@ -689,8 +692,9 @@ export default {
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
-            let y = e.clientY / window.innerHeight * 20
-            document.querySelector("#quiz2 .setting_background_images_1").style.top = (this.setting_background_images_1_x + y).toString() + 'px'
+            //let y = e.clientY / window.innerHeight * 20
+            document.querySelector("#quiz2 .setting_background_images_1").style.left = (this.setting_background_images_1_x + x).toString() + 'px'
+            /*
             document.querySelector("#quiz2 .setting_background_images_2").style.left = (this.setting_background_images_2_x + x).toString() + 'px'
             document.querySelector("#quiz2 .setting_background_images_3").style.left = (this.setting_background_images_3_x + x).toString() + 'px'
             document.querySelector("#quiz2 .setting_background_images_4").style.left = (this.setting_background_images_4_x + x).toString() + 'px'
@@ -698,6 +702,7 @@ export default {
             document.querySelector("#quiz2 .setting_background_images_6").style.left = (this.setting_background_images_6_x + x).toString() + 'px'
             document.querySelector("#quiz2 .setting_background_images_7").style.left = (this.setting_background_images_7_x + x).toString() + 'px'
             document.querySelector("#quiz2 .setting_background_images_8").style.left = (this.setting_background_images_8_x + x).toString() + 'px'
+            */
             }
             
         },
@@ -865,7 +870,8 @@ export default {
         }
         if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
-        this.setting_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_1")).top).length - 2))
+        this.setting_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_1")).left).length - 2))
+        /*
         this.setting_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_2")).left).length - 2))
         this.setting_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_3")).left).length - 2))
         this.setting_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_4")).left).length - 2))
@@ -873,6 +879,7 @@ export default {
         this.setting_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_6")).left).length - 2))
         this.setting_background_images_7_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_7")).left).length - 2))
         this.setting_background_images_8_x = Number.parseInt((window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).substring(0, (window.getComputedStyle(document.querySelector(".setting_background_images_8")).left).length - 2))
+        */
         }
     },
     created(){
@@ -1513,7 +1520,7 @@ export default {
                 transition: none
                 position: relative
             .setting_background_images_1
-                top: -90px
+                top: 0px
                 left: 280px
                 z-index: 3
             .setting_background_images_2

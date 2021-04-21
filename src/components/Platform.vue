@@ -29,6 +29,7 @@
             <img class="platform_background_images_2" src="../assets/back/telegram_back.png" alt="telegram_back">
             <img class="platform_background_images_3" src="../assets/back/viber_back.png" alt="viber_back">
             
+            <!--
             <img class="platform_background_images_4" src="../assets/back/bluemn.png" alt="1">
             <img class="platform_background_images_5" src="../assets/back/greenby.png" alt="2">
             <img class="platform_background_images_6" src="../assets/back/greymy.png" alt="3">
@@ -37,6 +38,7 @@
             <img class="platform_background_images_9" src="../assets/back/purplesn.png" alt="6">
             <img class="platform_background_images_10" src="../assets/back/yellowby.png" alt="7">
             <img class="platform_background_images_11" src="../assets/back/greenmn.png" alt="8">
+            -->
 
        </div>
 
@@ -77,10 +79,11 @@ export default {
         onMouseUpdate(e){
             if(window.innerWidth > 456){
             let x = e.pageX / window.innerWidth * 20
-            let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".platform_background_images_1").style.top = (this.platform_background_images_1_x + y).toString() + 'px'
-            document.querySelector(".platform_background_images_2").style.top = (this.platform_background_images_2_x + y).toString() + 'px'
-            document.querySelector(".platform_background_images_3").style.top = (this.platform_background_images_3_x + y).toString() + 'px'
+            //let y = e.clientY / window.innerHeight * 20
+            document.querySelector(".platform_background_images_1").style.left = (this.platform_background_images_1_x + x).toString() + 'px'
+            document.querySelector(".platform_background_images_2").style.left = (this.platform_background_images_2_x + x).toString() + 'px'
+            document.querySelector(".platform_background_images_3").style.left = (this.platform_background_images_3_x + x).toString() + 'px'
+            /*
             document.querySelector(".platform_background_images_4").style.left = (this.platform_background_images_4_x + x).toString() + 'px'
             document.querySelector(".platform_background_images_5").style.left = (this.platform_background_images_5_x + x).toString() + 'px'
             document.querySelector(".platform_background_images_6").style.left = (this.platform_background_images_6_x + x).toString() + 'px'
@@ -89,6 +92,7 @@ export default {
             document.querySelector(".platform_background_images_9").style.left = (this.platform_background_images_9_x + x).toString() + 'px'
             document.querySelector(".platform_background_images_10").style.left = (this.platform_background_images_10_x + x).toString() + 'px'
             document.querySelector(".platform_background_images_11").style.left = (this.platform_background_images_11_x + x).toString() + 'px'
+            */
             }  
         },  
     },
@@ -100,9 +104,10 @@ export default {
     mounted(){
         if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
-        this.platform_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_1")).top).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_1")).top).length - 2))
-        this.platform_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_2")).top).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_2")).top).length - 2))
-        this.platform_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_3")).top).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_3")).top).length - 2))
+        this.platform_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_1")).left).length - 2))
+        this.platform_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_2")).left).length - 2))
+        this.platform_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_3")).left).length - 2))
+        /*
         this.platform_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_4")).left).length - 2))
         this.platform_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_5")).left).length - 2))
         this.platform_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_6")).left).length - 2))
@@ -111,7 +116,7 @@ export default {
         this.platform_background_images_9_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_9")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_9")).left).length - 2))
         this.platform_background_images_10_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_10")).left).length - 2))
         this.platform_background_images_11_x = Number.parseInt((window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).substring(0, (window.getComputedStyle(document.querySelector(".platform_background_images_11")).left).length - 2))
-        
+        */
         }
     }
 }
@@ -237,9 +242,8 @@ $p_color: #370954
             .platform_background_images_2
                 left: 80px
             .platform_background_images_3
-                position: absolute
-                top: 530px
-                right: 160px
+                top: -325px
+                left: 860px
             .platform_background_images_4
                 top: -150px
                 left: 785px

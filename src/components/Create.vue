@@ -41,12 +41,14 @@
         </div>
 
         <div class="create_background_images">
+            <!--
             <img class="create_background_images_1" src="../assets/back/lightbluemy.png" alt="lightbluemy">
             <img class="create_background_images_2" src="../assets/back/purplesn.png" alt="purplesn">
             <img class="create_background_images_3" src="../assets/back/lightpurpleby.png" alt="lightpurpleby">
             <img class="create_background_images_4" src="../assets/back/yellowbyfull.png" alt="yellowby">
             <img class="create_background_images_5" src="../assets/back/greenmn.png" alt="greenmn">
             <img class="create_background_images_6" src="../assets/back/greenmnhalf.png" alt="greenmn">
+            -->
         </div>
 
         <div class="page_grey_lines_12">
@@ -79,8 +81,9 @@ export default {
         }
     },
     methods:{
-        onMouseUpdate(e){
+        onMouseUpdate(){
             if(window.innerWidth > 456){
+                /*
             let x = e.pageX / window.innerWidth * 20
             document.querySelector(".create_background_images_1").style.left = (this.create_background_images_1_x + x).toString() + 'px'
             document.querySelector(".create_background_images_2").style.left = (this.create_background_images_2_x + x).toString() + 'px'
@@ -88,7 +91,7 @@ export default {
             document.querySelector(".create_background_images_4").style.left = (this.create_background_images_4_x + x).toString() + 'px'
             document.querySelector(".create_background_images_5").style.left = (this.create_background_images_5_x + x).toString() + 'px'
             document.querySelector(".create_background_images_6").style.left = (this.create_background_images_6_x + x).toString() + 'px'
-       
+        */
             }
         }
     },
@@ -100,12 +103,14 @@ export default {
     mounted() {
         if(window.innerWidth > 456){
         document.addEventListener('mousemove', this.onMouseUpdate)
+        /*
         this.create_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".create_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".create_background_images_1")).left).length - 2))
         this.create_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".create_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".create_background_images_2")).left).length - 2))
         this.create_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".create_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".create_background_images_3")).left).length - 2))
         this.create_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".create_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".create_background_images_4")).left).length - 2))
         this.create_background_images_5_x = Number.parseInt((window.getComputedStyle(document.querySelector(".create_background_images_5")).left).substring(0, (window.getComputedStyle(document.querySelector(".create_background_images_5")).left).length - 2))
         this.create_background_images_6_x = Number.parseInt((window.getComputedStyle(document.querySelector(".create_background_images_6")).left).substring(0, (window.getComputedStyle(document.querySelector(".create_background_images_6")).left).length - 2))
+        */
         }
     },
 }

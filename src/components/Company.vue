@@ -146,8 +146,11 @@
         </div>
 
         <div class="company_slider_arrows_phone">
+            <!--
             <img src="../assets/left_arrow.png" alt="">
             <img class="company_slider_arrows_2" src="../assets/right_arrow.png" alt="">
+            -->
+            <img src="../assets/swipe.png" alt="swipe">
         </div>
 
         <div class="company_slider_phone">
@@ -1380,6 +1383,7 @@ export default {
             img
                 cursor: pointer
                 outline: none
+                width: 20vw
             .company_slider_arrows_2
                 margin-left: 10vw
 

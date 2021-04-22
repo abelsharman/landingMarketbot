@@ -199,8 +199,11 @@
         </div>
 
         <div class="opportunities_slider_arrow_block">
+                <!--
                 <img class="opportunities_slider_arrow" style="left: 60vw;" src="../assets/left_arrow.png" alt="left_arrow">
                 <img class="opportunities_slider_arrow" style="left: 70vw;" src="../assets/right_arrow.png" alt="right_arrow">
+                -->
+                <img style="left: 60vw;width:20vw" src="../assets/swipe.png" alt="swipe">
             </div>
         <div class="opportunities_slider">
             <div class="company_slider_item company_slider_1" id="1" ref="i1"> <!-- v-touch:swipe.left="clickOnSliderPlus" v-touch:touchhold="longClick"  v-touch:swipe.right="clickOnSliderMinus"   -->

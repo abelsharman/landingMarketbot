@@ -348,7 +348,7 @@ export default {
                 font-size: 7vw
                 line-height: 9.6vw
                 font-weight: 700
-                color: #370954
+                color: white
                 margin: 0
 
            
@@ -357,7 +357,7 @@ export default {
 
             h2
                 font-size: 4.38vw
-                color: #370954
+                color: white
                 font-weight: 500
                 display: inline-block
                 width: 100%
@@ -368,7 +368,7 @@ export default {
                 font-weight: 400
                 font-size: 3.5vw
                 line-height: 5.26vw
-                color: #999
+                color: white
                 display: inline-block
                 font-weight: regular
                 width: 91%
@@ -396,7 +396,7 @@ export default {
             top: 70px
             height: 100vw
             margin-bottom: 50px
-            background-color: #f9f9f9
+            background-color: #1e2024
             z-index: 1
             img
                 position: relative

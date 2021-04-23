@@ -25,9 +25,9 @@
 
 
         <div class="header_burger" v-bind:class="{ header_burger_clicked: checkBurger }" @click="showBurger">
-            <img src="../assets/burder_1.png" alt="burder_1">
-            <img class="header_burger_long" src="../assets/burder_1.png" alt="burder_2">
-            <img src="../assets/burder_1.png" alt="burder_3">
+            <img src="../assets/burder_2.png" alt="burder_1">
+            <img class="header_burger_long" src="../assets/burder_2.png" alt="burder_2">
+            <img src="../assets/burder_2.png" alt="burder_3">
         </div>
 
         <div class="page_grey_lines">
@@ -337,7 +337,7 @@ export default {
             .header_burger
                 display: inline-block
                 margin-left: 2%
-                padding: 7px 14px 7px 2px
+                padding: 1vh 4vw 1vh 0px
                 position: relative
                 top: 14px
                 width: 7%
@@ -353,7 +353,7 @@ export default {
                     width: 100%
                     padding-left: 0%
             .header_burger_clicked
-                background-color: rgb(230,230,230)
+                background-color: rgb(120,120,120)
 
 
 

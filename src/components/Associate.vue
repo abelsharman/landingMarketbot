@@ -348,7 +348,7 @@ export default {
             .associate_background_images_1
                 position: absolute
                 display: block
-                top: -420px
+                top: -20px
                 right: 0vw
                 width: 30vw
                 z-index: 2

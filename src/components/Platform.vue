@@ -378,6 +378,7 @@ $p_color: #370954
             z-index: 100
             position: relative
             padding-top: 46px
+            padding-bottom: 10vh
             img
                 padding-left: 3.5vw
                 width: 93vw

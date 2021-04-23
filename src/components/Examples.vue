@@ -1914,11 +1914,11 @@ export default {
         onMouseUpdate(e){
             let x = e.pageX / window.innerWidth * 20
             if(window.innerWidth < 456){
-                x = (window.pageYOffset - 4000) / window.innerWidth * 10
+                x = (window.pageYOffset) / window.innerWidth * 16
             }
             //let y = e.clientY / window.innerHeight * 20
-            document.querySelector(".examples_background_images_1").style.right = (this.examples_background_images_1_x - x).toString() + 'px'
-            document.querySelector(".examples_background_images_2").style.left = (this.examples_background_images_2_x + x).toString() + 'px'
+            document.querySelector(".examples_background_images_1").style.right = (x + this.examples_background_images_1_x).toString() + 'px'
+            document.querySelector(".examples_background_images_2").style.left = (this.examples_background_images_2_x + 100 - x).toString() + 'px'
             if(window.innerWidth > 456){
                 document.querySelector(".examples_background_images_1").style.left = (this.examples_background_images_1_x + x).toString() + 'px'
             }
@@ -1952,7 +1952,7 @@ export default {
         if(window.innerWidth < 456){
             document.addEventListener('scroll', this.onMouseUpdate)
         }
-        this.examples_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_1")).left).length - 2))
+        this.examples_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_1")).right).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_1")).right).length - 2))
         this.examples_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_2")).left).length - 2))
         /*
         this.examples_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".examples_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".examples_background_images_3")).left).length - 2))
@@ -2301,7 +2301,7 @@ export default {
             width: 100%
             vertical-align: top
             position: relative
-            top: 15px
+            top: 10px
             img 
                 transition: 0.5s all ease
                 position: absolute
@@ -2332,7 +2332,7 @@ export default {
             .examples_background_images_2
                 display: block  
                 left: 10vw
-                top: 48vh
+                top: 102vw
                 z-index: 2
             .examples_background_images_3
                 top: -400px

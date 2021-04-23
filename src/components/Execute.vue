@@ -66,10 +66,10 @@ export default {
             let x = e.pageX / window.innerWidth * 20
             //let y = e.clientY / window.innerHeight * 20
             if(window.innerWidth < 456){
-                x = (window.pageYOffset - 2000) / window.innerWidth * 12
+                x = (window.pageYOffset) / window.innerWidth * 12
             }
             document.querySelector(".execute_background_images_1").style.right = (this.execute_background_images_1_x - x).toString() + 'px'
-            document.querySelector(".execute_background_images_2").style.right = (this.execute_background_images_2_x - x).toString() + 'px'
+            document.querySelector(".execute_background_images_2").style.right = (this.execute_background_images_2_x + 100 + x).toString() + 'px'
             document.querySelector(".execute_background_images_3").style.left = (this.execute_background_images_3_x + x).toString() + 'px'
             if(window.innerWidth > 456){
                 document.querySelector(".execute_background_images_1").style.left = (this.execute_background_images_1_x + x).toString() + 'px'
@@ -98,7 +98,7 @@ export default {
             document.addEventListener('scroll', this.onMouseUpdate)
         }
         this.execute_background_images_1_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_1")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_1")).left).length - 2))
-        this.execute_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_2")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_2")).left).length - 2))
+        this.execute_background_images_2_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_2")).right).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_2")).right).length - 2))
         this.execute_background_images_3_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_3")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_3")).left).length - 2))
         /*
         this.execute_background_images_4_x = Number.parseInt((window.getComputedStyle(document.querySelector(".execute_background_images_4")).left).substring(0, (window.getComputedStyle(document.querySelector(".execute_background_images_4")).left).length - 2))
@@ -292,20 +292,21 @@ export default {
             .execute_background_images_1
                 display: block
                 position: absolute
-                top: -70px
+                top: -40px
+                width: 35vw
                 right: 0
                 z-index: 5
             .execute_background_images_2
                 display: block
                 position: absolute
-                right: 0
+                right: 0px
                 width: 25vw
-                top: -830px
+                top: -780px
                 z-index: 5
             .execute_background_images_3
                 display: block
                 position: absolute
-                top: -1000px
+                top: -880px
                 left: -30px
                 width: 35vw
                 z-index: 3
@@ -413,18 +414,18 @@ export default {
             .execute_background_images_1
                 display: block
                 position: absolute
-                top: -70px
+                top: -20px
                 right: 0
                 z-index: 2
             .execute_background_images_2
                 display: block
                 position: absolute
                 right: 0
-                top: -760px
+                top: -630px
             .execute_background_images_3
                 display: block
                 position: absolute
-                top: -950px
+                top: -720px
                 left: -30px
                 z-index: 2
             .execute_background_images_4

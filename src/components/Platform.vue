@@ -585,52 +585,7 @@ $p_color: #370954
             vertical-align: top
             width: 47.3%
             display: inline-block
-            h1
-                width: 90%
-                color: $h_color
-                line-height: 54px
-                font-size: 46px
-                font-weight: 700
-                margin: 0
-            h3
-                color: $h_color
-                font-size: 26px
-                line-height: 38px
-                font-weight: 700
-                margin: 0
-                margin-top: 10px
-            h2
-                color: #c34688
-                font-size: 26px
-                font-weight: 700
-                margin: 0
-                line-height: 38px
-                width: max-content 
-                span
-                    padding-bottom: 3px
-                    border-bottom: 1px dotted #c34688
-            p
-                font-size: 18px
-                margin-top: 30px
-                line-height: 30px
-                color: #222222
-                font-size: 400
-            button
-                border-radius: 31px
-                margin-top: 50px
-                font-size: 18px
-                color: white
-                font-weight: 400
-                border: 0px
-                background-color: #c34688
-                height: 62px
-                width: 360px
-                outline: none
-                cursor: pointer
-                
-
-
-
+            
 
 
 

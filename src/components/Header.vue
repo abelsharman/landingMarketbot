@@ -38,6 +38,15 @@
             <img class="page_grey_line_5" src="../assets/grey_line.png" alt="grey_line">
             <img class="page_grey_line_6" src="../assets/grey_line.png" alt="grey_line">
         </div>
+
+
+        <div class="page_popup" id="page_popup">
+            <p @click="closePopup">x</p>
+            <h1>Есть вопросы?</h1>
+            <a href="https://marketbot.biz/985" target="_blank">
+            <button><span>задать вопрос</span></button>
+            </a>
+        </div>
    
     </div>
 </template>
@@ -53,6 +62,10 @@ export default {
         }
     },
     methods:{
+        closePopup(){
+            console.log(1)
+            document.querySelector("#page_popup").style.right = '-235px'
+        },
         changeColor(){
             if(this.b == 1){
                 this.$store.state.color = 2
@@ -89,6 +102,10 @@ export default {
         },
     },
     mounted(){
+        setTimeout(()=> {
+            document.querySelector("#page_popup").style.animation = 'appearPopup 0.5s'
+            setTimeout(()=> document.querySelector("#page_popup").style.right = '0px', 500)
+        },2000)
     }
 }
 </script>
@@ -96,6 +113,13 @@ export default {
     $h_color: #370954
     
     //$background_color: #f9f9f9
+    @keyframes appearPopup
+        0%
+            right: -235px
+        50%
+            right: -100px
+        100%
+            right: 0px
     @media screen and (min-width: 456px)
         .page_grey_lines
             img
@@ -240,6 +264,53 @@ export default {
                     text-decoration: none
             .header_burger
                 display: none
+            .page_popup
+                width: 235px
+                height: 115px
+                position: fixed
+                right: -235px
+                top: 30vh
+                z-index: 999999
+                background-color: #20b959
+                transition: 0.5s all ease
+                color: white
+                h1
+                    display: block
+                    text-align: center
+                    margin: 0
+                    font-size: 19px
+                    font-weight: 500
+                    margin: 0 0 5px 0 
+                p
+                    margin-left: 10px
+                    cursor: pointer
+                    position: relative
+                    top: 2px
+                a
+                    text-decoration: none
+                button
+                    background-color: #20b959
+                    border: 0px
+                    color: black
+                    background:  #20b959 url('../assets/btn.png') no-repeat 100% 100% 
+                    width: 196px
+                    height: 40px
+                    margin-left: 20px
+                    cursor: pointer
+                    text-decoration: none
+                    span
+                        position: relative
+                        left: -5px
+                        top: 1px
+                        text-transform: uppercase
+                        font-size: 12px
+                        font-weight: medium
+                        text-decoration: none
+
+
+
+
+                
     @media screen and (max-width: 456px)
         .page_grey_lines
             img
@@ -354,6 +425,48 @@ export default {
                     padding-left: 0%
             .header_burger_clicked
                 background-color: rgb(120,120,120)
+            .page_popup
+                width: 235px
+                height: 115px
+                position: fixed
+                right: -235px
+                top: 30vh
+                z-index: 999999
+                background-color: #20b959
+                transition: 0.5s all ease
+                color: white
+                h1
+                    display: block
+                    text-align: center
+                    margin: 0
+                    font-size: 19px
+                    font-weight: 500
+                    margin: 0 0 5px 0 
+                p
+                    margin: 4px 10px
+                    cursor: pointer
+                    position: relative
+                    top: 2px
+                a
+                    text-decoration: none
+                button
+                    background-color: #20b959
+                    border: 0px
+                    color: black
+                    background:  #20b959 url('../assets/btn.png') no-repeat 100% 100% 
+                    width: 196px
+                    height: 40px
+                    margin-left: 20px
+                    cursor: pointer
+                    text-decoration: none
+                    span
+                        position: relative
+                        left: -5px
+                        top: 1px
+                        text-transform: uppercase
+                        font-size: 12px
+                        font-weight: medium
+                        text-decoration: none
 
 
 

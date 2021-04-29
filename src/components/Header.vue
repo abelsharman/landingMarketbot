@@ -274,6 +274,8 @@ export default {
                 background-color: #20b959
                 transition: 0.5s all ease
                 color: white
+                border-top-left-radius: 2px
+                border-bottom-left-radius: 2px
                 h1
                     display: block
                     text-align: center
@@ -435,6 +437,8 @@ export default {
                 background-color: #20b959
                 transition: 0.5s all ease
                 color: white
+                border-top-left-radius: 2px
+                border-bottom-left-radius: 2px
                 h1
                     display: block
                     text-align: center

@@ -479,7 +479,7 @@ export default {
                     margin: 0
                     font-size: 19px
                     font-weight: 500
-                    margin: 0 0 5px 0 
+                    margin: 0 0 2px 0 
                 p
                     margin: 3px 0 3px 10px
                     cursor: pointer
@@ -495,7 +495,7 @@ export default {
                     width: 196px
                     height: 40px
                     margin-left: 20px
-                    margin: 10px 20px 10px 20px
+                    margin: 7px 20px 10px 20px
                     cursor: pointer
                     span
                         position: relative

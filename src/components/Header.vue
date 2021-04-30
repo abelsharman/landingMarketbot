@@ -40,11 +40,12 @@
         </div>
 
 
-        <div class="page_popup" id="page_popup">
-            <p @click="closePopup">x</p>
-            <h1>Есть вопросы?</h1>
-            <a href="https://marketbot.biz/985" target="_blank">
-            <button><span>задать вопрос</span></button>
+        <div class="page_popup" id="page_popup" v-bind:class="{page_popup_hor : i == 0}">
+            <p @click="closePopup" v-show="i == 0">x</p>
+            <h1 v-show="i == 0">Есть вопросы?</h1>
+
+            <a target="_blank" @click="openPopup" id="page_popup_a">
+            <button class="page_popup_btn"><span>задать вопрос</span></button>
             </a>
         </div>
    
@@ -59,12 +60,23 @@ export default {
         return{
             checkBurger: false,
             langTexts: langText,
+            i: 1,
         }
     },
     methods:{
+        openPopup(){
+            this.i = 0
+            setTimeout(()=>{
+                document.querySelector("#page_popup_a").href="https://marketbot.biz/985";
+                document.querySelector("#page_popup_a").target = "_blank"
+            },100)
+            
+        },
         closePopup(){
-            console.log(1)
-            document.querySelector("#page_popup").style.right = '-235px'
+            this.i = 1
+            document.querySelector("#page_popup_a").href="#"
+            document.querySelector("#page_popup_a").target=""
+
         },
         changeColor(){
             if(this.b == 1){
@@ -102,10 +114,12 @@ export default {
         },
     },
     mounted(){
+        /*
         setTimeout(()=> {
             document.querySelector("#page_popup").style.animation = 'appearPopup 0.5s'
             setTimeout(()=> document.querySelector("#page_popup").style.right = '0px', 500)
         },2000)
+        */
     }
 }
 </script>
@@ -120,6 +134,13 @@ export default {
             right: -100px
         100%
             right: 0px
+    @keyframes lookAtMe
+        0%
+            margin-top: 0px
+        50% 
+            margin-top: 2px 
+        100%    
+            margin-top: -2px
     @media screen and (min-width: 456px)
         .page_grey_lines
             img
@@ -268,7 +289,7 @@ export default {
                 width: 235px
                 height: 115px
                 position: fixed
-                right: -235px
+                right: -114px
                 top: 30vh
                 z-index: 999999
                 background-color: #20b959
@@ -276,6 +297,9 @@ export default {
                 color: white
                 border-top-left-radius: 2px
                 border-bottom-left-radius: 2px
+                border-radius: 25px
+                transform: rotate(270deg)
+                animation: 1s lookAtMe infinite
                 h1
                     display: block
                     text-align: center
@@ -298,8 +322,8 @@ export default {
                     width: 196px
                     height: 40px
                     margin-left: 20px
+                    margin: 10px 20px 10px 20px
                     cursor: pointer
-                    text-decoration: none
                     span
                         position: relative
                         left: -5px
@@ -307,7 +331,14 @@ export default {
                         text-transform: uppercase
                         font-size: 12px
                         font-weight: medium
-                        text-decoration: none
+            .page_popup_hor
+                transform: rotate(0deg)
+                right: 0px
+                animation: 0s
+                border-top-left-radius: 2px
+                border-bottom-left-radius: 2px
+                border-top-right-radius: 0px
+                border-bottom-right-radius: 0px
 
 
 
@@ -431,7 +462,7 @@ export default {
                 width: 235px
                 height: 115px
                 position: fixed
-                right: -235px
+                right: -115px
                 top: 30vh
                 z-index: 999999
                 background-color: #20b959
@@ -439,6 +470,9 @@ export default {
                 color: white
                 border-top-left-radius: 2px
                 border-bottom-left-radius: 2px
+                border-radius: 25px
+                transform: rotate(270deg)
+                animation: 1s lookAtMe infinite
                 h1
                     display: block
                     text-align: center
@@ -447,7 +481,7 @@ export default {
                     font-weight: 500
                     margin: 0 0 5px 0 
                 p
-                    margin: 4px 10px
+                    margin: 3px 0 3px 10px
                     cursor: pointer
                     position: relative
                     top: 2px
@@ -461,8 +495,8 @@ export default {
                     width: 196px
                     height: 40px
                     margin-left: 20px
+                    margin: 10px 20px 10px 20px
                     cursor: pointer
-                    text-decoration: none
                     span
                         position: relative
                         left: -5px
@@ -470,8 +504,14 @@ export default {
                         text-transform: uppercase
                         font-size: 12px
                         font-weight: medium
-                        text-decoration: none
-
+            .page_popup_hor
+                transform: rotate(0deg)
+                right: 0px
+                animation: 0s
+                border-top-left-radius: 2px
+                border-bottom-left-radius: 2px
+                border-top-right-radius: 0px
+                border-bottom-right-radius: 0px
 
 
     

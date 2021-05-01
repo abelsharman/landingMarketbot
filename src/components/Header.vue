@@ -286,11 +286,11 @@ export default {
             .header_burger
                 display: none
             .page_popup
-                width: 235px
-                height: 115px
+                width: 178px
+                height: 140px
                 position: fixed
                 right: -114px
-                top: 30vh
+                top: 60vh
                 z-index: 999999
                 background-color: #20b959
                 transition: 0.5s all ease
@@ -318,18 +318,18 @@ export default {
                     background-color: #20b959
                     border: 0px
                     color: black
-                    background:  #20b959 url('../assets/btn.png') no-repeat 100% 100% 
-                    width: 196px
-                    height: 40px
-                    margin-left: 20px
-                    margin: 10px 20px 10px 20px
+                    background:  #20b959 url('../assets/btn.png') no-repeat 100% 100%
+                    background-size: contain
+                    width: 156px
+                    height: 35px
+                    margin: 3px 10px 5px 10px
                     cursor: pointer
                     span
                         position: relative
                         left: -5px
-                        top: 1px
+                        top: 2px
                         text-transform: uppercase
-                        font-size: 12px
+                        font-size: 10px
                         font-weight: medium
             .page_popup_hor
                 transform: rotate(0deg)
@@ -339,6 +339,18 @@ export default {
                 border-bottom-left-radius: 2px
                 border-top-right-radius: 0px
                 border-bottom-right-radius: 0px
+                width: 235px
+                height: 115px
+
+                button
+                    width: 196px
+                    height: 40px
+                    margin: 10px 20px 10px 20px
+                    background-size: contain
+                    span
+                        left: -5px
+                        top: 1px
+                        font-size: 12px
 
 
 
@@ -459,11 +471,11 @@ export default {
             .header_burger_clicked
                 background-color: rgb(120,120,120)
             .page_popup
-                width: 235px
-                height: 115px
+                width: 178px
+                height: 140px
                 position: fixed
-                right: -115px
-                top: 30vh
+                right: -114px
+                top: 60vh
                 z-index: 999999
                 background-color: #20b959
                 transition: 0.5s all ease
@@ -479,7 +491,7 @@ export default {
                     margin: 0
                     font-size: 19px
                     font-weight: 500
-                    margin: 0 0 2px 0 
+                    margin: 0 0 0px 0 
                 p
                     margin: 3px 0 3px 10px
                     cursor: pointer
@@ -491,18 +503,18 @@ export default {
                     background-color: #20b959
                     border: 0px
                     color: black
-                    background:  #20b959 url('../assets/btn.png') no-repeat 100% 100% 
-                    width: 196px
-                    height: 40px
-                    margin-left: 20px
-                    margin: 7px 20px 10px 20px
+                    background:  #20b959 url('../assets/btn.png') no-repeat 100% 100%
+                    background-size: contain
+                    width: 156px
+                    height: 35px
+                    margin: 3px 10px 5px 10px
                     cursor: pointer
                     span
                         position: relative
                         left: -5px
-                        top: 1px
+                        top: 2px
                         text-transform: uppercase
-                        font-size: 12px
+                        font-size: 10px
                         font-weight: medium
             .page_popup_hor
                 transform: rotate(0deg)
@@ -512,6 +524,18 @@ export default {
                 border-bottom-left-radius: 2px
                 border-top-right-radius: 0px
                 border-bottom-right-radius: 0px
+                width: 235px
+                height: 115px
+
+                button
+                    width: 196px
+                    height: 40px
+                    margin: 10px 20px 10px 20px
+                    background-size: contain
+                    span
+                        left: -5px
+                        top: 1px
+                        font-size: 12px
 
 
     

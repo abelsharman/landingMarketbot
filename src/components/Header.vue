@@ -300,6 +300,8 @@ export default {
                 border-radius: 25px
                 transform: rotate(270deg)
                 animation: 1s lookAtMe infinite
+
+            
                 h1
                     display: block
                     text-align: center
@@ -324,6 +326,7 @@ export default {
                     height: 35px
                     margin: 3px 10px 5px 10px
                     cursor: pointer
+                    border-radius: 10px
                     span
                         position: relative
                         left: -5px
@@ -509,6 +512,7 @@ export default {
                     height: 35px
                     margin: 3px 10px 5px 10px
                     cursor: pointer
+                    border-radius: 10px
                     span
                         position: relative
                         left: -5px

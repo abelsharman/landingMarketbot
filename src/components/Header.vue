@@ -47,6 +47,8 @@
             <a target="_blank" @click="openPopup" id="page_popup_a">
             <button class="page_popup_btn"><span>задать вопрос</span></button>
             </a>
+
+            <img src="https://marketbot.biz/link/qr/985" alt="" v-if="desktop > 465" v-show="i == 0">
         </div>
    
     </div>
@@ -61,6 +63,7 @@ export default {
             checkBurger: false,
             langTexts: langText,
             i: 1,
+            desktop: window.innerWidth
         }
     },
     methods:{
@@ -70,12 +73,18 @@ export default {
                 document.querySelector("#page_popup_a").href="https://marketbot.biz/985";
                 document.querySelector("#page_popup_a").target = "_blank"
             },100)
+            if(window.innerWidth > 465){
+                document.querySelector("#page_popup_a").style.display = 'none'
+            }
             
         },
         closePopup(){
             this.i = 1
             document.querySelector("#page_popup_a").href="#"
             document.querySelector("#page_popup_a").target=""
+            if(window.innerWidth > 465){
+                document.querySelector("#page_popup_a").style.display = 'block'
+            }
 
         },
         changeColor(){
@@ -287,7 +296,7 @@ export default {
                 display: none
             .page_popup
                 width: 178px
-                height: 140px
+                height: 140px //140px
                 position: fixed
                 right: -114px
                 top: 60vh
@@ -300,6 +309,10 @@ export default {
                 border-radius: 25px
                 transform: rotate(270deg)
                 animation: 1s lookAtMe infinite
+                img
+                    width: 80px
+                    margin-top: 5px
+                    margin-left: 79px
 
             
                 h1
@@ -308,7 +321,7 @@ export default {
                     margin: 0
                     font-size: 19px
                     font-weight: 500
-                    margin: 0 0 5px 0 
+                    margin: 0 0 0px 0 
                 p
                     margin-left: 10px
                     cursor: pointer
@@ -324,6 +337,7 @@ export default {
                     background-size: contain
                     width: 156px
                     height: 35px
+                    padding-top: 5px
                     margin: 3px 10px 5px 10px
                     cursor: pointer
                     border-radius: 10px
@@ -343,7 +357,7 @@ export default {
                 border-top-right-radius: 0px
                 border-bottom-right-radius: 0px
                 width: 235px
-                height: 115px
+                height: 145px
 
                 button
                     width: 196px
